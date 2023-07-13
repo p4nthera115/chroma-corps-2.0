@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer components {
+  .diagonal-lines-cyan {
+    background-color: #000000;
+    opacity: 1;
+    background-size: 7px 7px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #04426486 0,
+      #04426486 0.7000000000000001px,
+      #00000000 0,
+      #00000000 50%
+    );
+  }
+  .diagonal-lines-red {
+    background-color: #000000;
+    opacity: 1;
+    background-size: 7px 7px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #a3030386 0,
+      #a3030386 0.7000000000000001px,
+      #00000000 0,
+      #00000000 50%
+    );
+  }
+  .diagonal-lines-blue {
+    background-color: #000000;
+    opacity: 1;
+    background-size: 7px 7px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #0a44cc74 0,
+      #0a44cc74 0.7000000000000001px,
+      #00000000 0,
+      #00000000 50%
+    );
+  }
+  .diagonal-lines-yellow {
+    background-color: #000000;
+    opacity: 1;
+    background-size: 7px 7px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #da9c0b86 0,
+      #da9c0b86 0.7000000000000001px,
+      #00000000 0,
+      #00000000 50%
+    );
+  }
+  .diagonal-lines-pink {
+    background-color: #000000;
+    opacity: 1;
+    background-size: 7px 7px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #761e5f86 0,
+      #761e5f86 0.7000000000000001px,
+      #00000000 0,
+      #00000000 50%
+    );
+  }
+  .diagonal-lines-amber {
+    background-color: #000000;
+    opacity: 1;
+    background-size: 7px 7px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #dcb9665e 0,
+      #dcb9665e 0.7000000000000001px,
+      #00000000 0,
+      #00000000 50%
+    );
+  }
+
+  .polka {
+    background-color: #000000;
+    opacity: 0.8;
+    background-image: radial-gradient(
+      #242000 0.35000000000000003px,
+      #000000 0.35000000000000003px
+    );
+    background-size: 7px 7px;
+  }
+}
