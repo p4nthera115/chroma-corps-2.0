@@ -7,44 +7,44 @@ const CadetsLoading: React.FC = () => {
   const topLeft = [
     {
       css: "left-3/4 bg-cyan-500",
-      img: "/images/Cadets/2021/awfullysabi/cropped awfullysabi.PNG",
+      img: "/images/Cadets/2021/awfullysabi/cropped-awfullysabi.PNG",
       pos: "h-[250%] top-[-16%]",
     },
     {
       css: "left-2/4 bg-red-500",
-      img: "/images/Cadets/2021/spiderlair/cropped spiderlair.PNG",
+      img: "/images/Cadets/2021/spiderlair/cropped-spiderlair.PNG",
       pos: "h-[130%] top-[-14%]",
     },
     {
       css: "left-1/4 bg-cyan-500",
-      img: "/images/Cadets/2021/silverstar1234/cropped silverstar1234.PNG",
+      img: "/images/Cadets/2021/silverstar1234/cropped-silverstar1234.PNG",
       pos: "h-[300%] top-[-6%]",
     },
     {
       css: "left-0 bg-red-500",
-      img: "/images/Cadets/2021/hieumay/cropped hieumay.PNG",
+      img: "/images/Cadets/2021/hieumay/cropped-hieumay.PNG",
       pos: "h-[300%] top-[-14%]",
     },
   ];
   const topRight = [
     {
       css: "right-3/4 bg-red-500",
-      img: "/images/Cadets/2021/ozan pulat/cropped ozan.PNG",
+      img: "/images/Cadets/2021/ozan pulat/cropped-ozan.PNG",
       pos: "h-[140%] top-[-5%]",
     },
     {
       css: "right-2/4 bg-cyan-500",
-      img: "/images/Cadets/2021/dehaf/cropped dehaf.PNG",
+      img: "/images/Cadets/2021/dehaf/cropped-dehaf.PNG",
       pos: "h-[300%] top-[-45%]",
     },
     {
       css: "right-1/4 bg-red-500",
-      img: "/images/Cadets/2021/joharts/cropped joharts.png",
+      img: "/images/Cadets/2021/joharts/cropped-joharts.png",
       pos: "h-[200%] top-[-15%]",
     },
     {
       css: "right-0 bg-cyan-500",
-      img: "/images/Cadets/2021/kawffee/kawffee card.PNG",
+      img: "/images/Cadets/2021/kawffee/kawffee-card.PNG",
       pos: "h-[150%] top-[-0%]",
     },
   ];

@@ -11,29 +11,29 @@ const CadetsLoading: React.FC = () => {
     },
     {
       css: "left-2/4 bg-amber-300",
-      img: "/images/Cadets/2020/spiderlair/cropped spiderlair 2.PNG",
+      img: "/images/Cadets/2020/spiderlair/cropped-spiderlair-2.PNG",
       pos: "h-[120%] top-[-20%]",
     },
     {
       css: "left-1/4 bg-amber-400",
-      img: "/images/Cadets/2020/nikittysan/cropped nikittysan.PNG",
+      img: "/images/Cadets/2020/nikittysan/cropped-nikittysan.PNG",
       pos: "h-[120%] top-0",
     },
     {
       css: "left-0 bg-amber-300",
-      img: "/images/Cadets/2020/makennu/cropped makennu.PNG",
+      img: "/images/Cadets/2020/makennu/cropped-makennu.PNG",
       pos: "h-[300%] top-[-10%]",
     },
   ];
   const topRight = [
     {
       css: "right-3/4 bg-amber-300",
-      img: "/images/Cadets/2020/dehaf/dehaf edited.PNG",
+      img: "/images/Cadets/2020/dehaf/dehaf-edited.PNG",
       pos: "h-[150%] top-[-13%]",
     },
     {
       css: "right-2/4 bg-amber-400",
-      img: "/images/Cadets/2020/storse/cropped storse.PNG",
+      img: "/images/Cadets/2020/storse/cropped-storse.PNG",
       pos: "h-[150%] top-[-3%]",
     },
     {
