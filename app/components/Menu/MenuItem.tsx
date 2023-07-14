@@ -28,16 +28,7 @@ const itemVariants = {
 
 const MenuItem: React.FC<MenuItemProps> = ({ onClick, label }) => {
   return (
-    <div
-    // className="
-    //   relative
-    //   before:absolute before:inset-0
-    //   before:-translate-x-full
-    //   hover:before:animate-[shimmer_1.2s_infinite]
-    //   before:bg-gradient-to-r
-    //   before:from-transparent before:via-yellow-100/50 before:to-transparent
-    // "
-    >
+    <div>
       <motion.div
         variants={itemVariants}
         className="px-4 py-0 transition font-semibold text-neutral-900 text-center"

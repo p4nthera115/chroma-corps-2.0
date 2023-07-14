@@ -1,13 +1,6 @@
 "use client";
 
-import { Link } from "react-scroll/modules";
 import Accordion from "../components/Accordion/Accordion";
-import { HiArrowDown } from "react-icons/hi";
-import {
-  AiOutlineYoutube,
-  AiOutlineTwitter,
-  AiOutlineInstagram,
-} from "react-icons/ai";
 
 const AboutClient = () => {
   const accordionData = [
@@ -67,93 +60,9 @@ const AboutClient = () => {
     flex-col
   "
     >
-      <div className=" ml-4 flex flex-col align-middle justify-center">
-        <h1 className="font-cyber font-extrabold text-center text-yellow-400 lg:text-5xl md:text-4xl text-3xl mt-16 mb-8">
-          FOR THE LOVE OF ART.
-        </h1>
-      </div>
-      <div className="flex flex-col justify-center mx-auto text-center max-w-[50vw] md:text-3xl text-2xl font-normal">
-        <h2 className="py-4">
-          The ultimate art Battle Royale. Only the strongest will make it to the
-          end.
-        </h2>
-        <h2 className="py-4">
-          But more than a contest and more than the prizes, Chroma Corps brings
-          artists together every summer to produce thousands of art pieces,
-          share their work, connect and collaborate.
-        </h2>
-      </div>
-
-      <br />
-      <div className="mt-4">
-        <p className="text-center">An annual event hosted by Sinix</p>
-        <div className="flex flex-row items-center justify-center space-x-2 mt-2">
-          <a
-            href="https://www.youtube.com/@sinixdesign"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineYoutube
-              size={30}
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-100"
-            />
-          </a>
-          <a
-            href="https://www.instagram.com/sinixdesign/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineInstagram
-              size={30}
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-100"
-            />
-          </a>
-          <a
-            href="https://twitter.com/sinix777"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineTwitter
-              size={30}
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-100"
-            />
-          </a>
-        </div>
-      </div>
-      {/* <br /> */}
-      <div className="mx-auto my-auto mb-6 mt-6">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
-          width="464px"
-          height="4px"
-        >
-          <path
-            fill-rule="evenodd"
-            fill="#facc15"
-            d="M-0.002,-0.001 L-0.002,3.999 L40.999,3.999 L45.999,0.999 L463.999,0.999 L463.999,-0.001 L-0.002,-0.001 Z"
-          />
-        </svg>
-      </div>
-      <br />
       <h1 className="font-cyber font-extrabold text-center text-yellow-400 lg:text-5xl md:text-4xl text-3xl mb-4">
         FAQs
       </h1>
-      <div className="flex flex-col items-center justify-center py-8">
-        <Link
-          to="faq_section"
-          activeClass="active"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
-        >
-          <HiArrowDown
-            size={35}
-            className="animate-bounce hover:cursor-pointer"
-          />
-        </Link>
-      </div>
       <h3 className="text-center text-md py-2 italic">
         If you have a question which isn't answered below, feel free to post it
         on the{" "}
