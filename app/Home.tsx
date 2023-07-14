@@ -113,7 +113,7 @@ export default function Home() {
                 >
                   <img
                     className="flex justify-center overflow-hidden rounded-full border-8 border-neutral-700"
-                    src="/images/sinixdp.jpg"
+                    src="https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Sinix/sinixdp.jpg"
                     alt=""
                     height={300}
                     width={300}
