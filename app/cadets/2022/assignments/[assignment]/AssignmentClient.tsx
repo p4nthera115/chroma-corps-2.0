@@ -7,6 +7,7 @@ import Assignments from "@/app/components/CadetPage/Assignments";
 import EliminatedBanner from "@/app/components/AssignmentsPage/EliminatedBanner";
 import StrikeBanner from "@/app/components/AssignmentsPage/StrikeBanner";
 import WinnerBanner from "@/app/components/AssignmentsPage/WinnerBanner";
+import Prompt from "@/app/components/AssignmentsPage/Prompt";
 
 const AssignmentClient = () => {
   const pathname = usePathname();
@@ -70,6 +71,10 @@ const AssignmentClient = () => {
 
   return (
     <div>
+      <Prompt
+        prompt={cadetAssignments[0].assignment?.prompt}
+        assignmentNo={cadetAssignments[0].assignment?.day}
+      />
       <Assignments cadetAssignments={cadetAssignments} teams={teams} />
       <WinnerBanner winner={winner} />
       <StrikeBanner strike={strike} />

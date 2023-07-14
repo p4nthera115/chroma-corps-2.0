@@ -8,9 +8,9 @@ interface WinnerBannerProps {
 
 const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
   return (
-    <div className="relative w-screen h-screen bg-neutral-900 ">
+    <div className="relative w-screen h-[66.666666vh] bg-neutral-900 ">
       <div
-        className={`absolute z-10 h-2/3 w-full ${winner[0]?.cadet.gradient} border flex justify-center top-10`}
+        className={`absolute z-10 h-full w-full ${winner[0]?.cadet.gradient} border flex justify-center top-10`}
       >
         <img
           src={winner[0]?.cadet.bannerImg[0]}
