@@ -129,6 +129,7 @@ const Menu = () => {
                       <MenuItem
                         onClick={() => router.push(`/${item.toLowerCase()}`)}
                         label={item}
+                        key={item}
                       />
                     );
                   }

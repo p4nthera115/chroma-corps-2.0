@@ -120,7 +120,7 @@ export default function Home() {
                   />
                 </div>
                 <h2 id="sinix-title" className="text-center text-4xl">
-                  Hi, I'm Sinix
+                  Hi, I&rsquom Sinix
                 </h2>
                 <div
                   id="sinix-content"
