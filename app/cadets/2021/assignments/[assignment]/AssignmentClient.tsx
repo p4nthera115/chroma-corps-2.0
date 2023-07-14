@@ -66,19 +66,19 @@ const AssignmentClient = () => {
   console.log(eliminated);
 
   return (
-    <div>
+    <div className="bg-neutral-900">
       <Prompt
         prompt={cadetAssignments[0].assignment?.prompt}
         assignmentNo={cadetAssignments[0].assignment?.day}
       />
-      <div className="z-20">
-        <Assignments cadetAssignments={cadetAssignments} teams={teams} />
+      <Assignments cadetAssignments={cadetAssignments} teams={teams} />
+      <div className="translate-y-14">
+        <WinnerBanner winner={winner} />
+        <StrikeBanner strike={strike} />
+        {(eliminated.length > 0 || dropout.length > 0) && (
+          <EliminatedBanner eliminated={eliminated} dropout={dropout} />
+        )}
       </div>
-      <WinnerBanner winner={winner} />
-      <StrikeBanner strike={strike} />
-      {(eliminated.length > 0 || dropout.length > 0) && (
-        <EliminatedBanner eliminated={eliminated} dropout={dropout} />
-      )}
     </div>
   );
 };
