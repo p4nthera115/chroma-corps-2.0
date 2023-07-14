@@ -17,7 +17,6 @@ const CadetClient = () => {
     setCadetName(cadetName.replace("%20", " "));
   }
 
-  console.log(cadetName);
   const cadet = cadets2021.find((cadet) => cadet.name === cadetName);
 
   useEffect(() => {

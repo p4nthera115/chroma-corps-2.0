@@ -17,13 +17,16 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
   return (
     <div className="relative w-screen h-[66.6666vh] bg-black">
       <div
-        className={`absolute z-10 h-full w-full ${elimType[0]?.cadet.gradient} border flex justify-center overflow-hidden`}
+        className={`absolute z-10 h-full w-full ${elimType[0]?.cadet.gradient} border border-red-600 flex justify-center overflow-hidden`}
       >
-        <img
-          src={elimType[0]?.cadet.bannerImg[0]}
-          alt={elimType[0]?.cadet?.name}
-          className={`${elimType[0]?.cadet?.bannerPos} z-20 sepia translate-y-4`}
-        />
+        <div className="relative flex justify-center h-full w-full">
+          <img
+            src={elimType[0]?.cadet.bannerImg[0]}
+            alt={elimType[0]?.cadet?.name}
+            className={`${elimType[0]?.cadet?.bannerPos} z-20 translate-y-4 sepia overflow-hidden`}
+          />
+          {/* <div className="inline-block absolute z-30 bg-red-600/50 h-full w-full"></div> */}
+        </div>
         <h2 className="absolute font-cyber p-4 left-0 top-0 opacity-75 text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-[8rem] max-h-full max-w-full md:pl-4">
           {eliminated.length > 0 ? "Eliminated" : "Dropout"}
         </h2>

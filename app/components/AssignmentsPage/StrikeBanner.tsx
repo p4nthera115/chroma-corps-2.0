@@ -11,7 +11,7 @@ const StrikeBanner: React.FC<StrikeBannerProps> = ({ strike }) => {
     <div className="relative w-screen h-[33.333333333vh]">
       <div className="absolute h-full w-full ">
         <div
-          className={`absolute z-10 h-full w-full ${strike[0]?.cadet.gradient} z-20 border flex justify-center items-center sepia overflow-hidden`}
+          className={`absolute z-10 h-full w-full ${strike[0]?.cadet.gradient} z-20 border border-neutral-500/50 flex justify-center items-center sepia overflow-hidden`}
         >
           <div
             className={`absolute h-full w-full z-10 ${strike[0]?.cadet.gradient}`}
