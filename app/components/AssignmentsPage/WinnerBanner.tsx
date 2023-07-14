@@ -15,7 +15,12 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
         className={`absolute z-10 h-full w-full ${winner[0]?.cadet.gradient} border flex justify-center`}
       >
         {winner.length > 1 ? (
-          <div className="relative w-full r-full">
+          <div className="relative w-full h-full">
+            {winner[1]?.cadet.gradient !== winner[0]?.cadet.gradient ? (
+              <div
+                className={`absolute z-10 h-full w-full rotate-180 ${winner[1]?.cadet.gradient}`}
+              ></div>
+            ) : null}
             <div className="flex flex-row relative w-full h-full gap-8 justify-center">
               {winner.map((cadet, i) => (
                 <img

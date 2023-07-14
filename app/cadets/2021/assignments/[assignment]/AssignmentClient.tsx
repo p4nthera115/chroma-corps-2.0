@@ -63,8 +63,6 @@ const AssignmentClient = () => {
     teamRed,
   };
 
-  console.log(eliminated);
-
   return (
     <div className="bg-neutral-900">
       <Prompt
