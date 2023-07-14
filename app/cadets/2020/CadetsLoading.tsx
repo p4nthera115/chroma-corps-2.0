@@ -6,34 +6,34 @@ const CadetsLoading: React.FC = () => {
   const topLeft = [
     {
       css: "left-3/4 bg-amber-400",
-      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2020/awfullysabi/awfullysabi.PNG",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2020/awfullysabi/awfullysabi.png",
       pos: "h-[260%] top-[-12%]",
     },
     {
       css: "left-2/4 bg-amber-300",
-      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2020/spiderlair/cropped-spiderlair-2.PNG",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2020/spiderlair/cropped-spiderlair-2.png",
       pos: "h-[120%] top-[-20%]",
     },
     {
       css: "left-1/4 bg-amber-400",
-      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2020/nikittysan/cropped-nikittysan.PNG",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2020/nikittysan/cropped-nikittysan.png",
       pos: "h-[120%] top-0",
     },
     {
       css: "left-0 bg-amber-300",
-      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2020/makennu/cropped-makennu.PNG",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2020/makennu/cropped-makennu.png",
       pos: "h-[300%] top-[-10%]",
     },
   ];
   const topRight = [
     {
       css: "right-3/4 bg-amber-300",
-      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2020/dehaf/dehaf-edited.PNG",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2020/dehaf/dehaf-edited.png",
       pos: "h-[150%] top-[-13%]",
     },
     {
       css: "right-2/4 bg-amber-400",
-      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2020/storse/cropped-storse.PNG",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2020/storse/cropped-storse.png",
       pos: "h-[150%] top-[-3%]",
     },
     {
