@@ -29,7 +29,7 @@ const CadetsLoading: React.FC = () => {
   const topRight = [
     {
       css: "right-3/4 bg-red-500",
-      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/ozan pulat/cropped-ozan.png",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/ozan-pulat/cropped-ozan.png",
       pos: "h-[140%] top-[-5%]",
     },
     {
