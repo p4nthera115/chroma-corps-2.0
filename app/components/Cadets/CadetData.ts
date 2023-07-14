@@ -4367,7 +4367,7 @@ export const cadets2021 = [
       {
         prompt: "Ocean of Flowers",
         day: 19,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2021-Cadet-Assignments/ass-19/ozanpulat.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2021-Cadet-Assignments/ass-19/ozanpulat.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -4747,7 +4747,7 @@ export const cadets2021 = [
       {
         prompt: "Ocean of Flowers",
         day: 19,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2021-Cadet-Assignments/ass-19/joharts.png",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2021-Cadet-Assignments/ass-19/joharts.jpg",
         strike: false,
         strikes: 2,
         eliminated: false,

@@ -8,7 +8,7 @@ export type Cadet = {
   cardPos: string;
   gradient: string;
   palette?: string;
-  bannerImg: string;
+  bannerImg: string[];
   bannerPos: string;
   cameraPos: string;
   strikeBannerPos?: any;
@@ -20,7 +20,7 @@ export type Cadet = {
     twitter?: string;
     artstation?: string;
   };
-  assignments: [{ assignment: Assignment }];
+  assignments?: [{ assignment: Assignment }];
 };
 
 export type Assignment = {

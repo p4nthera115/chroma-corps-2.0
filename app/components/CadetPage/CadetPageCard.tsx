@@ -57,14 +57,14 @@ export const CadetPageCard: React.FC<CadetPageCardProps> = ({
       <section className={`hidden md:flex h-full md:w-1/4 ${cadet.bgLines}`}>
         <h1 className="font-cyber text-5xl p-4">Day {assignment.day} : </h1>
         <h2>{assignment.prompt}</h2>
-        <button
+        <a
           className="absolute bottom-0 right-0 font-cyber p-1  cursor-pointer"
           onClick={() =>
             router.push(`/cadets/${year}/assignments/${assignment.day}`)
           }
         >
           See all Assignments
-        </button>
+        </a>
       </section>
       <button
         className="absolute z-50 bottom-0 right-0 p-2 bg-black/50 md:hidden"
@@ -79,14 +79,14 @@ export const CadetPageCard: React.FC<CadetPageCardProps> = ({
           >
             <h2>Assignment: {assignment.day}</h2>
             <h2>Prompt: {assignment.prompt}</h2>
-            <button
+            <a
               className="absolute bottom-0 right-0 font-cyber p-1  cursor-pointer"
               onClick={() =>
                 router.push(`/cadets/${year}/assignments/${assignment.day}`)
               }
             >
               See all Assignments
-            </button>
+            </a>
           </div>
         </div>
       )}
