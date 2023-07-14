@@ -4,6 +4,7 @@ import { Assignment, Cadet } from "@/app/types";
 import { Dispatch, SetStateAction, useState } from "react";
 import { RiInformationLine } from "react-icons/ri";
 import Image from "next/image";
+import { usePathname, useRouter } from "next/navigation";
 
 interface CadetPageCardProps {
   assignment: Assignment;
@@ -19,6 +20,11 @@ export const CadetPageCard: React.FC<CadetPageCardProps> = ({
   setActive,
 }) => {
   const [showMobileInfoModal, setShowMobileInfoModal] = useState(false);
+
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const year = pathname.slice(8, 12);
 
   return (
     <div className="relative flex flex-row border h-full w-full bg-black">
@@ -51,6 +57,14 @@ export const CadetPageCard: React.FC<CadetPageCardProps> = ({
       <section className={`hidden md:flex h-full md:w-1/4 ${cadet.bgLines}`}>
         <h1 className="font-cyber text-5xl p-4">Day {assignment.day} : </h1>
         <h2>{assignment.prompt}</h2>
+        <button
+          className="absolute bottom-0 right-0 font-cyber p-1  cursor-pointer"
+          onClick={() =>
+            router.push(`/cadets/${year}/assignments/${assignment.day}`)
+          }
+        >
+          See all Assignments
+        </button>
       </section>
       <button
         className="absolute z-50 bottom-0 right-0 p-2 bg-black/50 md:hidden"
@@ -65,6 +79,14 @@ export const CadetPageCard: React.FC<CadetPageCardProps> = ({
           >
             <h2>Assignment: {assignment.day}</h2>
             <h2>Prompt: {assignment.prompt}</h2>
+            <button
+              className="absolute bottom-0 right-0 font-cyber p-1  cursor-pointer"
+              onClick={() =>
+                router.push(`/cadets/${year}/assignments/${assignment.day}`)
+              }
+            >
+              See all Assignments
+            </button>
           </div>
         </div>
       )}
