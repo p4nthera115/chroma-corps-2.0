@@ -7,12 +7,12 @@ const CadetsLoading: React.FC = () => {
   const topLeft = [
     {
       css: "left-3/4 bg-cyan-500",
-      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/awfullysabi/cropped-awfullysabi.PNG",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/awfullysabi/cropped-awfullysabi.png",
       pos: "h-[250%] top-[-16%]",
     },
     {
       css: "left-2/4 bg-red-500",
-      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/spiderlair/cropped-spiderlair.PNG",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/spiderlair/cropped-spiderlair.png",
       pos: "h-[130%] top-[-14%]",
     },
     {
@@ -22,19 +22,19 @@ const CadetsLoading: React.FC = () => {
     },
     {
       css: "left-0 bg-red-500",
-      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/hieumay/cropped-hieumay.PNG",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/hieumay/cropped-hieumay.png",
       pos: "h-[300%] top-[-14%]",
     },
   ];
   const topRight = [
     {
       css: "right-3/4 bg-red-500",
-      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/ozan pulat/cropped-ozan.PNG",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/ozan pulat/cropped-ozan.png",
       pos: "h-[140%] top-[-5%]",
     },
     {
       css: "right-2/4 bg-cyan-500",
-      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/cropped-dehaf.PNG",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/cropped-dehaf.png",
       pos: "h-[300%] top-[-45%]",
     },
     {
@@ -44,7 +44,7 @@ const CadetsLoading: React.FC = () => {
     },
     {
       css: "right-0 bg-cyan-500",
-      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/kawffee/kawffee-card.PNG",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/kawffee/kawffee-card.png",
       pos: "h-[150%] top-[-0%]",
     },
   ];
