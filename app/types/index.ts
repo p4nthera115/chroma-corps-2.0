@@ -20,7 +20,7 @@ export type Cadet = {
     twitter?: string;
     artstation?: string;
   };
-  assignments?: [{ assignment: Assignment }];
+  assignments?: any;
 };
 
 export type Assignment = {
@@ -28,9 +28,9 @@ export type Assignment = {
   note?: string;
   day: number;
   img: string;
-  strike: boolean;
+  strike?: boolean;
   strikes: number;
-  eliminated: boolean;
+  eliminated?: boolean;
   dropout?: boolean;
   winner?: boolean;
 };
