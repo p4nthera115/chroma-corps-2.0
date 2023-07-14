@@ -24,6 +24,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
             <div className="flex flex-row relative w-full h-full gap-8 justify-center">
               {winner.map((cadet, i) => (
                 <img
+                  key={i}
                   src={cadet?.cadet.bannerImg[0]}
                   alt={cadet?.cadet?.name}
                   className={`h-full scale-[150%] min-w-max z-20 `}
@@ -33,6 +34,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
             <div className="absolute flex flex-col gap-4 text-right items-end justify-end bottom-0 right-0 font-cyber ">
               {winner.map((cadet, i) => (
                 <h2
+                  key={i}
                   className={`flex  bottom-0 right-0
                     ${
                       winner[0]?.cadet.name.length > 6 &&

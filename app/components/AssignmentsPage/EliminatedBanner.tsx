@@ -29,6 +29,7 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
             <div className="flex flex-row relative w-full h-full gap-8 justify-center">
               {elimType.map((cadet: CadetAssignment, i: number) => (
                 <img
+                  key={i}
                   src={cadet?.cadet.bannerImg[0]}
                   alt={cadet?.cadet?.name}
                   className={`h-full scale-[150%] min-w-max z-20 sepia `}
@@ -38,6 +39,7 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
             <div className="absolute flex flex-col gap-4 text-right items-end justify-end bottom-0 right-0 font-cyber ">
               {elimType.map((cadet: CadetAssignment, i: number) => (
                 <h2
+                  key={i}
                   className={`flex  bottom-0 right-0
                     ${
                       elimType[0]?.cadet.name.length > 6 &&

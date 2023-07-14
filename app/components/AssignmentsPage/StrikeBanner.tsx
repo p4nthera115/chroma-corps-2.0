@@ -20,8 +20,9 @@ const StrikeBanner: React.FC<StrikeBannerProps> = ({ strike }) => {
 
           {strike.length > 1 ? (
             <div className="w-full h-full absolute top-[9rem] flex flex-row gap-24 justify-center items-start">
-              {strike.map((cadet) => (
+              {strike.map((cadet, i) => (
                 <img
+                  key={i}
                   src={cadet?.cadet.bannerImg[0]}
                   alt={cadet?.cadet?.name}
                   className={`scale-[300%] h-[20rem] z-10 flex`}
