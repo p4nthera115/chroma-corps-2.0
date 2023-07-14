@@ -7,27 +7,27 @@ const CadetsLoading: React.FC = () => {
   const topLeft = [
     {
       css: "left-[88.888%] bg-yellow-500",
-      img: "/images/Cadets/2022/vevolf/cropped-vevolf.png",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/images/Cadets/2022/vevolf/cropped-vevolf.png",
       pos: "h-[150%] top-[-8%]",
     },
     {
       css: "left-[66.666%] bg-yellow-300",
-      img: "/images/Cadets/2022/baeloma/Emily_01.png",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/images/Cadets/2022/baeloma/Emily_01.png",
       pos: "h-[300%] top-[-60%]",
     },
     {
       css: "left-[44.444%] bg-blue-500",
-      img: "/images/Cadets/2022/dako/cropped-dako.PNG",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/images/Cadets/2022/dako/cropped-dako.PNG",
       pos: "h-[130%] top-[-15%]",
     },
     {
       css: "left-[22.222%] bg-blue-400",
-      img: "/images/Cadets/2022/fatcat/cropped-fatcat-3.png",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/images/Cadets/2022/fatcat/cropped-fatcat-3.png",
       pos: "h-[100%] top-[0%]",
     },
     {
       css: "left-0 bg-blue-500",
-      img: "/images/Cadets/2022/applechancery002/cropped-applechancery.png",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/images/Cadets/2022/applechancery002/cropped-applechancery.png",
       pos: "h-[240%] top-[-10%]",
     },
   ];
@@ -39,12 +39,12 @@ const CadetsLoading: React.FC = () => {
     },
     {
       css: "right-[44.444%] bg-pink-500",
-      img: "/images/Cadets/2022/greeblebot/greeblebot-card.png",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/images/Cadets/2022/greeblebot/greeblebot-card.png",
       pos: "h-[160%] top-[-8%]",
     },
     {
       css: "right-[22.222%] bg-pink-400",
-      img: "/images/Cadets/2022/yugichu/cropped-yugichu.PNG",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2022/yugichu/cropped-yugichu.png",
       pos: "h-[100%] top-0",
     },
     {
