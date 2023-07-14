@@ -47,7 +47,7 @@ const Menu = () => {
     }
   }, []);
 
-  const menuItems = ["About", "Lore", "Join"];
+  const menuItems = ["Home", "Cadets +", "FAQs", "Credits"];
 
   return (
     <div className="flex max-h-full max-w-full z-10 overflow-hidden">
@@ -72,15 +72,19 @@ const Menu = () => {
           <>
             <motion.div
               className="
+                flex
+                flex-col
+                justify-center
+                min-h-full
+                min-w-full
                 fixed
-                h-[100vh]
-                w-[100vw]
                 shadow-md
-                bg-yellow-400/90
+                bg-yellow-400
                 overflow-hidden
-                text-6xl
+                text-7xl
                 sm:text-8xl
                 md:text-8xl
+                lg:text-8xl
               "
               initial="closed"
               animate="open"
@@ -89,40 +93,46 @@ const Menu = () => {
             >
               <motion.div
                 variants={itemVariants}
-                className="flex z-3 mt-16 flex-col cursor-pointer font-cyber"
+                className="flex z-3 flex-col cursor-pointer font-cyber"
               >
-                <div className=" text-center">
-                  <MenuItem onClick={toggleSubOpen} label="Cadets +" />
-                  {subOpen && (
-                    <div className="text-2xl flex flex-row gap-16 justify-center text-black py-4 font-semibold">
-                      <p
-                        className="hover:opacity-70"
-                        onClick={() => router.push("/cadets/2022")}
-                      >
-                        2022
-                      </p>
-                      <p
-                        className="hover:opacity-70"
-                        onClick={() => router.push("/cadets/2021")}
-                      >
-                        2021
-                      </p>
-                      <p
-                        className="hover:opacity-70"
-                        onClick={() => router.push("/cadets/2020")}
-                      >
-                        2020
-                      </p>
-                    </div>
-                  )}
-                </div>
-                {menuItems.map((item) => (
-                  <MenuItem
-                    key={item}
-                    onClick={() => router.push(`/${item.toLowerCase()}`)}
-                    label={item}
-                  />
-                ))}
+                {menuItems.map((item) => {
+                  if (item === "Cadets +") {
+                    return (
+                      <>
+                        <MenuItem onClick={toggleSubOpen} label={item} />
+                        {subOpen && (
+                          <div className="text-2xl flex flex-row gap-16 align-middle justify-center text-black py-4 font-semibold">
+                            <p
+                              className="hover:opacity-70"
+                              onClick={() => router.push("/cadets/2022")}
+                            >
+                              2022
+                            </p>
+                            <p
+                              className="hover:opacity-70"
+                              onClick={() => router.push("/cadets/2021")}
+                            >
+                              2021
+                            </p>
+                            <p
+                              className="hover:opacity-70"
+                              onClick={() => router.push("/cadets/2020")}
+                            >
+                              2020
+                            </p>
+                          </div>
+                        )}
+                      </>
+                    );
+                  } else {
+                    return (
+                      <MenuItem
+                        onClick={() => router.push(`/${item.toLowerCase()}`)}
+                        label={item}
+                      />
+                    );
+                  }
+                })}
               </motion.div>
             </motion.div>
           </>
