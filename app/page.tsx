@@ -1,5 +1,5 @@
-import LoadingScreen from "./components/Loading/LoadingScreen";
-import ComingSoon from "./ComingSoon";
+import { LoadingScreen } from "./components/Loading/LoadingScreen";
+import { ComingSoon } from "./ComingSoon";
 import Navbar from "./components/Menu/Menu";
 
 export default function page() {
