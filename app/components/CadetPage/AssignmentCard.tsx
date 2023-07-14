@@ -9,7 +9,7 @@ import { usePathname } from "next/navigation";
 import { AssignmentPageCard } from "../AssignmentsPage/AssignmentPageCard";
 
 interface AssignmentCardProps {
-  assignment: Assignment;
+  assignment: Assignment | undefined;
   cadet: Cadet;
   cadetAssignment?: CadetAssignment[];
 }

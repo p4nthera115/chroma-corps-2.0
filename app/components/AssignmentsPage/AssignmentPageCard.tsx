@@ -7,7 +7,7 @@ import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 
 interface AssignmentPageCardProps {
-  assignment: Assignment;
+  assignment: Assignment | undefined;
   cadet: Cadet;
   active: boolean;
   setActive: Dispatch<SetStateAction<boolean>>;
@@ -28,32 +28,35 @@ export const AssignmentPageCard: React.FC<AssignmentPageCardProps> = ({
 
   return (
     <div className="relative flex flex-row border h-full w-full bg-black">
-      <section
-        className={`relative flex h-full w-full md:w-3/4 md:border justify-center`}
-      >
-        <button
-          className={`absolute h-10 w-10 font-cyber z-50 left-0 border ${cadet.borderColor} ${cadet.teamColorOpacity}`}
-          onClick={() => setActive(!active)}
+      {assignment && (
+        <section
+          className={`relative flex h-full w-full md:w-3/4 md:border justify-center`}
         >
-          X
-        </button>
-        <div className="relative flex w-full h-full object-contain justify-center">
+          <button
+            className={`absolute h-10 w-10 font-cyber z-50 left-0 border ${cadet.borderColor} ${cadet.teamColorOpacity}`}
+            onClick={() => setActive(!active)}
+          >
+            X
+          </button>
+
+          <div className="relative flex w-full h-full object-contain justify-center">
+            <Image
+              src={assignment.img}
+              alt={assignment.prompt}
+              height={1080}
+              width={1920}
+              className="relative block z-30 object-contain"
+            />
+          </div>
+          <div className="absolute h-full w-full backdrop-blur-md z-20"></div>
           <Image
             src={assignment.img}
             alt={assignment.prompt}
-            height={1080}
-            width={1920}
-            className="relative block z-30 object-contain"
+            fill
+            className="opacity-4 z-10"
           />
-        </div>
-        <div className="absolute h-full w-full backdrop-blur-md z-20"></div>
-        <Image
-          src={assignment.img}
-          alt={assignment.prompt}
-          fill
-          className="opacity-4 z-10"
-        />
-      </section>
+        </section>
+      )}
       <section
         className={`hidden md:flex md:flex-col h-full md:w-1/4 ${cadet.bgLines}`}
       >

@@ -13,7 +13,7 @@ import { Fragment, useState } from "react";
 
 interface AssignmentsProps {
   cadet?: Cadet | undefined;
-  cadetAssignments?: CadetAssignment[];
+  cadetAssignments?: CadetAssignment[] | undefined;
   teams?: Teams2022 | Teams2021 | Team2020;
 }
 
@@ -63,7 +63,7 @@ const Assignments: React.FC<AssignmentsProps> = ({
       )}
       {!cadetAssignments && (
         <div className="flex flex-row flex-wrap md:gap-5 md:p-4 justify-center">
-          {cadet?.assignments.map((assignment: any, i) => (
+          {cadet?.assignments?.map((assignment: any, i: number) => (
             <AssignmentCard key={i} assignment={assignment} cadet={cadet} />
           ))}
         </div>

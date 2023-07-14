@@ -20,7 +20,7 @@ export type Cadet = {
     twitter?: string;
     artstation?: string;
   };
-  assignments?: any;
+  assignments?: Assignment[];
 };
 
 export type Assignment = {
@@ -53,5 +53,5 @@ export type Team2020 = {
 
 export type CadetAssignment = {
   cadet: Cadet;
-  assignment: Assignment;
+  assignment: Assignment | undefined;
 };

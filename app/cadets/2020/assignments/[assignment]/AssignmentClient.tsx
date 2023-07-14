@@ -8,6 +8,7 @@ import EliminatedBanner from "@/app/components/AssignmentsPage/EliminatedBanner"
 import StrikeBanner from "@/app/components/AssignmentsPage/StrikeBanner";
 import WinnerBanner from "@/app/components/AssignmentsPage/WinnerBanner";
 import Prompt from "@/app/components/AssignmentsPage/Prompt";
+import { Assignment } from "@/app/types";
 
 const AssignmentClient = () => {
   const pathname = usePathname();
@@ -18,11 +19,23 @@ const AssignmentClient = () => {
   const [eliminated, setEliminated] = useState<any>([]);
   const [dropout, setDropout] = useState<any>([]);
 
+  // const cadetAssignments = useMemo(() => {
+  //   return cadets2020.map((cadet) => {
+  //     const assignment = cadet.assignments.find(
+  //       (assignment: Assignment | undefined) =>
+  //         assignment?.day.toString() === assignmentDay
+  //     );
+  //     return { cadet, assignment };
+  //   });
+  // }, [cadets2020, assignmentDay]);
+
   const cadetAssignments = useMemo(() => {
     return cadets2020.map((cadet) => {
-      const assignment = cadet.assignments.find(
-        (assignment) => assignment.day.toString() === assignmentDay
-      );
+      const assignment = (
+        cadet.assignments as (Assignment | undefined)[] | undefined
+      )
+        ?.filter((assignment) => assignment !== undefined)
+        .find((assignment) => assignment?.day === +assignmentDay);
       return { cadet, assignment };
     });
   }, [cadets2020, assignmentDay]);

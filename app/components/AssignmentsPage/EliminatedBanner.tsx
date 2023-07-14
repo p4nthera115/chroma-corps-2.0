@@ -60,11 +60,11 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
             </div>
           </div>
         ) : (
-          <div className="overflow-hidden relative w-full h-full border-red-600 border ">
+          <div className="overflow-hidden relative w-full h-full border-red-600 border justify-center flex">
             <img
               src={elimType[0]?.cadet.bannerImg[0]}
               alt={elimType[0]?.cadet?.name}
-              className={`${elimType[0]?.cadet?.bannerPos} z-20`}
+              className={`${elimType[0]?.cadet?.bannerPos} flex z-20`}
             />
             <h2
               className={`absolute font-cyber p-4 right-0 bottom-0 ${
