@@ -155,7 +155,7 @@ const AboutClient = () => {
         </Link>
       </div>
       <h3 className="text-center text-md py-2 italic">
-        If you have a question which isn't answered below, feel free to post it
+        If you have a question which is not answered below, feel free to post it
         on the{" "}
         <a
           href="https://discord.com/invite/ejaQBdWyyN"
@@ -168,7 +168,7 @@ const AboutClient = () => {
         <div className="flex flex-col align-middle justify-center font-mono w-[50vw] mx-auto">
           <div className="flex flex-col my-4">
             {accordionData.map(({ title, content }) => (
-              <Accordion title={title} content={content} />
+              <Accordion title={title} content={content} key={title} />
             ))}
           </div>
         </div>

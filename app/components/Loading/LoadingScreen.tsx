@@ -4,9 +4,8 @@ import { useState } from "react";
 import LogoBottom from "../Logo/LogoBottom";
 import LogoTop from "../Logo/LogoTop";
 import { motion } from "framer-motion";
-import { Logo } from "../Logo/Logo";
 
-export default function page() {
+export const LoadingScreen = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   setTimeout(() => {
@@ -112,4 +111,4 @@ export default function page() {
       </motion.div>
     </div>
   );
-}
+};

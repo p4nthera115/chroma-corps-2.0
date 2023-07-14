@@ -118,6 +118,7 @@ const Menu = () => {
                 </div>
                 {menuItems.map((item) => (
                   <MenuItem
+                    key={item}
                     onClick={() => router.push(`/${item.toLowerCase()}`)}
                     label={item}
                   />

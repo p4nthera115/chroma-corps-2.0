@@ -2,7 +2,7 @@
 
 import { useGlitch, GlitchHandle } from "react-powerglitch";
 
-export default function page() {
+export const ComingSoon = () => {
   const glitch: GlitchHandle = useGlitch({
     playMode: "always",
     createContainers: true,
@@ -63,4 +63,4 @@ export default function page() {
       </div> */}
     </div>
   );
-}
+};
