@@ -15,6 +15,7 @@ export default function HomeClient() {
       inset-0
       flex 
       flex-col
+      vertical-lines-amber
       "
     >
       <div className="flex flex-col justify-center text-center py-[20vh]">
@@ -43,7 +44,7 @@ export default function HomeClient() {
             />
           </div>
         </div>
-        <div className="mt-24">
+        <div className="mt-24 vertical-lines-amber">
           <div>
             <h2 className="text-3xl font-cyber">Discover</h2>
             <div className="flex flex-col items-center justify-center mt-8">
@@ -64,7 +65,7 @@ export default function HomeClient() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center gap-8">
+      <div className="flex flex-col justify-center gap-8 vertical-lines-amber">
         <div className="flex flex-col align-middle justify-center pt-16">
           <h1 className="font-cyber font-extrabold text-center text-yellow-400 lg:text-6xl md:text-4xl text-3xl mt-32 mb-8">
             FOR THE LOVE OF ART.
@@ -102,10 +103,10 @@ export default function HomeClient() {
             <h1 className="text-5xl font-cyber text-yellow-400 py-4 mb-32">
               An annual event hosted by Sinix
             </h1>
-            <div id="constraint" className="w-[90%] mx-auto bg-yellow-400/20">
+            <div id="constraint" className="w-[90%] mx-auto">
               <div
                 id="about-block"
-                className="bg-yellow-400/20 flex flex-col px-52 pt-48 pb-12 mt-16 mb-16 relative diagonal-lines-yellow"
+                className="bg-yellow-400/20 flex flex-col px-52 pt-48 pb-12 mt-16 mb-16 relative diagonal-lines-yellow border-8 border-yellow-400/40"
               >
                 <div
                   id="sinix-image"
