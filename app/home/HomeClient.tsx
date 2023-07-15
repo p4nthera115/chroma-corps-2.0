@@ -8,7 +8,7 @@ import {
   AiOutlineYoutube,
 } from "react-icons/ai";
 
-export default function Home() {
+export default function HomeClient() {
   return (
     <div
       className="absolute
