@@ -9,6 +9,7 @@ import StrikeBanner from "@/app/components/AssignmentsPage/StrikeBanner";
 import WinnerBanner from "@/app/components/AssignmentsPage/WinnerBanner";
 import Prompt from "@/app/components/AssignmentsPage/Prompt";
 import { Assignment } from "@/app/types";
+import Menu from "@/app/components/Menu/Menu";
 
 const AssignmentClient = () => {
   const pathname = usePathname();
@@ -72,6 +73,9 @@ const AssignmentClient = () => {
 
   return (
     <div className="bg-neutral-900">
+      <div className="absolute z-[60]">
+        <Menu />
+      </div>
       <Prompt
         prompt={cadetAssignments[0].assignment?.prompt}
         assignmentNo={cadetAssignments[0].assignment?.day}

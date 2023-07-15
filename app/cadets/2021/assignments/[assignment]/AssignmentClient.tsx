@@ -8,6 +8,9 @@ import WinnerBanner from "@/app/components/AssignmentsPage/WinnerBanner";
 import StrikeBanner from "@/app/components/AssignmentsPage/StrikeBanner";
 import EliminatedBanner from "@/app/components/AssignmentsPage/EliminatedBanner";
 import Prompt from "@/app/components/AssignmentsPage/Prompt";
+import Menu from "@/app/components/Menu/Menu";
+import NextAssButton from "@/app/components/AssignmentsPage/NextAssButton";
+import PrevAssButton from "@/app/components/AssignmentsPage/PrevAssButton";
 
 const AssignmentClient = () => {
   const pathname = usePathname();
@@ -18,6 +21,8 @@ const AssignmentClient = () => {
   const [strike, setStrike] = useState<any>([]);
   const [eliminated, setEliminated] = useState<any>([]);
   const [dropout, setDropout] = useState<any>([]);
+
+  const year = pathname.slice(8, 12);
 
   const cadetAssignments = useMemo(() => {
     return cadets2021.map((cadet) => {
@@ -63,8 +68,13 @@ const AssignmentClient = () => {
     teamRed,
   };
 
+  console.log(winner);
+
   return (
     <div className="bg-neutral-900">
+      <div className="absolute z-[60]">
+        <Menu />
+      </div>
       <Prompt
         prompt={cadetAssignments[0].assignment?.prompt}
         assignmentNo={cadetAssignments[0].assignment?.day}
@@ -75,6 +85,14 @@ const AssignmentClient = () => {
         {strike.length > 0 && <StrikeBanner strike={strike} />}
         {(eliminated.length > 0 || dropout.length > 0) && (
           <EliminatedBanner eliminated={eliminated} dropout={dropout} />
+        )}
+      </div>
+      <div className="h-[33vh] w-screen relative items-center">
+        {+assignmentDay > 1 && (
+          <PrevAssButton year={year} day={+assignmentDay} />
+        )}
+        {+assignmentDay < 39 && (
+          <NextAssButton year={year} day={+assignmentDay} />
         )}
       </div>
     </div>
