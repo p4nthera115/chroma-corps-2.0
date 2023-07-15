@@ -10,6 +10,8 @@ import WinnerBanner from "@/app/components/AssignmentsPage/WinnerBanner";
 import Prompt from "@/app/components/AssignmentsPage/Prompt";
 import { Assignment } from "@/app/types";
 import Menu from "@/app/components/Menu/Menu";
+import NextAssButton from "@/app/components/AssignmentsPage/NextAssButton";
+import PrevAssButton from "@/app/components/AssignmentsPage/PrevAssButton";
 
 const AssignmentClient = () => {
   const pathname = usePathname();
@@ -20,15 +22,7 @@ const AssignmentClient = () => {
   const [eliminated, setEliminated] = useState<any>([]);
   const [dropout, setDropout] = useState<any>([]);
 
-  // const cadetAssignments = useMemo(() => {
-  //   return cadets2020.map((cadet) => {
-  //     const assignment = cadet.assignments.find(
-  //       (assignment: Assignment | undefined) =>
-  //         assignment?.day.toString() === assignmentDay
-  //     );
-  //     return { cadet, assignment };
-  //   });
-  // }, [cadets2020, assignmentDay]);
+  const year = pathname.slice(8, 12);
 
   const cadetAssignments = useMemo(() => {
     return cadets2020.map((cadet) => {
@@ -86,6 +80,14 @@ const AssignmentClient = () => {
         {strike.length > 0 && <StrikeBanner strike={strike} />}
         {(eliminated.length > 0 || dropout.length > 0) && (
           <EliminatedBanner eliminated={eliminated} dropout={dropout} />
+        )}
+      </div>
+      <div className="h-[33vh] w-screen relative items-center">
+        {+assignmentDay > 1 && (
+          <PrevAssButton year={year} day={+assignmentDay} />
+        )}
+        {+assignmentDay < 36 && (
+          <NextAssButton year={year} day={+assignmentDay} />
         )}
       </div>
     </div>
