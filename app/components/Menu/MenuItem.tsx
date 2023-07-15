@@ -1,8 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
-import { useState } from "react";
 
 interface MenuItemProps {
   onClick: () => void;
@@ -31,7 +29,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ onClick, label }) => {
     <div>
       <motion.div
         variants={itemVariants}
-        className="px-4 py-0 transition font-semibold text-neutral-900 text-center"
+        className="px-4 py-0 transition font-semibold text-neutral-900 text-center lg:text-6xl"
         onClick={onClick}
       >
         <motion.div
