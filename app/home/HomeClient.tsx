@@ -18,7 +18,7 @@ export default function HomeClient() {
       vertical-lines-amber
       "
     >
-      <div className="flex flex-col justify-center text-center py-[20vh]">
+      <div className="flex flex-col justify-center text-center my-[20vh]">
         <div className="flex flex-row justify-center gap-4">
           <div className="flex flex-col">
             <h1
@@ -44,10 +44,10 @@ export default function HomeClient() {
             />
           </div>
         </div>
-        <div className="mt-24 vertical-lines-amber">
+        <div className="mt-24">
           <div>
             <h2 className="text-3xl font-cyber">Discover</h2>
-            <div className="flex flex-col items-center justify-center mt-8">
+            <div className="flex flex-col items-center justify-center mt-6">
               <Link
                 to="about-section"
                 activeClass="active"
@@ -66,7 +66,7 @@ export default function HomeClient() {
         </div>
       </div>
       <div className="flex flex-col justify-center gap-8 vertical-lines-amber">
-        <div className="flex flex-col align-middle justify-center pt-16">
+        <div className="flex flex-col align-middle justify-center mt-16">
           <h1 className="font-cyber font-extrabold text-center text-yellow-400 lg:text-6xl md:text-4xl text-3xl mt-32 mb-8">
             FOR THE LOVE OF ART.
             <a id="about-section"></a>
