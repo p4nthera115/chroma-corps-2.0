@@ -120,7 +120,7 @@ const AssignmentCard: React.FC<AssignmentCardProps> = ({
               `}
             />
           ) : (
-            <video width={224} height={126.4} loop autoPlay>
+            <video width={224} height={126.4}>
               <source src={assignment.vid}></source>
             </video>
           )}
