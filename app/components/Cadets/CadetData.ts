@@ -8321,7 +8321,7 @@ export const cadets2020 = [
     ],
     bannerPos: "absolute h-full scale-[130%] min-w-max",
     cameraPos: "scale-[200%]",
-    gradient: "bg-gradient-to-t from-amber-300",
+    gradient: "bg-gradient-to-t from-black via-amber-300 to-black",
     bgLines: "diagonal-lines-amber",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
@@ -10238,7 +10238,7 @@ export const cadets2020 = [
     ],
     bannerPos: "absolute h-full scale-[150%] min-w-max",
     cameraPos: "scale-[100%]",
-    gradient: "bg-gradient-to-t from-amber-300",
+    gradient: "bg-gradient-to-t from-black via-amber-300 to-black",
     bgLines: "diagonal-lines-amber",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",

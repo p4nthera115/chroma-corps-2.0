@@ -1,16 +1,29 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import CadetsLoading from "./CadetsLoading";
 import CadetSelect from "../../components/Cadets/CadetSelect";
 import { cadets2020 } from "@/app/components/Cadets/CadetData";
+import WinnerBanner from "@/app/components/AssignmentsPage/WinnerBanner";
 
 const CadetsClient = () => {
   const [cadetLoading, setCadetLoading] = useState(true);
   const [logoLoading, setLogoLoading] = useState(true);
+  const [winner, setWinner] = useState<any>([]);
 
   setTimeout(() => setCadetLoading(false), 3000);
   setTimeout(() => setLogoLoading(false), 1000);
+
+  useEffect(() => {
+    const winners = cadets2020.filter(
+      (cadet) => cadet.name === "Nikittysan" || cadet.name === "Weiao"
+    );
+
+    const win = winners.map((winner) => ({ ...winner, cadet: winner }));
+
+    setWinner(win);
+    console.log(win);
+  }, []);
 
   return (
     <div>
@@ -45,18 +58,18 @@ const CadetsClient = () => {
           >
             2020
           </h1>
-          {/* <img
-            alt="logo"
-            src={"/images/ChromaCorpsLogoBlack.png"}
-            className="
-              h-[90vh]
-            "
-          /> */}
         </div>
       )}
       {!logoLoading && (
-        <div className="relative h-screen w-screen overflow-x-hidden">
-          <CadetSelect cadets={cadets2020} />
+        <div className="relative h-screen w-screen overflow-x-hidden flex flex-col">
+          <section className="flex w-full ">
+            <CadetSelect cadets={cadets2020} />
+          </section>
+          <section className="flex absolute top-full w-full">
+            <div className="w-full absolute flex top-[8rem]">
+              <WinnerBanner winner={winner} />
+            </div>
+          </section>
         </div>
       )}
     </div>
