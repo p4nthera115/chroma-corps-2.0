@@ -8,16 +8,17 @@ import {
   AiOutlineYoutube,
 } from "react-icons/ai";
 
-export default function Home() {
+export default function HomeClient() {
   return (
     <div
       className="absolute
       inset-0
       flex 
       flex-col
+      vertical-lines-amber
       "
     >
-      <div className="flex flex-col justify-center text-center py-[20vh]">
+      <div className="flex flex-col justify-center text-center my-[20vh]">
         <div className="flex flex-row justify-center gap-4">
           <div className="flex flex-col">
             <h1
@@ -46,7 +47,7 @@ export default function Home() {
         <div className="mt-24">
           <div>
             <h2 className="text-3xl font-cyber">Discover</h2>
-            <div className="flex flex-col items-center justify-center mt-8">
+            <div className="flex flex-col items-center justify-center mt-6">
               <Link
                 to="about-section"
                 activeClass="active"
@@ -64,8 +65,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center gap-8">
-        <div className="flex flex-col align-middle justify-center pt-16">
+      <div className="flex flex-col justify-center gap-8 vertical-lines-amber">
+        <div className="flex flex-col align-middle justify-center mt-16">
           <h1 className="font-cyber font-extrabold text-center text-yellow-400 lg:text-6xl md:text-4xl text-3xl mt-32 mb-8">
             FOR THE LOVE OF ART.
             <a id="about-section"></a>
@@ -102,17 +103,17 @@ export default function Home() {
             <h1 className="text-5xl font-cyber text-yellow-400 py-4 mb-32">
               An annual event hosted by Sinix
             </h1>
-            <div id="constraint" className="w-[90%] mx-auto bg-yellow-400/20">
+            <div id="constraint" className="w-[90%] mx-auto">
               <div
                 id="about-block"
-                className="bg-yellow-400/20 flex flex-col px-52 pt-48 pb-12 mt-16 mb-16 relative diagonal-lines-yellow"
+                className="bg-yellow-400/20 flex flex-col px-52 pt-48 pb-12 mt-16 mb-16 relative diagonal-lines-yellow border-8 border-yellow-400/40"
               >
                 <div
                   id="sinix-image"
                   className="flex justify-center absolute top-[-8rem] self-center"
                 >
                   <img
-                    className="flex justify-center overflow-hidden rounded-full border-8 border-neutral-700"
+                    className="flex justify-center overflow-hidden rounded-full border-8 border-neutral-800"
                     src="https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Sinix/sinixdp.jpg"
                     alt=""
                     height={300}
