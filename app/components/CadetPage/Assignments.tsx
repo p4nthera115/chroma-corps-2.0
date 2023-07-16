@@ -52,7 +52,7 @@ const Assignments: React.FC<AssignmentsProps> = ({
   return (
     <div className={`relative h-full w-full bg-neutral-900`}>
       {!cadetAssignments && (
-        <motion.div className="flex w-full justify-center overflow-hidden">
+        <motion.div className="relative flex w-full justify-center overflow-hidden">
           <h1
             className={`relative font-cyber m-3 w-3/4 md:w-1/2 text-xl md:text-4xl lg:text-5xl xl:text-6xl p-6 md:p-8 text-center border-2 overflow-hidden cursor-default ${cadet?.borderColor} ${cadet?.teamColorOpacity}`}
             onMouseOver={hoverAnimation}
@@ -62,7 +62,7 @@ const Assignments: React.FC<AssignmentsProps> = ({
         </motion.div>
       )}
       {!cadetAssignments && (
-        <div className="flex flex-row flex-wrap justify-center">
+        <div className="flex flex-row flex-wrap md:gap-5 md:p-4 justify-center">
           {cadet?.assignments?.map((assignment: any, i: number) => (
             <AssignmentCard key={i} assignment={assignment} cadet={cadet} />
           ))}
