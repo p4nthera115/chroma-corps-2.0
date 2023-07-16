@@ -60,7 +60,15 @@ export const AssignmentPageCard: React.FC<AssignmentPageCardProps> = ({
       <section
         className={`hidden md:flex md:flex-col h-full md:w-1/4 ${cadet.bgLines}`}
       >
-        <h1 className="font-cyber text-5xl p-4">{cadet.name}</h1>
+        <div className="mt-20 font-cyber flex flex-col gap-4">
+          <h1 className="md:text-lg lg:text-xl md:p-2 lg:p-2 font-cyber">
+            {cadet.name}
+          </h1>
+          <h1 className="md:text-lg lg:text-2xl md:p-2 lg:p-2">
+            Prompt:
+            <p className="md:text-lg lg:text-xl">{assignment?.prompt}</p>
+          </h1>
+        </div>
         <button
           className="absolute bottom-0 right-0 font-cyber p-2 text-sm cursor-pointer"
           onClick={() => router.push(`/cadets/${year}/${cadet.name}`)}
@@ -78,9 +86,10 @@ export const AssignmentPageCard: React.FC<AssignmentPageCardProps> = ({
       {showMobileInfoModal && (
         <div className="absolute flex h-full w-full justify-center items-center">
           <div
-            className={`absolute font-cyber flex flex-col z-50 p-4 h-1/2 w-[90%] bg-black/80 border ${cadet.borderColor}`}
+            className={`absolute font-mono flex flex-col z-50 p-4 h-1/2 w-[90%] bg-black/80 border ${cadet.borderColor}`}
           >
-            <h1>{cadet.name}</h1>
+            <h1 className="text-6xl p-2 font-cyber">{cadet.name}</h1>
+            <h1 className="text-2xl p-2">Prompt: {assignment?.prompt}</h1>
             <a
               className="absolute bottom-0 right-0 font-cyber p-1  cursor-pointer"
               onClick={() => router.push(`/cadets/${year}/${cadet.name}`)}
