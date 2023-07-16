@@ -73,16 +73,19 @@ const Assignments: React.FC<AssignmentsProps> = ({
           const teamAssignments = teams[teamKey];
           return (
             <Fragment key={teamKey}>
-              <section className="flex flex-row flex-wrap gap-0 justify-center">
-                {teamAssignments.map((cadetAssignment, i) => (
-                  <div key={i} className="md:p-4">
-                    <AssignmentCard
-                      assignment={cadetAssignment.assignment}
-                      cadet={cadetAssignment.cadet}
-                      cadetAssignment={cadetAssignments}
-                    />
-                  </div>
-                ))}
+              <section className="flex flex-row flex-wrap justify-center">
+                {teamAssignments.map(
+                  (cadetAssignment, i) =>
+                    cadetAssignment.assignment?.day && (
+                      <div key={i} className="md:p-4">
+                        <AssignmentCard
+                          assignment={cadetAssignment.assignment}
+                          cadet={cadetAssignment.cadet}
+                          cadetAssignment={cadetAssignments}
+                        />
+                      </div>
+                    )
+                )}
               </section>
               <br />
             </Fragment>
