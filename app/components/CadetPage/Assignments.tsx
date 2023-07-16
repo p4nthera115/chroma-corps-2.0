@@ -75,7 +75,7 @@ const Assignments: React.FC<AssignmentsProps> = ({
             <Fragment key={teamKey}>
               <section className="flex flex-row flex-wrap gap-0 justify-center">
                 {teamAssignments.map((cadetAssignment, i) => (
-                  <div key={i} className="md:p-4">
+                  <div key={i} className="">
                     <AssignmentCard
                       assignment={cadetAssignment.assignment}
                       cadet={cadetAssignment.cadet}

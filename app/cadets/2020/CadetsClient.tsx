@@ -5,6 +5,9 @@ import CadetsLoading from "./CadetsLoading";
 import CadetSelect from "../../components/Cadets/CadetSelect";
 import { cadets2020 } from "@/app/components/Cadets/CadetData";
 import WinnerBanner from "@/app/components/AssignmentsPage/WinnerBanner";
+import { Assignment } from "@/app/types";
+import AssignmentDays from "@/app/components/Cadets/AssignmentDays";
+import Judges from "@/app/components/Cadets/Judges";
 
 const CadetsClient = () => {
   const [cadetLoading, setCadetLoading] = useState(true);
@@ -22,8 +25,13 @@ const CadetsClient = () => {
     const win = winners.map((winner) => ({ ...winner, cadet: winner }));
 
     setWinner(win);
-    console.log(win);
   }, []);
+
+  const judges = [
+    {
+      name: "samdoesarts",
+    },
+  ];
 
   return (
     <div>
@@ -61,13 +69,21 @@ const CadetsClient = () => {
         </div>
       )}
       {!logoLoading && (
-        <div className="relative h-screen w-screen overflow-x-hidden flex flex-col">
-          <section className="flex w-full ">
-            <CadetSelect cadets={cadets2020} />
+        <div className="absolute h-screen w-screen overflow-x-hidden flex flex-col">
+          <section className="flex h-full w-full">
+            <div className="flex">
+              <CadetSelect cadets={cadets2020} />
+            </div>
           </section>
-          <section className="flex absolute top-full w-full">
-            <div className="w-full absolute flex top-[8rem]">
+          <section className="flex relative h-full flex-col top-[115%] w-full">
+            <div className="w-full h-full top-[10%] pb-[17%]">
               <WinnerBanner winner={winner} />
+            </div>
+            <div>
+              <Judges judges={judges} />
+            </div>
+            <div className="relative pb-10">
+              <AssignmentDays winner={winner} year={2020} />
             </div>
           </section>
         </div>
