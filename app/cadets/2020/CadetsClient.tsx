@@ -5,7 +5,6 @@ import CadetsLoading from "./CadetsLoading";
 import CadetSelect from "../../components/Cadets/CadetSelect";
 import { cadets2020 } from "@/app/components/Cadets/CadetData";
 import WinnerBanner from "@/app/components/AssignmentsPage/WinnerBanner";
-import { Assignment } from "@/app/types";
 import AssignmentDays from "@/app/components/Cadets/AssignmentDays";
 import Judges from "@/app/components/Cadets/Judges";
 

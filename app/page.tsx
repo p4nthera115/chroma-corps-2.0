@@ -1,4 +1,4 @@
-import { LoadingScreen } from "./components/Loading/LoadingScreen";
+import { LoadingScreen } from "./components/CadetPage/Loading/LoadingScreen";
 import { ComingSoon } from "./ComingSoon";
 import Navbar from "./components/Menu/Menu";
 import Home from "./Home";

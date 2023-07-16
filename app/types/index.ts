@@ -6,7 +6,8 @@ export type Cadet = {
   teamColorHoverOpacity?: string;
   cardImg: string;
   cardPos: string;
-  gradient: string;
+  gradient?: string;
+  centreGradient?: string;
   palette?: string;
   bannerImg: string[];
   bannerPos: string;

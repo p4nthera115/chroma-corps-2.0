@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import LogoBottom from "../Logo/LogoBottom";
-import LogoTop from "../Logo/LogoTop";
+import LogoBottom from "../../Logo/LogoBottom";
+import LogoTop from "../../Logo/LogoTop";
 import { motion } from "framer-motion";
 
 export const LoadingScreen = () => {
