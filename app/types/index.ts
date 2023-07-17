@@ -28,7 +28,7 @@ export type Assignment = {
   note?: string;
   day: number;
   img: string;
-  vid: string;
+  vid?: string;
   strike?: boolean;
   strikes: number;
   eliminated?: boolean;
