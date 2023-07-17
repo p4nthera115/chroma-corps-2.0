@@ -14,7 +14,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
       <div
         className={`absolute z-10 h-full w-full ${winner[0]?.cadet.centreGradient}  flex justify-center`}
       >
-        {winner.length === 2 ? (
+        {winner.length > 2 ? (
           <div className="relative w-full h-full">
             {winner[1]?.cadet.gradient !== winner[0]?.cadet.gradient ? (
               <div
@@ -31,6 +31,11 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
                 src={winner[1]?.cadet.bannerImg[0]}
                 alt={winner[1]?.cadet?.name}
                 className={`h-full scale-[150%] min-w-max z-20 right-[8rem] absolute`}
+              />
+              <img
+                src={winner[2]?.cadet.bannerImg[0]}
+                alt={winner[2]?.cadet.name}
+                className={`h-full scale-[150%] min-w-max z-20 absolute`}
               />
             </div>
             <div className="absolute flex z-50 flex-row p-4 gap-24 text-center items-center justify-center -bottom-24 w-full font-cyber ">

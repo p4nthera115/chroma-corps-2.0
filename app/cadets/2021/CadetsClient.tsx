@@ -20,7 +20,10 @@ const CadetsClient = () => {
 
   useEffect(() => {
     const winners = cadets2021.filter(
-      (cadet) => cadet.name === "Beatrice" || cadet.name === "Ozan Pulat"
+      (cadet) =>
+        cadet.name === "Beatrice" ||
+        cadet.name === "Ozan Pulat" ||
+        cadet.name === "Chedilkm"
     );
     const ch = cadets2021.filter((cadet) => cadet.name === "Chedilkm");
 
@@ -29,8 +32,6 @@ const CadetsClient = () => {
     setWinner(win);
     setChed(ch);
   }, []);
-
-  console.log(ched[0].name);
 
   return (
     <div>
@@ -77,7 +78,7 @@ const CadetsClient = () => {
           </section>
           <section className="flex relative h-full flex-col top-[115%] w-full">
             <div className="w-full relative h-full top-[10%] pb-[17%] ">
-              <div
+              {/* <div
                 className={`flex  h-full scale-[100%] min-w-max z-20 absolute left-1/2 -translate-x-1/2 top-[-6rem]`}
               >
                 <img src={ched[0].bannerImg[0]} alt="ched" />
@@ -98,7 +99,7 @@ const CadetsClient = () => {
                 >
                   {ched[0].name}
                 </h2>
-              </div>
+              </div> */}
               <WinnerBanner winner={winner} />
             </div>
             <div>{/* <Judges judges={judges} /> */}</div>
