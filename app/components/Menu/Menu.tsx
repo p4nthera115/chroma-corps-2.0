@@ -101,21 +101,21 @@ const Menu = () => {
                       <>
                         <MenuItem onClick={toggleSubOpen} label={item} />
                         {subOpen && (
-                          <div className="text-2xl flex flex-row gap-16 align-middle justify-center text-black py-4 font-semibold">
+                          <div className="text-2xl flex flex-col md:flex-row gap-4 md:gap-16 align-middle items-center justify-center text-black py-4 font-semibold">
                             <p
-                              className="hover:opacity-70"
+                              className="hover:opacity-70 flex"
                               onClick={() => router.push("/cadets/2022")}
                             >
                               2022
                             </p>
                             <p
-                              className="hover:opacity-70"
+                              className="hover:opacity-70 flex"
                               onClick={() => router.push("/cadets/2021")}
                             >
                               2021
                             </p>
                             <p
-                              className="hover:opacity-70"
+                              className="hover:opacity-70 flex"
                               onClick={() => router.push("/cadets/2020")}
                             >
                               2020

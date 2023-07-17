@@ -192,6 +192,7 @@ export const cadets2022 = [
     bannerPos: "absolute h-full scale-[120%] min-w-max",
     cameraPos: "scale-[220%]",
     gradient: "bg-gradient-to-t from-blue-500",
+    centreGradient: "bg-gradient-to-t from-black via-blue-500 to-black",
     bgLines: "diagonal-lines-blue",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
@@ -506,6 +507,7 @@ export const cadets2022 = [
     bannerPos: "absolute h-full scale-[130%] -right-[17rem] min-w-max",
     cameraPos: "scale-[250%]",
     gradient: "bg-gradient-to-t from-blue-500",
+    centreGradient: "bg-gradient-to-t from-black via-blue-500 to-black",
     bgLines: "diagonal-lines-blue",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
@@ -4308,6 +4310,7 @@ export const cadets2021 = [
     bannerPos: "absolute h-full scale-[130%] min-w-max",
     cameraPos: "scale-[150%] top-[-30%]",
     gradient: "bg-gradient-to-t from-red-500",
+    centreGradient: "bg-gradient-to-t from-black via-red-500 to-black",
     bgLines: "diagonal-lines-red",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
@@ -8436,7 +8439,7 @@ export const cadets2020 = [
     ],
     bannerPos: "absolute h-full scale-[130%] min-w-max",
     cameraPos: "scale-[200%]",
-    gradient: "bg-gradient-to-t from-amber-300",
+    centreGradient: "bg-gradient-to-t from-black via-amber-300 to-black",
     bgLines: "diagonal-lines-amber",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
@@ -10353,7 +10356,7 @@ export const cadets2020 = [
     ],
     bannerPos: "absolute h-full scale-[150%] min-w-max",
     cameraPos: "scale-[100%]",
-    gradient: "bg-gradient-to-t from-amber-300",
+    centreGradient: "bg-gradient-to-t from-black via-amber-300 to-black",
     bgLines: "diagonal-lines-amber",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",

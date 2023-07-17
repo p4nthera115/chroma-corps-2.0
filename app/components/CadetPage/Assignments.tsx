@@ -73,6 +73,7 @@ const Assignments: React.FC<AssignmentsProps> = ({
           const teamAssignments = teams[teamKey];
           return (
             <Fragment key={teamKey}>
+
               <section className="flex flex-row flex-wrap justify-center">
                 {teamAssignments.map(
                   (cadetAssignment, i) =>

@@ -19,10 +19,6 @@ module.exports = {
         cyber: ["var(--orbitron)"],
       },
       keyframes: {
-        // panImage: {
-        //   "0%": { transform: "translate(-2%, 15%)" },
-        //   "25%": { transform: "translate(20%, 15%)" },
-        // },
         panImage: {
           "0%": {
             transform: "scale(1) translate(-2%, 12%)",
