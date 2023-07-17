@@ -1,7 +1,7 @@
 import { LoadingScreen } from "./components/CadetPage/Loading/LoadingScreen";
 import { ComingSoon } from "./ComingSoon";
 import Navbar from "./components/Menu/Menu";
-import Home from "./Home";
+import Home from "./home/page";
 
 export default function page() {
   return (

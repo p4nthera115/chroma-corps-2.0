@@ -11,6 +11,7 @@ import Prompt from "@/app/components/AssignmentsPage/Prompt";
 import Menu from "@/app/components/Menu/Menu";
 import NextAssButton from "@/app/components/AssignmentsPage/NextAssButton";
 import PrevAssButton from "@/app/components/AssignmentsPage/PrevAssButton";
+import { Assignment } from "@/app/types";
 
 const AssignmentClient = () => {
   const pathname = usePathname();
@@ -27,8 +28,11 @@ const AssignmentClient = () => {
 
   const cadetAssignments = useMemo(() => {
     return cadets2022.map((cadet) => {
-      const assignment = cadet.assignments.find(
-        (assignment) => assignment.day.toString() === assignmentDay
+      const assignment = (
+        cadet.assignments as (Assignment | undefined)[] | undefined
+      )?.find(
+        (assignment: Assignment | undefined) =>
+          assignment?.day === +assignmentDay
       );
       return { cadet, assignment };
     });

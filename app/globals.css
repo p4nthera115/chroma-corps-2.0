@@ -109,4 +109,17 @@ body {
     );
     background-size: 7px 7px;
   }
+
+  .vertical-lines-amber {
+    background-color: #000000;
+    opacity: 1;
+    background-size: 25% 25%;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #dcb9665e 0,
+      #dcb9665e 0.7000000000000001px,
+      #00000000 0,
+      #00000000 50%
+    );
+  }
 }

@@ -100,7 +100,7 @@ const AssignmentCard: React.FC<AssignmentCardProps> = ({
             {!active && !cadetAssignment && assignment.day}
             {!active && cadetAssignment && cadet.name}
           </h2>
-          {!active && assignment && (
+          {!active && assignment.img !== "" ? (
             <Image
               src={assignment.img}
               alt="cadet"
@@ -119,7 +119,32 @@ const AssignmentCard: React.FC<AssignmentCardProps> = ({
                 md:scale-100
               `}
             />
+          ) : (
+            <video width={224} height={126.4}>
+              <source src={assignment.vid}></source>
+            </video>
           )}
+          {/* instead of ternary operator, can also use code below */}
+          {/* {!active && assignment && (
+            <Image
+              src={assignment.img}
+              alt="cadet"
+              height={126.4}
+              width={224}
+              className={`
+                relative
+                object-cover 
+                md:sepia
+                opacity-50
+                hover:sepia-0 
+                hover:opacity-100
+                hover:scale-110
+                transition
+                scale-150
+                md:scale-100
+              `}
+            />
+          )} */}
         </button>
       )}
     </motion.div>
