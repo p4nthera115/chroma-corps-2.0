@@ -79,12 +79,6 @@ const AssignmentClient = () => {
     teamPink,
   };
 
-  if (typeof +assignmentDay !== "number") {
-    return {
-      notFound: true,
-    };
-  }
-
   return (
     <div>
       {+assignmentDay > 31 || +assignmentDay < 1 ? (
