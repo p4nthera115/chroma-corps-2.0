@@ -12,6 +12,7 @@ import Menu from "@/app/components/Menu/Menu";
 import NextAssButton from "@/app/components/AssignmentsPage/NextAssButton";
 import PrevAssButton from "@/app/components/AssignmentsPage/PrevAssButton";
 import { Assignment } from "@/app/types";
+import NotFound from "@/app/not-found";
 
 const AssignmentClient = () => {
   const pathname = usePathname();
@@ -78,31 +79,43 @@ const AssignmentClient = () => {
     teamPink,
   };
 
+  if (typeof +assignmentDay !== "number") {
+    return {
+      notFound: true,
+    };
+  }
+
   return (
-    <div className="bg-neutral-900">
-      <div className="absolute z-[60]">
-        <Menu />
-      </div>
-      <Prompt
-        prompt={cadetAssignments[0].assignment?.prompt}
-        assignmentNo={cadetAssignments[0].assignment?.day}
-      />
-      <Assignments cadetAssignments={cadetAssignments} teams={teams} />
-      <div className="translate-y-14">
-        {winner.length > 0 && <WinnerBanner winner={winner} />}
-        {strike.length > 0 && <StrikeBanner strike={strike} />}
-        {(eliminated.length > 0 || dropout.length > 0) && (
-          <EliminatedBanner eliminated={eliminated} dropout={dropout} />
-        )}
-      </div>
-      <div className="h-[33vh] w-screen relative items-center">
-        {+assignmentDay > 1 && (
-          <PrevAssButton year={year} day={+assignmentDay} />
-        )}
-        {+assignmentDay < 31 && (
-          <NextAssButton year={year} day={+assignmentDay} />
-        )}
-      </div>
+    <div>
+      {+assignmentDay > 31 || +assignmentDay < 1 ? (
+        <NotFound />
+      ) : (
+        <div className="bg-black">
+          <div className="absolute z-[60]">
+            <Menu />
+          </div>
+          <Prompt
+            prompt={cadetAssignments[0].assignment?.prompt}
+            assignmentNo={cadetAssignments[0].assignment?.day}
+          />
+          <Assignments cadetAssignments={cadetAssignments} teams={teams} />
+          <div className="translate-y-14">
+            {winner.length > 0 && <WinnerBanner winner={winner} />}
+            {strike.length > 0 && <StrikeBanner strike={strike} />}
+            {(eliminated.length > 0 || dropout.length > 0) && (
+              <EliminatedBanner eliminated={eliminated} dropout={dropout} />
+            )}
+          </div>
+          <div className="h-[33vh] w-screen relative items-center">
+            {+assignmentDay > 1 && (
+              <PrevAssButton year={year} day={+assignmentDay} />
+            )}
+            {+assignmentDay < 31 && (
+              <NextAssButton year={year} day={+assignmentDay} />
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 };

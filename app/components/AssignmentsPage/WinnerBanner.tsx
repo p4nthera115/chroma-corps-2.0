@@ -10,15 +10,19 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
   console.log(winner);
 
   return (
-    <div className="relative w-screen h-[66.666666vh] bg-neutral-900 ">
+    <div className="relative w-screen h-[66.666666vh] ">
       <div
-        className={`absolute z-10 h-full w-full ${winner[0]?.cadet.centreGradient}  flex justify-center`}
+        className={`absolute z-10 h-full w-full ${
+          winner.length > 1
+            ? winner[0]?.cadet.centreGradient
+            : winner[0]?.cadet.gradient
+        }  flex justify-center`}
       >
-        {winner.length > 2 ? (
+        {winner.length >= 2 ? (
           <div className="relative w-full h-full">
             {winner[1]?.cadet.gradient !== winner[0]?.cadet.gradient ? (
               <div
-                className={`absolute z-10 h-full w-full rotate-180 ${winner[1]?.cadet.centreGradient}`}
+                className={`absolute z-10 h-full w-full rotate-180 ${winner[1]?.cadet.gradient}`}
               ></div>
             ) : null}
             <div className="flex flex-row relative w-full h-full gap-8 justify-center">
@@ -32,11 +36,13 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
                 alt={winner[1]?.cadet?.name}
                 className={`h-full scale-[150%] min-w-max z-20 right-[8rem] absolute`}
               />
-              <img
-                src={winner[2]?.cadet.bannerImg[0]}
-                alt={winner[2]?.cadet.name}
-                className={`h-full scale-[150%] min-w-max z-20 absolute`}
-              />
+              {winner.length >= 3 ? (
+                <img
+                  src={winner[2]?.cadet.bannerImg[0]}
+                  alt={winner[2]?.cadet.name}
+                  className={`h-full scale-[150%] min-w-max z-20 absolute`}
+                />
+              ) : null}
             </div>
             <div className="absolute flex z-50 flex-row p-4 gap-24 text-center items-center justify-center -bottom-24 w-full font-cyber ">
               {winner.map((cadet, i) => (

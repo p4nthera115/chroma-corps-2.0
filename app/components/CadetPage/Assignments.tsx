@@ -50,7 +50,7 @@ const Assignments: React.FC<AssignmentsProps> = ({
   };
 
   return (
-    <div className={`relative h-full w-full bg-neutral-900`}>
+    <div className={`relative h-full w-full bg-black`}>
       {!cadetAssignments && (
         <motion.div className="relative flex w-full justify-center overflow-hidden">
           <h1
@@ -73,7 +73,6 @@ const Assignments: React.FC<AssignmentsProps> = ({
           const teamAssignments = teams[teamKey];
           return (
             <Fragment key={teamKey}>
-
               <section className="flex flex-row flex-wrap justify-center">
                 {teamAssignments.map(
                   (cadetAssignment, i) =>
