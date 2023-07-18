@@ -7,16 +7,21 @@ import {
   AiOutlineTwitter,
   AiOutlineYoutube,
 } from "react-icons/ai";
+import { useState } from "react";
 
 export default function HomeClient() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  setTimeout(() => setIsLoading(false), 3950);
   return (
     <div
-      className="absolute
+      className={`absolute
       inset-0
       flex 
       flex-col
       vertical-lines-amber
-      "
+      ${isLoading && "overflow-hidden"}
+      `}
     >
       <div className="flex flex-col justify-center text-center sm:py-[20%] md:py-[10%]">
         <div className="flex flex-row justify-center mr-16 mt-48 mb-16 sm:mt-0 sm:gap-0 md:gap-0 lg:gap-16 sm:mb-16 sm:mr-12 md:mb-16">
