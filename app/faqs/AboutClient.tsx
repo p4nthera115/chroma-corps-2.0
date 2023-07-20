@@ -67,7 +67,7 @@ const AboutClient = () => {
         If you have a question which is not answered below, feel free to post it
         on the{" "}
         <a
-          href="https://discord.com/invite/ejaQBdWyyN"
+          href="https://discord.gg/m6Q9sBdxu6"
           className=" text-yellow-400 font-semibold"
         >
           Discord channel
