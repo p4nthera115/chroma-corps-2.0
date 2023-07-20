@@ -20,10 +20,10 @@ const CreditsClient = () => {
         <h2 className="text-center font-cyber mb-8 md:text-xl sm:text-lg text-lg">
           Website designed and developed by
         </h2>
-        <div id="website-credits" className="flex flex-row mb-36">
+        <div id="website-credits" className="flex flex-row mb-12">
           <div
             id="left-side"
-            className="flex flex-col w-[50%] text-center border-r-[1px] border-neutral-600"
+            className="flex flex-col w-[50%] text-center border-r-[1px] border-neutral-600 pb-24"
           >
             <h2 className=" font-cyber lg:text-4xl md:text-3xl text-2xl mb-4">
               Panthera
@@ -71,7 +71,7 @@ const CreditsClient = () => {
           </div>
           <div
             id="right-side"
-            className="flex flex-col w-[50%] text-center border-l-[1px] border-neutral-600"
+            className="flex flex-col w-[50%] text-center border-l-[1px] border-neutral-600 pb-24"
           >
             <h2 className="font-cyber lg:text-4xl md:text-3xl text-2xl mb-4">
               Lifguson
@@ -116,6 +116,15 @@ const CreditsClient = () => {
                 />
               </div>
             </div>
+          </div>
+        </div>
+        <div className="flex flex-col mb-12">
+          <h2 className="font-cyber text-5xl text-center">
+            Special thanks to these people...
+          </h2>
+          <div className="flex flex-col text-center">
+            <p>Sinix</p>
+            <p>Sabi</p>
           </div>
         </div>
       </div>
