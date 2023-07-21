@@ -94,7 +94,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
         )}
 
         {winner.length > 1 ? (
-          <h2 className="absolute z-30 font-cyber p-4 -top-24  text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-[6rem] max-h-full max-w-full md:pl-4 ">
+          <h2 className="absolute z-30 font-cyber p-4 -top-16 sm:-top-16 md:-top-20 md:pt-8 lg:pt-0 text-5xl sm:text-6xl md:text-6xl lg:text-6xl xl:text-[6rem] max-h-full max-w-full md:pl-4 ">
             Winners
           </h2>
         ) : (
