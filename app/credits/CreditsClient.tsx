@@ -14,7 +14,7 @@ const CreditsClient = () => {
      justify-center
   "
       >
-        <h1 className="font-cyber font-extrabold text-center text-yellow-400 lg:text-5xl md:text-4xl text-4xl mb-8">
+        <h1 className="font-cyber font-extrabold text-center text-green-400 lg:text-5xl md:text-4xl text-4xl mb-8">
           CREDITS
         </h1>
         <h2 className="text-center font-cyber mb-8 md:text-xl sm:text-lg text-lg">
@@ -120,7 +120,7 @@ const CreditsClient = () => {
         </div>
         <div className="flex flex-col mb-12">
           <h2 className="font-cyber text-5xl text-center">
-            Special thanks to these people...
+            Special thanks to these people
           </h2>
           <div className="flex flex-col text-center">
             <p>Sinix</p>
