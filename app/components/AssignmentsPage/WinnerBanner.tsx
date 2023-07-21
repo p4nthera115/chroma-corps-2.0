@@ -48,7 +48,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
               {winner.map((cadet, i) => (
                 <h2
                   key={i}
-                  className={`flex p-4
+                  className={`flex pr-4
                     ${
                       winner[0]?.cadet.name.length > 6 &&
                       winner[0]?.cadet.name.length < 14
