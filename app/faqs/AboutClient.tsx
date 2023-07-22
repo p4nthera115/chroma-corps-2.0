@@ -60,21 +60,21 @@ const AboutClient = () => {
     flex-col
   "
     >
-      <h1 className="font-cyber font-extrabold text-center text-yellow-400 lg:text-5xl md:text-4xl text-3xl mb-4">
+      <h1 className="font-cyber font-extrabold text-center text-yellow-400 lg:text-6xl md:text-5xl text-4xl mb-4">
         FAQs
       </h1>
-      <h3 className="text-center text-md py-2 italic">
+      <h3 className="text-center text-md py-2 italic sm:px-4 md:px-0 px-4">
         If you have a question which is not answered below, feel free to post it
         on the{" "}
         <a
-          href="https://discord.com/invite/ejaQBdWyyN"
+          href="https://discord.gg/m6Q9sBdxu6"
           className=" text-yellow-400 font-semibold"
         >
           Discord channel
         </a>
       </h3>
       <a id="faq_section">
-        <div className="flex flex-col align-middle justify-center font-mono w-[50vw] mx-auto">
+        <div className="flex flex-col align-middle justify-center font-mono w-[50%] mx-auto">
           <div className="flex flex-col my-4">
             {accordionData.map(({ title, content }) => (
               <Accordion title={title} content={content} key={title} />
