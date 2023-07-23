@@ -10,6 +10,7 @@ const Prompt: React.FC<PromptProps> = ({ prompt, assignmentNo }) => {
         Assignment {assignmentNo?.toString()} <br className="p-4" />
         {prompt}
       </h1>
+      <h1 className="font-cyber text-3xl sm:text-4xl md:text-5xl">{prompt}</h1>
     </div>
   );
 };
