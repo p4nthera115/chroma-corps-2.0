@@ -1,16 +1,30 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import CadetsLoading from "./CadetsLoading";
 import CadetSelect from "../../components/Cadets/CadetSelect";
 import { cadets2022 } from "@/app/components/Cadets/CadetData";
+import WinnerBanner from "@/app/components/AssignmentsPage/WinnerBanner";
+import AssignmentDays from "@/app/components/Cadets/AssignmentDays";
+import Judges from "@/app/components/Cadets/Judges";
 
 const CadetsClient = () => {
   const [cadetLoading, setCadetLoading] = useState(true);
   const [logoLoading, setLogoLoading] = useState(true);
+  const [winner, setWinner] = useState<any>([]);
 
   setTimeout(() => setCadetLoading(false), 3000);
   setTimeout(() => setLogoLoading(false), 1000);
+
+  useEffect(() => {
+    const winners = cadets2022.filter(
+      (cadet) => cadet.name === "Dako" || cadet.name === "FatCat"
+    );
+
+    const win = winners.map((winner) => ({ ...winner, cadet: winner }));
+
+    setWinner(win);
+  }, []);
 
   return (
     <div>
@@ -46,18 +60,24 @@ const CadetsClient = () => {
           >
             2022
           </h1>
-          {/* <img
-            alt="logo"
-            src={"/images/ChromaCorpsLogoBlack.png"}
-            className="
-              h-[90vh]
-            "
-          /> */}
         </div>
       )}
       {!logoLoading && (
-        <div className="relative h-screen w-screen overflow-x-hidden">
-          <CadetSelect cadets={cadets2022} />
+        <div className="absolute h-screen w-screen overflow-x-hidden flex flex-col">
+          <section className="flex h-full w-full">
+            <div className="flex">
+              <CadetSelect cadets={cadets2022} />
+            </div>
+          </section>
+          <section className="flex relative h-full flex-col top-[115%] w-full">
+            <div className="w-full h-full top-[10%] pb-[17%]">
+              <WinnerBanner winner={winner} />
+            </div>
+            <div>{/* <Judges judges={judges} /> */}</div>
+            <div className="relative pb-10">
+              <AssignmentDays winner={winner} year={2022} />
+            </div>
+          </section>
         </div>
       )}
     </div>

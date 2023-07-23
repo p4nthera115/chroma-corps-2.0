@@ -50,7 +50,7 @@ const AssignmentCard: React.FC<AssignmentCardProps> = ({
     >
       {active && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 ">
-          <div className="relative inset-0 h-screen w-screen">
+          <div className="relative inset-0 h-full w-full">
             {pathname.includes("assignments") ? (
               <AssignmentPageCard
                 assignment={assignment}
@@ -101,12 +101,33 @@ const AssignmentCard: React.FC<AssignmentCardProps> = ({
             {!active && cadetAssignment && cadet.name}
           </h2>
           {!active && assignment.img !== "" ? (
-            <Image
-              src={assignment.img}
-              alt="cadet"
-              height={126.4}
-              width={224}
-              className={`
+            assignment?.img.includes(".gif") ? (
+              <Image
+                src={assignment.img}
+                alt="cadet"
+                height={126.4}
+                width={224}
+                className={`
+                  relative
+                  object-cover 
+                  md:sepia
+                  opacity-50
+                  hover:sepia-0 
+                  hover:opacity-100
+                  hover:scale-110
+                  transition
+                  scale-150
+                  md:scale-100
+                `}
+                loading="lazy"
+              />
+            ) : (
+              <Image
+                src={assignment.img}
+                alt="cadet"
+                height={126.4}
+                width={224}
+                className={`
                 relative
                 object-cover 
                 md:sepia
@@ -118,7 +139,8 @@ const AssignmentCard: React.FC<AssignmentCardProps> = ({
                 scale-150
                 md:scale-100
               `}
-            />
+              />
+            )
           ) : (
             <video width={224} height={126.4}>
               <source src={assignment.vid}></source>

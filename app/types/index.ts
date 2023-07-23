@@ -6,7 +6,8 @@ export type Cadet = {
   teamColorHoverOpacity?: string;
   cardImg: string;
   cardPos: string;
-  gradient: string;
+  gradient?: string;
+  centreGradient?: string;
   palette?: string;
   bannerImg: string[];
   bannerPos: string;
@@ -28,7 +29,7 @@ export type Assignment = {
   note?: string;
   day: number;
   img: string;
-  vid: string;
+  vid?: string;
   strike?: boolean;
   strikes: number;
   eliminated?: boolean;

@@ -7,23 +7,27 @@ import {
   AiOutlineTwitter,
   AiOutlineYoutube,
 } from "react-icons/ai";
+import { useState } from "react";
 
 export default function HomeClient() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  setTimeout(() => setIsLoading(false), 3950);
   return (
     <div
-      className="absolute
+      className={`absolute
       inset-0
       flex 
       flex-col
       vertical-lines-amber
-      "
+      ${isLoading && "overflow-hidden"}
+      `}
     >
-      <div className="flex flex-col justify-center text-center my-[20vh]">
-        <div className="flex flex-row justify-center gap-4">
-          <div className="flex flex-col">
+      <div className="flex flex-col justify-center text-center sm:py-[20%] md:py-[10%]">
+        <div className="flex flex-row justify-center mr-16 mt-48 mb-16 sm:mt-0 sm:gap-0 md:gap-0 lg:gap-16 sm:mb-16 sm:mr-12 md:mb-16">
+          <div className="flex flex-col text-5xl sm:text-7xl md:text-8xl lg:text-8xl">
             <h1
               className="
-            text-8xl
             font-bold
             font-cyber
             text-white
@@ -31,20 +35,21 @@ export default function HomeClient() {
             >
               CHROMA CORPS
             </h1>
-            <h2 className="text-8xl text-yellow-400 font-cyber text-right">
+            <h2 className=" text-yellow-400 font-cyber text-center">
               クロマ隊
             </h2>
           </div>
-          <div>
+          <div className="sm:mr-8 md:mr-16">
             <img
               src="/images/ChromaCorpsLogoWhite.png"
               alt=""
               height={200}
               width={200}
+              className="h-40 w-40 sm:h-52 sm:w-52 md:h-64 md:w-64 lg:h-72 lg:w-52"
             />
           </div>
         </div>
-        <div className="mt-24">
+        <div className="mt-24 mb-12 sm:mb-0">
           <div>
             <h2 className="text-3xl font-cyber">Discover</h2>
             <div className="flex flex-col items-center justify-center mt-6">
@@ -72,7 +77,7 @@ export default function HomeClient() {
             <a id="about-section"></a>
           </h1>
         </div>
-        <div className="flex flex-col justify-center mx-auto text-center max-w-[50vw] md:text-3xl text-2xl font-mono gap-4">
+        <div className="flex flex-col justify-center mx-auto text-center max-w-[50%] md:text-3xl text-2xl font-mono gap-4">
           <h2 className="">
             The ultimate art Battle Royale. Only the strongest will make it to
             the end.
@@ -103,10 +108,10 @@ export default function HomeClient() {
             <h1 className="text-5xl font-cyber text-yellow-400 py-4 mb-32">
               An annual event hosted by Sinix
             </h1>
-            <div id="constraint" className="w-[90%] mx-auto">
+            <div id="constraint" className="w-[90%] mx-auto ">
               <div
                 id="about-block"
-                className="bg-yellow-400/20 flex flex-col px-52 pt-48 pb-12 mt-16 mb-16 relative diagonal-lines-yellow border-8 border-yellow-400/40"
+                className="bg-yellow-400/20 flex flex-col px-0 pt-48 pb-12 sm:px-52 sm:pt-48 sm:pb-12 mt-16 mb-16 relative diagonal-lines-yellow border-8 border-yellow-400/40"
               >
                 <div
                   id="sinix-image"

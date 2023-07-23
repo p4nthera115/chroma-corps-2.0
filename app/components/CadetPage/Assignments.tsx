@@ -50,7 +50,7 @@ const Assignments: React.FC<AssignmentsProps> = ({
   };
 
   return (
-    <div className={`relative h-full w-full bg-neutral-900`}>
+    <div className={`relative h-full w-full bg-black`}>
       {!cadetAssignments && (
         <motion.div className="relative flex w-full justify-center overflow-hidden">
           <h1
