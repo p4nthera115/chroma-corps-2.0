@@ -93,7 +93,7 @@ const AssignmentClient = () => {
             assignmentNo={cadetAssignments[0].assignment?.day}
           />
           <Assignments cadetAssignments={cadetAssignments} teams={teams} />
-          <div className="translate-y-14">
+          <div>
             {winner.length > 0 && <WinnerBanner winner={winner} />}
             {strike.length > 0 && <StrikeBanner strike={strike} />}
             {(eliminated.length > 0 || dropout.length > 0) && (
