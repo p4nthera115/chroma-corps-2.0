@@ -119,12 +119,46 @@ const CreditsClient = () => {
           </div>
         </div>
         <div className="flex flex-col mb-12">
-          <h2 className="font-cyber text-5xl text-center">
-            Special thanks to these people
+          <h2 className="font-cyber text-5xl text-center text-green-400">
+            Shoutout to these people for their contributions
           </h2>
-          <div className="flex flex-col text-center">
-            <p>Sinix</p>
-            <p>Sabi</p>
+          <div className="flex flex-col text-center py-8">
+            <ul className="flex flex-col gap-16 mt-8 md:px-4 px-8">
+              <li className="flex flex-col gap-2">
+                <a
+                  href="https://www.instagram.com/sinixdesign/"
+                  className="font-cyber text-3xl sm:text-3xl md:text-4xl text-green-200 hover:scale-125 transition max-w-fit mx-auto"
+                >
+                  Sinix
+                </a>{" "}
+                <p className=" italic md:text-lg">
+                  for allowing us the freedom to create this site
+                </p>
+              </li>
+              <li className="flex flex-col gap-2">
+                <a
+                  href="https://www.instagram.com/awfullysabi/"
+                  className="font-cyber text-3xl sm:text-3xl md:text-4xl text-green-200 hover:scale-125 transition max-w-fit mx-auto"
+                >
+                  Sabi
+                </a>{" "}
+                <p className=" italic md:text-lg">
+                  for creating a spreadsheet to keep track of the contest
+                  history, making it easier for us to collate data
+                </p>
+              </li>
+              <li className="flex flex-col gap-2">
+                <a
+                  href="https://www.instagram.com/_jnart_/"
+                  className="font-cyber text-3xl sm:text-3xl md:text-4xl text-green-200 hover:scale-125 transition max-w-fit mx-auto"
+                >
+                  Javan Napoli
+                </a>{" "}
+                <p className=" italic md:text-lg">
+                  for creating the beautiful Chroma Corps logo on the home page
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
