@@ -64,7 +64,7 @@ const AssignmentDays: React.FC<AssDayProps> = ({ winner, year }) => {
       </div>
       <div className="ml-[1rem] pt-8 mb-[-2rem]">
         <p className="text-xs">
-          See your art and don't want it displayed? Let us know{" "}
+          See your art and don&rsquo;t want it displayed? Let us know{" "}
           <a
             href="https://twitter.com/p4nthera_"
             className="hover:text-green-200"
