@@ -48,7 +48,7 @@ const CreditsClient = () => {
                 border
                 "
                 >
-                  Panthera
+                  p4n
                 </h1>
                 <img
                   src="/images/ChromaCorpsLogoWhite.png"
