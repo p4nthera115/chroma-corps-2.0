@@ -26,7 +26,7 @@ const CreditsClient = () => {
             className="flex flex-col w-[50%] text-center border-r-[1px] border-neutral-600 pb-24"
           >
             <h2 className=" font-cyber lg:text-4xl md:text-3xl text-2xl mb-4">
-              Panthera
+              p4n
             </h2>
             <div className="mx-auto w-[75%]">
               <div
