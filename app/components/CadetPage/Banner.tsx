@@ -2,7 +2,11 @@
 
 import { Cadet } from "@/app/types";
 import { useState } from "react";
-import { AiOutlineInstagram, AiOutlineLink } from "react-icons/ai";
+import {
+  AiOutlineInstagram,
+  AiOutlineLink,
+  AiOutlineTwitter,
+} from "react-icons/ai";
 import { motion } from "framer-motion";
 import Camera from "./Camera";
 
@@ -16,6 +20,7 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
   const [cadetImg, setCadetImg] = useState(cadet?.bannerImg[0]);
   const [index, setIndex] = useState(1);
   const [index2, setIndex2] = useState(1);
+  const [open, setOpen] = useState(false);
 
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -75,7 +80,7 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
               <Camera cadet={cadet} cadetImg={cadetImg} />
             </div>
             <header
-              className={`relative flex w-full h-1/4 border items-center p-3 cursor-default justify-center md:justify-normal bg-neutral-900/50 md:bg-neutral-900 `}
+              className={`flex flex-row w-full h-1/4 border items-center p-3 cursor-default justify-between bg-neutral-900/50 md:bg-neutral-900 `}
             >
               <h1
                 onMouseOver={hoverAnimation}
@@ -91,12 +96,40 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
               >
                 {name}
               </h1>
-              <a href={cadet?.socials.instagram}>
-                <AiOutlineLink
-                  className="absolute right-0 top-[-3.25rem] md:top-0 md:m-3 cursor-pointer z-50 border border-dashed bg-black/20"
-                  size={50}
-                />
-              </a>
+              <div className="flex flex-col">
+                {cadet?.socials.instagram !== "" &&
+                  cadet?.socials.twitter !== "" &&
+                  cadet?.socials.artstation !== "" && (
+                    <a onClick={() => setOpen(!open)}>
+                      <AiOutlineLink
+                        className={`${
+                          open ? "mb-3 mr-2" : "mb-28 mr-2"
+                        } hover:opacity-70 hover:cursor-pointer border`}
+                        size={50}
+                      />
+                    </a>
+                  )}
+                {open && (
+                  <>
+                    {cadet?.socials.instagram && (
+                      <a href={cadet?.socials.instagram}>
+                        <AiOutlineInstagram
+                          className="mr-2 mb-3 hover:opacity-70 hover:cursor-pointer"
+                          size={50}
+                        />
+                      </a>
+                    )}
+                    {cadet?.socials.twitter && (
+                      <a href={cadet?.socials.twitter}>
+                        <AiOutlineTwitter
+                          className="mr-2 hover:opacity-70 hover:cursor-pointer"
+                          size={50}
+                        />
+                      </a>
+                    )}
+                  </>
+                )}
+              </div>
             </header>
           </section>
           <section className="relative md:flex flex-col flex-wrap md:h-full md:w-2/5 hidden">
