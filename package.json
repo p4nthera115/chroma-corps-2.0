@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@next/font": "^13.4.3",
-    "@react-spring/web": "^9.7.3",
     "@react-three/drei": "^9.79.4",
     "@react-three/fiber": "^8.13.6",
     "@types/node": "20.1.7",
@@ -21,6 +20,7 @@
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.2",
     "framer-motion": "^10.12.12",
+    "framer-motion-3d": "^10.13.2",
     "next": "13.4.2",
     "postcss": "8.4.23",
     "r3f-perf": "^7.1.2",
