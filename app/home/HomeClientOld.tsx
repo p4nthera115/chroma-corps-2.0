@@ -19,8 +19,8 @@ export default function HomeClient() {
       inset-0
       flex 
       flex-col
-      vertical-lines-amber
       ${isLoading && "overflow-hidden"}
+      
       `}
     >
       <div className="flex flex-col justify-center text-center sm:py-[20%] md:py-[10%]">
@@ -70,7 +70,7 @@ export default function HomeClient() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center gap-8 vertical-lines-amber">
+      <div className="flex flex-col justify-center gap-8 ">
         <div className="flex flex-col align-middle justify-center mt-16">
           <h1 className="font-cyber font-extrabold text-center text-yellow-400 lg:text-6xl md:text-4xl text-3xl mt-32 mb-8">
             FOR THE LOVE OF ART.
