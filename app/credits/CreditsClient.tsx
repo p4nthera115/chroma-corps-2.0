@@ -1,8 +1,30 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
+import { AiOutlineLink } from "react-icons/ai";
 
 const CreditsClient = () => {
   const [hover, setHover] = useState(false);
+
+  const contributors = [
+    {
+      name: "Sinix",
+      description: "for allowing us the freedom to create this site",
+      link: "https://www.instagram.com/sinixdesign/",
+    },
+    {
+      name: "Sabi",
+      description:
+        "for creating a spreadsheet to keep track of the contest history, making it easier for us to collate data",
+      link: "https://www.instagram.com/awfullysabi/",
+    },
+    {
+      name: "Javan Napoli",
+      description:
+        "for creating the beautiful Chroma Corps logo on the home page",
+      link: "https://www.instagram.com/_jnart_/",
+    },
+  ];
 
   return (
     <section id="credits">
@@ -25,37 +47,41 @@ const CreditsClient = () => {
             id="left-side"
             className="flex flex-col w-[50%] text-center border-r-[1px] border-neutral-600 pb-24"
           >
-            <h2 className=" font-cyber lg:text-4xl md:text-3xl text-2xl mb-4">
-              p4n
-            </h2>
+            <a
+              className=" font-cyber lg:text-4xl md:text-3xl text-2xl mb-4 mx-auto text-green-200 hover:scale-[110%] transition"
+              href="https://twitter.com/p4nthera_"
+            >
+              @p4n
+            </a>
             <div className="mx-auto w-[75%]">
-              <div
-                onMouseEnter={() => setHover(true)}
-                onMouseLeave={() => setHover(false)}
-                className="
+              <Link href="https://twitter.com/p4nthera_">
+                <div
+                  onMouseEnter={() => setHover(true)}
+                  onMouseLeave={() => setHover(false)}
+                  className="
             overflow-hidden 
             border 
             border-white 
             hover:cursor-pointer
           "
-              >
-                <h1
-                  className="
+                >
+                  <h1
+                    className="
                 justify-center
                 flex
                 font-cyber
                 font-bold
                 border
                 "
-                >
-                  p4n
-                </h1>
-                <img
-                  src="/images/ChromaCorpsLogoWhite.png"
-                  height={200}
-                  width={400}
-                  alt="cadet"
-                  className="
+                  >
+                    p4n
+                  </h1>
+                  <img
+                    src="/images/ChromaCorpsLogoWhite.png"
+                    height={200}
+                    width={400}
+                    alt="cadet"
+                    className="
               object-cover 
               object-center 
               scale-100 sepia opacity-50
@@ -65,45 +91,50 @@ const CreditsClient = () => {
               transition
               w-full
               "
-                />
-              </div>
+                  />
+                </div>
+              </Link>
             </div>
           </div>
           <div
             id="right-side"
             className="flex flex-col w-[50%] text-center border-l-[1px] border-neutral-600 pb-24"
           >
-            <h2 className="font-cyber lg:text-4xl md:text-3xl text-2xl mb-4">
-              Lifguson
-            </h2>
+            <a
+              className="font-cyber lg:text-4xl md:text-3xl text-2xl mb-4 mx-auto text-green-200 hover:scale-[110%] transition"
+              href="https://twitter.com/lifguson1"
+            >
+              @Lifguson
+            </a>
             <div className="mx-auto w-[75%]">
-              <div
-                onMouseEnter={() => setHover(true)}
-                onMouseLeave={() => setHover(false)}
-                className="
+              <Link href="https://twitter.com/lifguson1">
+                <div
+                  onMouseEnter={() => setHover(true)}
+                  onMouseLeave={() => setHover(false)}
+                  className="
             overflow-hidden 
             border 
             border-white 
             hover:cursor-pointer
           "
-              >
-                <h1
-                  className="
+                >
+                  <h1
+                    className="
                 justify-center
                 flex
                 font-cyber
                 font-bold
                 border
                 "
-                >
-                  Lifguson
-                </h1>
-                <img
-                  src="/images/ChromaCorpsLogoWhite.png"
-                  height={200}
-                  width={400}
-                  alt="cadet"
-                  className="
+                  >
+                    Lifguson
+                  </h1>
+                  <img
+                    src="/images/ChromaCorpsLogoWhite.png"
+                    height={200}
+                    width={400}
+                    alt="cadet"
+                    className="
               object-cover 
               object-center 
               scale-100 sepia opacity-50
@@ -113,8 +144,9 @@ const CreditsClient = () => {
               transition
               w-full
               "
-                />
-              </div>
+                  />
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -124,40 +156,24 @@ const CreditsClient = () => {
           </h2>
           <div className="flex flex-col text-center py-8">
             <ul className="flex flex-col gap-16 mt-8 md:px-4 px-8">
-              <li className="flex flex-col gap-2">
-                <a
-                  href="https://www.instagram.com/sinixdesign/"
-                  className="font-cyber text-3xl sm:text-3xl md:text-4xl text-green-200 hover:scale-125 transition max-w-fit mx-auto"
-                >
-                  Sinix
-                </a>{" "}
-                <p className=" italic md:text-lg">
-                  for allowing us the freedom to create this site
-                </p>
-              </li>
-              <li className="flex flex-col gap-2">
-                <a
-                  href="https://www.instagram.com/awfullysabi/"
-                  className="font-cyber text-3xl sm:text-3xl md:text-4xl text-green-200 hover:scale-125 transition max-w-fit mx-auto"
-                >
-                  Sabi
-                </a>{" "}
-                <p className=" italic md:text-lg">
-                  for creating a spreadsheet to keep track of the contest
-                  history, making it easier for us to collate data
-                </p>
-              </li>
-              <li className="flex flex-col gap-2">
-                <a
-                  href="https://www.instagram.com/_jnart_/"
-                  className="font-cyber text-3xl sm:text-3xl md:text-4xl text-green-200 hover:scale-125 transition max-w-fit mx-auto"
-                >
-                  Javan Napoli
-                </a>{" "}
-                <p className=" italic md:text-lg">
-                  for creating the beautiful Chroma Corps logo on the home page
-                </p>
-              </li>
+              {contributors.map((contributor) => (
+                <li className="flex flex-col gap-2">
+                  <div className="flex flex-row justify-center mx-auto gap-4 hover:scale-[110%] transition">
+                    <a
+                      className="font-cyber text-3xl sm:text-3xl md:text-4xl text-green-200 max-w-fit mx-auto"
+                      href={contributor.link}
+                    >
+                      {contributor.name}
+                    </a>{" "}
+                    <a href={contributor.link} className="hover:cursor-pointer">
+                      <AiOutlineLink size={40} />
+                    </a>
+                  </div>
+                  <p className=" italic md:text-lg">
+                    {contributor.description}
+                  </p>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
