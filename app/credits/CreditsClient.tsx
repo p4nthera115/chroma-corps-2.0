@@ -156,8 +156,8 @@ const CreditsClient = () => {
           </h2>
           <div className="flex flex-col text-center py-8">
             <ul className="flex flex-col gap-16 mt-8 md:px-4 px-8">
-              {contributors.map((contributor) => (
-                <li className="flex flex-col gap-2">
+              {contributors.map((contributor, i: number) => (
+                <li className="flex flex-col gap-2" key={i}>
                   <div className="flex flex-row justify-center mx-auto gap-4 hover:scale-[110%] transition">
                     <a
                       className="font-cyber text-3xl sm:text-3xl md:text-4xl text-green-200 max-w-fit mx-auto"
