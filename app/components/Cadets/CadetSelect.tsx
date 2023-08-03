@@ -10,12 +10,15 @@ interface CadetSelectProps {
 const CadetSelect: React.FC<CadetSelectProps> = (cadets) => {
   let top;
   let bottom;
-  if (cadets.cadets.length <= 16) {
+  if (cadets.cadets.length <= 16 && cadets.cadets.length < 18) {
     top = cadets.cadets.slice(0, 8);
     bottom = cadets.cadets.slice(8, 16);
-  } else {
+  } else if (cadets.cadets.length >= 18 && cadets.cadets.length < 20) {
     top = cadets.cadets.slice(0, 9);
     bottom = cadets.cadets.slice(9, 18);
+  } else if (cadets.cadets.length >= 20) {
+    top = cadets.cadets.slice(0, 22);
+    bottom = cadets.cadets.slice(22, 44);
   }
 
   return (
