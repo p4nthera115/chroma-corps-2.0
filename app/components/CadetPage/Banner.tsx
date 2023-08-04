@@ -80,13 +80,13 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
               <Camera cadet={cadet} cadetImg={cadetImg} />
             </div>
             <header
-              className={`relative flex flex-row w-full h-1/4 border items-center p-3 cursor-default justify-between bg-neutral-900/50 md:bg-neutral-900 `}
+              className={`relative flex flex-row w-full h-1/4 border items-center p-3 cursor-default justify-center md:justify-between bg-neutral-900/50 md:bg-neutral-900 `}
             >
               <h1
                 onMouseOver={hoverAnimation}
                 className={`font-cyber z-50 ${
                   name.length >= 6 && name.length < 14
-                    ? "text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full md:pl-4"
+                    ? "text-3xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl max-h-full max-w-full md:pl-4"
                     : name.length >= 14 && name.length < 16
                     ? "text-xl md:text-2xl lg:text-4xl xl:text-[3.5rem] max-h-full max-w-full md:pl-2"
                     : name.length >= 16
@@ -96,7 +96,7 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
               >
                 {name}
               </h1>
-              <div className="flex flex-col z-50">
+              <div className="flex flex-col z-50 md:relative absolute right-2">
                 {cadet?.socials.instagram !== "" &&
                   cadet?.socials.twitter !== "" &&
                   cadet?.socials.artstation !== "" && (
