@@ -8729,8 +8729,8 @@ export const cadets2022 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "instagram.com",
+      twitter: "twitter.com",
     },
     assignments: [
       {
