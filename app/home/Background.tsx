@@ -1,6 +1,7 @@
 import { Suspense, useState, useEffect, useRef } from "react";
-import { OrbitControls, Scroll, Text3D } from "@react-three/drei";
+import { OrbitControls, Scroll, Text3D, Sparkles } from "@react-three/drei";
 import Logo from "../components/HomePage/Logo";
+import { Canvas } from "@react-three/fiber";
 
 const Background = () => {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
@@ -21,26 +22,19 @@ const Background = () => {
     };
   }, []);
 
-  window.addEventListener("wheel", (e) => {
-    scrollY += e.deltaY / window.innerHeight;
-
-    scrollY = Math.max(0, Math.min(1, scrollY));
-
-    setScrollPos(scrollY);
-  });
-
-  console.log(scrollPos);
-
   return (
-    <Suspense fallback={null}>
-      <directionalLight
-        position={[10 * mousePos.x, 10 * -mousePos.y, 10]}
-        intensity={1}
-        color={"#FFD7AA"}
-      />
-      <pointLight position={[0, 20, 0]} intensity={200} color={"#FFA44B"} />
-      <Logo />
-    </Suspense>
+    <Canvas gl={{ alpha: false }}>
+      <Suspense fallback={null}>
+        <directionalLight
+          position={[10 * mousePos.x, 10 * -mousePos.y, 10]}
+          intensity={1}
+          color={"#FFD7AA"}
+        />
+        <Sparkles size={5} scale={[6, 2, 4]} position={[0, 0, -1]} />
+        <pointLight position={[0, 20, 0]} intensity={200} color={"#FFA44B"} />
+        <Logo />
+      </Suspense>
+    </Canvas>
   );
 };
 

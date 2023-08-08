@@ -32,7 +32,7 @@ export const LoadingScreen = () => {
         flex
         fixed
         inset-0
-        z-10
+        z-50
       "
     >
       <motion.div
