@@ -6,13 +6,9 @@ import { useState } from "react";
 
 interface OriginalSubmissionProps {
   cadet: Cadet | undefined;
-  year: string;
 }
 
-const OriginalSubmission: React.FC<OriginalSubmissionProps> = ({
-  cadet,
-  year,
-}) => {
+const OriginalSubmission: React.FC<OriginalSubmissionProps> = ({ cadet }) => {
   const [name, setName] = useState("ORIGINAL SUBMISSION");
 
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

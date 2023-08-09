@@ -39,8 +39,8 @@ const CadetClient = () => {
         >
           <Banner cadet={cadet} year={"2 0 2 3"} />
         </section>
-        <section>
-          <OriginalSubmission cadet={cadet} year={"2023"} />
+        <section id="original-submission">
+          <OriginalSubmission cadet={cadet} />
         </section>
         <section className="flex z-10 h-[10000%] bg-neutral-900">
           <Assignments cadet={cadet} />
