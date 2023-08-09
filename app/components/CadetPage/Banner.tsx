@@ -96,39 +96,40 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
               >
                 {name}
               </h1>
-              <div className="flex flex-col z-50 md:relative absolute right-2">
-                {cadet?.socials.instagram !== "" &&
-                  cadet?.socials.twitter !== "" &&
-                  cadet?.socials.artstation !== "" && (
-                    <a onClick={() => setOpen(!open)}>
-                      <AiOutlineLink
-                        className={`${
-                          open ? "mb-3 mr-2" : "mb-28 mr-2"
-                        } hover:opacity-70 hover:cursor-pointer border`}
-                        size={50}
-                      />
-                    </a>
+              <div className="flex flex-col z-50 absolute right-[2.5%] top-[6%] lg:right-[2%] lg:top-[] xl:right-[1.5%]">
+                <div className="flex flex-col gap-2 transition">
+                  <a onClick={() => setOpen(!open)}>
+                    <AiOutlineLink
+                      className="hover:opacity-70 hover:cursor-pointer border"
+                      size={50}
+                    />
+                  </a>
+                  {open && (
+                    <>
+                      {cadet?.socials.instagram !== "" ? (
+                        <a href={cadet?.socials.instagram}>
+                          <AiOutlineInstagram
+                            className="hover:opacity-70 hover:cursor-pointer"
+                            size={50}
+                          />
+                        </a>
+                      ) : (
+                        <></>
+                      )}
+                      {cadet?.socials.twitter !== "" ? (
+                        <a href={cadet?.socials.twitter}>
+                          <AiOutlineTwitter
+                            className="hover:opacity-70 hover:cursor-pointer"
+                            size={50}
+                          />
+                        </a>
+                      ) : (
+                        <></>
+                      )}
+                    </>
                   )}
-                {open && (
-                  <>
-                    {cadet?.socials.instagram && (
-                      <a href={cadet?.socials.instagram}>
-                        <AiOutlineInstagram
-                          className="mr-2 mb-3 hover:opacity-70 hover:cursor-pointer"
-                          size={50}
-                        />
-                      </a>
-                    )}
-                    {cadet?.socials.twitter && (
-                      <a href={cadet?.socials.twitter}>
-                        <AiOutlineTwitter
-                          className="mr-2 hover:opacity-70 hover:cursor-pointer"
-                          size={50}
-                        />
-                      </a>
-                    )}
-                  </>
-                )}
+                  <></>
+                </div>
               </div>
             </header>
           </section>
