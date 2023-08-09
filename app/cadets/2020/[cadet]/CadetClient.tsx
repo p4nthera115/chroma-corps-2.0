@@ -7,6 +7,7 @@ import Menu from "@/app/components/Menu/Menu";
 import CadetSelect from "@/app/components/Cadets/CadetSelect";
 import Assignments from "@/app/components/CadetPage/Assignments";
 import { useEffect, useState } from "react";
+import OriginalSubmission from "@/app/components/CadetPage/OriginalSubmission";
 
 const CadetClient = () => {
   const pathname = usePathname();
@@ -37,6 +38,9 @@ const CadetClient = () => {
           } top-0 max-w-full bg-black`}
         >
           <Banner cadet={cadet} year={"2 0 2 0"} />
+        </section>
+        <section id="original-submission">
+          <OriginalSubmission cadet={cadet} />
         </section>
         <section className="flex z-10 h-[10000%] bg-neutral-900">
           <Assignments cadet={cadet} />
