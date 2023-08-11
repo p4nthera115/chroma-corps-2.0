@@ -1,6 +1,8 @@
 export const cadets2023 = [
   {
     name: "Dehaf",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/dehaf.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -176,6 +178,8 @@ export const cadets2023 = [
   },
   {
     name: "Storse",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/storse.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -352,6 +356,8 @@ export const cadets2023 = [
   },
   {
     name: "Slimeslugger",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/slimeslugger.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -473,6 +479,8 @@ export const cadets2023 = [
   },
   {
     name: "Alto",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/alto.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -649,6 +657,8 @@ export const cadets2023 = [
   },
   {
     name: "Snow",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/snow.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -788,6 +798,8 @@ export const cadets2023 = [
   },
   {
     name: "Elodin",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/elodin.mp4",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -963,6 +975,8 @@ export const cadets2023 = [
   },
   {
     name: "Double",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/double.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -1138,6 +1152,8 @@ export const cadets2023 = [
   },
   {
     name: "Josie",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/josie.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -1313,6 +1329,8 @@ export const cadets2023 = [
   },
   {
     name: "Hjoy",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/hjoy.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -1488,6 +1506,8 @@ export const cadets2023 = [
   },
   {
     name: "Trout",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/trout.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -1663,6 +1683,8 @@ export const cadets2023 = [
   },
   {
     name: "Ofelia0u8",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/ofeliaou8.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -1839,6 +1861,8 @@ export const cadets2023 = [
   },
   {
     name: "Yuyuyuan",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/yuyuyuan.jpg",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -2014,6 +2038,8 @@ export const cadets2023 = [
   },
   {
     name: "Odin",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/odin.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -2189,6 +2215,8 @@ export const cadets2023 = [
   },
   {
     name: "Messalhi9",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/messalhi9.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -2365,6 +2393,8 @@ export const cadets2023 = [
   },
   {
     name: "Coli",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/coli.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -2495,6 +2525,8 @@ export const cadets2023 = [
   },
   {
     name: "Drawki",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/drawki.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -2635,6 +2667,8 @@ export const cadets2023 = [
   },
   {
     name: "Naka",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/naka.jpg",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -2811,6 +2845,8 @@ export const cadets2023 = [
   },
   {
     name: "Edouardtredan",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/edouardtredan.gif",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -2987,6 +3023,8 @@ export const cadets2023 = [
   },
   {
     name: "Girpel42",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/girpel42.gif",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -3163,6 +3201,8 @@ export const cadets2023 = [
   },
   {
     name: "Gulapa",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/gulapa.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -3338,6 +3378,8 @@ export const cadets2023 = [
   },
   {
     name: "Kettlepig",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/kettlepig.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -3513,6 +3555,8 @@ export const cadets2023 = [
   },
   {
     name: "Kuzillon",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/kuzillon.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -3689,6 +3733,8 @@ export const cadets2023 = [
   },
   {
     name: "Nijamin",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/nijamin.jpg",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -3865,6 +3911,8 @@ export const cadets2023 = [
   },
   {
     name: "Ringarune",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/ringarune.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -4040,6 +4088,8 @@ export const cadets2023 = [
   },
   {
     name: "Sabi",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/sabi.jpg",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -4215,6 +4265,8 @@ export const cadets2023 = [
   },
   {
     name: "Spiderlair",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/spiderlair.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -4390,6 +4442,8 @@ export const cadets2023 = [
   },
   {
     name: "Tavvoc",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/tavvoc.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -4565,6 +4619,8 @@ export const cadets2023 = [
   },
   {
     name: "Teted",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/teted.jpg",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -4741,6 +4797,8 @@ export const cadets2023 = [
   },
   {
     name: "Andre",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/andre.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -4916,6 +4974,8 @@ export const cadets2023 = [
   },
   {
     name: "Arikranz",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/arikranz.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -5091,6 +5151,8 @@ export const cadets2023 = [
   },
   {
     name: "Bluhbblab",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/bluhbblab.jpg",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -5267,6 +5329,8 @@ export const cadets2023 = [
   },
   {
     name: "Diegono",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/diegono.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -5442,6 +5506,8 @@ export const cadets2023 = [
   },
   {
     name: "Fishenes",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/fishenes.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -5617,6 +5683,8 @@ export const cadets2023 = [
   },
   {
     name: "Hakarts",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/hakarts.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -5792,6 +5860,8 @@ export const cadets2023 = [
   },
   {
     name: "Hakunamatata",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/hakunamatata.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -5967,6 +6037,8 @@ export const cadets2023 = [
   },
   {
     name: "Henny",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/henny.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -6142,6 +6214,8 @@ export const cadets2023 = [
   },
   {
     name: "Hieumay",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/hieumay.jpg",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -6318,6 +6392,8 @@ export const cadets2023 = [
   },
   {
     name: "Irisroussel",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/irisroussel.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -6494,6 +6570,8 @@ export const cadets2023 = [
   },
   {
     name: "Kambing",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/kambing.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -6670,6 +6748,8 @@ export const cadets2023 = [
   },
   {
     name: "Peekay",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/peekay.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -6846,6 +6926,8 @@ export const cadets2023 = [
   },
   {
     name: "Shum",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/shum.jpg",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -7021,6 +7103,8 @@ export const cadets2023 = [
   },
   {
     name: "Smyk",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/smyk.jpg",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -7196,6 +7280,8 @@ export const cadets2023 = [
   },
   {
     name: "Sunny",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/sunny.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -7372,6 +7458,8 @@ export const cadets2023 = [
   },
   {
     name: "Whoben",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/whoben.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -7548,6 +7636,8 @@ export const cadets2023 = [
   },
   {
     name: "Gerg",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/gerg.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -7723,6 +7813,8 @@ export const cadets2023 = [
   },
   {
     name: "Jorts",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2023/jorts.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -7901,6 +7993,8 @@ export const cadets2023 = [
 export const cadets2022 = [
   {
     name: "Applechancery002",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2022/applechancery.jpg",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -8075,6 +8169,8 @@ export const cadets2022 = [
   },
   {
     name: "FatCat",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2022/fatcat.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -8392,6 +8488,8 @@ export const cadets2022 = [
   },
   {
     name: "Dako",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2022/dako.jpg",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -8705,6 +8803,8 @@ export const cadets2022 = [
   },
   {
     name: "Baeloma",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2022/baeloma.jpg",
     teamColorHover: "hover:bg-yellow-500",
     teamColor: "bg-yellow-500",
     borderColor: "border-yellow-500",
@@ -9019,6 +9119,8 @@ export const cadets2022 = [
   },
   {
     name: "Vevolf",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2022/vevolf.jpg",
     teamColorHover: "hover:bg-yellow-500",
     teamColor: "bg-yellow-500",
     borderColor: "border-yellow-500",
@@ -9165,6 +9267,8 @@ export const cadets2022 = [
   },
   {
     name: "GulApa",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2022/gulapa.png",
     teamColorHover: "hover:bg-yellow-500",
     teamColor: "bg-yellow-500",
     borderColor: "border-yellow-500",
@@ -9294,6 +9398,8 @@ export const cadets2022 = [
   },
   {
     name: "GreebleBot",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2022/greeblebot.jpg",
     teamColorHover: "hover:bg-pink-600",
     teamColor: "bg-pink-600",
     borderColor: "border-pink-600",
@@ -9606,6 +9712,8 @@ export const cadets2022 = [
   },
   {
     name: "Yugichu",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2022/yugichu.jpg",
     teamColorHover: "hover:bg-pink-600",
     teamColor: "bg-pink-600",
     borderColor: "border-pink-600",
@@ -9843,6 +9951,8 @@ export const cadets2022 = [
   },
   {
     name: "Rosa V",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2022/rosav.jpg",
     teamColorHover: "hover:bg-pink-600",
     teamColor: "bg-pink-600",
     borderColor: "border-pink-600",
@@ -10045,6 +10155,8 @@ export const cadets2022 = [
   },
   {
     name: "Daniella",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2022/daniella.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -10175,6 +10287,8 @@ export const cadets2022 = [
   },
   {
     name: "Sheng",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2022/sheng.jpg",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -10395,6 +10509,8 @@ export const cadets2022 = [
   },
   {
     name: "?",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2022/?.png",
     teamColorHover: "hover:bg-blue-500",
     teamColor: "bg-blue-500",
     borderColor: "border-blue-500",
@@ -10423,6 +10539,8 @@ export const cadets2022 = [
   },
   {
     name: "OvergangDood",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2022/overgangdood.jpg",
     teamColorHover: "hover:bg-yellow-500",
     teamColor: "bg-yellow-500",
     borderColor: "border-yellow-500",
@@ -10616,6 +10734,8 @@ export const cadets2022 = [
   },
   {
     name: "Kusu",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2022/kusu.png",
     teamColorHover: "hover:bg-yellow-500",
     teamColor: "bg-yellow-500",
     borderColor: "border-yellow-500",
@@ -10863,6 +10983,8 @@ export const cadets2022 = [
   },
   {
     name: "Wonkypen",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2022/wonkypen.jpg",
     teamColorHover: "hover:bg-yellow-500",
     teamColor: "bg-yellow-500",
     borderColor: "border-yellow-500",
@@ -10993,6 +11115,8 @@ export const cadets2022 = [
   },
   {
     name: "Puro.pena14",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2022/puropena.jpg",
     teamColorHover: "hover:bg-pink-600",
     teamColor: "bg-pink-600",
     borderColor: "border-pink-600",
@@ -11194,6 +11318,8 @@ export const cadets2022 = [
   },
   {
     name: "Algot",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2022/algot.png",
     teamColorHover: "hover:bg-pink-600",
     teamColor: "bg-pink-600",
     borderColor: "border-pink-600",
@@ -11332,6 +11458,8 @@ export const cadets2022 = [
   },
   {
     name: "Mega Rat",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2022/megarat.png",
     teamColorHover: "hover:bg-pink-600",
     teamColor: "bg-pink-600",
     borderColor: "border-pink-600",
@@ -11484,6 +11612,8 @@ export const cadets2022 = [
 export const cadets2021 = [
   {
     name: "Hieumay",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/hieumay.jpg",
     teamColorHover: "hover:bg-red-500",
     teamColor: "bg-red-500",
     borderColor: "border-red-500",
@@ -11666,6 +11796,8 @@ export const cadets2021 = [
   },
   {
     name: "Spiderlair",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/spiderlair.gif",
     teamColorHover: "hover:bg-red-500",
     teamColor: "bg-red-500",
     borderColor: "border-red-500",
@@ -11913,6 +12045,8 @@ export const cadets2021 = [
   },
   {
     name: "Ozan Pulat",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/ozanpulat.jpg",
     teamColorHover: "hover:bg-red-500",
     teamColor: "bg-red-500",
     borderColor: "border-red-500",
@@ -12297,6 +12431,8 @@ export const cadets2021 = [
   },
   {
     name: "JohArts",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/joharts.png",
     teamColorHover: "hover:bg-red-500",
     teamColor: "bg-red-500",
     borderColor: "border-red-500",
@@ -12515,6 +12651,8 @@ export const cadets2021 = [
   },
   {
     name: "Chedilkm",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/chedilkm.png",
     teamColorHover: "hover:bg-red-500",
     teamColor: "bg-red-500",
     borderColor: "border-red-500",
@@ -12896,6 +13034,8 @@ export const cadets2021 = [
   },
   {
     name: "Yauoiyi",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/yauoiyi.png",
     teamColorHover: "hover:bg-red-500",
     teamColor: "bg-red-500",
     borderColor: "border-red-500",
@@ -13223,6 +13363,8 @@ export const cadets2021 = [
   },
   {
     name: "P33ling Bananaz",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/p33lingbananaz.jpg",
     teamColorHover: "hover:bg-red-500",
     teamColor: "bg-red-500",
     borderColor: "border-red-500",
@@ -13362,6 +13504,8 @@ export const cadets2021 = [
   },
   {
     name: "Beatrice",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/beatrice.jpg",
     teamColorHover: "hover:bg-red-500",
     teamColor: "bg-red-500",
     borderColor: "border-red-500",
@@ -13743,6 +13887,8 @@ export const cadets2021 = [
   },
   {
     name: "Silverstar1234",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/Silverstar1243.png",
     teamColorHover: "hover:bg-cyan-500",
     teamColor: "bg-cyan-500",
     borderColor: "border-cyan-500",
@@ -13900,6 +14046,8 @@ export const cadets2021 = [
   },
   {
     name: "AwfullySabi",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/sabi.png",
     teamColorHover: "hover:bg-cyan-500",
     teamColor: "bg-cyan-500",
     borderColor: "border-cyan-500",
@@ -14181,6 +14329,8 @@ export const cadets2021 = [
   },
   {
     name: "Dehaf",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/dehaf.png",
     teamColorHover: "hover:bg-cyan-500",
     teamColor: "bg-cyan-500",
     borderColor: "border-cyan-500",
@@ -14554,6 +14704,8 @@ export const cadets2021 = [
   },
   {
     name: "Kawffee",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/kawffee.jpg",
     teamColorHover: "hover:bg-cyan-500",
     teamColor: "bg-cyan-500",
     borderColor: "border-cyan-500",
@@ -14754,6 +14906,8 @@ export const cadets2021 = [
   },
   {
     name: "Phil",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/Phil.png",
     teamColorHover: "hover:bg-cyan-500",
     teamColor: "bg-cyan-500",
     borderColor: "border-cyan-500",
@@ -15126,6 +15280,8 @@ export const cadets2021 = [
   },
   {
     name: "Div",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/Div.png",
     teamColorHover: "hover:bg-cyan-500",
     teamColor: "bg-cyan-500",
     borderColor: "border-cyan-500",
@@ -15435,6 +15591,8 @@ export const cadets2021 = [
   },
   {
     name: "Leopoldina",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/leopoldina.jpg",
     teamColorHover: "hover:bg-cyan-500",
     teamColor: "bg-cyan-500",
     borderColor: "border-cyan-500",
@@ -15474,6 +15632,8 @@ export const cadets2021 = [
   },
   {
     name: "Vorueg",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/vorueg.png",
     teamColorHover: "hover:bg-cyan-500",
     teamColor: "bg-cyan-500",
     borderColor: "border-cyan-500",
@@ -15813,6 +15973,8 @@ export const cadets2021 = [
 export const cadets2020 = [
   {
     name: "Makennu",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2020/makennu.jpg",
     teamColorHover: "hover:bg-amber-300",
     teamColor: "bg-amber-300",
     borderColor: "border-amber-300",
@@ -16042,6 +16204,8 @@ export const cadets2020 = [
   },
   {
     name: "Nikittysan",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2020/nikittysan.jpg",
     teamColorHover: "hover:bg-amber-300",
     teamColor: "bg-amber-300",
     borderColor: "border-amber-300",
@@ -16368,6 +16532,8 @@ export const cadets2020 = [
   },
   {
     name: "Spiderlair",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2020/spiderlair.png",
     teamColorHover: "hover:bg-amber-300",
     teamColor: "bg-amber-300",
     borderColor: "border-amber-300",
@@ -16635,6 +16801,8 @@ export const cadets2020 = [
   },
   {
     name: "AwfullySabi",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2020/sabi.jpg",
     teamColorHover: "hover:bg-amber-300",
     teamColor: "bg-amber-300",
     borderColor: "border-amber-300",
@@ -16937,6 +17105,8 @@ export const cadets2020 = [
   },
   {
     name: "Dehaf",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2020/dehaf.png",
     teamColorHover: "hover:bg-amber-300",
     teamColor: "bg-amber-300",
     borderColor: "border-amber-300",
@@ -16975,6 +17145,8 @@ export const cadets2020 = [
   },
   {
     name: "Storse",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2020/storse.png",
     teamColorHover: "hover:bg-amber-300",
     teamColor: "bg-amber-300",
     borderColor: "border-amber-300",
@@ -17158,6 +17330,8 @@ export const cadets2020 = [
   },
   {
     name: "Franco Galz",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2020/francogalz.jpg",
     teamColorHover: "hover:bg-amber-300",
     teamColor: "bg-amber-300",
     borderColor: "border-amber-300",
@@ -17453,6 +17627,8 @@ export const cadets2020 = [
   },
   {
     name: "SamuelAmar",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2020/samuelamar.jpg",
     teamColorHover: "hover:bg-amber-300",
     teamColor: "bg-amber-300",
     borderColor: "border-amber-300",
@@ -17673,9 +17849,10 @@ export const cadets2020 = [
       },
     ],
   },
-
   {
     name: "FDB",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2020/fdb.jpg",
     teamColorHover: "hover:bg-amber-300",
     teamColor: "bg-amber-300",
     borderColor: "border-amber-300",
@@ -17963,6 +18140,8 @@ export const cadets2020 = [
   },
   {
     name: "Weiao",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2020/weiao.jpg",
     teamColorHover: "hover:bg-amber-300",
     teamColor: "bg-amber-300",
     borderColor: "border-amber-300",
@@ -18286,6 +18465,8 @@ export const cadets2020 = [
   },
   {
     name: "OvergangDood",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2020/overgangdood.png",
     teamColorHover: "hover:bg-amber-300",
     teamColor: "bg-amber-300",
     borderColor: "border-amber-300",
@@ -18598,6 +18779,8 @@ export const cadets2020 = [
   },
   {
     name: "Swolfchan",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2020/swolfchan.png",
     teamColorHover: "hover:bg-amber-300",
     teamColor: "bg-amber-300",
     borderColor: "border-amber-300",
@@ -18707,6 +18890,8 @@ export const cadets2020 = [
   },
   {
     name: "TrueOmen",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2020/trueomen.png",
     teamColorHover: "hover:bg-amber-300",
     teamColor: "bg-amber-300",
     borderColor: "border-amber-300",
@@ -18864,6 +19049,8 @@ export const cadets2020 = [
   },
   {
     name: "Anna :)",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2020/anna.png",
     teamColorHover: "hover:bg-amber-300",
     teamColor: "bg-amber-300",
     borderColor: "border-amber-300",
@@ -19047,6 +19234,8 @@ export const cadets2020 = [
   },
   {
     name: "Blynk",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2020/blynk.jpg",
     teamColorHover: "hover:bg-amber-300",
     teamColor: "bg-amber-300",
     borderColor: "border-amber-300",
@@ -19133,6 +19322,8 @@ export const cadets2020 = [
   },
   {
     name: "Sera",
+    originalSubmission:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2020/sera.png",
     teamColorHover: "hover:bg-amber-300",
     teamColor: "bg-amber-300",
     borderColor: "border-amber-300",
