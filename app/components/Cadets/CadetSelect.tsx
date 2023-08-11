@@ -17,8 +17,8 @@ const CadetSelect: React.FC<CadetSelectProps> = (cadets) => {
     top = cadets.cadets.slice(0, 9);
     bottom = cadets.cadets.slice(9, 18);
   } else if (cadets.cadets.length >= 20) {
-    top = cadets.cadets.slice(0, 22);
-    bottom = cadets.cadets.slice(22, 44);
+    top = cadets.cadets.slice(0, 23);
+    bottom = cadets.cadets.slice(23, 46);
   }
 
   return (

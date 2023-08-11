@@ -63,7 +63,7 @@ const CadetsClient = () => {
         </div>
       )}
       {!logoLoading && (
-        <div className="absolute h-screen w-screen overflow-x-hidden flex flex-col">
+        <div className="absolute h-screen w-screen overflow-x-hidden flex flex-col overflow-y-scroll no-scrollbar">
           <section className="flex h-full w-full">
             <div className="flex">
               <CadetSelect cadets={cadets2023} />
