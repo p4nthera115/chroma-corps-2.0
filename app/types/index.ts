@@ -1,5 +1,6 @@
 export type Cadet = {
   name: any;
+  originalSubmission: string;
   teamColor: any;
   teamColorHover: string;
   teamColorOpacity?: string;

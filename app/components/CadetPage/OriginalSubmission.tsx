@@ -47,7 +47,7 @@ const OriginalSubmission: React.FC<OriginalSubmissionProps> = ({ cadet }) => {
         </h1>
       </motion.div>
       <div className="flex flex-col mx-auto">
-        <img src={cadet?.cardImg} alt="" height={500} width={500} />
+        <img src={cadet?.originalSubmission} alt="" height={500} width={500} />
       </div>
     </div>
   );
