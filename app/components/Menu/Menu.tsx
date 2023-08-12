@@ -50,7 +50,7 @@ const Menu = () => {
   const menuItems = ["Home", "Cadets +", "FAQs", "Credits", "Merch"];
 
   return (
-    <div className="flex max-h-full max-w-full z-10 overflow-hidden">
+    <div className="flex max-h-full max-w-full z-[100] overflow-hidden absolute">
       <div
         className="
           fixed
