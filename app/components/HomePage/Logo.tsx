@@ -5,7 +5,7 @@ const Logo = () => {
   const Logo: any = () => {
     const { scene } = useGLTF("/models/Logo.glb");
 
-    return <primitive object={scene} scale={2.5} />;
+    return <primitive object={scene} scale={2.5} wireframe />;
   };
   return <Logo />;
 };
