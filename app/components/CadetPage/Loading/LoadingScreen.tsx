@@ -82,7 +82,7 @@ export const LoadingScreen = () => {
           }}
           animate={{
             y: !isLoading ? "-50vw" : 0,
-            fill: "#f4ce34",
+            fill: "#ffe600",
           }}
           transition={{
             delay: 1.3,
@@ -98,7 +98,7 @@ export const LoadingScreen = () => {
           }}
           animate={{
             y: !isLoading ? "50vw" : 0,
-            fill: "#f4ce34",
+            fill: "#ffe600",
           }}
           transition={{
             delay: 1.3,

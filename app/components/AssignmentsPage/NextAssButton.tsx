@@ -14,7 +14,7 @@ const NextAssButton: React.FC<AssButtonProps> = ({ year, day }) => {
   return (
     <div className="absolute right-0 bottom-0 flex p-4 m-4">
       <button
-        className="md:w-[14rem] h-10 md:border font-cyber hover:text-amber-400 flex flex-row justify-center items-center"
+        className="md:w-[14rem] h-10 md:border font-cyber hover:text-[#ffe600] flex flex-row justify-center items-center"
         onClick={() => router.push(`/cadets/${year}/assignments/${day + 1}`)}
       >
         <span className="hidden md:block">Next Assignment</span>
