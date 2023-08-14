@@ -2,12 +2,13 @@
 
 import { useState } from "react";
 import Menu from "../components/Menu/Menu";
-import Background from "./Background";
-import { Canvas } from "@react-three/fiber";
+import Border from "./Border";
 
 const HomePage = () => {
   return (
-    <div className="m-0 p-0 max-h-full max-w-full h-screen w-screen bg-yellow-500"></div>
+    <div className="m-0 p-0 max-h-full max-w-full h-screen w-screen bg-yellow-500">
+      <Border />
+    </div>
   );
 };
 
