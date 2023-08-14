@@ -1,3 +1,6 @@
+"use client";
+
+import { ThemeProvider } from "next-themes";
 import "./globals.css";
 import { Inter, Orbitron } from "next/font/google";
 
@@ -20,7 +23,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} ${orbitron.variable} `}>
+        {/* <ThemeProvider
+          enableSystem={false}
+          attribute="class"
+          defaultTheme="dark"
+        > */}
         {children}
+        {/* </ThemeProvider> */}
       </body>
     </html>
   );

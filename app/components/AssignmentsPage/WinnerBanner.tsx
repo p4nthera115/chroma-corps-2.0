@@ -10,7 +10,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
   console.log(winner);
 
   return (
-    <div className="relative w-screen h-[66.666666vh] ">
+    <div className="relative w-screen h-[66.666666vh] bg-black ">
       <div
         className={`absolute z-10 h-full w-full ${
           winner.length > 1
