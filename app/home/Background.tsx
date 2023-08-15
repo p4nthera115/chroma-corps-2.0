@@ -2,7 +2,7 @@
 
 import { Suspense, useState, useEffect, useRef } from "react";
 import { OrbitControls, Scroll, Text3D, Sparkles } from "@react-three/drei";
-import Logo from "../components/HomePage/Logo";
+import Logo from "./3DLogo";
 import { Canvas, useThree } from "@react-three/fiber";
 
 const Background = () => {
