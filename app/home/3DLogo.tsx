@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { useFrame } from "@react-three/fiber";
 import { useGLTF } from "@react-three/drei";
 
@@ -8,14 +8,27 @@ const Logo = () => {
     const { scene } = useGLTF("/models/Wireframe.glb");
 
     const ref: any = useRef(null);
+    const [click, setClick] = useState(false);
 
-    useFrame(() => {
+    useFrame((state, delta) => {
       if (ref.current) {
-        return (ref.current.rotation.y += 0.01);
+        return (ref.current.rotation.y += delta);
+      }
+
+      if (click) {
+        ref.current.rotation.y += Math.PI * 2;
+        setClick(false);
       }
     });
 
-    return <primitive ref={ref} object={scene} scale={1.5} />;
+    return (
+      <primitive
+        ref={ref}
+        object={scene}
+        scale={1.5}
+        onClick={() => setClick(true)}
+      />
+    );
   };
   return <Logo />;
 };
