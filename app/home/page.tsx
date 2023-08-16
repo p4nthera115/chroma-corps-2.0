@@ -18,7 +18,9 @@ const HomePage = () => {
       <section className="absolute top-0 z-[1000] h-full w-full pointer-events-none">
         <Title />
       </section>
+      {/* <section className="flex"> */}
       <Carousel />
+      {/* </section> */}
     </div>
   );
 };

@@ -5,19 +5,17 @@ import { useGLTF } from "@react-three/drei";
 const Logo = () => {
   // クロマ隊
   const Logo: any = () => {
-    const { scene } = useGLTF("/models/Logo.glb");
+    const { scene } = useGLTF("/models/CCLogoWireframe.glb");
 
-    const ref = useRef(null);
+    const ref: any = useRef(null);
 
     useFrame(() => {
       if (ref.current) {
-        return (ref.current.rotation.y += 0.03);
+        return (ref.current.rotation.y += 0.01);
       }
     });
 
-    console.log(scene);
-
-    return <primitive ref={ref} object={scene} scale={2} positionZ={2} />;
+    return <primitive ref={ref} object={scene} scale={1.5} />;
   };
   return <Logo />;
 };

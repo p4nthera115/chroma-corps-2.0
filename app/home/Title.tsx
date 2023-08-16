@@ -6,7 +6,7 @@ const Title = () => {
 
   return (
     <div className="relative h-full items-center flex">
-      <section className="relative h-[90%] flex flex-row gap-6  border-black ml-14">
+      <section className="relative h-[90%] flex flex-row gap-6  border-black ml-16">
         <div className=" border-black w-20 m-0 flex flex-col gap-4 justify-center">
           {chroma.map((letter) => (
             <h1 className="text-black text-7xl font-cyber font-extrabold text-center">
