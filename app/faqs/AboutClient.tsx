@@ -63,7 +63,7 @@ const AboutClient = () => {
       <h1 className="font-cyber font-extrabold text-center text-[#ffe600] lg:text-6xl md:text-5xl text-4xl mb-4">
         FAQs
       </h1>
-      <h3 className="text-center text-md py-2 italic sm:px-4 md:px-0 px-4">
+      <h3 className="text-center text-md py-2 italic sm:px-4 md:px-0 px-4 text-neutral-100">
         If you have a question which is not answered below, feel free to post it
         on the{" "}
         <a

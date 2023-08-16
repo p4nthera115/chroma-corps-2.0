@@ -70,14 +70,14 @@ const CadetsClient = () => {
         </div>
       )}
       {!logoLoading && (
-        <div className="absolute h-screen w-screen overflow-x-hidden flex flex-col">
+        <div className="absolute h-screen w-screen overflow-x-hidden flex flex-col bg-black">
           <section className="flex h-full w-full">
             <div className="flex">
               <CadetSelect cadets={cadets2021} />
             </div>
           </section>
-          <section className="flex relative h-full flex-col top-[115%] w-full">
-            <div className="w-full relative h-full top-[10%] pb-[17%] ">
+          <section className="flex relative h-full flex-col top-[115%] w-full bg-black text-neutral-100">
+            <div className="w-full relative h-full top-[10%] pb-[17%] bg-black ">
               {/* <div
                 className={`flex  h-full scale-[100%] min-w-max z-20 absolute left-1/2 -translate-x-1/2 top-[-6rem]`}
               >
@@ -102,8 +102,8 @@ const CadetsClient = () => {
               </div> */}
               <WinnerBanner winner={winner} />
             </div>
-            <div>{/* <Judges judges={judges} /> */}</div>
-            <div className="relative pb-10">
+            {/* <div><Judges judges={judges} /></div> */}
+            <div className="relative pb-10 bg-black">
               <AssignmentDays winner={winner} year={2021} />
             </div>
           </section>

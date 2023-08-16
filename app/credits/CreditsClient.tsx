@@ -34,6 +34,7 @@ const CreditsClient = () => {
     flex 
     flex-col
      justify-center
+     text-neutral-100
   "
       >
         <h1 className="font-cyber font-extrabold text-center text-[#ffe600] lg:text-5xl md:text-4xl text-4xl mb-8">

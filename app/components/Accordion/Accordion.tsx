@@ -5,7 +5,7 @@ const Accordion = ({ title, content }: any) => {
 
   return (
     <div
-      className="border-b-[#ffe600] border-b md:p-12 p-8 hover:bg-neutral-800/80 hover:cursor-pointer"
+      className="border-b-[#ffe600] border-b md:p-12 p-8 hover:bg-neutral-800/80 hover:cursor-pointer text-neutral-100"
       onClick={() => setIsActive(!isActive)}
     >
       <div className="flex flex-row justify-between hover:opacity-70 ">
