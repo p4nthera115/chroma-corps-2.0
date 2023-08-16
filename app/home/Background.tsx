@@ -27,24 +27,7 @@ const Background = () => {
 
   return (
     <Suspense fallback={null}>
-      <directionalLight
-        position={[10 * mousePos.x, 10 * -mousePos.y, 10]}
-        intensity={1}
-        color={"#FFD7AA"}
-      />
-      {/* <Text3D font={"./fonts/nicokaku_v2.ttf"}>Hello</Text3D> */}
-      <pointLight
-        castShadow
-        position={[0, 20, 0]}
-        intensity={200}
-        color={"#FFA44B"}
-      />
       <Logo />
-      <mesh position={[0, 0, -2]} scale={[width, height, 1]}>
-        <planeGeometry />
-        <meshBasicMaterial color={"#ffe600"} />
-      </mesh>
-      <ambientLight intensity={100} color={"#ff0000"} />
     </Suspense>
   );
 };

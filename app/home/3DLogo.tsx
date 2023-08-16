@@ -5,7 +5,7 @@ import { useGLTF } from "@react-three/drei";
 const Logo = () => {
   // クロマ隊
   const Logo: any = () => {
-    const { scene } = useGLTF("/models/CCLogoWireframe.glb");
+    const { scene } = useGLTF("/models/Wireframe.glb");
 
     const ref: any = useRef(null);
 
