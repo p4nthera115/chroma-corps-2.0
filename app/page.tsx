@@ -8,7 +8,7 @@ export default function page() {
 
   setTimeout(() => setIsLoading(false), 4000);
   return (
-    <div className="flex m-0 p-0 max-h-full max-w-full flex-col">
+    <div className="flex m-0 p-0 max-h-full max-w-full flex-col bg-[#ffe600]">
       {isLoading && <LoadingScreen />}
 
       <Home />

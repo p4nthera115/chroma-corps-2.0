@@ -1,13 +1,11 @@
 "use client";
 
-import { Suspense, useState, useEffect, useRef } from "react";
-import { OrbitControls, Scroll, Text3D, Sparkles } from "@react-three/drei";
+import { Suspense, useState, useEffect } from "react";
 import Logo from "./3DLogo";
-import { Canvas, useThree } from "@react-three/fiber";
+import { useThree, useFrame } from "@react-three/fiber";
 
 const Background = () => {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
-  const [scrollPos, setScrollPos] = useState(0);
 
   useEffect(() => {
     const handleMouseMove = (event: MouseEvent) => {
@@ -35,7 +33,6 @@ const Background = () => {
         color={"#FFD7AA"}
       />
       {/* <Text3D font={"./fonts/nicokaku_v2.ttf"}>Hello</Text3D> */}
-      <Sparkles size={5} scale={[6, 2, 4]} position={[0, 0, -1]} />
       <pointLight
         castShadow
         position={[0, 20, 0]}
@@ -45,7 +42,7 @@ const Background = () => {
       <Logo />
       <mesh position={[0, 0, -2]} scale={[width, height, 1]}>
         <planeGeometry />
-        <meshBasicMaterial color={"#2b2520"} />
+        <meshBasicMaterial color={"#ffe600"} />
       </mesh>
       <ambientLight intensity={100} color={"#ff0000"} />
     </Suspense>

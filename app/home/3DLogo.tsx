@@ -1,3 +1,5 @@
+import { useRef } from "react";
+import { useFrame } from "@react-three/fiber";
 import { useGLTF } from "@react-three/drei";
 
 const Logo = () => {
@@ -5,7 +7,17 @@ const Logo = () => {
   const Logo: any = () => {
     const { scene } = useGLTF("/models/Logo.glb");
 
-    return <primitive object={scene} scale={2.5} wireframe />;
+    const ref = useRef(null);
+
+    useFrame(() => {
+      if (ref.current) {
+        return (ref.current.rotation.y += 0.03);
+      }
+    });
+
+    console.log(scene);
+
+    return <primitive ref={ref} object={scene} scale={2} positionZ={2} />;
   };
   return <Logo />;
 };
