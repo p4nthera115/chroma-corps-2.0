@@ -6,6 +6,8 @@ import { useThree, useFrame } from "@react-three/fiber";
 import vertex from "./shaders/vertex.js";
 import fragment from "./shaders/fragment.js";
 import * as THREE from "three";
+import { Perf } from "r3f-perf";
+import { OrbitControls } from "@react-three/drei";
 
 const Background = () => {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
@@ -31,20 +33,22 @@ const Background = () => {
     };
   }, []);
 
-  useFrame((state, delta) => {
-    shaderRef.current.uniforms.uTime.value += delta;
-    shaderRef.current.uniforms.uMouse.value.x = mousePos.x;
-    shaderRef.current.uniforms.uMouse.value.y = mousePos.y;
-  });
+  // useFrame((state, delta) => {
+  //   shaderRef.current.uniforms.uTime.value += 0.01;
+  //   shaderRef.current.uniforms.uMouse.value.x = mousePos.x;
+  //   shaderRef.current.uniforms.uMouse.value.y = mousePos.y;
+  // });
 
   return (
     <>
-      {/* <Logo />
-      <mesh position-z={-2}>
+      <Perf />
+      <OrbitControls enableZoom={false} />
+      <Logo />
+      {/* <mesh position-z={-2}>
         <meshBasicMaterial color={"#ffe600"} />
         <planeGeometry args={[width, height]} />
-      </mesh> */}
-      <mesh position-z={-2.01}>
+      </mesh>
+      <mesh position-z={-20.02}>
         <shaderMaterial
           ref={shaderRef}
           wireframe
@@ -55,8 +59,8 @@ const Background = () => {
             uMouse: { value: new THREE.Vector2() },
           }}
         />
-        <planeGeometry args={[width, height, 53, 30]} />
-      </mesh>
+        <planeGeometry args={[width, height, 90, 30]} />
+      </mesh> */}
     </>
   );
 };
