@@ -65,8 +65,8 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
       `}
     >
       <div className="relative h-full w-full p-4">
-        <div className={`relative flex flex-row h-full w-full`}>
-          <section className="relative flex flex-col h-full w-full md:w-3/5">
+        <div className={`relative flex flex-row gap-2 h-full w-full`}>
+          <section className="relative flex flex-col gap-2 h-full w-full md:w-3/5">
             <div className="relative flex w-full h-3/4 justify-center border md:border-none">
               <button
                 className={`absolute left-0 h-10 w-10 m-4 ${cadet?.teamColor} rounded md:hidden cursor-pointer z-50`}
@@ -75,7 +75,7 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
               <Camera cadet={cadet} cadetImg={cadetImg} />
             </div>
             <header
-              className={`relative flex w-full h-1/4 border items-center p-3 cursor-default justify-center md:justify-normal bg-neutral-900/50 md:bg-neutral-900 `}
+              className={`relative flex w-full h-1/4 border rounded-lg  items-center p-3 cursor-default justify-center md:justify-normal bg-neutral-900/50 md:bg-neutral-900 `}
             >
               <h1
                 onMouseOver={hoverAnimation}
@@ -99,12 +99,12 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
               </a>
             </header>
           </section>
-          <section className="relative md:flex flex-col flex-wrap md:h-full md:w-2/5 hidden">
+          <section className="relative md:flex flex-col gap md:h-full md:w-2/5 hidden">
             <div
-              className={`relative flex flex-row w-full h-[10%] border ${cadet?.teamColor}`}
+              className={`relative flex flex-row w-full h-[10%] border rounded-t-lg ${cadet?.teamColor}`}
             ></div>
             <button
-              className={`relative flex w-full h-[90%] border justify-center ${
+              className={`relative flex w-full h-[90%] border rounded-b-lg justify-center ${
                 cadet?.teamColorHoverOpacity
               } ${imgArr.length === 1 ? "cursor-default" : "cursor-pointer"}`}
               onClick={() => (imgArr.length === 1 ? null : nextImg())}

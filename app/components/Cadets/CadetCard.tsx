@@ -34,6 +34,7 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
             h-full 
             overflow-hidden 
             border 
+            rounded
             border-neutral-950 
             ${isActive ? cadet.teamColor : "bg-neutral-800"}
             ${cadet.teamColorHover} 
@@ -51,6 +52,7 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
                 font-bold
                 w-full
                 border
+                rounded-t
                 ${cadet.teamColor}
                 ${cadet.textColor}
               `}
@@ -88,6 +90,7 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
                 font-extrabold
                 w-full
                 border
+                rounded-t
                 ${cadet.textColor}
               `}
         >

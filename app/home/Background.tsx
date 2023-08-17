@@ -41,7 +41,6 @@ const Background = () => {
 
   return (
     <>
-      <Perf />
       <OrbitControls enableZoom={false} />
       <Logo />
       {/* <mesh position-z={-2}>

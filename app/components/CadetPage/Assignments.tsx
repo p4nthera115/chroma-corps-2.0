@@ -54,7 +54,7 @@ const Assignments: React.FC<AssignmentsProps> = ({
       {!cadetAssignments && (
         <motion.div className="relative flex w-full justify-center overflow-hidden">
           <h1
-            className={`relative font-cyber m-3 w-3/4 md:w-1/2 text-xl md:text-4xl lg:text-5xl xl:text-6xl p-6 md:p-8 text-center border-2 overflow-hidden cursor-default ${cadet?.borderColor} ${cadet?.teamColorOpacity}`}
+            className={`relative font-cyber m-3 w-3/4 md:w-1/2 text-xl md:text-4xl lg:text-5xl xl:text-6xl p-6 md:p-8 text-center border-2 rounded-lg overflow-hidden cursor-default ${cadet?.borderColor} ${cadet?.teamColorOpacity}`}
             onMouseOver={hoverAnimation}
           >
             {name}

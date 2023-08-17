@@ -5,7 +5,7 @@ const Title = () => {
   const jap = "クロマ隊".split("");
 
   return (
-    <div className="relative h-full items-center flex">
+    <div className="relative h-full w-full items-center flex">
       <section className="relative h-[90%] flex flex-row gap-6  border-black ml-24">
         <div className=" border-black w-20 m-0 flex flex-col gap-4 justify-center">
           {chroma.map((letter) => (
@@ -30,7 +30,7 @@ const Title = () => {
           ))}
         </div>
       </section>
-      <section className="absolute right-0 h-[80%] border-black mr-28">
+      <section className="absolute right-0 h-[80%] border-black mr-[12rem]">
         <div className=" border-black w-20 m-0 flex flex-col gap-6 justify-center">
           {jap.map((letter) => (
             <h1

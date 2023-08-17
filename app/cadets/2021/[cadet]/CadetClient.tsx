@@ -26,11 +26,11 @@ const CadetClient = () => {
   }, []);
 
   return (
-    <div>
+    <div className="relative h-full w-full">
       <div className="absolute z-[60]">
         <Menu />
       </div>
-      <div className="relative h-screen w-screen flex flex-col">
+      <div className="relative h-full w-full flex flex-col">
         <section
           className={`flex ${
             initialZ ? "z-20" : "z-0"

@@ -19,13 +19,13 @@ const CadetSelect: React.FC<CadetSelectProps> = (cadets) => {
   }
 
   return (
-    <div className="absolute h-full flex flex-col">
-      <div className="h-full w-screen flex flex-row">
+    <div className="absolute h-full w-full flex flex-col">
+      <div className="h-full w-full flex flex-row">
         {top?.map((cadet: Cadet, i: number) => (
           <CadetCard key={i} cadetObj={cadet} />
         ))}
       </div>
-      <div className="h-full w-screen flex flex-row ">
+      <div className="h-full w-full flex flex-row ">
         {bottom?.map((cadet: Cadet, i: number) => (
           <CadetCard key={i} cadetObj={cadet} />
         ))}
