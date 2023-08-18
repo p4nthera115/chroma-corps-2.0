@@ -55,7 +55,7 @@ const Menu = () => {
         className="
           fixed
           z-20
-          right-0       
+          right-5    
           m-[1.5rem]
           cursor-pointer 
         "

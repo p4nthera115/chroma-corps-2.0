@@ -10,6 +10,7 @@ import {
 import AssignmentCard from "./AssignmentCard";
 import { motion } from "framer-motion";
 import { Fragment, useState } from "react";
+import { useHoverAnimation } from "@/app/hooks/useHoverAnimation";
 
 interface AssignmentsProps {
   cadet?: Cadet | undefined;
