@@ -35,9 +35,9 @@ const TitleLeft = () => {
 
   return (
     <div className="relative h-full w-full items-center flex">
-      <section className="relative h-[90%] flex flex-row gap-6  border-black ml-24">
+      <section className="relative h-full w-full md:h-[90%] flex flex-row gap-6 md:ml-24">
         <div
-          className=" border-black w-20 m-0 flex flex-col gap-4 justify-center"
+          className="w-20 m-0 flex flex-col gap-4 justify-center"
           // onMouseOver={hoverAnimation}
         >
           {chroma.map((letter) => (
@@ -49,7 +49,7 @@ const TitleLeft = () => {
             </h1>
           ))}
         </div>
-        <div className="w-20 m-0 flex flex-col gap-4 justify-center  border-black">
+        <div className="relative w-full md:w-20 m-0 flex flex-col gap-4 items-end justify-center">
           {corps.map((letter, i) => (
             <h1
               key={letter}
@@ -70,7 +70,7 @@ const TitleRight = () => {
 
   return (
     <div className="relative h-full w-full items-center flex">
-      <section className="absolute right-0 h-[80%] border-black mr-[12rem]">
+      <section className="absolute right-0 h-[80%] border-black md:mr-[12rem]">
         <div className=" border-black w-20 m-0 flex flex-col gap-6 justify-center">
           {jap.map((letter) => (
             <h1

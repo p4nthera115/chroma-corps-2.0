@@ -3,7 +3,6 @@ import { useFrame } from "@react-three/fiber";
 import { useGLTF } from "@react-three/drei";
 
 const Logo = () => {
-  // クロマ隊
   const Logo: any = () => {
     const { scene } = useGLTF("/models/Wireframe.glb");
 
@@ -25,7 +24,7 @@ const Logo = () => {
       <primitive
         ref={ref}
         object={scene}
-        scale={1.5}
+        scale={window.innerWidth < 768 ? 1.0 : 1.5}
         onClick={() => setClick(true)}
       />
     );

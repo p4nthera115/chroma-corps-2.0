@@ -64,9 +64,22 @@ const Assignments: React.FC<AssignmentsProps> = ({
       )}
       {!cadetAssignments && (
         <div className="flex flex-row flex-wrap md:gap-5 md:p-4 justify-center">
-          {cadet?.assignments?.map((assignment: any, i: number) => (
-            <AssignmentCard key={i} assignment={assignment} cadet={cadet} />
-          ))}
+          {cadet?.assignments?.map((assignment: any, i: number) => {
+            if (assignment.img === "/dropout") {
+              return null;
+            }
+            return (
+              assignment.img && (
+                <div key={i} className="md:p-4">
+                  <AssignmentCard
+                    key={i}
+                    assignment={assignment}
+                    cadet={cadet}
+                  />
+                </div>
+              )
+            );
+          })}
         </div>
       )}
       {teams &&
@@ -75,9 +88,13 @@ const Assignments: React.FC<AssignmentsProps> = ({
           return (
             <Fragment key={teamKey}>
               <section className="flex flex-row flex-wrap justify-center">
-                {teamAssignments.map(
-                  (cadetAssignment, i) =>
-                    cadetAssignment.assignment?.day && (
+                {teamAssignments.map((cadetAssignment, i) => {
+                  if (cadetAssignment?.assignment?.img === "/dropout") {
+                    return null;
+                  }
+                  return (
+                    cadetAssignment.assignment?.day &&
+                    cadetAssignment.assignment.img && (
                       <div key={i} className="md:p-4">
                         <AssignmentCard
                           assignment={cadetAssignment.assignment}
@@ -86,7 +103,8 @@ const Assignments: React.FC<AssignmentsProps> = ({
                         />
                       </div>
                     )
-                )}
+                  );
+                })}
               </section>
               <br />
             </Fragment>

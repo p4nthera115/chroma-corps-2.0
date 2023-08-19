@@ -1,6 +1,6 @@
 const Border = () => {
   return (
-    <div>
+    <div className="hidden md:block">
       <div className="fixed top-0 right-0 z-[300] bg-black rounded-lg h-[5.3rem] w-[5.3rem]"></div>
 
       <div className="fixed top-0 left-0 h-3 w-full z-[10000] pointer-events-none bg-black">

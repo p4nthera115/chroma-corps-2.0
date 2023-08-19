@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import MenuItem from "./MenuItem";
 import { AiOutlineMenu } from "react-icons/ai";
 import { useRouter } from "next/navigation";
@@ -32,10 +32,21 @@ const itemVariants = {
 };
 
 interface MenuProps {
-  iconPosition?: string;
+  iconPosition?: {
+    right?: string;
+    margin?: string;
+  };
 }
 
 const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
+  const [width, setWidth] = useState<number>(0);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setWidth(window.innerWidth);
+    }
+  }, []);
+
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   const [subOpen, setSubOpen] = useState(false);
@@ -60,13 +71,13 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
           fixed
           z-20
           right-0
-          ${iconPosition ? iconPosition : "right-0"}    
-          m-6
+          ${iconPosition?.right ? iconPosition.right : "right-0"}    
+          ${iconPosition?.margin ? iconPosition.margin : "m-0"}    
           cursor-pointer 
         `}
       >
         <AiOutlineMenu
-          size={40}
+          size={width < 768 ? 30 : 40}
           onClick={toggleOpen}
           color={!isOpen ? "white" : "black"}
         />

@@ -9248,7 +9248,7 @@ export const cadets2020 = [
         prompt:
           "General Ping's Roasted Catfish upon Green Onion Waffles w/ Special Sauce",
         day: 19,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2020-Cadet-Assignments/ass-19/storse.jpg",
+        img: "/dropout",
         strike: false,
         strikes: 1,
         eliminated: false,

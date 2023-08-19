@@ -1,8 +1,6 @@
 "use client";
 
-import { useState } from "react";
 import Menu from "../components/Menu/Menu";
-import Image from "next/image";
 import Border from "./Border";
 import { TitleLeft, TitleRight } from "./Title";
 import Carousel from "./Carousel";
@@ -19,20 +17,25 @@ const HomePage = () => {
       <Border />
       {/* <ScrollProgress /> */}
 
-      <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 border bg-[#ffe600] border-black h-[78%] w-[30%]"></div>
+      <div className="hidden md:block absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 border bg-[#ffe600] border-black h-[78%] w-[30%]"></div>
 
       <div className="absolute z-[1001]">
-        <Menu />
+        <Menu iconPosition={{ margin: "m-2" }} />
       </div>
+
+      <header className="md:hidden absolute h-full w-full font-cyber text-5xl font-extrabold justify-center block text-black">
+        <h1 className="absolute top-0 m-2">CHROMA</h1>
+        <h1 className="absolute bottom-0 m-2">CORPS</h1>
+      </header>
 
       <Canvas className="z-30 cursor-grab active:cursor-grabbing">
         <Background />
       </Canvas>
 
-      <header className="absolute top-0 z-[1000] h-full w-1/4 cursor-default select-none">
+      <header className="hidden md:block absolute pointer-events-none md:pointer-events-auto top-0 z-[1000] h-full w-full md:w-1/4 cursor-default select-none scale-75 md:scale-100 ">
         <TitleLeft />
       </header>
-      <header className="absolute right-0 top-0 z-[1000] h-full w-1/4 select-none cursor-default">
+      <header className="hidden md:block absolute right-0 top-0 z-[1000] h-full w-1/4 select-none cursor-default">
         <TitleRight />
       </header>
 
