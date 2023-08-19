@@ -28,7 +28,7 @@ const CadetClient = () => {
   return (
     <div>
       <div className="absolute z-[60]">
-        <Menu iconPosition="right-5" />
+        <Menu iconPosition="md:right-5" />
       </div>
       <div className="relative h-screen w-screen flex flex-col">
         <section

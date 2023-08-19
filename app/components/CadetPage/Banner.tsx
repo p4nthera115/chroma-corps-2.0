@@ -67,7 +67,7 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
       <div className="relative h-full w-full p-4">
         <div className={`relative flex flex-row gap-2 h-full w-full`}>
           <section className="relative flex flex-col gap-2 h-full w-full md:w-3/5">
-            <div className="relative flex w-full h-3/4 justify-center border md:border-none">
+            <div className="relative flex w-full h-3/4 justify-center border rounded-lg md:border-none">
               <button
                 className={`absolute left-0 h-10 w-10 m-4 ${cadet?.teamColor} rounded md:hidden cursor-pointer z-50`}
                 onClick={() => (imgArr.length === 1 ? null : nextImg())}

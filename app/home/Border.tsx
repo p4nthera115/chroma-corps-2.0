@@ -1,6 +1,8 @@
 const Border = () => {
   return (
     <div>
+      <div className="absolute top-0 right-0 z-[300] bg-black rounded h-24 w-24"></div>
+
       <div className="fixed top-0 left-0 h-3 w-full z-[10000] pointer-events-none bg-black">
         <div
           className="absolute"

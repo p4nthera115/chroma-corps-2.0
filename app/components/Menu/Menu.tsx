@@ -59,6 +59,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
         className={`
           fixed
           z-20
+          right-0
           ${iconPosition ? iconPosition : "right-0"}    
           m-6
           cursor-pointer 
@@ -136,6 +137,14 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                             "https://my-store-b86026.creator-spring.com/"
                           )
                         }
+                        label={item}
+                        key={item}
+                      />
+                    );
+                  } else if (item === "Home") {
+                    return (
+                      <MenuItem
+                        onClick={() => router.push("/")}
                         label={item}
                         key={item}
                       />

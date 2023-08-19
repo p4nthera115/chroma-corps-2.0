@@ -19,7 +19,7 @@ const Bio = () => {
         </h2>
       </div>
       <br />
-      <div className="mx-auto mt-2 mb-8">
+      <div className="mx-auto mt-0 mb-10">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
