@@ -10,10 +10,14 @@ import Background from "./Background";
 import { Canvas } from "@react-three/fiber";
 
 const HomePage = () => {
+  const images = ["/images/cc.jpg", "/images/backdrop.png"];
   return (
     <div className="m-0 p-0 max-h-full max-w-full h-screen w-screen bg-[#ffe600] diagonal-lines-yellow">
       <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 border bg-[#ffe600] border-black h-[78%] w-[30%]"></div>
 
+      <div className="absolute z-[1001]">
+        <Menu />
+      </div>
       <Canvas className="z-30 cursor-pointer">
         <Background />
       </Canvas>
@@ -25,9 +29,11 @@ const HomePage = () => {
       <section className="absolute right-0 top-0 z-[1000] h-full w-1/4 select-none cursor-default">
         <TitleRight />
       </section>
-      {/* <section className="flex"> */}
-      <Carousel />
-      {/* </section> */}
+      <section className="relative h-1/4 w-[99%] translate-x-[0.3rem] bg-[#ffe600] diagonal-lines-yellow"></section>
+      <section className="relative h-1/2 w-full overflow-hidden">
+        <Carousel />
+      </section>
+      <section className="relative h-1/2 w-[99%] translate-x-[0.3rem] bg-[#ffe600] diagonal-lines-yellow"></section>
     </div>
   );
 };

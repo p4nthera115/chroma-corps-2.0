@@ -63,7 +63,7 @@ const Menu = () => {
         <AiOutlineMenu
           size={40}
           onClick={toggleOpen}
-          color={isOpen ? "black" : "white"}
+          color={isOpen ? "white" : "black"}
         />
       </div>
 

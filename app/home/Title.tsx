@@ -33,15 +33,12 @@ const TitleLeft = () => {
   const chroma = name.split("");
   const corps = "CORPS|".split("");
 
-  console.log(chroma);
-  console.log(name);
-
   return (
     <div className="relative h-full w-full items-center flex">
       <section className="relative h-[90%] flex flex-row gap-6  border-black ml-24">
         <div
           className=" border-black w-20 m-0 flex flex-col gap-4 justify-center"
-          onMouseOver={hoverAnimation}
+          // onMouseOver={hoverAnimation}
         >
           {chroma.map((letter) => (
             <h1
