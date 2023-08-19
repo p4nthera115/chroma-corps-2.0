@@ -47,9 +47,18 @@ function Carousel() {
   });
 
   return (
-    <div className="parallax flex flex-row relative h-full w-full border-8 border-black  diagonal-lines-black bg-black">
+    <div className="parallax flex flex-row relative h-full w-full border-8 border-[#ffe600]  diagonal-lines-black bg-[#ffe600]">
       <motion.div className="scroller flex" style={{ x: baseX }}>
-        <section className="relative h-full w-full flex flex-row gap-8 -translate-x-60">
+        <section className="relative h-full w-full flex flex-row gap-12 -translate-x-60">
+          {images.map((image: string) => (
+            <Image
+              src={image}
+              alt={image}
+              width={100}
+              height={100}
+              className="object-fit h-full min-w-max scale-150"
+            />
+          ))}
           {images.map((image: string) => (
             <Image
               src={image}

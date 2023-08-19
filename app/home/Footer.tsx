@@ -1,37 +1,48 @@
-// import React from "react";
+"use client";
 
-// const Footer = () => {
-//   return (
-//     <div className="flex flex-col relative h-full w-full text-center  bg-[#ffe600] diagonal-lines-yellow">
-//       <h1 className="text-5xl text-black font-cyber font-bold">GET INVOLVED</h1>
-
-//       <div className="my-16 flex justify-center gap-10">
-//         <a href="https://discord.com/invite/ejaQBdWyyN">
-//           <div className="bg-black text-[#ffe600] py-4 px-16 rounded shadow-inner hover:scale-110 transition font-mono">
-//             <h2>Join the Discord server</h2>
-//           </div>
-//         </a>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Footer;
+import { motion } from "framer-motion";
 
 const Footer = () => {
+  const variants = {
+    initial: {
+      opacity: 0,
+      y: 50,
+    },
+    animate: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        type: "tween",
+        duration: 0.4,
+        ease: "easeInOut",
+      },
+    },
+  };
   return (
     <div className="relative h-full w-full bg-[#ffe600] diagonal-lines-yellow flex flex-col gap-10 justify-center">
-      <h1 className="text-5xl text-black font-cyber font-bold flex justify-center">
+      <motion.h1
+        variants={variants}
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true }}
+        className="text-5xl text-black font-cyber font-bold flex justify-center"
+      >
         GET INVOLVED
-      </h1>
+      </motion.h1>
 
-      <div className="relative  flex justify-center">
+      <motion.div
+        variants={variants}
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true }}
+        className="relative flex justify-center"
+      >
         <a href="https://discord.com/invite/ejaQBdWyyN">
           <button className="bg-black text-[#ffe600] py-4 px-16 rounded shadow-inner hover:scale-110 transition font-mono">
             <h2>Join the Discord server</h2>
           </button>
         </a>
-      </div>
+      </motion.div>
     </div>
   );
 };

@@ -14,7 +14,6 @@ import Footer from "./Footer";
 import ScrollProgress from "./ScrollProgress";
 
 const HomePage = () => {
-  const images = ["/images/cc.jpg", "/images/backdrop.png"];
   return (
     <div className="m-0 p-0 max-h-full max-w-full h-screen w-screen bg-[#ffe600] diagonal-lines-yellow">
       <Border />
@@ -26,7 +25,7 @@ const HomePage = () => {
         <Menu />
       </div>
 
-      <Canvas className="z-30 cursor-pointer">
+      <Canvas className="z-30 cursor-grab active:cursor-grabbing">
         <Background />
       </Canvas>
 
@@ -37,23 +36,23 @@ const HomePage = () => {
         <TitleRight />
       </header>
 
-      <section>
+      <section className="relative h-full w-full">
         <Bio />
       </section>
 
-      <div className="relative h-1/4 w-[99%] translate-x-[0.3rem] bg-[#ffe600] diagonal-lines-yellow"></div>
+      {/* <div className="relative h-1/4 w-[99%] translate-x-[0.3rem] bg-[#ffe600] diagonal-lines-yellow"></div> */}
       <section className="relative h-1/2 w-full overflow-hidden">
         <Carousel />
       </section>
-      <div className="relative h-1/4 w-[99%] translate-x-[0.3rem] bg-[#ffe600] diagonal-lines-yellow"></div>
+      {/* <div className="relative h-1/4 w-[99%] translate-x-[0.3rem] bg-[#ffe600] diagonal-lines-yellow"></div> */}
 
       <section className="relative h-full w-full">
         <Sinix />
       </section>
 
-      <section className="relative h-2/5 w-full">
+      <footer className="relative h-2/5 w-full">
         <Footer />
-      </section>
+      </footer>
     </div>
   );
 };
