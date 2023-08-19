@@ -68,7 +68,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
         <AiOutlineMenu
           size={40}
           onClick={toggleOpen}
-          color={isOpen ? "white" : "black"}
+          color={!isOpen ? "white" : "black"}
         />
       </div>
 

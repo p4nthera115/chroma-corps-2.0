@@ -11,12 +11,14 @@ import { Canvas } from "@react-three/fiber";
 import Bio from "./Bio";
 import Sinix from "./Sinix";
 import Footer from "./Footer";
+import ScrollProgress from "./ScrollProgress";
 
 const HomePage = () => {
   const images = ["/images/cc.jpg", "/images/backdrop.png"];
   return (
     <div className="m-0 p-0 max-h-full max-w-full h-screen w-screen bg-[#ffe600] diagonal-lines-yellow">
       <Border />
+      {/* <ScrollProgress /> */}
 
       <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 border bg-[#ffe600] border-black h-[78%] w-[30%]"></div>
 
