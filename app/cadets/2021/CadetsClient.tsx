@@ -78,31 +78,10 @@ const CadetsClient = () => {
           </section>
           <section className="flex relative h-full flex-col top-[115%] w-full">
             <div className="w-full relative h-full top-[10%] pb-[17%] ">
-              {/* <div
-                className={`flex  h-full scale-[100%] min-w-max z-20 absolute left-1/2 -translate-x-1/2 top-[-6rem]`}
-              >
-                <img src={ched[0].bannerImg[0]} alt="ched" />
-                <h2
-                  className={`flex  absolute font-cyber text-center top-[25rem]
-                    ${
-                      winner[0]?.cadet.name.length > 6 &&
-                      winner[0]?.cadet.name.length < 14
-                        ? "text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full"
-                        : winner[0]?.cadet.name.length >= 14 &&
-                          winner[0]?.cadet.name.length < 16
-                        ? "text-xl md:text-2xl lg:text-4xl xl:text-[3.5rem] max-h-full max-w-full"
-                        : winner[0]?.cadet.name.length >= 16
-                        ? "text-xl md:text-2xl lg:text-4xl xl:text-[3rem] max-h-full max-w-full"
-                        : "text-6xl lg:text-9xl max-h-full max-w-full"
-                    }
-                `}
-                >
-                  {ched[0].name}
-                </h2>
-              </div> */}
               <WinnerBanner winner={winner} />
             </div>
-            <div>{/* <Judges judges={judges} /> */}</div>
+          </section>
+          <section className="flex relative top-[450%] sm:top-[140%] xl:top-[125%]">
             <div className="relative pb-10">
               <AssignmentDays winner={winner} year={2021} />
             </div>
