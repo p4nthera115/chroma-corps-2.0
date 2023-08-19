@@ -4,7 +4,6 @@ import { useRef } from "react";
 import {
   motion,
   useScroll,
-  useSpring,
   useTransform,
   useMotionValue,
   useVelocity,
@@ -13,7 +12,7 @@ import {
 import { wrap } from "@motionone/utils";
 import Image from "next/image";
 
-function Carousel({ baseVelocity = 100 }) {
+function Carousel() {
   const images = [
     "/images/CadetCarousel/cropped-hieumay.png",
     "/images/CadetCarousel/dehaf-full.png",
@@ -26,7 +25,6 @@ function Carousel({ baseVelocity = 100 }) {
   const baseX = useMotionValue(0);
   const { scrollY } = useScroll();
   const scrollVelocity = useVelocity(scrollY);
-
   const velocityFactor = useTransform(scrollVelocity, [0, 1000], [0, 5], {
     clamp: false,
   });
@@ -49,7 +47,7 @@ function Carousel({ baseVelocity = 100 }) {
   });
 
   return (
-    <div className="parallax flex flex-row relative h-full w-full border-8 border-black bg-[#ffe600] ">
+    <div className="parallax flex flex-row relative h-full w-full border-8 border-black  diagonal-lines-black bg-black">
       <motion.div className="scroller flex" style={{ x: baseX }}>
         <section className="relative h-full w-full flex flex-row gap-8 -translate-x-60">
           {images.map((image: string) => (

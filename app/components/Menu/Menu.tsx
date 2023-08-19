@@ -31,7 +31,11 @@ const itemVariants = {
   },
 };
 
-const Menu = () => {
+interface MenuProps {
+  iconPosition?: string;
+}
+
+const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   const [subOpen, setSubOpen] = useState(false);
@@ -52,13 +56,13 @@ const Menu = () => {
   return (
     <div className="flex max-h-full max-w-full z-[100] overflow-hidden absolute">
       <div
-        className="
+        className={`
           fixed
           z-20
-          right-5    
-          m-[1.5rem]
+          ${iconPosition ? iconPosition : "right-0"}    
+          m-6
           cursor-pointer 
-        "
+        `}
       >
         <AiOutlineMenu
           size={40}
