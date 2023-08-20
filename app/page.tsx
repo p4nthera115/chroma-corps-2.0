@@ -1,4 +1,5 @@
 "use client";
+
 import { LoadingScreen } from "./components/CadetPage/Loading/LoadingScreen";
 import { useState } from "react";
 import Home from "./home/page";
