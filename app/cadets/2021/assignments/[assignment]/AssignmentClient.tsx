@@ -79,10 +79,12 @@ const AssignmentClient = () => {
       <div className="absolute z-[60]">
         <Menu />
       </div>
-      <Prompt
-        prompt={cadetAssignments[0].assignment?.prompt}
-        assignmentNo={cadetAssignments[0].assignment?.day}
-      />
+      <div>
+        <Prompt
+          prompt={cadetAssignments[0].assignment?.prompt}
+          assignmentNo={cadetAssignments[0].assignment?.day}
+        />
+      </div>
       <Assignments cadetAssignments={cadetAssignments} teams={teams} />
       <div className="translate-y-14">
         {winner.length > 0 && <WinnerBanner winner={winner} />}
