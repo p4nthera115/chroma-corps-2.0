@@ -30,11 +30,11 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
       onClick={() => router.push(`/cadets/${year}/${cadet.name}`)}
       className={`
             relative
-            flex flex-col align-top
-            w-screen 
+            w-full 
             h-full 
             overflow-hidden 
             border 
+            rounded
             border-neutral-950 
             ${isActive ? cadet.teamColor : "bg-neutral-800"}
             ${cadet.teamColorHover} 
@@ -51,6 +51,9 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
                 w-full
                 h-[6.5%]
                 border
+                rounded-t
+                text-sm
+                md:text-base
                 ${cadet.teamColor}
                 ${cadet.textColor}
               `}
@@ -74,7 +77,13 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
               }
               hover:sepia-0 
               hover:opacity-100
-              hover:scale-110
+              md:hover:scale-110
+              scale-[400%]
+              md:scale-100
+              translate-y-24
+              translate-x-14
+              md:translate-y-0
+              md:translate-x-0
               transition
             `}
       />
@@ -89,6 +98,9 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
                 font-extrabold
                 w-full
                 border
+                rounded-t
+                text-sm
+                md:text-base
                 ${cadet.textColor}
               `}
         >

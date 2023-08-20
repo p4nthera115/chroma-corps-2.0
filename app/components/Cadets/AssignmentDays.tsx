@@ -43,7 +43,7 @@ const AssignmentDays: React.FC<AssDayProps> = ({ winner, year }) => {
       <div className="flex w-full flex-wrap relative flex-row gap-[3rem] justify-center">
         <motion.div className="relative flex w-full justify-center overflow-hidden">
           <h1
-            className={`relative font-cyber m-3 w-3/4 md:w-1/2 text-xl md:text-4xl lg:text-5xl xl:text-6xl p-6 md:p-8 text-center border-2 overflow-hidden cursor-default `}
+            className={`relative font-cyber m-3 w-3/4 md:w-1/2 text-xl md:text-4xl lg:text-5xl xl:text-6xl p-6 md:p-8 text-center border-2 rounded overflow-hidden cursor-default `}
             onMouseOver={hoverAnimation}
           >
             {name}
@@ -53,7 +53,7 @@ const AssignmentDays: React.FC<AssDayProps> = ({ winner, year }) => {
         {winner[0]?.assignments?.map((assignment: Assignment) => (
           <button
             key={assignment.day}
-            className="border h-[3rem] w-[6rem] md:w-[10rem] justify-center items-center flex font-cyber text-[#ffe600] md:text-white hover:text-[#ffe600]"
+            className="border rounded h-[3rem] w-[6rem] md:w-[10rem] justify-center items-center flex font-cyber text-amber-400 md:text-white hover:text-amber-400"
             onClick={() =>
               router.push(`/cadets/${year}/assignments/${assignment.day}`)
             }

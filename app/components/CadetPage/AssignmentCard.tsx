@@ -76,6 +76,7 @@ const AssignmentCard: React.FC<AssignmentCardProps> = ({
             flex 
             z-0
             border
+            rounded-lg
             w-screen
             h-[12rem]
             md:w-[14rem] 
