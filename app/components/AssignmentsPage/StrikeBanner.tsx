@@ -8,7 +8,7 @@ interface StrikeBannerProps {
 
 const StrikeBanner: React.FC<StrikeBannerProps> = ({ strike }) => {
   return (
-    <div className="relative w-screen h-[33.333333333vh]">
+    <div className="relative w-full h-[33.333333333vh]">
       <div className="absolute h-full w-full ">
         <div
           className={`absolute z-10 h-full w-full ${strike[0]?.cadet.gradient} z-20 border border-neutral-500/50 flex justify-center items-center sepia overflow-hidden`}

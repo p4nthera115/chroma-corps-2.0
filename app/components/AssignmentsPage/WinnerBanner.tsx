@@ -45,7 +45,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
   };
 
   return (
-    <div className="relative w-screen h-[66.666666vh] ">
+    <div className="relative w-full h-[66.666666vh] ">
       <div
         className={` z-10 h-full w-full ${
           winner.length == 1 && winner[0]?.cadet.gradient

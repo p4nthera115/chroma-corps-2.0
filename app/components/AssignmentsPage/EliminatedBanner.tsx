@@ -15,7 +15,7 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
   const elimType: any = eliminated.length > 0 ? eliminated : dropout;
 
   return (
-    <div className="relative w-screen h-[66.666666vh] bg-neutral-900 ">
+    <div className="relative w-full h-[66.666666vh] bg-neutral-900 ">
       <div
         className={`absolute z-10 h-full w-full ${elimType[0]?.cadet.gradient} flex justify-center`}
       >

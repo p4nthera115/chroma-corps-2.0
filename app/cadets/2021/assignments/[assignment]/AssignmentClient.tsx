@@ -75,7 +75,7 @@ const AssignmentClient = () => {
   console.log(winner);
 
   return (
-    <div className="bg-neutral-900">
+    <div className="bg-neutral-900 relative w-full h-full">
       <div className="absolute z-[60]">
         <Menu />
       </div>

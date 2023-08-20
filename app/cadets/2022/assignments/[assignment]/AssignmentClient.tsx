@@ -84,7 +84,7 @@ const AssignmentClient = () => {
       {+assignmentDay > 31 || +assignmentDay < 1 ? (
         <NotFound />
       ) : (
-        <div className="bg-black">
+        <div className="bg-neutral-900 relative w-full h-full">
           <div className="absolute z-[60]">
             <Menu />
           </div>
