@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import CadetsLoading from "./CadetsLoading";
 import CadetSelect from "../../components/Cadets/CadetSelect";
 import { cadets2022 } from "@/app/components/Cadets/CadetData";
-import WinnerBanner from "@/app/components/AssignmentsPage/WinnerBanner";
+import WinnerBanner from "@/app/components/Cadets/WinnerBanner";
 import AssignmentDays from "@/app/components/Cadets/AssignmentDays";
 import Judges from "@/app/components/Cadets/Judges";
 
@@ -73,8 +73,9 @@ const CadetsClient = () => {
             <div className="w-full h-full top-[10%] pb-[17%]">
               <WinnerBanner winner={winner} />
             </div>
-            <div>{/* <Judges judges={judges} /> */}</div>
-            <div className="relative pb-10">
+          </section>
+          <section className="flex relative top-[175%] sm:top-[150%]">
+            <div className="pb-10">
               <AssignmentDays winner={winner} year={2022} />
             </div>
           </section>

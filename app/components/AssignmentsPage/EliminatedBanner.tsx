@@ -15,7 +15,7 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
   const elimType: any = eliminated.length > 0 ? eliminated : dropout;
 
   return (
-    <div className="relative w-screen h-[66.666666vh] bg-neutral-900 ">
+    <div className="relative w-full h-[66.666666vh] bg-neutral-900 ">
       <div
         className={`absolute z-10 h-full w-full ${elimType[0]?.cadet.gradient} flex justify-center`}
       >
@@ -40,7 +40,7 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
               {elimType.map((cadet: CadetAssignment, i: number) => (
                 <h2
                   key={i}
-                  className={`flex  bottom-0 right-0
+                  className={`flex z-[1000] bottom-0 right-0 text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full
                     ${
                       elimType[0]?.cadet.name.length > 6 &&
                       elimType[0]?.cadet.name.length < 14
@@ -67,7 +67,7 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
               className={`${elimType[0]?.cadet?.bannerPos} flex z-20`}
             />
             <h2
-              className={`absolute font-cyber p-4 right-0 bottom-0 ${
+              className={`absolute z-[1000] font-cyber p-4 right-0 bottom-0 text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full ${
                 elimType[0]?.cadet.name.length > 6 &&
                 elimType[0]?.cadet.name.length < 14
                   ? "text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full"
@@ -84,8 +84,8 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
             </h2>
           </div>
         )}
-        <h2 className="absolute font-cyber p-4 left-0 top-0 opacity-75 text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-[8rem] max-h-full max-w-full md:pl-4">
-          {eliminated.length > 0 ? "Eliminated" : "Dropout"}
+        <h2 className="absolute font-cyber z-40 p-4 left-0 top-0 opacity-75 text-5xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-[6rem] max-h-full max-w-full md:pl-4">
+          {eliminated.length > 0 ? "Eliminated:" : "Dropout:"}
         </h2>
       </div>
     </div>
