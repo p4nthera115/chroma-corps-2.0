@@ -23,8 +23,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/iam_dehaf/",
     },
     assignments: [
       {
@@ -274,8 +273,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/storse/storse-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/storsearts/",
     },
     assignments: [
       {
@@ -443,8 +441,8 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/slimeslugger/slimeslugger-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/slime.slugger/",
+      twitter: "https://twitter.com/Slimiest_Slug",
     },
     assignments: [
       {
@@ -566,8 +564,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/alto/alto-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/alt0phone/",
     },
     assignments: [
       {
@@ -825,8 +822,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/snow/snow-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/it.snooows/",
     },
     assignments: [
       {
@@ -966,8 +962,8 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/elodin/elodin-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://instagram.com/elumbo_draws?igshid=MzRlODBiNWFlZA==",
+      twitter: "https://twitter.com/elumbo_?t=NTqNEJZp_ScwgxM0l-jh9A&s=09",
     },
     assignments: [
       {
@@ -1171,8 +1167,8 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/double/double-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/d0uble_art/",
+      twitter: "https://twitter.com/D0UBLE_ART",
     },
     assignments: [
       {
@@ -1430,8 +1426,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/josie/josie-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/jo.who.makes.art/",
     },
     assignments: [
       {
@@ -1689,8 +1684,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/hjoy/hjoy-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/hjori_arts/",
     },
     assignments: [
       {
@@ -1948,8 +1942,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/trout/trout-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/whatatrout_art/",
     },
     assignments: [
       {
@@ -2208,8 +2201,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/ofeliaou8/ofeliaou8-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/ofelia0u8/",
     },
     assignments: [
       {
@@ -2422,8 +2414,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/yuyuyuan/yuyuyuan-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/jzhangdraws/",
     },
     assignments: [
       {
@@ -2636,8 +2627,8 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/odin/odin-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram:
+        "https://www.instagram.com/odin_gerke/?igshid=NGExMmI2YTkyZg%3D%3D",
     },
     assignments: [
       {
@@ -2860,8 +2851,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/messalhi9/messalhi9-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/m3ssali_/",
     },
     assignments: [
       {
@@ -3065,8 +3055,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/coli/coli-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/coli_artsnstuffs/",
     },
     assignments: [
       {
@@ -3198,8 +3187,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/drawki/drawki-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/draw_ki_/",
     },
     assignments: [
       {
@@ -3331,8 +3319,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/naka/naka-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/callmenaka/",
     },
     assignments: [
       {
@@ -3591,8 +3578,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/edouardtredan/edouardtredan-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/garbagepalette/",
     },
     assignments: [
       {
@@ -3851,8 +3837,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/girpel42/girpel42-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      twitter: "https://twitter.com/graftiple",
     },
     assignments: [
       {
@@ -4019,8 +4004,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/gulapa/gulapa-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/gulapa2000/",
     },
     assignments: [
       {
@@ -4169,8 +4153,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/kettlepig/kettlepig-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/kettlepig/",
     },
     assignments: [
       {
@@ -4329,8 +4312,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/kuzillon/kuzillon-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/kuzillon/",
     },
     assignments: [
       {
@@ -4589,8 +4571,8 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/nijamin/nijamin-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram:
+        "https://www.instagram.com/nijaminsketches/?igshid=OGQ5ZDc2ODk2ZA%3D%3D",
     },
     assignments: [
       {
@@ -4730,8 +4712,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/ringarune/ringarune-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/ringarune/?hl=en",
     },
     assignments: [
       {
@@ -4971,8 +4952,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/sabi/sabi-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/awfullysabi/",
     },
     assignments: [
       {
@@ -5230,8 +5210,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/spiderlair/spiderlair-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/spiderlair",
     },
     assignments: [
       {
@@ -5462,8 +5441,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/tavvoc/tavvoc-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/tavvoc/",
     },
     assignments: [
       {
@@ -5650,8 +5628,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/teted/teted-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/teted_draws/",
     },
     assignments: [
       {
@@ -5909,8 +5886,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/andre/andre-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      artstation: "https://www.artstation.com/andrechris-sargent2",
     },
     assignments: [
       {
@@ -5995,8 +5971,8 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/arikranz/arikranz-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/arikranz/",
+      artstation: "https://arielarguello1.artstation.com/",
     },
     assignments: [
       {
@@ -6082,8 +6058,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/bluhbblab/bluhbblab-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/bluhbblab/",
     },
     assignments: [
       {
@@ -6195,8 +6170,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/diegono/diegono-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/diego.amar.illo/",
     },
     assignments: [
       {
@@ -6262,8 +6236,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/fishenes/fishenes-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/fishenes/",
     },
     assignments: [
       {
@@ -6366,8 +6339,8 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/hakarts/hakarts-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram:
+        "https://www.instagram.com/hakarts/?igshid=OGQ5ZDc2ODk2ZA%3D%3D",
     },
     assignments: [
       {
@@ -6415,8 +6388,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/hakunamatata/hakunamatata-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/bphamart/",
     },
     assignments: [
       {
@@ -6519,8 +6491,8 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/henny/henny-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/Generic_Henerik/",
+      twitter: "https://twitter.com/Brobongus",
     },
     assignments: [
       {
@@ -6578,8 +6550,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/hieumay/hieumay-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/hieumayart",
     },
     assignments: [
       {
@@ -6674,8 +6645,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/irisroussel/irisroussel-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/artiris6/",
     },
     assignments: [
       {
@@ -6770,8 +6740,8 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/kambing/kambing-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/kambingoats/",
+      twitter: "https://twitter.com/kambingoats",
     },
     assignments: [
       {
@@ -6893,8 +6863,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/peekay/peekay-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/peekaywalsh/",
     },
     assignments: [
       {
@@ -6942,8 +6911,8 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/shum/shum-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram:
+        "https://www.instagram.com/tamago_yarou_/?igshid=MmIzYWVlNDQ5Yg%3D%3D",
     },
     assignments: [
       {
@@ -7018,8 +6987,8 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/smyk/smyk-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram:
+        "https://www.instagram.com/smoczyslaw__/?igshid=OGQ5ZDc2ODk2ZA%3D%3D",
     },
     assignments: [
       {
@@ -7132,8 +7101,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/sunny/sunny-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/sunny_seaway/",
     },
     assignments: [
       {
@@ -7200,8 +7168,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/whoben/whoben-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/_whoben_/",
     },
     assignments: [
       {
@@ -7258,8 +7225,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/gerg/gerg-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/callistopt/",
     },
     assignments: [
       {
@@ -7307,8 +7273,7 @@ export const cadets2023 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/jorts/jorts-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/extrapizzacrust/",
     },
     assignments: [
       {
@@ -7507,8 +7472,7 @@ export const cadets2022 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/applechancery002/",
     },
     assignments: [
       {
@@ -7685,8 +7649,7 @@ export const cadets2022 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/megalithiccat/",
     },
     assignments: [
       {
@@ -8003,8 +7966,7 @@ export const cadets2022 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      twitter: "https://twitter.com/Dakotenfog",
     },
     assignments: [
       {
@@ -8320,8 +8282,7 @@ export const cadets2022 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "instagram.com",
-      twitter: "twitter.com",
+      instagram: "https://www.instagram.com/baeloma__/",
     },
     assignments: [
       {
@@ -8632,8 +8593,7 @@ export const cadets2022 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/vevolf/?hl=en",
     },
     assignments: [
       {
@@ -8781,8 +8741,7 @@ export const cadets2022 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/gulapa2000/",
     },
     assignments: [
       {
@@ -8913,8 +8872,7 @@ export const cadets2022 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/greeblebot/",
     },
     assignments: [
       {
@@ -9225,8 +9183,7 @@ export const cadets2022 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/yugichu/?hl=en",
     },
     assignments: [
       {
@@ -9465,8 +9422,7 @@ export const cadets2022 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/kauris_art/",
     },
     assignments: [
       {
@@ -9669,8 +9625,7 @@ export const cadets2022 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/coltmanarts/?hl=en",
     },
     assignments: [
       {
@@ -10053,8 +10008,7 @@ export const cadets2022 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/overgangdood/",
     },
     assignments: [
       {
@@ -10248,8 +10202,7 @@ export const cadets2022 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/kookykusu/",
     },
     assignments: [
       {
@@ -10497,8 +10450,7 @@ export const cadets2022 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/wonkypen/",
     },
     assignments: [
       {
@@ -10629,8 +10581,7 @@ export const cadets2022 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/puro.pena14/",
     },
     assignments: [
       {
@@ -10832,8 +10783,8 @@ export const cadets2022 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/polyowls/",
+      artstation: "https://www.artstation.com/aoubg",
     },
     assignments: [
       {
@@ -11125,8 +11076,8 @@ export const cadets2021 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/hieumayart",
+      twitter: "https://twitter.com/hieumayart?s=20",
     },
     assignments: [
       {
@@ -11310,8 +11261,7 @@ export const cadets2021 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/spiderlair",
     },
     assignments: [
       {
@@ -11562,8 +11512,8 @@ export const cadets2021 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/ozanpulat/",
+      twitter: "https://twitter.com/ozanpulat_art",
     },
     assignments: [
       {
@@ -11944,8 +11894,8 @@ export const cadets2021 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "http://instagram.com/_JohArts",
+      twitter: "http://twitter.com/_joharts",
     },
     assignments: [
       {
@@ -12165,8 +12115,7 @@ export const cadets2021 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "http://www.instagram.com/chedilkm/",
     },
     assignments: [
       {
@@ -12548,8 +12497,8 @@ export const cadets2021 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/yau.oiyi",
+      twitter: "https://twitter.com/yauoiyi",
     },
     assignments: [
       {
@@ -12877,8 +12826,8 @@ export const cadets2021 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/gwawi_art/",
+      twitter: "https://twitter.com/P33lingBananaZ",
     },
     assignments: [
       {
@@ -13018,8 +12967,7 @@ export const cadets2021 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/bumbleboots_art/",
     },
     assignments: [
       {
@@ -13402,8 +13350,7 @@ export const cadets2021 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/silverstar1243",
     },
     assignments: [
       {
@@ -13559,8 +13506,7 @@ export const cadets2021 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/awfullysabi/",
     },
     assignments: [
       {
@@ -13844,8 +13790,7 @@ export const cadets2021 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/iam_dehaf",
     },
     assignments: [
       {
@@ -14217,8 +14162,7 @@ export const cadets2021 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/mattmcangusart/",
     },
     assignments: [
       {
@@ -14420,8 +14364,7 @@ export const cadets2021 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/svantessonphilip/",
     },
     assignments: [
       {
@@ -14794,8 +14737,8 @@ export const cadets2021 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/devoidd",
+      twitter: "https://twitter.com/Devoidd_of_what",
     },
     assignments: [
       {
@@ -15105,8 +15048,8 @@ export const cadets2021 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://instagram.com/liionor?utm_medium=copy_link",
+      twitter: "https://mobile.twitter.com/liiionor?lang=en",
     },
     assignments: [
       {
@@ -15146,8 +15089,7 @@ export const cadets2021 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/vorueg/",
     },
     assignments: [
       {
@@ -15486,8 +15428,7 @@ export const cadets2020 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/makennu/?hl=en",
     },
     assignments: [
       {
@@ -15722,8 +15663,8 @@ export const cadets2020 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/nikittysan/",
+      twitter: "https://twitter.com/nikittysan",
     },
     assignments: [
       {
@@ -16051,8 +15992,7 @@ export const cadets2020 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/spiderlair/?hl=en",
     },
     assignments: [
       {
@@ -16314,8 +16254,7 @@ export const cadets2020 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/awfullysabi/",
     },
     assignments: [
       {
@@ -16619,8 +16558,7 @@ export const cadets2020 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/iam_dehaf/",
     },
     assignments: [
       {
@@ -16659,8 +16597,7 @@ export const cadets2020 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/storsearts/",
     },
     assignments: [
       {
@@ -16844,8 +16781,7 @@ export const cadets2020 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/franco_galz/?hl=en",
     },
     assignments: [
       {
@@ -17141,8 +17077,7 @@ export const cadets2020 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/samuelamarart/",
     },
     assignments: [
       {
@@ -17365,8 +17300,7 @@ export const cadets2020 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/felipe.debarros/",
     },
     assignments: [
       {
@@ -17655,8 +17589,7 @@ export const cadets2020 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/weiaoart/",
     },
     assignments: [
       {
@@ -17979,8 +17912,8 @@ export const cadets2020 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/overgang_d/",
+      twitter: "https://twitter.com/OvergangDood",
     },
     assignments: [
       {
@@ -18293,8 +18226,7 @@ export const cadets2020 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/swolfchan/",
     },
     assignments: [
       {
@@ -18404,8 +18336,7 @@ export const cadets2020 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/true0men/",
     },
     assignments: [
       {
@@ -18563,8 +18494,7 @@ export const cadets2020 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/anna.doodles/?hl=en",
     },
     assignments: [
       {
@@ -18748,8 +18678,7 @@ export const cadets2020 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/seanwallaceart/",
     },
     assignments: [
       {
@@ -18836,8 +18765,7 @@ export const cadets2020 = [
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
     socials: {
-      instagram: "",
-      twitter: "",
+      instagram: "https://www.instagram.com/hesitantfox/",
     },
     assignments: [
       {
