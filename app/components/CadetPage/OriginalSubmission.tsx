@@ -52,7 +52,7 @@ const OriginalSubmission: React.FC<OriginalSubmissionProps> = ({ cadet }) => {
     <div className="flex flex-col mb-[10%]">
       <motion.div className="flex w-full justify-center overflow-hidden">
         <h1
-          className={`relative font-cyber m-3 w-3/4 text-xl md:text-4xl lg:text-5xl xl:text-6xl p-6 md:p-8 text-center border-2 overflow-hidden cursor-default ${cadet?.borderColor} ${cadet?.teamColorOpacity}`}
+          className={`relative font-cyber m-3 w-3/4 text-xl md:text-4xl lg:text-5xl xl:text-6xl p-6 md:p-8 text-center rounded-lg border-2 overflow-hidden cursor-default ${cadet?.borderColor} ${cadet?.teamColorOpacity}`}
           onMouseOver={hoverAnimation}
         >
           {name}
@@ -106,6 +106,7 @@ const OriginalSubmission: React.FC<OriginalSubmissionProps> = ({ cadet }) => {
             flex 
             z-0
             border
+            rounded-lg
             w-[90vw]
             md:w-[75vw]
             lg:w-[70vw]
