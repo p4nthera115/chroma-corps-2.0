@@ -5,8 +5,6 @@ import Logo from "./3DLogo";
 import { OrbitControls } from "@react-three/drei";
 
 const Background = () => {
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
-  const [shaderRefCheck, setShaderRefCheck] = useState(false);
   const [windowWidth, setWidth] = useState(0);
 
   useEffect(() => {
@@ -17,7 +15,8 @@ const Background = () => {
 
   return (
     <>
-      {windowWidth > 768 && <OrbitControls enableZoom={false} />} <Logo />
+      {windowWidth > 768 && <OrbitControls enableZoom={false} />}
+      <Logo />
     </>
   );
 };

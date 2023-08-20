@@ -20,7 +20,7 @@ const CadetSelect: React.FC<CadetSelectProps> = (cadets) => {
 
   let top;
   let bottom;
-  if (cadets.cadets.length <= 16 && cadets.cadets.length < 18) {
+  if (cadets.cadets.length <= 16) {
     top = cadets.cadets.slice(0, 8);
     bottom = cadets.cadets.slice(8, 16);
   } else if (cadets.cadets.length >= 18 && cadets.cadets.length < 20) {
@@ -74,7 +74,7 @@ const CadetSelect: React.FC<CadetSelectProps> = (cadets) => {
 
       <div className="h-full w-full flex flex-row">
         {width > 768 ? (
-          top?.map((cadet: Cadet, i: number) => (
+          bottom?.map((cadet: Cadet, i: number) => (
             <CadetCard key={i} cadetObj={cadet} />
           ))
         ) : (
