@@ -63,12 +63,6 @@ module.exports = {
       },
       animation: {
         camera: "panImage 40s linear infinite",
-        slideUp: "slideUp 0.5s",
-        slideUpCubiBezier: "slideUp 1s cubic-bezier(0.165, 0.84, 0.44, 1)",
-      },
-      slideUp: {
-        from: { transform: "translateY(100%)" },
-        to: { transform: "translateY(0)" },
       },
     },
   },
