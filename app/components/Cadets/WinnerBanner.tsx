@@ -60,7 +60,11 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
         </motion.div>
         {winner.length >= 2 ? (
           <div
-            className={`block relative w-full h-full sm:flex flex-row justify-evenly mt-12 max-h-[90%]`}
+            className={`block relative w-full h-full sm:flex flex-row justify-evenly mt-12 max-h-[90%] ${
+              winner[0].cadet.teamColor === winner[1].cadet.teamColor &&
+              winner[0].cadet.teamColor === winner[2]?.cadet.teamColor &&
+              winner[0].cadet.gradient
+            }`}
           >
             <div className="flex flex-col font-cyber text-center mx-auto">
               <h2
@@ -81,7 +85,12 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
               <img
                 src={winner[0]?.cadet.bannerImg[0]}
                 alt={winner[0]?.cadet?.name}
-                className={`h-full scale-[80%] sm:scale-[80%] lg:scale-[100%] z-20 ${winner[0].cadet.gradient}`}
+                className={`h-full scale-[80%] sm:scale-[80%] lg:scale-[100%] z-20 ${
+                  winner[0].cadet.teamColor === winner[1].cadet.teamColor &&
+                  winner[0].cadet.teamColor === winner[2]?.cadet.teamColor
+                    ? null
+                    : winner[0].cadet.gradient
+                }`}
               />
             </div>
             <div className="flex flex-col font-cyber text-center mx-auto">
@@ -103,7 +112,12 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
               <img
                 src={winner[1]?.cadet.bannerImg[0]}
                 alt={winner[1]?.cadet?.name}
-                className={`h-full scale-[80%] sm:scale-[80%] lg:scale-[100%] z-20 ${winner[1].cadet.gradient}`}
+                className={`h-full scale-[80%] sm:scale-[80%] lg:scale-[100%] z-20 ${
+                  winner[1].cadet.teamColor === winner[0].cadet.teamColor &&
+                  winner[1].cadet.teamColor === winner[2]?.cadet.teamColor
+                    ? null
+                    : winner[1].cadet.gradient
+                }`}
               />
             </div>
             {winner.length >= 3 ? (
@@ -126,7 +140,12 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
                 <img
                   src={winner[2]?.cadet.bannerImg[0]}
                   alt={winner[2]?.cadet.name}
-                  className={`h-full scale-[80%] sm:scale-[80%] lg:scale-[100%] z-20 ${winner[2].cadet.gradient}`}
+                  className={`h-full scale-[80%] sm:scale-[80%] lg:scale-[100%] z-20 ${
+                    winner[2].cadet.teamColor === winner[0].cadet.teamColor &&
+                    winner[2].cadet.teamColor === winner[1]?.cadet.teamColor
+                      ? null
+                      : winner[2].cadet.gradient
+                  }`}
                 />
               </div>
             ) : null}

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import CadetsLoading from "./CadetsLoading";
 import CadetSelect from "../../components/Cadets/CadetSelect";
 import { cadets2021 } from "@/app/components/Cadets/CadetData";
-import WinnerBanner from "@/app/components/AssignmentsPage/WinnerBanner";
+import WinnerBanner from "@/app/components/Cadets/WinnerBanner";
 import Judges from "@/app/components/Cadets/Judges";
 import AssignmentDays from "@/app/components/Cadets/AssignmentDays";
 import Image from "next/image";
