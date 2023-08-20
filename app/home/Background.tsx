@@ -6,12 +6,18 @@ import { useThree, useFrame } from "@react-three/fiber";
 import vertex from "./shaders/vertex.js";
 import fragment from "./shaders/fragment.js";
 import * as THREE from "three";
-import { Perf } from "r3f-perf";
 import { OrbitControls } from "@react-three/drei";
 
 const Background = () => {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const [shaderRefCheck, setShaderRefCheck] = useState(false);
+  const [windowWidth, setWidth] = useState(0);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setWidth(window.innerWidth);
+    }
+  }, []);
 
   const shaderRef: any = useRef();
 
@@ -41,8 +47,7 @@ const Background = () => {
 
   return (
     <>
-      <OrbitControls enableZoom={false} />
-      <Logo />
+      {windowWidth > 768 && <OrbitControls enableZoom={false} />} <Logo />
       {/* <mesh position-z={-2}>
         <meshBasicMaterial color={"#ffe600"} />
         <planeGeometry args={[width, height]} />

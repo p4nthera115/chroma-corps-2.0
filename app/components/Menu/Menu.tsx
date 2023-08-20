@@ -72,7 +72,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
           z-20
           right-0
           ${iconPosition?.right ? iconPosition.right : "right-0"}    
-          ${iconPosition?.margin ? iconPosition.margin : "m-0"}    
+          ${iconPosition?.margin ? iconPosition.margin : "m-6"}    
           cursor-pointer 
         `}
       >

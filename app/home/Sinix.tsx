@@ -25,9 +25,9 @@ const Sinix = () => {
     },
   };
   return (
-    <div className="relative h-full w-full flex flex-col justify-center text-center gap-12">
+    <div className="relative h-full w-full flex flex-col justify-center text-center gap-2 md:gap-12">
       <motion.h2
-        className="text-5xl font-cyber text-[#ffe600]"
+        className="text-3xl md:text-5xl font-cyber text-[#ffe600]"
         variants={variants}
         initial="initial"
         whileInView="animate"
@@ -44,7 +44,7 @@ const Sinix = () => {
         className="flex justify-center"
       >
         <Image
-          className="overflow-hidden rounded-full border-8 border-[#ffe600]"
+          className="overflow-hidden rounded-full border-8 border-[#ffe600] scale-75 md:scale-100"
           src="https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Sinix/sinixdp.jpg"
           alt=""
           height={300}

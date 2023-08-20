@@ -25,7 +25,7 @@ const Footer = () => {
         initial="initial"
         whileInView="animate"
         viewport={{ once: true }}
-        className="text-5xl text-black font-cyber font-bold flex justify-center"
+        className="text-3xl md:text-5xl text-black font-cyber font-bold flex justify-center"
       >
         GET INVOLVED
       </motion.h1>
@@ -38,7 +38,7 @@ const Footer = () => {
         className="relative flex justify-center"
       >
         <a href="https://discord.com/invite/ejaQBdWyyN">
-          <button className="bg-black text-[#ffe600] py-4 px-16 rounded shadow-inner hover:scale-110 transition font-mono">
+          <button className="bg-black text-[#ffe600] text-sm md:text-base py-4 px-4 md:px-16 rounded shadow-inner hover:scale-110 transition font-mono">
             <h2>Join the Discord server</h2>
           </button>
         </a>
