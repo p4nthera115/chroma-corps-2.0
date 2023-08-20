@@ -44,7 +44,7 @@ const AssignmentClient = () => {
       (cadetAssignment) => cadetAssignment.cadet.teamColor === "bg-blue-500"
     );
     const yellowTeam = cadetAssignments.filter(
-      (cadetAssignment) => cadetAssignment.cadet.teamColor === "bg-yellow-500"
+      (cadetAssignment) => cadetAssignment.cadet.teamColor === "bg-[#ffe600]"
     );
     const pinkTeam = cadetAssignments.filter(
       (cadetAssignment) => cadetAssignment.cadet.teamColor === "bg-pink-600"

@@ -35,9 +35,7 @@ export default function HomeClient() {
             >
               CHROMA CORPS
             </h1>
-            <h2 className=" text-yellow-400 font-cyber text-center">
-              クロマ隊
-            </h2>
+            <h2 className=" text-[#ffe600] font-cyber text-center">クロマ隊</h2>
           </div>
           <div className="sm:mr-8 md:mr-16">
             <img
@@ -72,7 +70,7 @@ export default function HomeClient() {
       </div>
       <div className="flex flex-col justify-center gap-8 vertical-lines-amber">
         <div className="flex flex-col align-middle justify-center mt-16">
-          <h1 className="font-cyber font-extrabold text-center text-yellow-400 lg:text-6xl md:text-4xl text-3xl mt-32 mb-8">
+          <h1 className="font-cyber font-extrabold text-center text-[#ffe600] lg:text-6xl md:text-4xl text-3xl mt-32 mb-8">
             FOR THE LOVE OF ART.
             <a id="about-section"></a>
           </h1>
@@ -105,13 +103,13 @@ export default function HomeClient() {
         </div>
         <section id="about-sinix">
           <div className="flex flex-col justify-center text-center py-4">
-            <h1 className="text-5xl font-cyber text-yellow-400 py-4 mb-32">
+            <h1 className="text-5xl font-cyber text-[#ffe600] py-4 mb-32">
               An annual event hosted by Sinix
             </h1>
             <div id="constraint" className="w-[90%] mx-auto ">
               <div
                 id="about-block"
-                className="bg-yellow-400/20 flex flex-col px-0 pt-48 pb-12 sm:px-52 sm:pt-48 sm:pb-12 mt-16 mb-16 relative diagonal-lines-yellow border-8 border-yellow-400/40"
+                className="bg-[#ffe600]/20 flex flex-col px-0 pt-48 pb-12 sm:px-52 sm:pt-48 sm:pb-12 mt-16 mb-16 relative diagonal-lines-yellow border-8 border-[#ffe600]/40"
               >
                 <div
                   id="sinix-image"
@@ -183,12 +181,12 @@ export default function HomeClient() {
         </section>
         <section id="footer">
           <div className="flex flex-col text-center my-16">
-            <h1 className="text-5xl text-yellow-400 font-cyber font-bold">
+            <h1 className="text-5xl text-[#ffe600] font-cyber font-bold">
               GET INVOLVED
             </h1>
             <div className="my-16 flex justify-center gap-10">
               <a href="https://discord.com/invite/ejaQBdWyyN">
-                <div className="bg-yellow-400 text-black py-4 px-16 rounded shadow-inner shadow-yellow-600 hover:opacity-80 font-mono">
+                <div className="bg-[#ffe600] text-black py-4 px-16 rounded shadow-inner shadow-yellow-400 hover:opacity-80 font-mono">
                   <h2>Join the Discord server</h2>
                 </div>
               </a>

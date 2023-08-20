@@ -34,9 +34,10 @@ const CreditsClient = () => {
     flex 
     flex-col
      justify-center
+     text-neutral-100
   "
       >
-        <h1 className="font-cyber font-extrabold text-center text-green-400 lg:text-5xl md:text-4xl text-4xl mb-8">
+        <h1 className="font-cyber font-extrabold text-center text-[#ffe600] lg:text-5xl md:text-4xl text-4xl mb-8">
           CREDITS
         </h1>
         <h2 className="text-center font-cyber mb-8 md:text-xl sm:text-lg text-lg">
@@ -48,7 +49,7 @@ const CreditsClient = () => {
             className="flex flex-col w-[50%] text-center border-r-[1px] border-neutral-600 pb-24"
           >
             <a
-              className=" font-cyber lg:text-4xl md:text-3xl text-2xl mb-4 mx-auto text-green-200 hover:scale-[110%] transition"
+              className=" font-cyber lg:text-4xl md:text-3xl text-2xl mb-4 mx-auto text-[#FFEF5C] hover:scale-[110%] transition"
               href="https://twitter.com/p4nthera_"
             >
               @p4n
@@ -101,13 +102,13 @@ const CreditsClient = () => {
             className="flex flex-col w-[50%] text-center border-l-[1px] border-neutral-600 pb-24"
           >
             <a
-              className="font-cyber lg:text-4xl md:text-3xl text-2xl mb-4 mx-auto text-green-200 hover:scale-[110%] transition"
-              href="https://twitter.com/lifguson1"
+              className="font-cyber lg:text-4xl md:text-3xl text-2xl mb-4 mx-auto text-[#FFEF5C] hover:scale-[110%] transition"
+              href="https://twitter.com/leondvlpr"
             >
-              @Lifguson
+              @Leon
             </a>
             <div className="mx-auto w-[75%]">
-              <Link href="https://twitter.com/lifguson1">
+              <Link href="https://twitter.com/leondvlpr">
                 <div
                   onMouseEnter={() => setHover(true)}
                   onMouseLeave={() => setHover(false)}
@@ -127,7 +128,7 @@ const CreditsClient = () => {
                 border
                 "
                   >
-                    Lifguson
+                    Leon
                   </h1>
                   <img
                     src="/images/ChromaCorpsLogoWhite.png"
@@ -151,7 +152,7 @@ const CreditsClient = () => {
           </div>
         </div>
         <div className="flex flex-col mb-12">
-          <h2 className="font-cyber text-5xl text-center text-green-400">
+          <h2 className="font-cyber text-5xl text-center text-[#ffe600]">
             Shoutout to these people for their contributions
           </h2>
           <div className="flex flex-col text-center py-8">
@@ -160,7 +161,7 @@ const CreditsClient = () => {
                 <li className="flex flex-col gap-2" key={i}>
                   <div className="flex flex-row justify-center mx-auto gap-4 hover:scale-[110%] transition">
                     <a
-                      className="font-cyber text-3xl sm:text-3xl md:text-4xl text-green-200 max-w-fit mx-auto"
+                      className="font-cyber text-3xl sm:text-3xl md:text-4xl text-[#FFEF5C] max-w-fit mx-auto"
                       href={contributor.link}
                     >
                       {contributor.name}

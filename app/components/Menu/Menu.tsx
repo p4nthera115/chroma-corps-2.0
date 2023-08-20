@@ -79,7 +79,7 @@ const Menu = () => {
                 min-w-full
                 fixed
                 shadow-md
-                bg-yellow-400
+                bg-[#ffe600]
                 overflow-hidden
                 text-7xl
                 sm:text-8xl

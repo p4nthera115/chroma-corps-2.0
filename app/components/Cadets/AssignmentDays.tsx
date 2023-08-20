@@ -53,7 +53,7 @@ const AssignmentDays: React.FC<AssDayProps> = ({ winner, year }) => {
         {winner[0]?.assignments?.map((assignment: Assignment) => (
           <button
             key={assignment.day}
-            className="border h-[3rem] w-[6rem] md:w-[10rem] justify-center items-center flex font-cyber text-amber-400 md:text-white hover:text-amber-400"
+            className="border h-[3rem] w-[6rem] md:w-[10rem] justify-center items-center flex font-cyber text-[#ffe600] md:text-white hover:text-[#ffe600]"
             onClick={() =>
               router.push(`/cadets/${year}/assignments/${assignment.day}`)
             }
