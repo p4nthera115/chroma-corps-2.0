@@ -1,3 +1,5 @@
+"use client";
+
 import "./globals.css";
 import { Inter, Orbitron } from "next/font/google";
 
