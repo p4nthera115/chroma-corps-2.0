@@ -25,16 +25,16 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
                 className={`absolute z-10 h-full w-full rotate-180 ${winner[1]?.cadet.gradient}`}
               ></div>
             ) : null}
-            <div className="flex flex-row relative w-full h-full gap-8 justify-between">
+            <div className="flex flex-row relative w-full h-full gap-8 justify-center">
               <img
                 src={winner[0]?.cadet.bannerImg[0]}
                 alt={winner[0]?.cadet?.name}
-                className={`h-full scale-[50%] md:scale-75 lg:scale-100 xl:scale-125 z-20 left-[-8rem] sm:left-[-8rem] md:left-[-4rem] lg:left-0 xl:left-[2rem] absolute`}
+                className={`h-full scale-[150%] min-w-max z-20 left-[8rem] absolute`}
               />
               <img
                 src={winner[1]?.cadet.bannerImg[0]}
                 alt={winner[1]?.cadet?.name}
-                className={`h-full scale-[50%] md:scale-75 lg:scale-100 xl:scale-125 z-20 right-[-8rem] sm:right-[-8rem] md:right-[-10rem] lg:right-[-11rem] xl:right-[2rem] absolute`}
+                className={`h-full scale-[150%] min-w-max z-20 right-[8rem] absolute`}
               />
               {winner.length >= 3 ? (
                 <img
@@ -44,11 +44,11 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
                 />
               ) : null}
             </div>
-            <div className=" flex z-50 flex-row gap-24 text-center items-center justify-between mx-auto -bottom-24 font-cyber">
+            <div className="absolute flex z-50 flex-row p-4 gap-24 text-center items-center justify-center -bottom-24 w-full font-cyber ">
               {winner.map((cadet, i) => (
                 <h2
                   key={i}
-                  className={`flex pr-4
+                  className={`flex 
                     ${
                       winner[0]?.cadet.name.length > 6 &&
                       winner[0]?.cadet.name.length < 14
@@ -58,7 +58,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
                         ? "text-xl md:text-2xl lg:text-4xl xl:text-[3.5rem] max-h-full max-w-full"
                         : winner[0]?.cadet.name.length >= 16
                         ? "text-xl md:text-2xl lg:text-4xl xl:text-[3rem] max-h-full max-w-full"
-                        : "text-5xl sm:text-6xl md:text-7xl lg:text-9xl max-h-full max-w-full"
+                        : "text-6xl lg:text-9xl max-h-full max-w-full"
                     }
                 `}
                 >
@@ -94,7 +94,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
         )}
 
         {winner.length > 1 ? (
-          <h2 className="absolute z-30 font-cyber p-4 -top-16 sm:-top-16 md:-top-20 md:pt-8 lg:pt-0 text-5xl sm:text-6xl md:text-6xl lg:text-6xl xl:text-[6rem] max-h-full max-w-full md:pl-4 ">
+          <h2 className="absolute z-30 font-cyber p-4 -top-24  text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-[6rem] max-h-full max-w-full md:pl-4 ">
             Winners
           </h2>
         ) : (

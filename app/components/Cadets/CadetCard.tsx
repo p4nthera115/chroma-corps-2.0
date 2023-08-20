@@ -38,19 +38,18 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
             border-neutral-950 
             ${isActive ? cadet.teamColor : "bg-neutral-800"}
             ${cadet.teamColorHover} 
-            max-h-[50vh]
             hover:cursor-pointer
           `}
     >
-      <h1
+      <div
         className={`
                 justify-center
                 flex
-                absolute
-                top-0
+                flex-col
                 font-cyber
                 font-bold
                 w-full
+                h-[6.5%]
                 border
                 rounded-t
                 text-sm
@@ -59,8 +58,10 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
                 ${cadet.textColor}
               `}
       >
-        {cadet.name}
-      </h1>
+        <h1 className={`text-center ${year === "2023" ? "text-xs" : ""}`}>
+          {cadet.name}
+        </h1>
+      </div>
       <img
         src={cadet.cardImg}
         alt="cadet"
@@ -88,8 +89,7 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
       />
       {!hover && !isActive && (
         <h1
-          className={` 
-                text
+          className={`
                 justify-center
                 flex
                 absolute
@@ -104,7 +104,7 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
                 ${cadet.textColor}
               `}
         >
-          {cadet.name}
+          {/* {cadet.name} */}
         </h1>
       )}
     </button>

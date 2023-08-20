@@ -120,6 +120,12 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                           <div className="text-2xl flex flex-col md:flex-row gap-4 md:gap-16 align-middle items-center justify-center text-black py-4 font-semibold">
                             <p
                               className="hover:opacity-70 flex"
+                              onClick={() => router.push("/cadets/2023")}
+                            >
+                              2023
+                            </p>
+                            <p
+                              className="hover:opacity-70 flex"
                               onClick={() => router.push("/cadets/2022")}
                             >
                               2022

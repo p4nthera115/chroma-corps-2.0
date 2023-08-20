@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { cadets2022 } from "@/app/components/Cadets/CadetData";
+import { cadets2023 } from "@/app/components/Cadets/CadetData";
 import { useState, useEffect, useMemo } from "react";
 import Assignments from "@/app/components/CadetPage/Assignments";
 import EliminatedBanner from "@/app/components/AssignmentsPage/EliminatedBanner";
@@ -28,7 +28,7 @@ const AssignmentClient = () => {
   const year = pathname.slice(8, 12);
 
   const cadetAssignments = useMemo(() => {
-    return cadets2022.map((cadet) => {
+    return cadets2023.map((cadet) => {
       const assignment = (
         cadet.assignments as (Assignment | undefined)[] | undefined
       )?.find(
@@ -37,7 +37,7 @@ const AssignmentClient = () => {
       );
       return { cadet, assignment };
     });
-  }, [cadets2022, assignmentDay]);
+  }, [cadets2023, assignmentDay]);
 
   useEffect(() => {
     const blueTeam = cadetAssignments.filter(

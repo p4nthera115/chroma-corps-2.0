@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { cadets2022 } from "@/app/components/Cadets/CadetData";
+import { cadets2023 } from "@/app/components/Cadets/CadetData";
 import Banner from "@/app/components/CadetPage/Banner";
 import Menu from "@/app/components/Menu/Menu";
 import CadetSelect from "@/app/components/Cadets/CadetSelect";
@@ -18,7 +18,7 @@ const CadetClient = () => {
     setCadetName(cadetName.replace("%20", " "));
   }
 
-  const cadet = cadets2022.find((cadet) => cadet.name === cadetName);
+  const cadet = cadets2023.find((cadet) => cadet.name === cadetName);
 
   useEffect(() => {
     setTimeout(() => {
@@ -29,7 +29,7 @@ const CadetClient = () => {
   return (
     <div>
       <div className="absolute z-[60]">
-        <Menu iconPosition={{ right: "md:right-5" }} />
+        <Menu />
       </div>
       <div className="relative h-screen w-screen flex flex-col">
         <section
@@ -37,7 +37,7 @@ const CadetClient = () => {
             initialZ ? "z-20" : "z-0"
           } top-0 max-w-full bg-black`}
         >
-          <Banner cadet={cadet} year={"2 0 2 2"} />
+          <Banner cadet={cadet} year={"2 0 2 3"} />
         </section>
         <section id="original-submission">
           <OriginalSubmission cadet={cadet} />
@@ -46,7 +46,7 @@ const CadetClient = () => {
           <Assignments cadet={cadet} />
         </section>
         <section className="hidden md:flex z-0">
-          <CadetSelect cadets={cadets2022} />
+          <CadetSelect cadets={cadets2023} />
         </section>
       </div>
     </div>

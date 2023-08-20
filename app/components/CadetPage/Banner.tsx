@@ -2,7 +2,11 @@
 
 import { Cadet } from "@/app/types";
 import { useState } from "react";
-import { AiOutlineInstagram, AiOutlineLink } from "react-icons/ai";
+import {
+  AiOutlineInstagram,
+  AiOutlineLink,
+  AiOutlineTwitter,
+} from "react-icons/ai";
 import { motion } from "framer-motion";
 import Camera from "./Camera";
 
@@ -16,6 +20,7 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
   const [cadetImg, setCadetImg] = useState(cadet?.bannerImg[0]);
   const [index, setIndex] = useState(1);
   const [index2, setIndex2] = useState(1);
+  const [open, setOpen] = useState(false);
 
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -79,9 +84,9 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
             >
               <h1
                 onMouseOver={hoverAnimation}
-                className={`font-cyber ${
+                className={`font-cyber z-50 ${
                   name.length >= 6 && name.length < 14
-                    ? "text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full md:pl-4"
+                    ? "text-3xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl max-h-full max-w-full md:pl-4"
                     : name.length >= 14 && name.length < 16
                     ? "text-xl md:text-2xl lg:text-4xl xl:text-[3.5rem] max-h-full max-w-full md:pl-2"
                     : name.length >= 16
@@ -91,12 +96,41 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
               >
                 {name}
               </h1>
-              <a href={cadet?.socials.instagram}>
-                <AiOutlineLink
-                  className="absolute right-0 top-[-3.25rem] md:top-0 md:m-3 cursor-pointer z-50 border border-dashed bg-black/20"
-                  size={50}
-                />
-              </a>
+              <div className="flex flex-col z-50 absolute right-[2.5%] top-[6%] lg:right-[2%] lg:top-[] xl:right-[1.5%]">
+                <div className="flex flex-col gap-2 transition">
+                  <a onClick={() => setOpen(!open)}>
+                    <AiOutlineLink
+                      className="hover:opacity-70 hover:cursor-pointer border"
+                      size={50}
+                    />
+                  </a>
+                  {open && (
+                    <>
+                      {cadet?.socials.instagram !== "" ? (
+                        <a href={cadet?.socials.instagram}>
+                          <AiOutlineInstagram
+                            className="hover:opacity-70 hover:cursor-pointer"
+                            size={50}
+                          />
+                        </a>
+                      ) : (
+                        <></>
+                      )}
+                      {cadet?.socials.twitter !== "" ? (
+                        <a href={cadet?.socials.twitter}>
+                          <AiOutlineTwitter
+                            className="hover:opacity-70 hover:cursor-pointer"
+                            size={50}
+                          />
+                        </a>
+                      ) : (
+                        <></>
+                      )}
+                    </>
+                  )}
+                  <></>
+                </div>
+              </div>
             </header>
           </section>
           <section className="relative md:flex flex-col gap md:h-full md:w-2/5 hidden">

@@ -39,27 +39,47 @@ const AssignmentDays: React.FC<AssDayProps> = ({ winner, year }) => {
     }, 80);
   };
   return (
-    <div className="flex w-full flex-wrap relative flex-row gap-[3rem] justify-center">
-      <motion.div className="relative flex w-full justify-center overflow-hidden">
-        <h1
-          className={`relative font-cyber m-3 w-3/4 md:w-1/2 text-xl md:text-4xl lg:text-5xl xl:text-6xl p-6 md:p-8 text-center border-2 rounded overflow-hidden cursor-default `}
-          onMouseOver={hoverAnimation}
-        >
-          {name}
-        </h1>
-      </motion.div>
+    <div>
+      <div className="flex w-full flex-wrap relative flex-row gap-[3rem] justify-center">
+        <motion.div className="relative flex w-full justify-center overflow-hidden">
+          <h1
+            className={`relative font-cyber m-3 w-3/4 md:w-1/2 text-xl md:text-4xl lg:text-5xl xl:text-6xl p-6 md:p-8 text-center border-2 rounded overflow-hidden cursor-default `}
+            onMouseOver={hoverAnimation}
+          >
+            {name}
+          </h1>
+        </motion.div>
 
-      {winner[0]?.assignments?.map((assignment: Assignment) => (
-        <button
-          key={assignment.day}
-          className="border rounded h-[3rem] w-[6rem] md:w-[10rem] justify-center items-center flex font-cyber text-amber-400 md:text-white hover:text-amber-400"
-          onClick={() =>
-            router.push(`/cadets/${year}/assignments/${assignment.day}`)
-          }
-        >
-          {assignment.day}
-        </button>
-      ))}
+        {winner[0]?.assignments?.map((assignment: Assignment) => (
+          <button
+            key={assignment.day}
+            className="border rounded h-[3rem] w-[6rem] md:w-[10rem] justify-center items-center flex font-cyber text-amber-400 md:text-white hover:text-amber-400"
+            onClick={() =>
+              router.push(`/cadets/${year}/assignments/${assignment.day}`)
+            }
+          >
+            {assignment.day}
+          </button>
+        ))}
+      </div>
+      <div className="ml-[1rem] pt-8 mb-[-2rem]">
+        <p className="text-xs">
+          See your art and don&rsquo;t want it displayed? Let us know{" "}
+          <a
+            href="https://twitter.com/p4nthera_"
+            className="hover:text-green-200"
+          >
+            @p4nthera_
+          </a>{" "}
+          or{" "}
+          <a
+            href="https://twitter.com/lifguson1"
+            className="hover:text-green-200"
+          >
+            @lifguson1
+          </a>
+        </p>
+      </div>
     </div>
   );
 };

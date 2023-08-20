@@ -20,13 +20,15 @@ const CadetSelect: React.FC<CadetSelectProps> = (cadets) => {
 
   let top;
   let bottom;
-
-  if (cadets.cadets.length <= 16) {
+  if (cadets.cadets.length <= 16 && cadets.cadets.length < 18) {
     top = cadets.cadets.slice(0, 8);
     bottom = cadets.cadets.slice(8, 16);
-  } else {
+  } else if (cadets.cadets.length >= 18 && cadets.cadets.length < 20) {
     top = cadets.cadets.slice(0, 9);
     bottom = cadets.cadets.slice(9, 18);
+  } else if (cadets.cadets.length >= 20) {
+    top = cadets.cadets.slice(0, 23);
+    bottom = cadets.cadets.slice(23, 46);
   }
 
   return (
@@ -38,7 +40,7 @@ const CadetSelect: React.FC<CadetSelectProps> = (cadets) => {
           ))
         ) : (
           <>
-            {top.length < 9 && (
+            {top && top.length < 9 && (
               <div className="flex relative h-full w-full flex-row">
                 <div className="flex relative h-full w-1/2 flex-col">
                   {top?.slice(0, 4).map((cadet: Cadet, i: number) => (
@@ -52,7 +54,7 @@ const CadetSelect: React.FC<CadetSelectProps> = (cadets) => {
                 </div>
               </div>
             )}
-            {top.length >= 9 && (
+            {top && top.length >= 9 && (
               <div className="flex relative h-full w-full flex-row">
                 <div className="flex relative h-full w-1/2 flex-col">
                   {top?.slice(0, 5).map((cadet: Cadet, i: number) => (
@@ -77,7 +79,7 @@ const CadetSelect: React.FC<CadetSelectProps> = (cadets) => {
           ))
         ) : (
           <>
-            {bottom.length < 9 && (
+            {bottom && bottom.length < 9 && (
               <div className="flex relative h-full w-full flex-row">
                 <div className="flex relative h-full w-1/2 flex-col">
                   {bottom?.slice(0, 4).map((cadet: Cadet, i: number) => (
@@ -91,7 +93,7 @@ const CadetSelect: React.FC<CadetSelectProps> = (cadets) => {
                 </div>
               </div>
             )}
-            {bottom.length >= 9 && (
+            {bottom && bottom.length >= 9 && (
               <div className="flex relative h-full w-full flex-row">
                 <div className="flex relative h-full w-1/2 flex-col">
                   {bottom?.slice(0, 4).map((cadet: Cadet, i: number) => (
