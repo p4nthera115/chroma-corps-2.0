@@ -7,7 +7,7 @@ export const cadets2022 = [
     textColor: "text-white",
     cardImg:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2022/applechancery002/cropped-applechancery.png",
-    cardPos: "h-[240%] top-[-10%]",
+    cardPos: "h-[240%] md:top-[-10%] top-[110%]",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-blue-500/20",
     teamColorHoverOpacity: "hover:bg-blue-500/20",
@@ -181,7 +181,7 @@ export const cadets2022 = [
     textColor: "text-white",
     cardImg:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2022/fatcat/cropped-fatcat-3.png",
-    cardPos: "h-[100%] top-[0%]",
+    cardPos: "h-[100%] md:top-[0%] top-[-140%]",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-blue-500/20",
     teamColorHoverOpacity: "hover:bg-blue-500/20",
@@ -498,7 +498,7 @@ export const cadets2022 = [
     textColor: "text-white",
     cardImg:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2022/dako/cropped-dako.png",
-    cardPos: "h-[130%] top-[-15%]",
+    cardPos: "h-[130%] md:top-[-15%] top-[-75%]",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-blue-500/20",
     teamColorHoverOpacity: "hover:bg-blue-500/20",
@@ -811,7 +811,7 @@ export const cadets2022 = [
     textColor: "text-white",
     cardImg:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2022/Baeloma/Emily_01.png",
-    cardPos: "h-[300%] top-[-60%]",
+    cardPos: "h-[300%] md:top-[-60%] top-[-30%]",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-yellow-500/20",
     teamColorHoverOpacity: "hover:bg-yellow-500/20",
@@ -1125,7 +1125,7 @@ export const cadets2022 = [
     textColor: "border-white",
     cardImg:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2022/vevolf/cropped-vevolf.png",
-    cardPos: "h-[150%] top-[-8%]",
+    cardPos: "h-[150%] md:top-[-8%] top-[-20%]",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-yellow-500/20",
     teamColorHoverOpacity: "hover:bg-yellow-500/20",
@@ -1712,7 +1712,7 @@ export const cadets2022 = [
     textColor: "text-white",
     cardImg:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2022/yugichu/cropped-yugichu.png",
-    cardPos: "h-[100%] top-0",
+    cardPos: "h-[100%] md:top-0 top-[-130%]",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-pink-500/20",
     teamColorHoverOpacity: "hover:bg-pink-500/20",
@@ -3596,7 +3596,7 @@ export const cadets2021 = [
     bannerPos: "absolute h-full scale-[150%] min-w-max translate-y-[2rem]",
     cameraPos: "scale-[170%]",
     gradient: "bg-gradient-to-t from-red-500",
-    cardPos: "h-[300%] top-[-14%]",
+    cardPos: "h-[300%] md:top-[-14%] top-[150%]",
     strikeBannerPos: "scale-[300%] top-[15rem] h-[20rem]",
     teamColorOpacity: "bg-red-500/20",
     teamColorHoverOpacity: "hover:bg-red-500/20",
@@ -4403,7 +4403,7 @@ export const cadets2021 = [
     textColor: "text-white",
     cardImg:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/joharts/cropped-joharts.png",
-    cardPos: "h-[200%] top-[-15%]",
+    cardPos: "h-[200%] md:top-[-15%] top-[20%]",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-red-500/20",
     teamColorHoverOpacity: "hover:bg-red-500/20",
@@ -5849,7 +5849,7 @@ export const cadets2021 = [
     textColor: "text-white",
     cardImg:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/silverstar1234/cropped-silverstar1234.PNG",
-    cardPos: "h-[300%] top-[-4%]",
+    cardPos: "h-[300%] md:top-[-4%] top-[220%]",
     strikeBannerPos: "scale-[300%] top-[15rem] h-[20rem]",
     teamColorOpacity: "bg-cyan-500/20",
     teamColorHoverOpacity: "hover:bg-cyan-500/20",
@@ -6006,7 +6006,7 @@ export const cadets2021 = [
     textColor: "text-white",
     cardImg:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/awfullysabi/cropped-awfullysabi.png",
-    cardPos: "h-[250%] top-[-13%]",
+    cardPos: "h-[250%] md:top-[-13%] top-[90%]",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-cyan-500/20",
     teamColorHoverOpacity: "hover:bg-cyan-500/20",
@@ -6287,7 +6287,7 @@ export const cadets2021 = [
     textColor: "text-white",
     cardImg:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/cropped-dehaf.png",
-    cardPos: "h-[300%] top-[-45%]",
+    cardPos: "h-[300%] md:top-[-45%] top-[50%]",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-cyan-500/20",
     teamColorHoverOpacity: "hover:bg-cyan-500/20",
@@ -6660,7 +6660,7 @@ export const cadets2021 = [
     textColor: "text-white",
     cardImg:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/kawffee/kawffee-card.png",
-    cardPos: "h-[150%] top-[-0%]",
+    cardPos: "h-[150%] md:top-[-0%] top-[50%]",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-cyan-500/20",
     teamColorHoverOpacity: "hover:bg-cyan-500/20",
@@ -7919,7 +7919,7 @@ export const cadets2020 = [
     textColor: "text-neutral-800",
     cardImg:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2020/makennu/cropped-makennu.png",
-    cardPos: "h-[300%] top-[-10%]",
+    cardPos: "h-[300%] md:top-[-10%] top-[200%]",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-amber-300/20",
     teamColorHoverOpacity: "hover:bg-amber-300/20",
@@ -8148,7 +8148,7 @@ export const cadets2020 = [
     textColor: "text-neutral-800",
     cardImg:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2020/nikittysan/cropped-nikittysan.png",
-    cardPos: "h-[120%] top-0",
+    cardPos: "h-[120%] md:top-0 top-[-60%]",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-amber-300/20",
     teamColorHoverOpacity: "hover:bg-amber-300/20",
@@ -8474,7 +8474,7 @@ export const cadets2020 = [
     textColor: "text-neutral-800",
     cardImg:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2020/spiderlair/cropped-spiderlair-2.png",
-    cardPos: "h-[120%] top-[-20%]",
+    cardPos: "h-[120%] md:top-[-20%] top-[-150%]",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-amber-300/20",
     teamColorHoverOpacity: "hover:bg-amber-300/20",
@@ -8741,7 +8741,7 @@ export const cadets2020 = [
     textColor: "text-neutral-800",
     cardImg:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2020/awfullysabi/awfullysabi.png",
-    cardPos: "h-[260%] top-[-12%]",
+    cardPos: "h-[260%] md:top-[-12%] top-[100%]",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-amber-300/20",
     teamColorHoverOpacity: "hover:bg-amber-300/20",
@@ -9043,7 +9043,7 @@ export const cadets2020 = [
     textColor: "text-neutral-800",
     cardImg:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2020/dehaf/dehaf-edited.png",
-    cardPos: "h-[150%] top-[-13%]",
+    cardPos: "h-[150%] md:top-[-13%] top-[-80%]",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-amber-300/20",
     teamColorHoverOpacity: "hover:bg-amber-300/20",
