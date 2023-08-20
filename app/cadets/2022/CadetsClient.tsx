@@ -63,13 +63,13 @@ const CadetsClient = () => {
         </div>
       )}
       {!logoLoading && (
-        <div className="absolute h-screen w-screen overflow-x-hidden flex flex-col">
+        <div className="absolute h-screen w-screen overflow-x-hidden flex flex-col bg-black">
           <section className="flex h-full w-full">
             <div className="flex">
               <CadetSelect cadets={cadets2022} />
             </div>
           </section>
-          <section className="flex relative h-full flex-col top-[115%] w-full">
+          <section className="flex relative h-full flex-col top-[115%] w-full bg-black text-neutral-100">
             <div className="w-full h-full top-[10%] pb-[17%]">
               <WinnerBanner winner={winner} />
             </div>

@@ -141,8 +141,6 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
             Winner:
           </h2>
         )}
-
-        <div></div>
       </div>
     </div>
   );

@@ -10,6 +10,7 @@ import {
 import AssignmentCard from "./AssignmentCard";
 import { motion } from "framer-motion";
 import { Fragment, useState } from "react";
+import { useHoverAnimation } from "@/app/hooks/useHoverAnimation";
 
 interface AssignmentsProps {
   cadet?: Cadet | undefined;
@@ -54,7 +55,7 @@ const Assignments: React.FC<AssignmentsProps> = ({
       {!cadetAssignments && (
         <motion.div className="relative flex w-full justify-center overflow-hidden">
           <h1
-            className={`relative font-cyber m-3 w-3/4 md:w-1/2 text-xl md:text-4xl lg:text-5xl xl:text-6xl p-6 md:p-8 text-center border-2 overflow-hidden cursor-default ${cadet?.borderColor} ${cadet?.teamColorOpacity}`}
+            className={`relative font-cyber m-3 w-3/4 md:w-1/2 text-xl md:text-4xl lg:text-5xl xl:text-6xl p-6 md:p-8 text-center border-2 rounded-lg overflow-hidden cursor-default ${cadet?.borderColor} ${cadet?.teamColorOpacity}`}
             onMouseOver={hoverAnimation}
           >
             {name}
@@ -63,9 +64,22 @@ const Assignments: React.FC<AssignmentsProps> = ({
       )}
       {!cadetAssignments && (
         <div className="flex flex-row flex-wrap md:gap-5 md:p-4 justify-center">
-          {cadet?.assignments?.map((assignment: any, i: number) => (
-            <AssignmentCard key={i} assignment={assignment} cadet={cadet} />
-          ))}
+          {cadet?.assignments?.map((assignment: any, i: number) => {
+            if (assignment.img === "/dropout") {
+              return null;
+            }
+            return (
+              assignment.img && (
+                <div key={i} className="md:p-4">
+                  <AssignmentCard
+                    key={i}
+                    assignment={assignment}
+                    cadet={cadet}
+                  />
+                </div>
+              )
+            );
+          })}
         </div>
       )}
       {teams &&
@@ -74,9 +88,13 @@ const Assignments: React.FC<AssignmentsProps> = ({
           return (
             <Fragment key={teamKey}>
               <section className="flex flex-row flex-wrap justify-center">
-                {teamAssignments.map(
-                  (cadetAssignment, i) =>
-                    cadetAssignment.assignment?.day && (
+                {teamAssignments.map((cadetAssignment, i) => {
+                  if (cadetAssignment?.assignment?.img === "/dropout") {
+                    return null;
+                  }
+                  return (
+                    cadetAssignment.assignment?.day &&
+                    cadetAssignment.assignment.img && (
                       <div key={i} className="md:p-4">
                         <AssignmentCard
                           assignment={cadetAssignment.assignment}
@@ -85,7 +103,8 @@ const Assignments: React.FC<AssignmentsProps> = ({
                         />
                       </div>
                     )
-                )}
+                  );
+                })}
               </section>
               <br />
             </Fragment>

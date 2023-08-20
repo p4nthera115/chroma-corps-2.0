@@ -30,17 +30,27 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
       onClick={() => router.push(`/cadets/${year}/${cadet.name}`)}
       className={`
             relative
-            flex flex-col align-top
-            w-screen 
+            w-full 
             h-full 
+            md:flex
+            md:flex-col
+            md:align-top
             overflow-hidden 
             border 
+            rounded
             border-neutral-950 
             ${isActive ? cadet.teamColor : "bg-neutral-800"}
             ${cadet.teamColorHover} 
             hover:cursor-pointer
           `}
     >
+      <h1
+        className={`text-center z-50 text-white absolute font-cyber md:hidden -translate-x-1/2 left-1/2 -translate-y-1/2 top-1/2 ${
+          year === "2023" ? "text-xs" : ""
+        }`}
+      >
+        {cadet.name}
+      </h1>
       <div
         className={`
                 justify-center
@@ -49,13 +59,23 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
                 font-cyber
                 font-bold
                 w-full
-                h-[6.5%]
-                border
+                h-full
+                opacity-50
+                md:opacity-100
+                md:h-[6.5%]
+                md:border
+                md:rounded-t
+                text-sm
+                md:text-base
                 ${cadet.teamColor}
                 ${cadet.textColor}
               `}
       >
-        <h1 className={`text-center ${year === "2023" ? "text-xs" : ""}`}>
+        <h1
+          className={`text-center hidden md:block ${
+            year === "2023" ? "text-xs" : ""
+          }`}
+        >
           {cadet.name}
         </h1>
       </div>
@@ -74,7 +94,13 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
               }
               hover:sepia-0 
               hover:opacity-100
-              hover:scale-110
+              md:hover:scale-110
+              scale-[400%]
+              md:scale-100
+              translate-y-24
+              translate-x-14
+              md:translate-y-0
+              md:translate-x-0
               transition
             `}
       />
@@ -82,13 +108,17 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
         <h1
           className={`
                 justify-center
-                flex
+                hidden
+                md:flex
                 absolute
                 top-0
                 font-cyber
                 font-extrabold
                 w-full
                 border
+                rounded-t
+                text-sm
+                md:text-base
                 ${cadet.textColor}
               `}
         >

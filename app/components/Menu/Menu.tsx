@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import MenuItem from "./MenuItem";
 import { AiOutlineMenu } from "react-icons/ai";
 import { useRouter } from "next/navigation";
@@ -31,7 +31,22 @@ const itemVariants = {
   },
 };
 
-const Menu = () => {
+interface MenuProps {
+  iconPosition?: {
+    right?: string;
+    margin?: string;
+  };
+}
+
+const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
+  const [width, setWidth] = useState<number>(0);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setWidth(window.innerWidth);
+    }
+  }, []);
+
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   const [subOpen, setSubOpen] = useState(false);
@@ -50,20 +65,21 @@ const Menu = () => {
   const menuItems = ["Home", "Cadets +", "FAQs", "Credits", "Merch"];
 
   return (
-    <div className="flex max-h-full max-w-full z-10 overflow-hidden">
+    <div className="flex max-h-full max-w-full z-[100] overflow-hidden absolute">
       <div
-        className="
+        className={`
           fixed
           z-20
-          right-0       
-          m-[1.5rem]
+          right-0
+          ${iconPosition?.right ? iconPosition.right : "right-0"}    
+          ${iconPosition?.margin ? iconPosition.margin : "m-6"}    
           cursor-pointer 
-        "
+        `}
       >
         <AiOutlineMenu
-          size={40}
+          size={width < 768 ? 30 : 40}
           onClick={toggleOpen}
-          color={isOpen ? "black" : "white"}
+          color={!isOpen ? "white" : "black"}
         />
       </div>
 
@@ -79,7 +95,7 @@ const Menu = () => {
                 min-w-full
                 fixed
                 shadow-md
-                bg-yellow-400
+                bg-[#ffe600]
                 overflow-hidden
                 text-7xl
                 sm:text-8xl
@@ -138,6 +154,14 @@ const Menu = () => {
                             "https://my-store-b86026.creator-spring.com/"
                           )
                         }
+                        label={item}
+                        key={item}
+                      />
+                    );
+                  } else if (item === "Home") {
+                    return (
+                      <MenuItem
+                        onClick={() => router.push("/")}
                         label={item}
                         key={item}
                       />

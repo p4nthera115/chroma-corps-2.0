@@ -9,6 +9,7 @@ import {
 } from "react-icons/ai";
 import { motion } from "framer-motion";
 import Camera from "./Camera";
+import Socials from "./Socials";
 
 interface BannerProps {
   cadet: Cadet | undefined;
@@ -70,17 +71,26 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
       `}
     >
       <div className="relative h-full w-full p-4">
-        <div className={`relative flex flex-row h-full w-full`}>
-          <section className="relative flex flex-col h-full w-full md:w-3/5">
-            <div className="relative flex w-full h-3/4 justify-center border md:border-none">
+        <div className={`relative flex flex-row gap-2 h-full w-full`}>
+          <section className="relative flex flex-col gap-2 h-full w-full md:w-3/5">
+            <div className="relative flex w-full h-3/4 justify-center border rounded-lg md:border-none">
               <button
-                className={`absolute left-0 h-10 w-10 m-4 ${cadet?.teamColor} rounded md:hidden cursor-pointer z-50`}
+                className={`absolute left-0 h-10 w-10 m-4 ${cadet?.teamColor} rounded md:hidden cursor-pointer z-50 animate-pulse`}
                 onClick={() => (imgArr.length === 1 ? null : nextImg())}
-              ></button>
+              >
+                <p className="font-cyber text-xs font-bold text-black cursor-default">
+                  {index2} / {imgArr.length}
+                </p>
+              </button>
+
+              <div className="block md:hidden absolute left-11 top-16 m-4">
+                <Socials cadet={cadet} />
+              </div>
+
               <Camera cadet={cadet} cadetImg={cadetImg} />
             </div>
             <header
-              className={`relative flex flex-row w-full h-1/4 border items-center p-3 cursor-default justify-center md:justify-between bg-neutral-900/50 md:bg-neutral-900 `}
+              className={`relative flex w-full h-1/4 border rounded-lg  items-center p-3 cursor-default justify-center md:justify-normal bg-neutral-900/50 md:bg-neutral-900 `}
             >
               <h1
                 onMouseOver={hoverAnimation}
@@ -96,49 +106,17 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
               >
                 {name}
               </h1>
-              <div className="flex flex-col z-50 absolute right-[2.5%] top-[6%] lg:right-[2%] lg:top-[] xl:right-[1.5%]">
-                <div className="flex flex-col gap-2 transition">
-                  <a onClick={() => setOpen(!open)}>
-                    <AiOutlineLink
-                      className="hover:opacity-70 hover:cursor-pointer border"
-                      size={50}
-                    />
-                  </a>
-                  {open && (
-                    <>
-                      {cadet?.socials.instagram !== "" ? (
-                        <a href={cadet?.socials.instagram}>
-                          <AiOutlineInstagram
-                            className="hover:opacity-70 hover:cursor-pointer"
-                            size={50}
-                          />
-                        </a>
-                      ) : (
-                        <></>
-                      )}
-                      {cadet?.socials.twitter !== "" ? (
-                        <a href={cadet?.socials.twitter}>
-                          <AiOutlineTwitter
-                            className="hover:opacity-70 hover:cursor-pointer"
-                            size={50}
-                          />
-                        </a>
-                      ) : (
-                        <></>
-                      )}
-                    </>
-                  )}
-                  <></>
-                </div>
+              <div className="hidden md:block">
+                <Socials cadet={cadet} />
               </div>
             </header>
           </section>
-          <section className="relative md:flex flex-col flex-wrap md:h-full md:w-2/5 hidden">
+          <section className="relative md:flex flex-col gap md:h-full md:w-2/5 hidden">
             <div
-              className={`relative flex flex-row w-full h-[10%] border ${cadet?.teamColor}`}
+              className={`relative flex flex-row w-full h-[10%] border rounded-t-lg ${cadet?.teamColor}`}
             ></div>
             <button
-              className={`relative flex w-full h-[90%] border justify-center ${
+              className={`relative flex w-full h-[90%] border rounded-b-lg justify-center ${
                 cadet?.teamColorHoverOpacity
               } ${imgArr.length === 1 ? "cursor-default" : "cursor-pointer"}`}
               onClick={() => (imgArr.length === 1 ? null : nextImg())}
