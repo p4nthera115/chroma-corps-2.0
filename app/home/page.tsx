@@ -9,13 +9,11 @@ import { Canvas } from "@react-three/fiber";
 import Bio from "./Bio";
 import Sinix from "./Sinix";
 import Footer from "./Footer";
-import ScrollProgress from "./ScrollProgress";
 
 const HomePage = () => {
   return (
     <div className="m-0 p-0 max-h-full max-w-full h-screen w-screen bg-[#ffe600] diagonal-lines-yellow">
       <Border />
-      {/* <ScrollProgress /> */}
 
       <div className="hidden md:block absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 border bg-[#ffe600] border-black h-[78%] w-[30%]"></div>
 
@@ -43,11 +41,9 @@ const HomePage = () => {
         <Bio />
       </section>
 
-      {/* <div className="relative h-1/4 w-[99%] translate-x-[0.3rem] bg-[#ffe600] diagonal-lines-yellow"></div> */}
       <section className="relative h-1/2 w-full overflow-hidden">
         <Carousel />
       </section>
-      {/* <div className="relative h-1/4 w-[99%] translate-x-[0.3rem] bg-[#ffe600] diagonal-lines-yellow"></div> */}
 
       <section className="relative h-full w-full">
         <Sinix />
