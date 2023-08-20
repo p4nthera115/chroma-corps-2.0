@@ -52,6 +52,7 @@ function Carousel() {
         <section className="relative h-full w-full flex flex-row gap-12 -translate-x-60">
           {images.map((image: string) => (
             <Image
+              key={image}
               src={image}
               alt={image}
               width={100}
@@ -61,6 +62,7 @@ function Carousel() {
           ))}
           {images.map((image: string) => (
             <Image
+              key={image}
               src={image}
               alt={image}
               width={100}
@@ -70,6 +72,7 @@ function Carousel() {
           ))}
           {images.map((image: string) => (
             <Image
+              key={image}
               src={image}
               alt={image}
               width={100}
