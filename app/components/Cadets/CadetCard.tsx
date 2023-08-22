@@ -89,7 +89,7 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
               ${cadet.cardPos} 
               ${
                 isActive
-                  ? "scale-110 sepia-0 opacity-100"
+                  ? "md:scale-110 sepia-0 opacity-100"
                   : "scale-100 sepia opacity-50"
               }
               hover:sepia-0 

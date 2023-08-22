@@ -7,6 +7,7 @@ import { cadets2023 } from "@/app/components/Cadets/CadetData";
 import WinnerBanner from "@/app/components/Cadets/WinnerBanner";
 import AssignmentDays from "@/app/components/Cadets/AssignmentDays";
 import Judges from "@/app/components/Cadets/Judges";
+import Select2023 from "@/app/components/Cadets/Select2023";
 
 const CadetsClient = () => {
   const [cadetLoading, setCadetLoading] = useState(true);
@@ -63,20 +64,9 @@ const CadetsClient = () => {
         </div>
       )}
       {!logoLoading && (
-        <div className="absolute h-screen w-screen overflow-x-hidden flex flex-col overflow-y-scroll no-scrollbar bg-black text-neutral-100">
-          <section className="flex h-full w-full">
-            <div className="flex">
-              <CadetSelect cadets={cadets2023} />
-            </div>
-          </section>
-          <section className="flex relative h-full flex-col top-[115%] w-full">
-            <div className="w-full h-full top-[10%] pb-[17%]">
-              <WinnerBanner winner={winner} />
-            </div>
-            <div>{/* <Judges judges={judges} /> */}</div>
-            <div className="relative pb-10">
-              <AssignmentDays winner={winner} year={2023} />
-            </div>
+        <div className="relative h-screen w-screen overflow-x-hidden flex flex-col overflow-y-scroll no-scrollbar bg-black text-neutral-100">
+          <section className="relative  h-full w-full">
+            <Select2023 cadets={cadets2023} />
           </section>
         </div>
       )}
