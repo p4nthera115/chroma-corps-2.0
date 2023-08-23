@@ -3495,7 +3495,7 @@ export const cadets2023 = [
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
     gradient: "bg-gradient-to-t from-green-800",
-    bgLines: "diagonal-lines-blue",
+    bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/naka/naka-palette.png",
     socials: {

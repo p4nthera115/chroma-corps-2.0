@@ -84,11 +84,11 @@ const CadetsClient = () => {
             {/* </div> */}
           </section>
           <section className="flex relative h-full flex-col top-[145%] md:top-[115%] w-full bg-black text-neutral-100">
-            <div className="w-full h-full top-[10%] pb-[17%]">
-              <WinnerBanner winner={winner} />
-            </div>
+            {/* <div className="w-full h-full top-[10%] pb-[17%]"> */}
+            <WinnerBanner winner={winner} />
+            {/* </div> */}
           </section>
-          <section className="flex relative top-[175%] sm:top-[150%]">
+          <section className="flex relative top-[160%] md:top-[137%]">
             {/* <div className="pb-10"> */}
             <AssignmentDays winner={winner} year={2023} />
             {/* </div> */}

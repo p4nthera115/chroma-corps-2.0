@@ -47,6 +47,7 @@ const NameCard: React.FC<CadetCardProps> = ({ cadet, key: i, style }) => {
             object-center
             ${cadet.cardPos} 
             scale-[200%]
+            min-w-full
           `}
         />
       </motion.div>

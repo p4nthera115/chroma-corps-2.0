@@ -8,6 +8,7 @@ import CadetSelect from "@/app/components/Cadets/CadetSelect";
 import Assignments from "@/app/components/CadetPage/Assignments";
 import { useEffect, useState } from "react";
 import OriginalSubmission from "@/app/components/CadetPage/OriginalSubmission";
+import Select2023 from "@/app/components/Cadets/Select2023";
 
 const CadetClient = () => {
   const pathname = usePathname();
@@ -29,9 +30,9 @@ const CadetClient = () => {
   return (
     <div>
       <div className="absolute z-[60]">
-        <Menu />
+        <Menu iconPosition={{ right: "md:right-5" }} />
       </div>
-      <div className="relative h-screen w-screen flex flex-col">
+      <div className="relative h-screen w-full flex flex-col">
         <section
           className={`flex ${
             initialZ ? "z-20" : "z-0"
@@ -46,7 +47,7 @@ const CadetClient = () => {
           <Assignments cadet={cadet} />
         </section>
         <section className="hidden md:flex z-0">
-          <CadetSelect cadets={cadets2023} />
+          <Select2023 cadets={cadets2023} />
         </section>
       </div>
     </div>

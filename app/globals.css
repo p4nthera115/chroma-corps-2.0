@@ -114,6 +114,18 @@ body {
       #00000000 50%
     );
   }
+  .diagonal-lines-green {
+    background-color: #000000;
+    opacity: 1;
+    background-size: 7px 7px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #66dc6c4a 0,
+      #66dc6c4a 0.7000000000000001px,
+      #00000000 0,
+      #00000000 50%
+    );
+  }
   .diagonal-lines-black {
     background-color: #000000;
     opacity: 1;

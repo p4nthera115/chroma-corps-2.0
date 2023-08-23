@@ -31,7 +31,7 @@ const CadetClient = () => {
       <div className="absolute z-[60]">
         <Menu iconPosition={{ right: "md:right-5" }} />
       </div>
-      <div className="relative h-screen w-screen flex flex-col">
+      <div className="relative h-full w-full flex flex-col">
         <section
           className={`flex ${
             initialZ ? "z-20" : "z-0"
