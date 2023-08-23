@@ -150,8 +150,9 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                     return (
                       <MenuItem
                         onClick={() =>
-                          router.push(
-                            "https://my-store-b86026.creator-spring.com/"
+                          window.open(
+                            "https://my-store-b86026.creator-spring.com/",
+                            "_blank"
                           )
                         }
                         label={item}
