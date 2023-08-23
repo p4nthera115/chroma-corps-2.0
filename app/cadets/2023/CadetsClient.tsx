@@ -19,7 +19,10 @@ const CadetsClient = () => {
 
   useEffect(() => {
     const winners = cadets2023.filter(
-      (cadet) => cadet.name === "Dako" || cadet.name === "FatCat"
+      (cadet) =>
+        cadet.name === "Teted" ||
+        cadet.name === "Double" ||
+        cadet.name === "Trout"
     );
 
     const win = winners.map((winner) => ({ ...winner, cadet: winner }));
@@ -63,10 +66,32 @@ const CadetsClient = () => {
           </h1>
         </div>
       )}
-      {!logoLoading && (
+      {/* {!logoLoading && (
         <div className="relative h-screen w-screen overflow-x-hidden flex flex-col overflow-y-scroll no-scrollbar bg-black text-neutral-100">
-          <section className="relative  h-full w-full">
+          <section className="relative flex h-full w-full">
             <Select2023 cadets={cadets2023} />
+          </section>
+          <section className="flex relative h-full w-full">
+            <WinnerBanner winner={winner} />
+          </section>
+        </div>
+      )} */}
+      {!logoLoading && (
+        <div className="relative h-screen w-screen overflow-x-hidden flex flex-col bg-black">
+          <section className="flex h-full w-full">
+            {/* <div className="flex"> */}
+            <Select2023 cadets={cadets2023} />
+            {/* </div> */}
+          </section>
+          <section className="flex relative h-full flex-col top-[145%] md:top-[115%] w-full bg-black text-neutral-100">
+            <div className="w-full h-full top-[10%] pb-[17%]">
+              <WinnerBanner winner={winner} />
+            </div>
+          </section>
+          <section className="flex relative top-[175%] sm:top-[150%]">
+            {/* <div className="pb-10"> */}
+            <AssignmentDays winner={winner} year={2023} />
+            {/* </div> */}
           </section>
         </div>
       )}

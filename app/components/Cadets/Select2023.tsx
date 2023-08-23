@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import CadetCard from "./CadetCard";
 import { Cadet } from "@/app/types";
+import NameCard from "./2023NameCard";
 
 interface CadetSelectProps {
   cadets: Cadet[];
@@ -28,9 +29,6 @@ const Select2023: React.FC<CadetSelectProps> = ({ cadets }) => {
     if (cadet.assignments && cadet.assignments.length < 26) pruned.push(cadet);
   });
 
-  console.log(saplings);
-  console.log(pruned);
-
   const top = saplings.slice(0, 4);
   const bottom = saplings.slice(4, 8);
 
@@ -38,8 +36,8 @@ const Select2023: React.FC<CadetSelectProps> = ({ cadets }) => {
   const prunedRight = pruned.slice(19, 38);
 
   return (
-    <div className="h-full w-full relative flex flex-row">
-      <section className="flex flex-col relative h-full w-1/2">
+    <div className="h-full w-full absolute flex flex-col md:flex-row">
+      <section className="flex flex-col relative h-2/5 md:h-full w-full md:w-3/5">
         <div className="flex flex-row relative h-full w-full">
           {top.map((cadet, i) => {
             if (cadet.assignments && cadet?.assignments?.length > 26)
@@ -53,39 +51,31 @@ const Select2023: React.FC<CadetSelectProps> = ({ cadets }) => {
           })}
         </div>
       </section>
-      <section className="flex flex-row relative h-full font-cyber w-1/2">
+      <section className="flex flex-row relative h-3/5 md:h-full font-cyber md:w-2/5 w-full">
         <div className="flex flex-col h-full w-1/2">
           {prunedLeft.map((cadet, i) => (
-            <button
+            <NameCard
               key={i}
-              className={`h-full relative rounded ${
+              cadet={cadet}
+              style={
                 i % 2 === 0
                   ? "bg-green-900/40 hover:bg-green-900/80"
                   : "bg-green-800/40 hover:bg-green-800/80"
-              } border-black border flex transition`}
-              onClick={() => router.push(`/cadets/2023/${cadet.name}`)}
-            >
-              <h1 className="flex relative opacity-75 w-full h-full hover:scale-110 hover:opacity-100 transition justify-center items-center">
-                {cadet.name}
-              </h1>
-            </button>
+              }
+            />
           ))}
         </div>
         <div className="flex flex-col h-full w-1/2">
           {prunedRight.map((cadet, i) => (
-            <button
+            <NameCard
               key={i}
-              className={`h-full relative rounded ${
+              cadet={cadet}
+              style={
                 i % 2 !== 0
                   ? "bg-green-900/40 hover:bg-green-900/80"
                   : "bg-green-800/40 hover:bg-green-800/80"
-              } border-black border flex`}
-              onClick={() => router.push(`/cadets/2023/${cadet.name}`)}
-            >
-              <h1 className="flex relative opacity-75 w-full h-full hover:scale-110 hover:opacity-100 transition justify-center items-center">
-                {cadet.name}
-              </h1>
-            </button>
+              }
+            />
           ))}
         </div>
       </section>
