@@ -60,7 +60,7 @@ const AboutClient = () => {
     flex-col
   "
     >
-      <h1 className="font-cyber font-extrabold text-center text-[#ffe600] lg:text-6xl md:text-5xl text-4xl mb-4">
+      <h1 className="font-cyber font-extrabold text-center text-[#ffe600] lg:text-6xl md:text-5xl text-4xl mb-4 p-10">
         FAQs
       </h1>
       <h3 className="text-center text-md py-2 italic sm:px-4 md:px-0 px-4 text-neutral-100">
@@ -68,7 +68,7 @@ const AboutClient = () => {
         on the{" "}
         <a
           href="https://discord.gg/m6Q9sBdxu6"
-          className=" text-[#ffe600] font-semibold"
+          className=" text-[#ffe600] font-semibold animate-pulse"
         >
           Discord channel
         </a>
