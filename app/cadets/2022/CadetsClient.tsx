@@ -75,7 +75,7 @@ const CadetsClient = () => {
             </div>
           </section>
           <section className="flex relative top-[175%] sm:top-[150%]">
-            <div className="pb-10">
+            <div className="relative ">
               <AssignmentDays winner={winner} year={2022} />
             </div>
           </section>
