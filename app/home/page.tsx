@@ -10,7 +10,7 @@ const HomePage = () => {
   setTimeout(() => setIsLoading(false), 4000);
 
   return (
-    <div>
+    <div className="bg-black text-white">
       {isLoading && <LoadingScreen />}
 
       <HomeClient />

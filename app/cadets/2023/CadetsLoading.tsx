@@ -49,7 +49,7 @@ const CadetsLoading: React.FC = () => {
     },
   ];
   return (
-    <div className="absolute h-screen w-screen overflow-hidden flex flex-col z-20">
+    <div className="absolute h-screen w-screen overflow-hidden flex flex-col z-[200]">
       <motion.div
         className="relative h-full w-full flex flex-row"
         initial={{

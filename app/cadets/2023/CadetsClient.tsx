@@ -31,7 +31,7 @@ const CadetsClient = () => {
   }, []);
 
   return (
-    <div>
+    <div className="bg-black text-white">
       {cadetLoading && (
         <div className="z-20">
           <CadetsLoading />

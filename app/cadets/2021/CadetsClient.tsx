@@ -34,7 +34,7 @@ const CadetsClient = () => {
   }, []);
 
   return (
-    <div>
+    <div className="bg-black text-white">
       {cadetLoading && (
         <div className="z-20">
           <CadetsLoading />
@@ -77,12 +77,12 @@ const CadetsClient = () => {
             </div>
           </section>
           <section className="flex relative h-full flex-col top-[115%] w-full">
-            <div className="w-full relative h-full top-[10%] pb-[17%] ">
+            <div className="w-full relative h-full top-[10%] ">
               <WinnerBanner winner={winner} />
             </div>
           </section>
-          <section className="flex relative top-[450%] sm:top-[140%] xl:top-[150%]">
-            <div className="relative pb-10">
+          <section className="flex relative top-[420%] sm:top-[140%] xl:top-[150%]">
+            <div className="relative">
               <AssignmentDays winner={winner} year={2021} />
             </div>
           </section>

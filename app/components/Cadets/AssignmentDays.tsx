@@ -39,8 +39,8 @@ const AssignmentDays: React.FC<AssDayProps> = ({ winner, year }) => {
     }, 80);
   };
   return (
-    <div>
-      <div className="flex w-full flex-wrap relative flex-row gap-[3rem] justify-center">
+    <div className="bg-black text-white flex relative h-full w-full flex-col">
+      <div className="flex w-full flex-wrap relative flex-row gap-[3rem] justify-center bg-black text-white">
         <motion.div className="relative flex w-full justify-center overflow-hidden">
           <h1
             className={`relative font-cyber m-3 w-3/4 md:w-1/2 text-xl md:text-4xl lg:text-5xl xl:text-6xl p-6 md:p-8 text-center border-2 rounded overflow-hidden cursor-default `}
@@ -62,12 +62,13 @@ const AssignmentDays: React.FC<AssDayProps> = ({ winner, year }) => {
           </button>
         ))}
       </div>
-      <div className="ml-[1rem] pt-8 mb-[-2rem]">
+      <div className=" flex mt-10 p-4 text-center justify-center bg-neutral-900">
         <p className="text-xs">
-          See your art and don&rsquo;t want it displayed? Let us know{" "}
+          See your art and don&rsquo;t want it displayed? <br /> Let us know{" "}
           <a
             href="https://twitter.com/p4nthera_"
             className="hover:text-green-200"
+            target="_blank"
           >
             @p4nthera_
           </a>{" "}
@@ -75,6 +76,7 @@ const AssignmentDays: React.FC<AssDayProps> = ({ winner, year }) => {
           <a
             href="https://twitter.com/lifguson1"
             className="hover:text-green-200"
+            target="_blank"
           >
             @lifguson1
           </a>

@@ -36,7 +36,7 @@ const Select2023: React.FC<CadetSelectProps> = ({ cadets }) => {
   const prunedRight = pruned.slice(19, 38);
 
   return (
-    <div className="h-full w-full absolute flex flex-col md:flex-row">
+    <div className="h-full w-full absolute flex flex-col md:flex-row bg-black text-white">
       <section className="flex flex-col relative h-2/5 md:h-full w-full md:w-3/5">
         <div className="flex flex-row relative h-full w-full">
           {top.map((cadet, i) => {

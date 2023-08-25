@@ -32,7 +32,7 @@ const CadetSelect: React.FC<CadetSelectProps> = (cadets) => {
   }
 
   return (
-    <div className="absolute h-full w-full flex flex-col">
+    <div className="absolute h-screen w-full flex flex-col bg-black text-white">
       <div className="h-full w-full flex flex-row">
         {width > 768 ? (
           top?.map((cadet: Cadet, i: number) => (

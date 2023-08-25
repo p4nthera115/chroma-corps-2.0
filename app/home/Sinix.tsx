@@ -25,7 +25,7 @@ const Sinix = () => {
     },
   };
   return (
-    <div className="relative h-full w-full flex flex-col justify-center text-center gap-2 md:gap-12">
+    <div className="relative h-full w-full flex flex-col justify-center text-center gap-2 md:gap-12 bg-black text-white">
       <motion.h2
         className="text-3xl md:text-5xl font-cyber text-[#ffe600]"
         variants={variants}

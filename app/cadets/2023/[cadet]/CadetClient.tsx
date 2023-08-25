@@ -28,7 +28,7 @@ const CadetClient = () => {
   }, []);
 
   return (
-    <div>
+    <div className="bg-black text-white">
       <div className="absolute z-[60]">
         <Menu iconPosition={{ right: "md:right-5" }} />
       </div>

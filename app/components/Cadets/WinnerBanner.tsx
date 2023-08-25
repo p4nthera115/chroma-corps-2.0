@@ -58,7 +58,75 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
             {name}
           </h2>
         </motion.div>
-        {winner.length >= 2 ? (
+        {/**
+         * TWO WINNERS
+         */}
+        {winner.length === 2 && (
+          <div
+            className={`block relative w-full h-full sm:flex flex-row justify-evenly mt-12 max-h-[90%] ${
+              winner[0].cadet.teamColor === winner[1].cadet.teamColor &&
+              // winner[0].cadet.teamColor === winner[2]?.cadet.teamColor &&
+              winner[0].cadet.gradient
+            }`}
+          >
+            <div className="flex flex-col font-cyber text-center mx-auto">
+              <h2
+                className={`z-30 pointer-events-none  flex mx-auto ${
+                  winner[0]?.cadet.name.length > 6 &&
+                  winner[0]?.cadet.name.length < 14
+                    ? "text-5xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full"
+                    : winner[0]?.cadet.name.length >= 14 &&
+                      winner[0]?.cadet.name.length < 16
+                    ? "text-xl md:text-2xl lg:text-4xl xl:text-[3.5rem] max-h-full max-w-full"
+                    : winner[0]?.cadet.name.length >= 16
+                    ? "text-xl md:text-2xl lg:text-4xl xl:text-[3rem] max-h-full max-w-full"
+                    : "text-6xl lg:text-8xl max-h-full max-w-full"
+                }`}
+              >
+                {winner[0]?.cadet.name}
+              </h2>
+              <img
+                src={winner[0]?.cadet.bannerImg[0]}
+                alt={winner[0]?.cadet?.name}
+                className={`h-full scale-[100%] md:max-w-max px-0 md:px-28  sm:scale-[80%] lg:scale-[100%] z-20 ${
+                  winner[0].cadet.teamColor === winner[1].cadet.teamColor
+                    ? // winner[0].cadet.teamColor === winner[2]?.cadet.teamColor
+                      null
+                    : winner[0].cadet.gradient
+                }`}
+              />
+            </div>
+            <div className="flex flex-col font-cyber text-center mx-auto">
+              <h2
+                className={`z-30 pointer-events-none flex mx-auto ${
+                  winner[1]?.cadet.name.length > 6 &&
+                  winner[1]?.cadet.name.length < 14
+                    ? "text-5xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full"
+                    : winner[1]?.cadet.name.length >= 14 &&
+                      winner[1]?.cadet.name.length < 16
+                    ? "text-xl md:text-2xl lg:text-4xl xl:text-[3.5rem] max-h-full max-w-full"
+                    : winner[1]?.cadet.name.length >= 16
+                    ? "text-xl md:text-2xl lg:text-4xl xl:text-[3rem] max-h-full max-w-full"
+                    : "text-6xl lg:text-8xl max-h-full max-w-full"
+                }`}
+              >
+                {winner[1]?.cadet.name}
+              </h2>
+              <img
+                src={winner[1]?.cadet.bannerImg[0]}
+                alt={winner[1]?.cadet?.name}
+                className={`h-full scale-[100%] max-w-max px-0 md:px-28 sm:scale-[80%] lg:scale-[100%] z-20 ${
+                  winner[1].cadet.teamColor === winner[0].cadet.teamColor
+                    ? // winner[1].cadet.teamColor === winner[2]?.cadet.teamColor
+                      null
+                    : winner[1].cadet.gradient
+                }`}
+              />
+            </div>
+          </div>
+        )}
+        {/* THREE WINNERS */}
+        {winner.length >= 3 && (
           <div
             className={`block relative w-full h-full sm:flex flex-row justify-evenly mt-12 max-h-[90%] ${
               winner[0].cadet.teamColor === winner[1].cadet.teamColor &&
@@ -85,7 +153,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
               <img
                 src={winner[0]?.cadet.bannerImg[0]}
                 alt={winner[0]?.cadet?.name}
-                className={`h-full scale-[80%] sm:scale-[80%] lg:scale-[100%] z-20 ${
+                className={`h-full scale-[100%] md:max-w-max sm:scale-[80%] lg:scale-[100%] z-20 ${
                   winner[0].cadet.teamColor === winner[1].cadet.teamColor &&
                   winner[0].cadet.teamColor === winner[2]?.cadet.teamColor
                     ? null
@@ -95,7 +163,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
             </div>
             <div className="flex flex-col font-cyber text-center mx-auto">
               <h2
-                className={`z-30 pointer-events-none  flex mx-auto ${
+                className={`z-30 pointer-events-none flex mx-auto ${
                   winner[1]?.cadet.name.length > 6 &&
                   winner[1]?.cadet.name.length < 14
                     ? "text-5xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full"
@@ -112,7 +180,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
               <img
                 src={winner[1]?.cadet.bannerImg[0]}
                 alt={winner[1]?.cadet?.name}
-                className={`h-full scale-[80%] sm:scale-[80%] lg:scale-[100%] z-20 ${
+                className={`h-full scale-[100%] max-w-max sm:scale-[80%] lg:scale-[100%] z-20 ${
                   winner[1].cadet.teamColor === winner[0].cadet.teamColor &&
                   winner[1].cadet.teamColor === winner[2]?.cadet.teamColor
                     ? null
@@ -120,38 +188,40 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
                 }`}
               />
             </div>
-            {winner.length >= 3 ? (
-              <div className="flex flex-col font-cyber text-center mx-auto">
-                <h2
-                  className={`z-30 pointer-events-none  flex mx-auto ${
-                    winner[2]?.cadet.name.length > 6 &&
-                    winner[2]?.cadet.name.length < 14
-                      ? "text-5xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full"
-                      : winner[2]?.cadet.name.length >= 14 &&
-                        winner[2]?.cadet.name.length < 16
-                      ? "text-xl md:text-2xl lg:text-4xl xl:text-[3.5rem] max-h-full max-w-full"
-                      : winner[2]?.cadet.name.length >= 16
-                      ? "text-xl md:text-2xl lg:text-4xl xl:text-[3rem] max-h-full max-w-full"
-                      : "text-6xl lg:text-8xl max-h-full max-w-full"
-                  }`}
-                >
-                  {winner[2]?.cadet.name}
-                </h2>
-                <img
-                  src={winner[2]?.cadet.bannerImg[0]}
-                  alt={winner[2]?.cadet.name}
-                  className={`h-full scale-[80%] sm:scale-[80%] lg:scale-[100%] z-20 ${
-                    winner[2].cadet.teamColor === winner[0].cadet.teamColor &&
-                    winner[2].cadet.teamColor === winner[1]?.cadet.teamColor
-                      ? null
-                      : winner[2].cadet.gradient
-                  }`}
-                />
-              </div>
-            ) : null}
+            <div className="flex flex-col font-cyber text-center mx-auto">
+              <h2
+                className={`z-30 pointer-events-none  flex mx-auto ${
+                  winner[2]?.cadet.name.length > 6 &&
+                  winner[2]?.cadet.name.length < 14
+                    ? "text-5xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full"
+                    : winner[2]?.cadet.name.length >= 14 &&
+                      winner[2]?.cadet.name.length < 16
+                    ? "text-xl md:text-2xl lg:text-4xl xl:text-[3.5rem] max-h-full max-w-full"
+                    : winner[2]?.cadet.name.length >= 16
+                    ? "text-xl md:text-2xl lg:text-4xl xl:text-[3rem] max-h-full max-w-full"
+                    : "text-6xl lg:text-8xl max-h-full max-w-full"
+                }`}
+              >
+                {winner[2]?.cadet.name}
+              </h2>
+              <img
+                src={winner[2]?.cadet.bannerImg[0]}
+                alt={winner[2]?.cadet.name}
+                className={`h-full scale-[80%] max-w-max sm:scale-[80%] lg:scale-[100%] z-20 ${
+                  winner[2].cadet.teamColor === winner[0].cadet.teamColor &&
+                  winner[2].cadet.teamColor === winner[1]?.cadet.teamColor
+                    ? null
+                    : winner[2].cadet.gradient
+                }`}
+              />
+            </div>
           </div>
-        ) : (
-          <>
+        )}
+        {/**
+         * IF ONE WINNER
+         */}
+        {winner.length === 1 && (
+          <div>
             <img
               src={winner[0]?.cadet.bannerImg[0]}
               alt={winner[0]?.cadet?.name}
@@ -173,7 +243,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
             >
               {winner[0]?.cadet.name}
             </h2>
-          </>
+          </div>
         )}
       </div>
     </div>

@@ -37,19 +37,21 @@ const NameCard: React.FC<CadetCardProps> = ({ cadet, key: i, style }) => {
           hover && "border"
         } border-x-transparent border-b-transparent border-t-black`}
       >
-        <img
-          src={cadet.cardImg}
-          alt={cadet.name}
-          width={100}
-          height={100}
-          className={`
+        {hover && (
+          <img
+            src={cadet.cardImg}
+            alt={cadet.name}
+            width={100}
+            height={100}
+            className={`
             object-cover 
             object-center
             ${cadet.cardPos} 
             scale-[200%]
             min-w-full
           `}
-        />
+          />
+        )}
       </motion.div>
     </button>
   );
