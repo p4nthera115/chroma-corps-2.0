@@ -2,7 +2,7 @@ import { LoadingScreen } from "./components/CadetPage/Loading/LoadingScreen";
 
 const loading = () => {
   return (
-    <div className="h-screen w-screen fixed z-[10000000]">
+    <div className="h-screen w-screen fixed z-[10000000] bg-black">
       <div className="h-screen w-screen flex relative justify-center">
         <img
           src="/images/ChromaCorpsLogoWhite.png"
