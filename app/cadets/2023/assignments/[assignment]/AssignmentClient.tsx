@@ -8,18 +8,15 @@ import EliminatedBanner from "@/app/components/AssignmentsPage/EliminatedBanner"
 import StrikeBanner from "@/app/components/AssignmentsPage/StrikeBanner";
 import WinnerBanner from "@/app/components/AssignmentsPage/WinnerBanner";
 import Prompt from "@/app/components/AssignmentsPage/Prompt";
+import { Assignment } from "@/app/types";
 import Menu from "@/app/components/Menu/Menu";
 import NextAssButton from "@/app/components/AssignmentsPage/NextAssButton";
 import PrevAssButton from "@/app/components/AssignmentsPage/PrevAssButton";
-import { Assignment } from "@/app/types";
-import NotFound from "@/app/not-found";
 
 const AssignmentClient = () => {
   const pathname = usePathname();
   const [assignmentDay, setAssignmentDay] = useState(pathname.slice(25));
-  const [teamBlue, setTeamBlue] = useState<any>([]);
-  const [teamYellow, setTeamYellow] = useState<any>([]);
-  const [teamPink, setTeamPink] = useState<any>([]);
+  const [noTeam, setNoTeam] = useState<any>([]);
   const [winner, setWinner] = useState<any>([]);
   const [strike, setStrike] = useState<any>([]);
   const [eliminated, setEliminated] = useState<any>([]);
@@ -31,28 +28,19 @@ const AssignmentClient = () => {
     return cadets2023.map((cadet) => {
       const assignment = (
         cadet.assignments as (Assignment | undefined)[] | undefined
-      )?.find(
-        (assignment: Assignment | undefined) =>
-          assignment?.day === +assignmentDay
-      );
+      )
+        ?.filter((assignment) => assignment !== undefined)
+        .find((assignment) => assignment?.day === +assignmentDay);
       return { cadet, assignment };
     });
   }, [cadets2023, assignmentDay]);
 
   useEffect(() => {
-    const blueTeam = cadetAssignments.filter(
-      (cadetAssignment) => cadetAssignment.cadet.teamColor === "bg-blue-500"
-    );
-    const yellowTeam = cadetAssignments.filter(
-      (cadetAssignment) => cadetAssignment.cadet.teamColor === "bg-yellow-500"
-    );
-    const pinkTeam = cadetAssignments.filter(
-      (cadetAssignment) => cadetAssignment.cadet.teamColor === "bg-pink-600"
+    const team = cadetAssignments.filter(
+      (cadetAssignment) => cadetAssignment.cadet.teamColor === "bg-green-800"
     );
 
-    setTeamBlue(blueTeam);
-    setTeamYellow(yellowTeam);
-    setTeamPink(pinkTeam);
+    setNoTeam(team);
 
     const win = cadetAssignments.filter(
       (cadetAssignments) => cadetAssignments.assignment?.winner === true
@@ -74,44 +62,36 @@ const AssignmentClient = () => {
   }, [cadetAssignments]);
 
   const teams = {
-    teamBlue,
-    teamYellow,
-    teamPink,
+    noTeam,
   };
 
   return (
-    <div>
-      {+assignmentDay > 31 || +assignmentDay < 1 ? (
-        <NotFound />
-      ) : (
-        <div className="bg-neutral-900 relative w-full h-full">
-          <div className="absolute z-[60]">
-            <Menu />
-          </div>
-          <Prompt
-            prompt={cadetAssignments[1].assignment?.prompt}
-            assignmentNo={cadetAssignments[1].assignment?.day}
-          />
-          <div>
-            <Assignments cadetAssignments={cadetAssignments} teams={teams} />
-          </div>
-          <div className="translate-y-14">
-            {winner.length > 0 && <WinnerBanner winner={winner} />}
-            {strike.length > 0 && <StrikeBanner strike={strike} />}
-            {(eliminated.length > 0 || dropout.length > 0) && (
-              <EliminatedBanner eliminated={eliminated} dropout={dropout} />
-            )}
-          </div>
-          <div className="h-[33vh] w-screen relative items-center">
-            {+assignmentDay > 1 && (
-              <PrevAssButton year={year} day={+assignmentDay} />
-            )}
-            {+assignmentDay < 31 && (
-              <NextAssButton year={year} day={+assignmentDay} />
-            )}
-          </div>
-        </div>
-      )}
+    <div className="bg-black text-white relative w-full h-full">
+      <div className="absolute z-[60]">
+        <Menu />
+      </div>
+      <Prompt
+        prompt={cadetAssignments[0].assignment?.prompt}
+        assignmentNo={cadetAssignments[0].assignment?.day}
+      />
+      <div className="mb-6">
+        <Assignments cadetAssignments={cadetAssignments} teams={teams} />
+      </div>
+      <div className="translate-y-14">
+        {winner.length > 0 && <WinnerBanner winner={winner} />}
+        {strike.length > 0 && <StrikeBanner strike={strike} />}
+        {(eliminated.length > 0 || dropout.length > 0) && (
+          <EliminatedBanner eliminated={eliminated} dropout={dropout} />
+        )}
+      </div>
+      <div className="h-[33vh] w-screen relative items-center">
+        {+assignmentDay > 1 && (
+          <PrevAssButton year={year} day={+assignmentDay} />
+        )}
+        {+assignmentDay < 31 && (
+          <NextAssButton year={year} day={+assignmentDay} />
+        )}
+      </div>
     </div>
   );
 };

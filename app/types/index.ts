@@ -38,6 +38,10 @@ export type Assignment = {
   winner?: boolean;
 };
 
+export type Team2023 = {
+  [key: string]: CadetAssignment[];
+  noTeam: CadetAssignment[];
+};
 export type Teams2022 = {
   [key: string]: CadetAssignment[];
   teamBlue: CadetAssignment[];
