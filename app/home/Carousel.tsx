@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useEffect, useState } from "react";
 import {
   motion,
   useScroll,
@@ -12,15 +12,33 @@ import {
 import { wrap } from "@motionone/utils";
 import Image from "next/image";
 
+const images = [
+  "/images/CadetCarousel/double.png",
+  "/images/CadetCarousel/trout.png",
+  "/images/CadetCarousel/teted.png",
+  "/images/CadetCarousel/fatcat.png",
+  "/images/CadetCarousel/dako.png",
+  "/images/CadetCarousel/ozan-banner1.png",
+  "/images/CadetCarousel/chedilkm.png",
+  "/images/CadetCarousel/beatrice.png",
+  "/images/CadetCarousel/nikittysan.png",
+  "/images/CadetCarousel/weiao.png",
+];
+
 function Carousel() {
-  const images = [
-    "/images/CadetCarousel/cropped-hieumay.png",
-    "/images/CadetCarousel/dehaf-full.png",
-    "/images/CadetCarousel/joharts.png",
-    "/images/CadetCarousel/kawffee.png",
-    "/images/CadetCarousel/ozan-banner1.png",
-    "/images/CadetCarousel/silverstar1234-banner1.png",
-  ];
+  const [mouse, setMouse] = useState(0);
+  const [mouseSide, setMouseSide] = useState(0);
+  const [mouseDown, setMouseDown] = useState(false);
+
+  useEffect(() => {
+    (document.onmousemove = (e: MouseEvent) => {
+      setMouse((e.clientX / window.innerWidth - 0.5) * 2);
+      return setMouseSide(mouse > 0 ? 1 : -1);
+    }),
+      [mouse];
+  });
+
+  console.log(mouseSide);
 
   const baseX = useMotionValue(0);
   const { scrollY } = useScroll();
@@ -43,15 +61,19 @@ function Carousel() {
 
     moveBy -= direction.current * moveBy * velocityFactor.get();
 
-    baseX.set(baseX.get() + moveBy);
+    baseX.set(baseX.get() + moveBy + (mouseDown ? mouseSide * 10 : 0));
   });
 
   return (
-    <div className="parallax flex flex-row relative h-full w-full border-8 border-[#ffe600]  diagonal-lines-black bg-[#ffe600]">
+    <div
+      className="parallax flex flex-row relative h-full w-full border-8 border-[#ffe600] diagonal-lines-black bg-[#ffe600]"
+      onMouseDown={() => setMouseDown(true)}
+      onMouseUp={() => setMouseDown(false)}
+    >
       <motion.div className="scroller flex" style={{ x: baseX }}>
         <section className="relative h-full w-full flex flex-row gap-12 -translate-x-60">
           {images.map((image: string) => (
-            <Image
+            <img
               key={image}
               src={image}
               alt={image}
@@ -61,7 +83,7 @@ function Carousel() {
             />
           ))}
           {images.map((image: string) => (
-            <Image
+            <img
               key={image}
               src={image}
               alt={image}
@@ -71,7 +93,7 @@ function Carousel() {
             />
           ))}
           {images.map((image: string) => (
-            <Image
+            <img
               key={image}
               src={image}
               alt={image}
