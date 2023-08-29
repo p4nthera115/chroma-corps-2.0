@@ -111,8 +111,8 @@ const AssignmentClient = () => {
             {width &&
               width < 768 &&
               winner.length > 1 &&
-              winner.map((winner: CadetAssignment) => (
-                <SmallWinnerBanner winner={winner} />
+              winner.map((winner: CadetAssignment, i: number) => (
+                <SmallWinnerBanner key={i} winner={winner} />
               ))}
             {strike.length > 0 && <StrikeBanner strike={strike} />}
             {(eliminated.length > 0 || dropout.length > 0) && (
