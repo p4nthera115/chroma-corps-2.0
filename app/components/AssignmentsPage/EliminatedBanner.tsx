@@ -20,7 +20,7 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
         className={`absolute z-10 h-full w-full ${elimType[0]?.cadet.gradient} flex justify-center`}
       >
         {elimType.length > 1 ? (
-          <div className="relative w-full h-full border-red-600 border overflow-hidden">
+          <div className="relative w-full h-full border-red-600 border border-dashed overflow-hidden">
             {elimType[1]?.cadet.gradient !== elimType[0]?.cadet.gradient ? (
               <div
                 className={`absolute z-10 h-full w-full rotate-180 ${elimType[1]?.cadet.gradient}`}
@@ -36,7 +36,7 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
                 />
               ))}
             </div>
-            <div className="absolute flex flex-col gap-4 text-right items-end justify-end bottom-0 right-0 font-cyber ">
+            <div className="absolute flex flex-col gap-4 text-right items-end justify-end bottom-0 right-0 font-cyber m-3">
               {elimType.map((cadet: CadetAssignment, i: number) => (
                 <h2
                   key={i}

@@ -47,7 +47,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
   return (
     <div className="relative w-full h-[66.666666vh] ">
       <div
-        className={` z-10 h-full w-full ${
+        className={`z-10 h-full w-full ${
           winner.length == 1 && winner[0]?.cadet.gradient
         }  flex justify-center`}
       >
@@ -83,11 +83,11 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
                 />
               ) : null}
             </div>
-            <div className="absolute flex z-50 flex-row p-4 text-center items-center justify-between -bottom-4 w-full font-cyber ">
-              {winner.map((cadet, i) => (
+            <div className="absolute flex flex-col gap-4 text-right items-end justify-end bottom-0 right-0 font-cyber m-3">
+              {winner.map((cadet: CadetAssignment, i: number) => (
                 <h2
                   key={i}
-                  className={`flex 
+                  className={`flex z-[1000] bottom-0 right-0 text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full
                     ${
                       winner[0]?.cadet.name.length > 6 &&
                       winner[0]?.cadet.name.length < 14
