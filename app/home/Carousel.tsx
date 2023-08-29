@@ -33,7 +33,7 @@ function Carousel() {
   useEffect(() => {
     (document.onmousemove = (e: MouseEvent) => {
       setMouse((e.clientX / window.innerWidth - 0.5) * 2);
-      return setMouseSide(mouse > 0 ? 1 : -1);
+      return setMouseSide(mouse > 0 ? -1 : 1);
     }),
       [mouse];
   });
