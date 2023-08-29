@@ -11,6 +11,7 @@ import {
 } from "framer-motion";
 import { wrap } from "@motionone/utils";
 import Image from "next/image";
+import { BsFillCaretLeftFill, BsFillCaretRightFill } from "react-icons/bs";
 
 const images = [
   "/images/CadetCarousel/double.png",
@@ -65,11 +66,24 @@ function Carousel() {
   });
 
   return (
-    <div
-      className="parallax flex flex-row relative h-full w-full border-8 border-[#ffe600] diagonal-lines-black bg-[#ffe600]"
-      onMouseDown={() => setMouseDown(true)}
-      onMouseUp={() => setMouseDown(false)}
-    >
+    <div className="parallax flex flex-row relative h-full w-full border-8 border-[#ffe600] diagonal-lines-black bg-[#ffe600]">
+      <div className="h-full w-full absolute flex justify-between items-center px-8">
+        <button
+          className="rounded-full bg-black z-50 h-14 w-14 opacity-50 hover:opacity-100 transition flex justify-center items-center"
+          onMouseDown={() => setMouseDown(true)}
+          onMouseUp={() => setMouseDown(false)}
+        >
+          <BsFillCaretLeftFill color="#ffe600" />
+        </button>
+        <button
+          className="rounded-full bg-black z-50 h-14 w-14 opacity-50 hover:opacity-100 transition flex justify-center items-center"
+          onMouseDown={() => setMouseDown(true)}
+          onMouseUp={() => setMouseDown(false)}
+        >
+          <BsFillCaretRightFill color="#ffe600" />
+        </button>
+      </div>
+
       <motion.div className="scroller flex" style={{ x: baseX }}>
         <section className="relative h-full w-full flex flex-row gap-12 -translate-x-60">
           {images.map((image: string) => (
