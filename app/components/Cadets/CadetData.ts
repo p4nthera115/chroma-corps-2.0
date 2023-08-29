@@ -13322,7 +13322,8 @@ export const cadets2021 = [
     ],
     bannerPos: "absolute h-full scale-[150%] min-w-max",
     cameraPos: "scale-[100%]",
-    gradient: "bg-gradient-to-t from-black via-red-500 to-black",
+    gradient: "bg-gradient-to-t from-red-500 to-black",
+    centreGradient: "bg-gradient-to-t from-black via-red-500 to-black",
     bgLines: "diagonal-lines-red",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",

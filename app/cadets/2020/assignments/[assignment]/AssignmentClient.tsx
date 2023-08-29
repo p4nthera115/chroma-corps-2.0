@@ -8,10 +8,12 @@ import EliminatedBanner from "@/app/components/AssignmentsPage/EliminatedBanner"
 import StrikeBanner from "@/app/components/AssignmentsPage/StrikeBanner";
 import WinnerBanner from "@/app/components/AssignmentsPage/WinnerBanner";
 import Prompt from "@/app/components/AssignmentsPage/Prompt";
-import { Assignment } from "@/app/types";
+import { Assignment, CadetAssignment } from "@/app/types";
 import Menu from "@/app/components/Menu/Menu";
 import NextAssButton from "@/app/components/AssignmentsPage/NextAssButton";
 import PrevAssButton from "@/app/components/AssignmentsPage/PrevAssButton";
+import SmallWinnerBanner from "@/app/components/AssignmentsPage/SmallWinnerBanner";
+import NotFound from "@/app/not-found";
 
 const AssignmentClient = () => {
   const pathname = usePathname();
@@ -21,6 +23,7 @@ const AssignmentClient = () => {
   const [strike, setStrike] = useState<any>([]);
   const [eliminated, setEliminated] = useState<any>([]);
   const [dropout, setDropout] = useState<any>([]);
+  const [width, setWidth] = useState(0);
 
   const year = pathname.slice(8, 12);
 
@@ -59,6 +62,8 @@ const AssignmentClient = () => {
     setStrike(str);
     setEliminated(elim);
     setDropout(drop);
+
+    if (window) setWidth(window.innerWidth);
   }, [cadetAssignments]);
 
   const teams = {
@@ -66,32 +71,51 @@ const AssignmentClient = () => {
   };
 
   return (
-    <div className="bg-neutral-900 relative w-full h-full">
-      <div className="absolute z-[60]">
-        <Menu />
-      </div>
-      <Prompt
-        prompt={cadetAssignments[0].assignment?.prompt}
-        assignmentNo={cadetAssignments[0].assignment?.day}
-      />
-      <div>
-        <Assignments cadetAssignments={cadetAssignments} teams={teams} />
-      </div>
-      <div className="translate-y-14">
-        {winner.length > 0 && <WinnerBanner winner={winner} />}
-        {strike.length > 0 && <StrikeBanner strike={strike} />}
-        {(eliminated.length > 0 || dropout.length > 0) && (
-          <EliminatedBanner eliminated={eliminated} dropout={dropout} />
-        )}
-      </div>
-      <div className="h-[33vh] w-screen relative items-center">
-        {+assignmentDay > 1 && (
-          <PrevAssButton year={year} day={+assignmentDay} />
-        )}
-        {+assignmentDay < 36 && (
-          <NextAssButton year={year} day={+assignmentDay} />
-        )}
-      </div>
+    <div>
+      {+assignmentDay > 36 || +assignmentDay < 1 ? (
+        <NotFound />
+      ) : (
+        <div className="bg-black relative w-full h-full">
+          <div className="absolute z-[60]">
+            <Menu />
+          </div>
+          <div>
+            <Prompt
+              prompt={cadetAssignments[0].assignment?.prompt}
+              assignmentNo={cadetAssignments[0].assignment?.day}
+            />
+          </div>
+          <div className="mb-6">
+            <Assignments cadetAssignments={cadetAssignments} teams={teams} />
+          </div>
+          <div className="translate-y-14">
+            {width && width > 768 && winner.length > 0 && (
+              <WinnerBanner winner={winner} />
+            )}
+            {width && width < 768 && winner.length === 1 && (
+              <WinnerBanner winner={winner} />
+            )}
+            {width &&
+              width < 768 &&
+              winner.length > 1 &&
+              winner.map((winner: CadetAssignment) => (
+                <SmallWinnerBanner winner={winner} />
+              ))}
+            {strike.length > 0 && <StrikeBanner strike={strike} />}
+            {(eliminated.length > 0 || dropout.length > 0) && (
+              <EliminatedBanner eliminated={eliminated} dropout={dropout} />
+            )}
+          </div>
+          <div className="h-[33vh] w-screen relative items-center">
+            {+assignmentDay > 1 && (
+              <PrevAssButton year={year} day={+assignmentDay} />
+            )}
+            {+assignmentDay < 36 && (
+              <NextAssButton year={year} day={+assignmentDay} />
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 };
