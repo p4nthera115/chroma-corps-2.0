@@ -45,6 +45,7 @@ export const CadetPageCard: React.FC<CadetPageCardProps> = ({
                 alt={assignment.prompt}
                 height={1080}
                 width={1920}
+                priority={false}
                 className="relative block z-30 object-contain"
               />
             </div>
@@ -52,8 +53,11 @@ export const CadetPageCard: React.FC<CadetPageCardProps> = ({
             <Image
               src={assignment.img}
               alt={assignment.prompt}
-              fill
-              className="opacity-4 z-10"
+              height={1080}
+              width={1920}
+              quality={1}
+              priority={true}
+              className="absolute opacity-80 z-10 object-cover "
             />
           </section>
           <section
