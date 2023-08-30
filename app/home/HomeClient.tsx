@@ -22,7 +22,9 @@ const HomeClient = () => {
       </div>
 
       <header className="md:hidden absolute h-full w-full font-cyber text-6xl max-w-full font-extrabold justify-center block text-black">
-        <h1 className="absolute bottom-16 m-2">CHROMA</h1>
+        <h1 className="absolute bottom-16 mb-2 left-1/2 -translate-x-1/2">
+          CHROMA
+        </h1>
         <h1 className="absolute bottom-0 mb-2 left-1/2 -translate-x-1/2">
           CORPS
         </h1>
