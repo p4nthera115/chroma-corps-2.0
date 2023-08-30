@@ -14,6 +14,7 @@ import PrevAssButton from "@/app/components/AssignmentsPage/PrevAssButton";
 import { Assignment, Cadet, CadetAssignment } from "@/app/types";
 import SmallWinnerBanner from "@/app/components/AssignmentsPage/SmallWinnerBanner";
 import NotFound from "@/app/not-found";
+import SmallElimBanner from "@/app/components/AssignmentsPage/SmallElimBanner";
 
 const AssignmentClient = () => {
   const pathname = usePathname();
@@ -25,6 +26,7 @@ const AssignmentClient = () => {
   const [eliminated, setEliminated] = useState<any>([]);
   const [dropout, setDropout] = useState<any>([]);
   const [width, setWidth] = useState(0);
+  const [promptArr, setPromptArr] = useState<any>([]);
 
   const year = pathname.slice(8, 12);
 
@@ -64,10 +66,15 @@ const AssignmentClient = () => {
       (cadetAssignments) => cadetAssignments.assignment?.dropout === true
     );
 
+    const prompts = cadetAssignments.filter(
+      (cadetAssignments) => cadetAssignments.cadet.name === "Chedilkm"
+    );
+
     setWinner(win);
     setStrike(str);
     setEliminated(elim);
     setDropout(drop);
+    setPromptArr(prompts);
 
     if (window) setWidth(window.innerWidth);
   }, [cadetAssignments, width]);
@@ -90,8 +97,8 @@ const AssignmentClient = () => {
           </div>
           <div>
             <Prompt
-              prompt={cadetAssignments[0].assignment?.prompt}
-              assignmentNo={cadetAssignments[0].assignment?.day}
+              prompt={promptArr[0]?.assignment?.prompt}
+              assignmentNo={promptArr[0]?.assignment?.day}
             />
           </div>
           <div className="mb-6">
@@ -111,9 +118,28 @@ const AssignmentClient = () => {
                 <SmallWinnerBanner key={i} winner={winner} />
               ))}
             {strike.length > 0 && <StrikeBanner strike={strike} />}
-            {(eliminated.length > 0 || dropout.length > 0) && (
-              <EliminatedBanner eliminated={eliminated} dropout={dropout} />
-            )}
+            {width &&
+              width > 768 &&
+              (eliminated.length > 0 || dropout.length > 0) && (
+                <EliminatedBanner eliminated={eliminated} dropout={dropout} />
+              )}
+            {width &&
+              width < 768 &&
+              (eliminated.length || dropout.length) === 1 && (
+                <EliminatedBanner eliminated={eliminated} dropout={dropout} />
+              )}
+            {width &&
+              width < 768 &&
+              eliminated.length > 1 &&
+              eliminated.map((eliminated: CadetAssignment, i: number) => (
+                <SmallElimBanner key={i} eliminated={eliminated} />
+              ))}
+            {width &&
+              width < 768 &&
+              dropout.length > 1 &&
+              dropout.map((dropout: CadetAssignment, i: number) => (
+                <SmallElimBanner key={i} dropout={dropout} />
+              ))}
           </div>
           <div className="h-[33vh] w-screen relative items-center">
             {+assignmentDay > 1 && (
