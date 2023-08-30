@@ -19,7 +19,7 @@ const Footer = () => {
     },
   };
   return (
-    <div className="relative h-full w-full bg-[#ffe600] diagonal-lines-yellow flex flex-col gap-10 justify-center">
+    <div className="relative h-full w-full bg-[#ffe600] diagonal-lines-black flex flex-col gap-10 justify-center">
       <motion.h1
         variants={variants}
         initial="initial"
