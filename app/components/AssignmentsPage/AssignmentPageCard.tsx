@@ -52,8 +52,7 @@ export const AssignmentPageCard: React.FC<AssignmentPageCardProps> = ({
           <Image
             src={assignment.img}
             alt={assignment.prompt}
-            height={1080}
-            width={1920}
+            fill
             quality={1}
             priority={true}
             className="absolute opacity-80 z-10 object-cover "
