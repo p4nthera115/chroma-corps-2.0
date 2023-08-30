@@ -24,7 +24,7 @@ const Logo = () => {
       <primitive
         ref={ref}
         object={scene}
-        scale={window.innerWidth < 768 ? 1.0 : 1.5}
+        scale={window.innerWidth < 768 ? 1.3 : 1.5}
         onClick={() => setClick(true)}
       />
     );
