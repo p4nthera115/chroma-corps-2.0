@@ -38,8 +38,8 @@ const CadetsLoading: React.FC = () => {
     },
     {
       css: "right-1/4 bg-amber-300",
-      img: "/images/silhouette.png",
-      pos: "h-[300%] top-[-17%]",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2020/weiao/weiaoCard.png",
+      pos: "h-[300%] top-[-12%]",
     },
     {
       css: "right-0 bg-amber-400",
