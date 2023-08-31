@@ -7734,8 +7734,7 @@ export const cadets2022 = [
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
     gradient: "bg-gradient-to-t from-blue-500",
     bgLines: "diagonal-lines-blue",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2022/applechancery-palette.png",
     socials: {
       instagram: "https://www.instagram.com/applechancery002/",
     },
@@ -7911,8 +7910,7 @@ export const cadets2022 = [
     centreGradient:
       "bg-gradient-to-t from-transparent via-blue-500 to-transparent",
     bgLines: "diagonal-lines-blue",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2022/fatcat-palette.png",
     socials: {
       instagram: "https://www.instagram.com/megalithiccat/",
     },
@@ -8228,8 +8226,7 @@ export const cadets2022 = [
     centreGradient:
       "bg-gradient-to-t from-transparent via-blue-500 to-transparent",
     bgLines: "diagonal-lines-blue",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2022/dako-palette.png",
     socials: {
       twitter: "https://twitter.com/Dakotenfog",
     },
@@ -8544,8 +8541,7 @@ export const cadets2022 = [
     cameraPos: "scale-[200%]",
     gradient: "bg-gradient-to-t from-[#ffe600]",
     bgLines: "diagonal-lines-yellow",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2022/baeloma-palette.png",
     socials: {
       instagram: "https://www.instagram.com/baeloma__/",
     },
@@ -8855,8 +8851,7 @@ export const cadets2022 = [
     cameraPos: "scale-[300%] translate-x-[-10rem]",
     gradient: "bg-gradient-to-t from-[#ffe600]",
     bgLines: "diagonal-lines-yellow",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2022/vevolf-palette.png",
     socials: {
       instagram: "https://www.instagram.com/vevolf/?hl=en",
     },
@@ -9134,8 +9129,7 @@ export const cadets2022 = [
     cameraPos: "scale-[220%] translate-x-[-10rem]",
     gradient: "bg-gradient-to-t from-pink-500",
     bgLines: "diagonal-lines-pink",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2022/greeblebot-palette.png",
     socials: {
       instagram: "https://www.instagram.com/greeblebot/",
     },
@@ -9445,8 +9439,7 @@ export const cadets2022 = [
     cameraPos: "scale-[200%]",
     gradient: "bg-gradient-to-t from-pink-500",
     bgLines: "diagonal-lines-pink",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2022/yugichu-palette.png",
     socials: {
       instagram: "https://www.instagram.com/yugichu/?hl=en",
     },
@@ -11338,8 +11331,7 @@ export const cadets2021 = [
     teamColorOpacity: "bg-red-500/20",
     teamColorHoverOpacity: "hover:bg-red-500/20",
     bgLines: "diagonal-lines-red",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2021/hieumay-palette.png",
     socials: {
       instagram: "https://www.instagram.com/hieumayart",
       twitter: "https://twitter.com/hieumayart?s=20",
@@ -11523,8 +11515,7 @@ export const cadets2021 = [
     cameraPos: "scale-[180%] top-[10%] translate-x-[-1rem]",
     gradient: "bg-gradient-to-t from-red-500",
     bgLines: "diagonal-lines-red",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2021/spiderlair-palette.png",
     socials: {
       instagram: "https://www.instagram.com/spiderlair",
     },
@@ -11774,8 +11765,7 @@ export const cadets2021 = [
     centreGradient:
       "bg-gradient-to-t from-transparent via-red-500 to-transparent",
     bgLines: "diagonal-lines-red",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2021/ozan-palette.png",
     socials: {
       instagram: "https://www.instagram.com/ozanpulat/",
       twitter: "https://twitter.com/ozanpulat_art",
@@ -12156,8 +12146,7 @@ export const cadets2021 = [
     cameraPos: "scale-[200%]",
     gradient: "bg-gradient-to-t from-red-500",
     bgLines: "diagonal-lines-red",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2021/joharts-palette.png",
     socials: {
       instagram: "http://instagram.com/_JohArts",
       twitter: "http://twitter.com/_joharts",
@@ -13614,8 +13603,7 @@ export const cadets2021 = [
     cameraPos: "scale-[180%] translate-y-[10%]",
     gradient: "bg-gradient-to-t from-cyan-500",
     bgLines: "diagonal-lines-cyan",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2021/silverstar-palette.png",
     socials: {
       instagram: "https://www.instagram.com/silverstar1243",
     },
@@ -13770,8 +13758,7 @@ export const cadets2021 = [
     cameraPos: "scale-[250%] translate-x-[-6rem]",
     gradient: "bg-gradient-to-t from-cyan-500",
     bgLines: "diagonal-lines-cyan",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2021/awfullysabi-palette.png",
     socials: {
       instagram: "https://www.instagram.com/awfullysabi/",
     },
@@ -14054,8 +14041,7 @@ export const cadets2021 = [
     cameraPos: "scale-[300%]",
     gradient: "bg-gradient-to-t from-cyan-500",
     bgLines: "diagonal-lines-cyan",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2021/Dehaf-palette.png",
     socials: {
       instagram: "https://www.instagram.com/iam_dehaf",
     },
@@ -14426,8 +14412,7 @@ export const cadets2021 = [
     cameraPos: "scale-[280%] left-[-100%] top-[5rem]",
     gradient: "bg-gradient-to-t from-cyan-500",
     bgLines: "diagonal-lines-cyan",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2021/kawffee-palette.png",
     socials: {
       instagram: "https://www.instagram.com/mattmcangusart/",
     },
@@ -15692,8 +15677,7 @@ export const cadets2020 = [
     cameraPos: "scale-[200%]",
     gradient: "bg-gradient-to-t from-amber-300",
     bgLines: "diagonal-lines-amber",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2020/makennu-palette.png",
     socials: {
       instagram: "https://www.instagram.com/makennu/?hl=en",
     },
@@ -15928,8 +15912,7 @@ export const cadets2020 = [
     centreGradient:
       "bg-gradient-to-t from-transparent via-amber-300 to-transparent",
     bgLines: "diagonal-lines-amber",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2020/nikittysan-palette.png",
     socials: {
       instagram: "https://www.instagram.com/nikittysan/",
       twitter: "https://twitter.com/nikittysan",
@@ -16257,8 +16240,7 @@ export const cadets2020 = [
     cameraPos: "scale-[200%] left-[10rem]",
     gradient: "bg-gradient-to-t from-amber-300",
     bgLines: "diagonal-lines-amber",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2020/spiderlair-palette.png",
     socials: {
       instagram: "https://www.instagram.com/spiderlair/?hl=en",
     },
@@ -16519,8 +16501,7 @@ export const cadets2020 = [
     cameraPos: "scale-[300%] top-[10rem]",
     gradient: "bg-gradient-to-t from-amber-300",
     bgLines: "diagonal-lines-amber",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2020/awfullysabi-palette.png",
     socials: {
       instagram: "https://www.instagram.com/awfullysabi/",
     },
@@ -16823,8 +16804,7 @@ export const cadets2020 = [
     cameraPos: "scale-[250%]",
     gradient: "bg-gradient-to-t from-amber-300",
     bgLines: "diagonal-lines-amber",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2020/dehaf-palette.png",
     socials: {
       instagram: "https://www.instagram.com/iam_dehaf/",
     },
@@ -16862,8 +16842,7 @@ export const cadets2020 = [
     cameraPos: "scale-[250%]",
     gradient: "bg-gradient-to-t from-amber-300",
     bgLines: "diagonal-lines-amber",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2020/storse-palette.png",
     socials: {
       instagram: "https://www.instagram.com/storsearts/",
     },
