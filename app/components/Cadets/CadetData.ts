@@ -30,7 +30,7 @@ export const cadets2023 = [
         prompt:
           "Fan art of a character entry that is not already in the Bootcamp phase",
         day: 1,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-01/dehaf.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-01/dehaf.gif",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -39,7 +39,7 @@ export const cadets2023 = [
       {
         prompt: "Inverted Jungle",
         day: 2,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-02/dehaf.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-02/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -48,7 +48,7 @@ export const cadets2023 = [
       {
         prompt: "Mystical Lantern of the Dyrad Queen",
         day: 3,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-03/dehaf.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-03/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -57,7 +57,7 @@ export const cadets2023 = [
       {
         prompt: "Philbert - the fluffiest dinosaur",
         day: 4,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-04/dehaf.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-04/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -76,7 +76,7 @@ export const cadets2023 = [
         prompt: "Herding the Cats",
         note: "Winner & loser get striked",
         day: 6,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-06/dehaf.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-06/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -85,7 +85,7 @@ export const cadets2023 = [
       {
         prompt: "Celestial Nomad and their Wonderous Cloak",
         day: 7,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-07/dehaf.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-07/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -94,7 +94,7 @@ export const cadets2023 = [
       {
         prompt: "Cyberpunk Palm Springs Neighborhood",
         day: 8,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-08/dehaf.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-08/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -103,7 +103,7 @@ export const cadets2023 = [
       {
         prompt: "Giant Penguin Enemy for a Dark Souls Game",
         day: 9,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-09/dehaf.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-09/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -112,7 +112,7 @@ export const cadets2023 = [
       {
         prompt: "Rifle for your Cadet",
         day: 10,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-10/dehaf.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-10/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -122,7 +122,7 @@ export const cadets2023 = [
         prompt:
           "In the vast desert, water hangs suspended in the sky in great bubbles, tantalizingly out of reach. It never rains, they never fall, the desert dwellers must ascend to them if they want to drink",
         day: 11,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-11/dehaf.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-11/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -131,7 +131,7 @@ export const cadets2023 = [
       {
         prompt: "Mushroom Royalty",
         day: 12,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-12/dehaf.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-12/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -140,7 +140,7 @@ export const cadets2023 = [
       {
         prompt: "Elopement of Form and Space",
         day: 13,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-13/dehaf.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-13/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -149,7 +149,7 @@ export const cadets2023 = [
       {
         prompt: "Time Shark",
         day: 14,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/dehaf.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -158,7 +158,7 @@ export const cadets2023 = [
       {
         prompt: "Distressed Fighter Pilot",
         day: 15,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-15/dehaf.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-15/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -167,7 +167,7 @@ export const cadets2023 = [
       {
         prompt: "Feast",
         day: 16,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-16/dehaf.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-16/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -177,7 +177,7 @@ export const cadets2023 = [
         prompt:
           "A Small Village Nestled in Close-Quarters Foothills. Can't Build Out, so Must Build UP!			",
         day: 17,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-17/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -186,7 +186,7 @@ export const cadets2023 = [
       {
         prompt: "The Eyes of a Friend, but the Gaze of a Fiend",
         day: 18,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-18/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -195,7 +195,7 @@ export const cadets2023 = [
       {
         prompt: "A Swordsman Colugo with Their Tardrigrade Mount",
         day: 19,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-19/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -204,7 +204,7 @@ export const cadets2023 = [
       {
         prompt: "Mythological Charactar in Mad Max Setting",
         day: 20,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-20/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -213,7 +213,7 @@ export const cadets2023 = [
       {
         prompt: "Mother Marmot",
         day: 21,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-21/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -222,7 +222,7 @@ export const cadets2023 = [
       {
         prompt: "Dream Weaver (a creature that can alter the dreams of people)",
         day: 22,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-22/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -231,7 +231,7 @@ export const cadets2023 = [
       {
         prompt: "VERRRRRY Misunderstood Villain",
         day: 23,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-23/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -240,7 +240,7 @@ export const cadets2023 = [
       {
         prompt: "Two Mercenary Friends Share a Drink on Lunch Break",
         day: 24,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-24/dehaf.png",
         strike: false,
         strikes: 0,
         eliminated: true,
@@ -264,7 +264,6 @@ export const cadets2023 = [
     teamColorHoverOpacity: "hover:bg-green-800/20",
     bannerImg: [
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/storse/storse.png",
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/storse/storse-2.png",
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
@@ -280,7 +279,7 @@ export const cadets2023 = [
         prompt:
           "Fan art of a character entry that is not already in the Bootcamp phase",
         day: 1,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-01/storse.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-01/storse.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -289,7 +288,7 @@ export const cadets2023 = [
       {
         prompt: "Inverted Jungle",
         day: 2,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-02/storse.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-02/storse.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -298,7 +297,7 @@ export const cadets2023 = [
       {
         prompt: "Mystical Lantern of the Dyrad Queen",
         day: 3,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-03/storse.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-03/storse.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -307,7 +306,7 @@ export const cadets2023 = [
       {
         prompt: "Philbert - the fluffiest dinosaur",
         day: 4,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-04/storse.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-04/storse.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -326,7 +325,7 @@ export const cadets2023 = [
         prompt: "Herding the Cats",
         note: "Winner & loser get striked",
         day: 6,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-06/storse.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-06/storse.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -335,7 +334,7 @@ export const cadets2023 = [
       {
         prompt: "Celestial Nomad and their Wonderous Cloak",
         day: 7,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-07/storse.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-07/storse.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -344,7 +343,7 @@ export const cadets2023 = [
       {
         prompt: "Cyberpunk Palm Springs Neighborhood",
         day: 8,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-08/storse.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-08/storse.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -353,7 +352,7 @@ export const cadets2023 = [
       {
         prompt: "Giant Penguin Enemy for a Dark Souls Game",
         day: 9,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-09/storse.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-09/storse.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -362,7 +361,7 @@ export const cadets2023 = [
       {
         prompt: "Rifle for your Cadet",
         day: 10,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-10/storse.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-10/storse.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -372,7 +371,7 @@ export const cadets2023 = [
         prompt:
           "In the vast desert, water hangs suspended in the sky in great bubbles, tantalizingly out of reach. It never rains, they never fall, the desert dwellers must ascend to them if they want to drink",
         day: 11,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-11/storse.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-11/storse.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -381,7 +380,7 @@ export const cadets2023 = [
       {
         prompt: "Mushroom Royalty",
         day: 12,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-12/storse.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-12/storse.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -390,7 +389,7 @@ export const cadets2023 = [
       {
         prompt: "Elopement of Form and Space",
         day: 13,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-13/storse.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-13/storse.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -399,7 +398,7 @@ export const cadets2023 = [
       {
         prompt: "Time Shark",
         day: 14,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/storse.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/storse.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -408,7 +407,7 @@ export const cadets2023 = [
       {
         prompt: "Distressed Fighter Pilot",
         day: 15,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-15/storse.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-15/storse.png",
         strike: false,
         strikes: 0,
         eliminated: true,
@@ -432,7 +431,6 @@ export const cadets2023 = [
     teamColorHoverOpacity: "hover:bg-green-800/20",
     bannerImg: [
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/slimeslugger/slimeslugger.png",
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/slimeslugger/slimeslugger-2.png",
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
@@ -449,7 +447,7 @@ export const cadets2023 = [
         prompt:
           "Fan art of a character entry that is not already in the Bootcamp phase",
         day: 1,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-01/slimeslugger.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-01/slimeslugger.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -458,7 +456,7 @@ export const cadets2023 = [
       {
         prompt: "Inverted Jungle",
         day: 2,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-02/slimeslugger.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-02/slimeslugger.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -467,7 +465,7 @@ export const cadets2023 = [
       {
         prompt: "Mystical Lantern of the Dyrad Queen",
         day: 3,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-03/slimeslugger.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-03/slimeslugger.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -476,7 +474,7 @@ export const cadets2023 = [
       {
         prompt: "Philbert - the fluffiest dinosaur",
         day: 4,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-04/slimeslugger.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-04/slimeslugger.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -495,7 +493,7 @@ export const cadets2023 = [
         prompt: "Herding the Cats",
         note: "Winner & loser get striked",
         day: 6,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-06/slimeslugger.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-06/slimeslugger.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -504,7 +502,7 @@ export const cadets2023 = [
       {
         prompt: "Celestial Nomad and their Wonderous Cloak",
         day: 7,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-07/slimeslugger.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-07/slimeslugger.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -513,7 +511,7 @@ export const cadets2023 = [
       {
         prompt: "Cyberpunk Palm Springs Neighborhood",
         day: 8,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-08/slimeslugger.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-08/slimeslugger.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -522,7 +520,7 @@ export const cadets2023 = [
       {
         prompt: "Giant Penguin Enemy for a Dark Souls Game",
         day: 9,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-09/slimeslugger.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-09/slimeslugger.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -531,7 +529,7 @@ export const cadets2023 = [
       {
         prompt: "Rifle for your Cadet",
         day: 10,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-10/slimeslugger.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-10/slimeslugger.png",
         strike: false,
         strikes: 0,
         eliminated: true,
@@ -555,7 +553,6 @@ export const cadets2023 = [
     teamColorHoverOpacity: "hover:bg-green-800/20",
     bannerImg: [
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/alto/alto.png",
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/alto/alto-2.png",
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
@@ -571,7 +568,7 @@ export const cadets2023 = [
         prompt:
           "Fan art of a character entry that is not already in the Bootcamp phase",
         day: 1,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-01/alto.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-01/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -580,7 +577,7 @@ export const cadets2023 = [
       {
         prompt: "Inverted Jungle",
         day: 2,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-02/alto.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-02/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -589,7 +586,7 @@ export const cadets2023 = [
       {
         prompt: "Mystical Lantern of the Dyrad Queen",
         day: 3,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-03/alto.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-03/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -598,7 +595,7 @@ export const cadets2023 = [
       {
         prompt: "Philbert - the fluffiest dinosaur",
         day: 4,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-04/alto.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-04/alto.gif",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -617,7 +614,7 @@ export const cadets2023 = [
         prompt: "Herding the Cats",
         note: "Winner & loser get striked",
         day: 6,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-06/alto.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-06/alto.gif",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -626,7 +623,7 @@ export const cadets2023 = [
       {
         prompt: "Celestial Nomad and their Wonderous Cloak",
         day: 7,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-07/alto.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-07/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -635,7 +632,7 @@ export const cadets2023 = [
       {
         prompt: "Cyberpunk Palm Springs Neighborhood",
         day: 8,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-08/alto.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-08/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -644,7 +641,7 @@ export const cadets2023 = [
       {
         prompt: "Giant Penguin Enemy for a Dark Souls Game",
         day: 9,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-09/alto.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-09/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -653,7 +650,7 @@ export const cadets2023 = [
       {
         prompt: "Rifle for your Cadet",
         day: 10,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-10/alto.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-10/alto.gif",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -663,7 +660,7 @@ export const cadets2023 = [
         prompt:
           "In the vast desert, water hangs suspended in the sky in great bubbles, tantalizingly out of reach. It never rains, they never fall, the desert dwellers must ascend to them if they want to drink",
         day: 11,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-11/alto.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-11/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -672,7 +669,7 @@ export const cadets2023 = [
       {
         prompt: "Mushroom Royalty",
         day: 12,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-12/alto.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-12/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -681,7 +678,7 @@ export const cadets2023 = [
       {
         prompt: "Elopement of Form and Space",
         day: 13,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-13/alto.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-13/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -690,7 +687,7 @@ export const cadets2023 = [
       {
         prompt: "Time Shark",
         day: 14,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/alto.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -699,7 +696,7 @@ export const cadets2023 = [
       {
         prompt: "Distressed Fighter Pilot",
         day: 15,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-15/alto.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-15/alto.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -708,7 +705,7 @@ export const cadets2023 = [
       {
         prompt: "Feast",
         day: 16,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-16/alto.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-16/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -718,7 +715,7 @@ export const cadets2023 = [
         prompt:
           "A Small Village Nestled in Close-Quarters Foothills. Can't Build Out, so Must Build UP!			",
         day: 17,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-17/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -727,7 +724,7 @@ export const cadets2023 = [
       {
         prompt: "The Eyes of a Friend, but the Gaze of a Fiend",
         day: 18,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-18/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -736,7 +733,7 @@ export const cadets2023 = [
       {
         prompt: "A Swordsman Colugo with Their Tardrigrade Mount",
         day: 19,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-19/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -745,7 +742,7 @@ export const cadets2023 = [
       {
         prompt: "Mythological Charactar in Mad Max Setting",
         day: 20,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-20/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -754,7 +751,7 @@ export const cadets2023 = [
       {
         prompt: "Mother Marmot",
         day: 21,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-21/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -763,7 +760,7 @@ export const cadets2023 = [
       {
         prompt: "Dream Weaver (a creature that can alter the dreams of people)",
         day: 22,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-22/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -772,7 +769,7 @@ export const cadets2023 = [
       {
         prompt: "VERRRRRY Misunderstood Villain",
         day: 23,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-23/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -781,7 +778,7 @@ export const cadets2023 = [
       {
         prompt: "Two Mercenary Friends Share a Drink on Lunch Break",
         day: 24,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-24/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -790,7 +787,7 @@ export const cadets2023 = [
       {
         prompt: "You Can't Hold Back the Tide of Nature",
         day: 25,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-25/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -799,7 +796,7 @@ export const cadets2023 = [
       {
         prompt: "You Can't Hold Back the Tide of Nature",
         day: 26,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-26/naka.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-26/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -808,7 +805,7 @@ export const cadets2023 = [
       {
         prompt: "You Can't Hold Back the Tide of Nature",
         day: 27,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-27/naka.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-27/alto.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -874,7 +871,7 @@ export const cadets2023 = [
         prompt:
           "Fan art of a character entry that is not already in the Bootcamp phase",
         day: 1,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-01/snow.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-01/snow.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -883,7 +880,7 @@ export const cadets2023 = [
       {
         prompt: "Inverted Jungle",
         day: 2,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-02/snow.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-02/snow.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -892,7 +889,7 @@ export const cadets2023 = [
       {
         prompt: "Mystical Lantern of the Dyrad Queen",
         day: 3,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-03/snow.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-03/snow.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -901,7 +898,7 @@ export const cadets2023 = [
       {
         prompt: "Philbert - the fluffiest dinosaur",
         day: 4,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-04/snow.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-04/snow.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -920,7 +917,7 @@ export const cadets2023 = [
         prompt: "Herding the Cats",
         note: "Winner & loser get striked",
         day: 6,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-06/snow.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-06/snow.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -929,7 +926,7 @@ export const cadets2023 = [
       {
         prompt: "Celestial Nomad and their Wonderous Cloak",
         day: 7,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-07/snow.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-07/snow.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -938,7 +935,7 @@ export const cadets2023 = [
       {
         prompt: "Cyberpunk Palm Springs Neighborhood",
         day: 8,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-08/snow.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-08/snow.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -947,7 +944,7 @@ export const cadets2023 = [
       {
         prompt: "Giant Penguin Enemy for a Dark Souls Game",
         day: 9,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-09/snow.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-09/snow.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -956,7 +953,7 @@ export const cadets2023 = [
       {
         prompt: "Rifle for your Cadet",
         day: 10,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-10/snow.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-10/snow.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -966,7 +963,7 @@ export const cadets2023 = [
         prompt:
           "In the vast desert, water hangs suspended in the sky in great bubbles, tantalizingly out of reach. It never rains, they never fall, the desert dwellers must ascend to them if they want to drink",
         day: 11,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-11/snow.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-11/snow.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -975,7 +972,7 @@ export const cadets2023 = [
       {
         prompt: "Mushroom Royalty",
         day: 12,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-12/snow.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-12/snow.png",
         strike: false,
         strikes: 0,
         eliminated: true,
@@ -1203,7 +1200,6 @@ export const cadets2023 = [
     teamColorHoverOpacity: "hover:bg-green-800/20",
     bannerImg: [
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/double/Dahliatransparent.png",
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/double/double-2.png",
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
@@ -1219,19 +1215,9 @@ export const cadets2023 = [
     },
     assignments: [
       {
-        prompt:
-          "Fan art of a character entry that is not already in the Bootcamp phase",
-        day: 1,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-01/double.jpg",
-        strike: false,
-        strikes: 0,
-        eliminated: false,
-        winner: false,
-      },
-      {
         prompt: "Inverted Jungle",
         day: 2,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-02/double.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-02/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1240,7 +1226,7 @@ export const cadets2023 = [
       {
         prompt: "Mystical Lantern of the Dyrad Queen",
         day: 3,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-03/double.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-03/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1249,7 +1235,7 @@ export const cadets2023 = [
       {
         prompt: "Philbert - the fluffiest dinosaur",
         day: 4,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-04/double.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-04/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1258,7 +1244,7 @@ export const cadets2023 = [
       {
         prompt: "Graffiti",
         day: 5,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-05/double.png",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-05/double.gif",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1268,7 +1254,7 @@ export const cadets2023 = [
         prompt: "Herding the Cats",
         note: "Winner & loser get striked",
         day: 6,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-06/double.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-06/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1277,7 +1263,7 @@ export const cadets2023 = [
       {
         prompt: "Celestial Nomad and their Wonderous Cloak",
         day: 7,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-07/double.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-07/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1286,7 +1272,7 @@ export const cadets2023 = [
       {
         prompt: "Cyberpunk Palm Springs Neighborhood",
         day: 8,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-08/double.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-08/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1295,7 +1281,7 @@ export const cadets2023 = [
       {
         prompt: "Giant Penguin Enemy for a Dark Souls Game",
         day: 9,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-09/double.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-09/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1304,7 +1290,7 @@ export const cadets2023 = [
       {
         prompt: "Rifle for your Cadet",
         day: 10,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-10/double.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-10/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1314,7 +1300,7 @@ export const cadets2023 = [
         prompt:
           "In the vast desert, water hangs suspended in the sky in great bubbles, tantalizingly out of reach. It never rains, they never fall, the desert dwellers must ascend to them if they want to drink",
         day: 11,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-11/double.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-11/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1323,7 +1309,7 @@ export const cadets2023 = [
       {
         prompt: "Mushroom Royalty",
         day: 12,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-12/double.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-12/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1332,7 +1318,7 @@ export const cadets2023 = [
       {
         prompt: "Elopement of Form and Space",
         day: 13,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-13/double.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-13/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1350,7 +1336,7 @@ export const cadets2023 = [
       {
         prompt: "Distressed Fighter Pilot",
         day: 15,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-15/double.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-15/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1359,7 +1345,7 @@ export const cadets2023 = [
       {
         prompt: "Feast",
         day: 16,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-16/double.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-16/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1369,7 +1355,7 @@ export const cadets2023 = [
         prompt:
           "A Small Village Nestled in Close-Quarters Foothills. Can't Build Out, so Must Build UP!			",
         day: 17,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-17/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1378,7 +1364,7 @@ export const cadets2023 = [
       {
         prompt: "The Eyes of a Friend, but the Gaze of a Fiend",
         day: 18,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-18/double.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1387,7 +1373,7 @@ export const cadets2023 = [
       {
         prompt: "A Swordsman Colugo with Their Tardrigrade Mount",
         day: 19,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-19/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1396,7 +1382,7 @@ export const cadets2023 = [
       {
         prompt: "Mythological Charactar in Mad Max Setting",
         day: 20,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-20/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1405,7 +1391,7 @@ export const cadets2023 = [
       {
         prompt: "Mother Marmot",
         day: 21,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-21/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1414,7 +1400,7 @@ export const cadets2023 = [
       {
         prompt: "Dream Weaver (a creature that can alter the dreams of people)",
         day: 22,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-22/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1423,7 +1409,7 @@ export const cadets2023 = [
       {
         prompt: "VERRRRRY Misunderstood Villain",
         day: 23,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-23/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1432,7 +1418,7 @@ export const cadets2023 = [
       {
         prompt: "Two Mercenary Friends Share a Drink on Lunch Break",
         day: 24,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-24/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1441,7 +1427,7 @@ export const cadets2023 = [
       {
         prompt: "You Can't Hold Back the Tide of Nature",
         day: 25,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-25/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1450,7 +1436,7 @@ export const cadets2023 = [
       {
         prompt: "You Can't Hold Back the Tide of Nature",
         day: 26,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-26/naka.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-26/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1459,7 +1445,7 @@ export const cadets2023 = [
       {
         prompt: "You Can't Hold Back the Tide of Nature",
         day: 27,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-27/naka.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-27/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1486,7 +1472,7 @@ export const cadets2023 = [
       {
         prompt: "You Can't Hold Back the Tide of Nature",
         day: 30,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-30/naka.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-30/double.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1525,7 +1511,7 @@ export const cadets2023 = [
         prompt:
           "Fan art of a character entry that is not already in the Bootcamp phase",
         day: 1,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-01/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-01/josie.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1534,7 +1520,7 @@ export const cadets2023 = [
       {
         prompt: "Inverted Jungle",
         day: 2,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-02/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-02/josie.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1543,7 +1529,7 @@ export const cadets2023 = [
       {
         prompt: "Mystical Lantern of the Dyrad Queen",
         day: 3,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-03/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-03/josie.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1552,7 +1538,7 @@ export const cadets2023 = [
       {
         prompt: "Philbert - the fluffiest dinosaur",
         day: 4,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-04/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-04/josie.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1571,7 +1557,7 @@ export const cadets2023 = [
         prompt: "Herding the Cats",
         note: "Winner & loser get striked",
         day: 6,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-06/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-06/josie.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1580,7 +1566,7 @@ export const cadets2023 = [
       {
         prompt: "Celestial Nomad and their Wonderous Cloak",
         day: 7,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-07/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-07/josie.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1589,7 +1575,7 @@ export const cadets2023 = [
       {
         prompt: "Cyberpunk Palm Springs Neighborhood",
         day: 8,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-08/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-08/josie.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1598,7 +1584,7 @@ export const cadets2023 = [
       {
         prompt: "Giant Penguin Enemy for a Dark Souls Game",
         day: 9,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-09/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-09/josie.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1607,7 +1593,7 @@ export const cadets2023 = [
       {
         prompt: "Rifle for your Cadet",
         day: 10,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-10/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-10/josie.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1617,7 +1603,7 @@ export const cadets2023 = [
         prompt:
           "In the vast desert, water hangs suspended in the sky in great bubbles, tantalizingly out of reach. It never rains, they never fall, the desert dwellers must ascend to them if they want to drink",
         day: 11,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-11/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-11/josie.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1626,7 +1612,7 @@ export const cadets2023 = [
       {
         prompt: "Mushroom Royalty",
         day: 12,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-12/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-12/josie.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1635,7 +1621,7 @@ export const cadets2023 = [
       {
         prompt: "Elopement of Form and Space",
         day: 13,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-13/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-13/josie.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1644,7 +1630,7 @@ export const cadets2023 = [
       {
         prompt: "Time Shark",
         day: 14,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1653,7 +1639,7 @@ export const cadets2023 = [
       {
         prompt: "Distressed Fighter Pilot",
         day: 15,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-15/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-15/josie.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -1662,92 +1648,10 @@ export const cadets2023 = [
       {
         prompt: "Feast",
         day: 16,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-16/josie.jpg",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-16/josie.png",
         strike: false,
         strikes: 0,
         eliminated: true,
-        winner: false,
-      },
-      {
-        prompt:
-          "A Small Village Nestled in Close-Quarters Foothills. Can't Build Out, so Must Build UP!			",
-        day: 17,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
-        strike: false,
-        strikes: 0,
-        eliminated: false,
-        winner: false,
-      },
-      {
-        prompt: "The Eyes of a Friend, but the Gaze of a Fiend",
-        day: 18,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
-        strike: false,
-        strikes: 0,
-        eliminated: false,
-        winner: false,
-      },
-      {
-        prompt: "A Swordsman Colugo with Their Tardrigrade Mount",
-        day: 19,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
-        strike: false,
-        strikes: 0,
-        eliminated: false,
-        winner: false,
-      },
-      {
-        prompt: "Mythological Charactar in Mad Max Setting",
-        day: 20,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
-        strike: false,
-        strikes: 0,
-        eliminated: false,
-        winner: false,
-      },
-      {
-        prompt: "Mother Marmot",
-        day: 21,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
-        strike: false,
-        strikes: 0,
-        eliminated: false,
-        winner: false,
-      },
-      {
-        prompt: "Dream Weaver (a creature that can alter the dreams of people)",
-        day: 22,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
-        strike: false,
-        strikes: 0,
-        eliminated: false,
-        winner: false,
-      },
-      {
-        prompt: "VERRRRRY Misunderstood Villain",
-        day: 23,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
-        strike: false,
-        strikes: 0,
-        eliminated: false,
-        winner: false,
-      },
-      {
-        prompt: "Two Mercenary Friends Share a Drink on Lunch Break",
-        day: 24,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
-        strike: false,
-        strikes: 0,
-        eliminated: false,
-        winner: false,
-      },
-      {
-        prompt: "You Can't Hold Back the Tide of Nature",
-        day: 25,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-14/josie.jpg",
-        strike: false,
-        strikes: 0,
-        eliminated: false,
         winner: false,
       },
     ],
