@@ -74,7 +74,7 @@ const CadetsClient = () => {
           <section className="flex relative h-full flex-col top-[145%] md:top-[115%] w-full bg-black text-neutral-100">
             <WinnerBanner winner={winner} />
           </section>
-          <section className="flex relative top-[160%] md:top-[137%]">
+          <section className="flex relative top-[330%] md:top-[137%]">
             <AssignmentDays winner={winner} year={2023} />
           </section>
         </div>

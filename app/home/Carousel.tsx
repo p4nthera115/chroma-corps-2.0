@@ -20,7 +20,7 @@ const images = [
   "/images/CadetCarousel/fatcat.png",
   "/images/CadetCarousel/dako.png",
   "/images/CadetCarousel/ozan-banner1.png",
-  "/images/CadetCarousel/chedilkm.png",
+  "/images/CadetCarousel/chedilkm2.png",
   "/images/CadetCarousel/beatrice.png",
   "/images/CadetCarousel/nikittysan.png",
   "/images/CadetCarousel/weiao.png",
@@ -85,7 +85,7 @@ function Carousel() {
       </div>
 
       <motion.div className="scroller flex" style={{ x: baseX }}>
-        <section className="relative h-full w-full flex flex-row gap-12 -translate-x-60">
+        <section className="relative h-full w-full flex flex-row gap-8 translate-x-[-30rem]">
           {images.map((image: string) => (
             <img
               key={image}
@@ -93,7 +93,7 @@ function Carousel() {
               alt={image}
               width={100}
               height={100}
-              className="object-fit h-full min-w-max scale-150"
+              className="object-fit h-full min-w-max scale-[120%]"
             />
           ))}
           {images.map((image: string) => (
@@ -103,7 +103,7 @@ function Carousel() {
               alt={image}
               width={100}
               height={100}
-              className="object-fit h-full min-w-max scale-150"
+              className="object-fit h-full min-w-max scale-[120%]"
             />
           ))}
           {images.map((image: string) => (
@@ -113,7 +113,27 @@ function Carousel() {
               alt={image}
               width={100}
               height={100}
-              className="object-fit h-full min-w-max scale-150"
+              className="object-fit h-full min-w-max scale-[120%]"
+            />
+          ))}
+          {images.map((image: string) => (
+            <img
+              key={image}
+              src={image}
+              alt={image}
+              width={100}
+              height={100}
+              className="object-fit h-full min-w-max scale-[120%]"
+            />
+          ))}
+          {images.map((image: string) => (
+            <img
+              key={image}
+              src={image}
+              alt={image}
+              width={100}
+              height={100}
+              className="object-fit h-full min-w-max scale-[120%]"
             />
           ))}
         </section>

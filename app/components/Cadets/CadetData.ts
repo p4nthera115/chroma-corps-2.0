@@ -1202,11 +1202,13 @@ export const cadets2023 = [
     teamColorOpacity: "bg-green-800/20",
     teamColorHoverOpacity: "hover:bg-green-800/20",
     bannerImg: [
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/double/double.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/double/Dahliatransparent.png",
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/double/double-2.png",
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
+    centreGradient:
+      "bg-gradient-to-t from-transparent via-green-800 to-transparent",
     gradient: "bg-gradient-to-t from-green-800",
     bgLines: "diagonal-lines-green",
     palette:
@@ -2061,7 +2063,8 @@ export const cadets2023 = [
     teamColor: "bg-green-800",
     borderColor: "border-green-800",
     textColor: "text-white",
-    cardImg: "/images/silhouette.png",
+    cardImg:
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/trout/trout.png",
     cardPos: "h-[240%] top-[-10%]",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-green-800/20",
@@ -12464,9 +12467,10 @@ export const cadets2021 = [
     teamColorOpacity: "bg-red-500/20",
     teamColorHoverOpacity: "hover:bg-red-500/20",
     bannerImg: [
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-full.png",
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-full 2.png",
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-full 3.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/chedilkm/chedilkm2.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/chedilkm/chedilkm.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/chedilkm/chedilkm3.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/chedilkm/chedilkm4.png",
     ],
     bannerPos: "absolute h-full scale-[150%] min-w-max",
     cameraPos: "scale-[100%]",
@@ -13316,9 +13320,7 @@ export const cadets2021 = [
     teamColorOpacity: "bg-red-500/20",
     teamColorHoverOpacity: "hover:bg-red-500/20",
     bannerImg: [
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-full.png",
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-full 2.png",
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-full 3.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/beatrice/beatrice.png",
     ],
     bannerPos: "absolute h-full scale-[150%] min-w-max",
     cameraPos: "scale-[100%]",

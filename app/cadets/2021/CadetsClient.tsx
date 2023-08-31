@@ -81,7 +81,7 @@ const CadetsClient = () => {
               <WinnerBanner winner={winner} />
             </div>
           </section>
-          <section className="flex relative top-[420%] sm:top-[140%] xl:top-[150%]">
+          <section className="flex relative top-[320%] sm:top-[140%] xl:top-[150%]">
             <div className="relative">
               <AssignmentDays winner={winner} year={2021} />
             </div>
