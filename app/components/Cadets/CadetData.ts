@@ -18,7 +18,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
@@ -267,7 +267,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/storse/storse-palette.png",
@@ -435,7 +435,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/slimeslugger/slimeslugger-palette.png",
@@ -557,7 +557,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[160%] -left-[20rem] top-[-20%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/alto/alto-palette.png",
@@ -860,7 +860,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/snow/snow-palette.png",
@@ -1000,7 +1000,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/elodin/elodin-palette.png",
@@ -1207,7 +1207,7 @@ export const cadets2023 = [
     cameraPos: "scale-[220%] -left-[20rem] top-[0%]",
     centreGradient:
       "bg-gradient-to-t from-transparent via-green-800 to-transparent",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/double/double-palette.png",
@@ -1501,7 +1501,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/josie/josie-palette.png",
@@ -1677,7 +1677,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/hjoy/hjoy-palette.png",
@@ -1980,7 +1980,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/trout/trout-palette.png",
@@ -2273,17 +2273,18 @@ export const cadets2023 = [
     borderColor: "border-green-800",
     textColor: "text-white",
     cardImg:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/ofeliaou8/ofeliaou8.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/ofeliaou8/ofeliaou82.png",
     cardPos: "h-[240%] top-[-75%] scale-[99%] absolute",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-green-800/20",
     teamColorHoverOpacity: "hover:bg-green-800/20",
     bannerImg: [
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/ofeliaou8/ofeliaou82.png",
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/ofeliaou8/ofeliaou8.png",
     ],
     bannerPos: "absolute h-full scale-[100%] min-w-max",
     cameraPos: "scale-[260%] -left-[20rem] top-[-30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/ofeliaou8/ofeliaou8-palette.png",
@@ -2496,7 +2497,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/yuyuyuan/yuyuyuan-palette.png",
@@ -2709,7 +2710,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/odin/odin-palette.png",
@@ -2932,7 +2933,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[260%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/messalhi9/messalhi9-palette.png",
@@ -3136,7 +3137,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/coli/coli-palette.png",
@@ -3267,7 +3268,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[150%] -left-[20rem] top-[-40%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/drawki/drawki-palette.png",
@@ -3399,7 +3400,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/naka/naka-palette.png",
@@ -3704,7 +3705,7 @@ export const cadets2023 = [
     bannerPos:
       "absolute h-full scale-[122%] min-w-max md:translate-x-0 translate-x-[10rem]",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/edouardtredan/edouardtredan-palette.png",
@@ -4008,7 +4009,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/girpel42/girpel42-palette.png",
@@ -4175,7 +4176,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/gulapa/gulapa-palette.png",
@@ -4324,7 +4325,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/kettlepig/kettlepig-palette.png",
@@ -4483,7 +4484,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[60%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/kuzillon/kuzillon-palette.png",
@@ -4787,7 +4788,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[-20%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/nijamin/nijamin-palette.png",
@@ -4928,7 +4929,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/ringarune/ringarune-palette.png",
@@ -5168,7 +5169,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/sabi/sabi-palette.png",
@@ -5426,7 +5427,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/spiderlair/spiderlair-palette.png",
@@ -5658,7 +5659,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/tavvoc/tavvoc-palette.png",
@@ -5845,7 +5846,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[15rem] top-[20%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/teted/teted-palette.png",
@@ -6148,7 +6149,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/andre/andre-palette.png",
@@ -6233,7 +6234,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/arikranz/arikranz-palette.png",
@@ -6320,7 +6321,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/bluhbblab/bluhbblab-palette.png",
@@ -6432,7 +6433,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/diegono/diegono-palette.png",
@@ -6498,7 +6499,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/fishenes/fishenes-palette.png",
@@ -6601,7 +6602,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/hakarts/hakarts-palette.png",
@@ -6650,7 +6651,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/hakunamatata/hakunamatata-palette.png",
@@ -6753,7 +6754,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/henny/henny-palette.png",
@@ -6811,7 +6812,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/hieumay/hieumay-palette.png",
@@ -6905,7 +6906,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/irisroussel/irisroussel-palette.png",
@@ -6999,7 +7000,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[15rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/kambing/kambing-palette.png",
@@ -7122,7 +7123,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[10rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/peekay/peekay-palette.png",
@@ -7170,7 +7171,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/shum/shum-palette.png",
@@ -7246,7 +7247,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/smyk/smyk-palette.png",
@@ -7360,7 +7361,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/sunny/sunny-palette.png",
@@ -7428,7 +7429,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[0%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/whoben/whoben-palette.png",
@@ -7485,7 +7486,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/gerg/gerg-palette.png",
@@ -7533,7 +7534,7 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
-    gradient: "bg-gradient-to-t from-green-800",
+    gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette:
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/jorts/jorts-palette.png",

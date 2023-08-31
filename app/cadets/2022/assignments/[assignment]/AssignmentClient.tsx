@@ -104,10 +104,10 @@ const AssignmentClient = () => {
               assignmentNo={promptArr[0]?.assignment?.day}
             />
           </div>
-          <div className="mb-6">
+          <div className="mb-12">
             <Assignments cadetAssignments={cadetAssignments} teams={teams} />
           </div>
-          <div className="translate-y-14">
+          <div>
             {width && width > 768 && winner.length > 0 && (
               <WinnerBanner winner={winner} />
             )}
@@ -144,7 +144,7 @@ const AssignmentClient = () => {
                 <SmallElimBanner key={i} dropout={dropout} />
               ))}
           </div>
-          <div className="h-[33vh] w-screen relative items-center">
+          <div className="h-[20vh] w-screen relative items-center z-50 bg-black">
             {+assignmentDay > 1 && (
               <PrevAssButton year={year} day={+assignmentDay} />
             )}
