@@ -7,16 +7,21 @@ import { cadets2020 } from "@/app/components/Cadets/CadetData";
 import WinnerBanner from "@/app/components/Cadets/WinnerBanner";
 import AssignmentDays from "@/app/components/Cadets/AssignmentDays";
 import Judges from "@/app/components/Cadets/Judges";
+import SmallWinnerBanner from "@/app/components/Cadets/SmallWinnerBanner";
+import { Cadet } from "@/app/types";
 
 const CadetsClient = () => {
   const [cadetLoading, setCadetLoading] = useState(true);
   const [logoLoading, setLogoLoading] = useState(true);
   const [winner, setWinner] = useState<any>([]);
+  const [width, setWidth] = useState(0);
 
   setTimeout(() => setCadetLoading(false), 3000);
   setTimeout(() => setLogoLoading(false), 1000);
 
   useEffect(() => {
+    if (window) setWidth(window.innerWidth);
+
     const winners = cadets2020.filter(
       (cadet) => cadet.name === "Nikittysan" || cadet.name === "Weiao"
     );
@@ -74,12 +79,24 @@ const CadetsClient = () => {
               <CadetSelect cadets={cadets2020} />
             </div>
           </section>
-          <section className="flex relative h-full flex-col top-[115%] w-full">
-            <div className="w-full h-full top-[10%] pb-[17%]">
-              <WinnerBanner winner={winner} />
-            </div>
+          <section className="flex relative h-full flex-col top-full w-full">
+            {width && width > 768 ? (
+              <div className="w-full relative h-full top-[15%] ">
+                <WinnerBanner winner={winner} />
+              </div>
+            ) : (
+              <>
+                <h2 className="relative text-center mx-auto z-30 font-cyber cursor-default text-xl md:text-4xl lg:text-5xl xl:text-6xl max-h-fit max-w-full border-2 p-6 md:p-8 m-6 w-3/4 md:w-1/2">
+                  WINNERS
+                </h2>
+
+                {winner.map((winner: Cadet, i: number) => (
+                  <SmallWinnerBanner key={i} winner={winner} />
+                ))}
+              </>
+            )}
           </section>
-          <section className="flex relative top-[300%] sm:top-[125%]">
+          <section className="flex relative top-[105%] md:top-[140%]">
             <div className="relative">
               <AssignmentDays winner={winner} year={2020} />
             </div>

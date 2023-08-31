@@ -88,7 +88,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
               <img
                 src={winner[0]?.cadet.bannerImg[0]}
                 alt={winner[0]?.cadet?.name}
-                className={`h-full scale-[100%] md:max-w-max px-0 md:px-28  sm:scale-[80%] lg:scale-[100%] z-20 ${
+                className={`h-full scale-[100%] md:max-w-full min-w-max px-0 md:px-28  sm:scale-[80%] lg:scale-[100%] z-20 ${
                   winner[0].cadet.teamColor === winner[1].cadet.teamColor
                     ? // winner[0].cadet.teamColor === winner[2]?.cadet.teamColor
                       null
@@ -115,7 +115,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
               <img
                 src={winner[1]?.cadet.bannerImg[0]}
                 alt={winner[1]?.cadet?.name}
-                className={`h-full scale-[100%] max-w-max px-0 md:px-28 sm:scale-[80%] lg:scale-[100%] z-20 ${
+                className={`h-full scale-[100%] md:max-w-full min-w-max px-0 md:px-28 sm:scale-[80%] lg:scale-[100%] z-20 ${
                   winner[1].cadet.teamColor === winner[0].cadet.teamColor
                     ? // winner[1].cadet.teamColor === winner[2]?.cadet.teamColor
                       null
@@ -125,7 +125,9 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
             </div>
           </div>
         )}
-        {/* THREE WINNERS */}
+        {/*
+         * THREE WINNERS
+         */}
         {winner.length >= 3 && (
           <div
             className={`block relative w-full h-full sm:flex flex-row justify-evenly mt-12 max-h-[90%] ${
