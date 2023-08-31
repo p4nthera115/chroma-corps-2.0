@@ -7350,14 +7350,14 @@ export const cadets2023 = [
     borderColor: "border-green-800",
     textColor: "text-white",
     cardImg:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/sunny/sunny.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/sunny/sunny1.png",
     cardPos: "h-[240%] top-[-10%]",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-green-800/20",
     teamColorHoverOpacity: "hover:bg-green-800/20",
     bannerImg: [
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/sunny/sunny.png",
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/sunny/sunny-2.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/sunny/sunny1.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/sunny/sunny3.png",
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
@@ -12369,8 +12369,7 @@ export const cadets2021 = [
     cameraPos: "scale-[220%]",
     gradient: "bg-gradient-to-t from-black via-red-500 to-black",
     bgLines: "diagonal-lines-red",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2021/chedilkm-palette.png",
     socials: {
       instagram: "http://www.instagram.com/chedilkm/",
     },
@@ -12751,8 +12750,7 @@ export const cadets2021 = [
     gradient: "bg-gradient-to-t from-red-500 to-black",
     centreGradient: "bg-gradient-to-t from-black via-red-500 to-black",
     bgLines: "diagonal-lines-red",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2021/beatrice-palette.png",
     socials: {
       instagram: "https://www.instagram.com/bumbleboots_art/",
     },
@@ -17027,8 +17025,7 @@ export const cadets2020 = [
     centreGradient:
       "bg-gradient-to-t from-transparent via-amber-300 to-transparent",
     bgLines: "diagonal-lines-amber",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2020/weiao-palette.png",
     socials: {
       instagram: "https://www.instagram.com/weiaoart/",
     },
