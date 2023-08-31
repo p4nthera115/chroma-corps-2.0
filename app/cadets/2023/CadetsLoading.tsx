@@ -12,7 +12,7 @@ const CadetsLoading: React.FC = () => {
     },
     {
       css: "left-2/4 bg-green-800",
-      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/double/doubleCard.png",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/double/Dahliatransparent.png",
       pos: "h-[130%] top-[-14%]",
     },
     {
@@ -22,8 +22,8 @@ const CadetsLoading: React.FC = () => {
     },
     {
       css: "left-0 bg-green-800",
-      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/Trout/TroutCard.png",
-      pos: "h-[300%] top-[-14%]",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/trout/troutCard.png",
+      pos: "h-[200%] top-[-20%] ",
     },
   ];
   const right = [
@@ -82,6 +82,7 @@ const CadetsLoading: React.FC = () => {
                   absolute 
                   object-cover 
                   ${cadet.pos}
+                  transition-none
                   sepia
                   hue-rotate-180
                   opacity-80

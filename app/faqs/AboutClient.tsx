@@ -74,7 +74,7 @@ const AboutClient = () => {
         </a>
       </h3>
       <a id="faq_section">
-        <div className="flex flex-col align-middle justify-center font-mono w-[50%] mx-auto">
+        <div className="flex flex-col align-middle justify-center font-mono md:w-[50%] mx-auto w-full">
           <div className="flex flex-col my-4">
             {accordionData.map(({ title, content }) => (
               <Accordion title={title} content={content} key={title} />
