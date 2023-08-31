@@ -11,7 +11,6 @@ interface CadetSelectProps {
 }
 
 const Select2023: React.FC<CadetSelectProps> = ({ cadets }) => {
-  const router = useRouter();
   const [width, setWidth] = useState<number>(0);
 
   useEffect(() => {
