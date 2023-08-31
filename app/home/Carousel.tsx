@@ -28,18 +28,8 @@ const images = [
 
 function Carousel() {
   const [mouse, setMouse] = useState(0);
-  const [mouseSide, setMouseSide] = useState(0);
-  const [mouseDown, setMouseDown] = useState(false);
-
-  useEffect(() => {
-    (document.onmousemove = (e: MouseEvent) => {
-      setMouse((e.clientX / window.innerWidth - 0.5) * 2);
-      return setMouseSide(mouse > 0 ? -1 : 1);
-    }),
-      [mouse];
-  });
-
-  console.log(mouseSide);
+  const [right, setRight] = useState(false);
+  const [left, setLeft] = useState(false);
 
   const baseX = useMotionValue(0);
   const { scrollY } = useScroll();
@@ -62,30 +52,30 @@ function Carousel() {
 
     moveBy -= direction.current * moveBy * velocityFactor.get();
 
-    baseX.set(baseX.get() + moveBy + (mouseDown ? mouseSide * 10 : 0));
+    baseX.set(baseX.get() + moveBy + (right ? -10 : left ? 10 : 0));
   });
 
   return (
     <div className="parallax flex flex-row relative h-full w-full border-8 border-[#ffe600] diagonal-lines-black bg-[#ffe600]">
-      <div className="h-full w-full absolute flex justify-between items-center px-8">
+      <div className="h-full w-full absolute flex justify-between items-center px-4 md:px-8">
         <button
-          className="rounded-full bg-black z-50 h-14 w-14 opacity-50 hover:opacity-100 transition flex justify-center items-center"
-          onMouseDown={() => setMouseDown(true)}
-          onMouseUp={() => setMouseDown(false)}
+          className="rounded-full bg-black z-50 h-8 w-8 md:h-14 md:w-14 opacity-50 hover:opacity-100 transition flex justify-center items-center"
+          onMouseDown={() => setLeft(true)}
+          onMouseUp={() => setLeft(false)}
         >
           <BsFillCaretLeftFill color="#ffe600" />
         </button>
         <button
-          className="rounded-full bg-black z-50 h-14 w-14 opacity-50 hover:opacity-100 transition flex justify-center items-center"
-          onMouseDown={() => setMouseDown(true)}
-          onMouseUp={() => setMouseDown(false)}
+          className="rounded-full bg-black z-50 h-8 w-8 md:h-14 md:w-14 opacity-50 hover:opacity-100 transition flex justify-center items-center"
+          onMouseDown={() => setRight(true)}
+          onMouseUp={() => setRight(false)}
         >
           <BsFillCaretRightFill color="#ffe600" />
         </button>
       </div>
 
       <motion.div className="scroller flex" style={{ x: baseX }}>
-        <section className="relative h-full w-full flex flex-row gap-8 translate-x-[-30rem]">
+        <section className="relative h-full w-full flex flex-row gap-8 translate-x-[-50rem]">
           {images.map((image: string) => (
             <img
               key={image}
