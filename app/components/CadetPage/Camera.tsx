@@ -37,18 +37,6 @@ const Camera: React.FC<CameraProps> = ({ cadetImg, cadet }) => {
 
   return (
     <>
-      <img
-        src={cadetImg}
-        alt={cadet?.name}
-        className={`
-          md:hidden
-          absolute
-          h-full
-          scale-[150%]
-          min-w-max
-          top-14
-        `}
-      />
       <div
         className={`relative h-full w-full border ${cadet?.borderColor} rounded-lg overflow-hidden hidden md:block`}
       >

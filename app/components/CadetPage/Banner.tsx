@@ -87,6 +87,20 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
                 <Socials cadet={cadet} />
               </div>
 
+              <img
+                src={cadetImg}
+                alt={cadet?.name}
+                className={`
+                  md:hidden
+                  absolute
+                  h-full
+                  scale-[150%]
+                  min-w-max
+                  top-14
+                  max-w-full
+                `}
+              />
+
               <Camera cadet={cadet} cadetImg={cadetImg} />
             </div>
             <header
@@ -95,12 +109,19 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
               <h1
                 onMouseOver={hoverAnimation}
                 className={`font-cyber z-50 ${
-                  name.length >= 6 && name.length < 14
+                  name.length >= 6 &&
+                  name.length < 14 &&
+                  cadet?.name !== "Edouardtredan" &&
+                  cadet?.name !== "Slimeslugger"
                     ? "text-3xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl max-h-full max-w-full md:pl-4"
                     : name.length >= 14 && name.length < 16
                     ? "text-xl md:text-2xl lg:text-4xl xl:text-[3.5rem] max-h-full max-w-full md:pl-2"
                     : name.length >= 16
                     ? "text-xl md:text-2xl lg:text-4xl xl:text-[3rem] max-h-full max-w-full md:pl-2"
+                    : cadet?.name === "Edouardtredan"
+                    ? "text-xl md:text-2xl lg:text-4xl xl:text-[3.5rem] max-h-full max-w-full md:pl-2"
+                    : cadet?.name === "Slimeslugger"
+                    ? "text-xl md:text-2xl lg:text-4xl xl:text-[3.5rem] max-h-full max-w-full md:pl-2"
                     : "text-6xl lg:text-9xl max-h-full max-w-full"
                 }`}
               >
@@ -111,7 +132,11 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
               </div>
             </header>
           </section>
-          <section className="relative md:flex flex-col gap md:h-full md:w-2/5 hidden">
+          <section
+            className={` ${
+              cadet?.name === "Ofelia0u8" && "overflow-hidden"
+            } relative md:flex flex-col gap md:h-full md:w-2/5 hidden`}
+          >
             <div
               className={`relative flex flex-row w-full h-[10%] border rounded-t-lg ${cadet?.teamColor}`}
             ></div>
@@ -135,7 +160,7 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
               <img
                 src={cadetImg}
                 alt={cadet?.name}
-                className={`${cadet?.bannerPos} z-[49]`}
+                className={`${cadet?.bannerPos} z-[49] `}
               />
             </button>
           </section>

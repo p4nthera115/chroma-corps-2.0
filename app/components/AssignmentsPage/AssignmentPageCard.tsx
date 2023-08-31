@@ -78,20 +78,24 @@ export const AssignmentPageCard: React.FC<AssignmentPageCardProps> = ({
           See Cadet Page
         </button>
       </section>
-      <a
+      <button
         className="absolute z-50 bottom-0 right-0 p-2 bg-black/50 md:hidden"
         onClick={() => setShowMobileInfoModal(!showMobileInfoModal)}
       >
         <RiInformationLine color="white" size={20} />
-      </a>
+      </button>
 
       {showMobileInfoModal && (
         <div className="absolute flex h-full w-full justify-center items-center">
           <div
-            className={`absolute font-mono flex flex-col z-50 p-4 h-1/2 w-[90%] bg-black/80 border ${cadet.borderColor}`}
+            className={`relative font-mono flex flex-col z-50 p-4 h-1/2 w-[90%] bg-black/80 border ${cadet.borderColor}`}
           >
             <h1 className="text-6xl p-2 font-cyber">{cadet.name}</h1>
-            <h1 className="text-2xl p-2">Prompt: {assignment?.prompt}</h1>
+            <div className="relative w-full h-36 border">
+              <h1 className="text-lg leading-6 max-h-full p-2 overflow-scroll">
+                Prompt: {assignment?.prompt}
+              </h1>
+            </div>
             <a
               className="absolute bottom-0 right-0 font-cyber p-1  cursor-pointer"
               onClick={() => router.push(`/cadets/${year}/${cadet.name}`)}

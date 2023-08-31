@@ -162,7 +162,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
   return (
     <div className="relative w-full h-[66.666666vh] bg-black">
       <div
-        className={`absolute z-10 h-full w-full ${winner[0]?.cadet.gradient} flex justify-center`}
+        className={`absolute z-10 h-full w-full ${winner[0]?.cadet.gradient} flex justify-between`}
       >
         {winner.length > 1 ? (
           <div className="relative w-full h-full">
@@ -171,21 +171,21 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
                 className={`absolute z-10 h-full w-full rotate-180 ${winner[1]?.cadet.gradient}`}
               ></div>
             ) : null}
-            <div className="flex md:flex-row relative w-full h-full gap-8 justify-center">
+            <div className="flex md:flex-row relative w-full h-full gap-4 justify-between max-w-[25%]">
               {winner.map((cadet: CadetAssignment, i: number) => (
                 <img
                   key={i}
                   src={cadet?.cadet.bannerImg[0]}
                   alt={cadet?.cadet?.name}
-                  className={`h-full scale-[150%] min-w-max z-20`}
+                  className={`h-full scale-[120%] min-w-max z-20 justify-between`}
                 />
               ))}
             </div>
-            <div className="absolute flex flex-col gap-4 text-right items-end justify-end bottom-0 right-0 font-cyber m-3">
+            <div className="absolute flex gap-16 flex-row justify-between bottom-0 text-center font-cyber m-3">
               {winner.map((cadet: CadetAssignment, i: number) => (
                 <h2
                   key={i}
-                  className={`flex z-[1000] bottom-0 right-0 text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full
+                  className={`flex z-[1000] self-center bottom-0 right-0 text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full
                     ${
                       winner[0]?.cadet.name.length > 6 &&
                       winner[0]?.cadet.name.length < 14

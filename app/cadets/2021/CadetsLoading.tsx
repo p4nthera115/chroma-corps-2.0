@@ -51,8 +51,8 @@ const CadetsLoading: React.FC = () => {
   const bottomLeft = [
     {
       css: "left-3/4 bg-red-500",
-      img: "/images/silhouette.png",
-      pos: "h-[300%] top-[-17%]",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/beatrice/beatrice.png",
+      pos: "h-[300%] top-[-12%]",
     },
     {
       css: "left-2/4 bg-cyan-500",
@@ -61,8 +61,8 @@ const CadetsLoading: React.FC = () => {
     },
     {
       css: "left-1/4 bg-red-500",
-      img: "/images/silhouette.png",
-      pos: "h-[300%] top-[-17%]",
+      img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/chedilkm/chedilkmCard.png",
+      pos: "h-[300%] top-[-5%]",
     },
     {
       css: "left-0 bg-cyan-500",

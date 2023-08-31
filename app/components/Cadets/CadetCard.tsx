@@ -45,9 +45,12 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
           `}
     >
       <h1
-        className={`text-center z-50 text-white absolute font-cyber md:hidden -translate-x-1/2 left-1/2 -translate-y-1/2 top-1/2 ${
+        className={`text-center z-50  text-white absolute font-cyber md:hidden -translate-x-1/2 left-1/2 -translate-y-1/2 top-1/2 ${
           year === "2023" ? "text-xs" : ""
-        }`}
+        }
+        ${cadet.name === "Edouardtredan" && "text-[0.6rem] md:text-base"} 
+        ${cadet.name === "Applechancery002" && "text-[0.7rem]"}
+        `}
       >
         {cadet.name}
       </h1>
@@ -74,7 +77,10 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
         <h1
           className={`text-center hidden md:block ${
             year === "2023" ? "text-xs" : ""
-          }`}
+          }
+          ${cadet.name === "Applechancery002" && "text-[0.7rem]"}
+          ${cadet.teamColor.includes("#ffe600") && "text-black/80"}
+          `}
         >
           {cadet.name}
         </h1>
@@ -115,7 +121,6 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
                 font-cyber
                 font-extrabold
                 w-full
-                border
                 rounded-t
                 text-sm
                 md:text-base
