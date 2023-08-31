@@ -11314,7 +11314,7 @@ export const cadets2021 = [
   {
     name: "Hieumay",
     originalSubmission:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/hieumay.jpg",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/hieumay1.jpg",
     teamColorHover: "hover:bg-red-500",
     teamColor: "bg-red-500",
     borderColor: "border-red-500",
@@ -11497,7 +11497,7 @@ export const cadets2021 = [
   {
     name: "Spiderlair",
     originalSubmission:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/spiderlair.gif",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/spiderlair1.gif",
     teamColorHover: "hover:bg-red-500",
     teamColor: "bg-red-500",
     borderColor: "border-red-500",
@@ -11744,7 +11744,7 @@ export const cadets2021 = [
   {
     name: "Ozan Pulat",
     originalSubmission:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/ozanpulat.jpg",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/ozanpulat1.jpg",
     teamColorHover: "hover:bg-red-500",
     teamColor: "bg-red-500",
     borderColor: "border-red-500",
@@ -12129,7 +12129,7 @@ export const cadets2021 = [
   {
     name: "JohArts",
     originalSubmission:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/joharts.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/joharts1.png",
     teamColorHover: "hover:bg-red-500",
     teamColor: "bg-red-500",
     borderColor: "border-red-500",
@@ -12348,7 +12348,7 @@ export const cadets2021 = [
   {
     name: "Chedilkm",
     originalSubmission:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/chedilkm.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/chedilkm1.png",
     teamColorHover: "hover:bg-red-500",
     teamColor: "bg-red-500",
     borderColor: "border-red-500",
@@ -12731,7 +12731,7 @@ export const cadets2021 = [
   {
     name: "Beatrice",
     originalSubmission:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/beatrice.jpg",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/beatrice1.jpg",
     teamColorHover: "hover:bg-red-500",
     teamColor: "bg-red-500",
     borderColor: "border-red-500",
@@ -13112,7 +13112,7 @@ export const cadets2021 = [
   {
     name: "Yauoiyi",
     originalSubmission:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/yauoiyi.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/yauoiyi1.png",
     teamColorHover: "hover:bg-red-500",
     teamColor: "bg-red-500",
     borderColor: "border-red-500",
@@ -13441,7 +13441,7 @@ export const cadets2021 = [
   {
     name: "P33ling Bananaz",
     originalSubmission:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/p33lingbananaz.jpg",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/p33lingbananaz1.jpg",
     teamColorHover: "hover:bg-red-500",
     teamColor: "bg-red-500",
     borderColor: "border-red-500",
@@ -13582,7 +13582,7 @@ export const cadets2021 = [
   {
     name: "Silverstar1234",
     originalSubmission:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/Silverstar1243.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/silverstar1.png",
     teamColorHover: "hover:bg-cyan-500",
     teamColor: "bg-cyan-500",
     borderColor: "border-cyan-500",
@@ -13739,7 +13739,7 @@ export const cadets2021 = [
   {
     name: "AwfullySabi",
     originalSubmission:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/sabi.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/sabi1.png",
     teamColorHover: "hover:bg-cyan-500",
     teamColor: "bg-cyan-500",
     borderColor: "border-cyan-500",
@@ -14020,7 +14020,7 @@ export const cadets2021 = [
   {
     name: "Dehaf",
     originalSubmission:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/dehaf.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/dehaf1.png",
     teamColorHover: "hover:bg-cyan-500",
     teamColor: "bg-cyan-500",
     borderColor: "border-cyan-500",
@@ -14393,7 +14393,7 @@ export const cadets2021 = [
   {
     name: "Kawffee",
     originalSubmission:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/kawffee.jpg",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/kawffee1.jpg",
     teamColorHover: "hover:bg-cyan-500",
     teamColor: "bg-cyan-500",
     borderColor: "border-cyan-500",
@@ -14593,7 +14593,7 @@ export const cadets2021 = [
   {
     name: "Phil",
     originalSubmission:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/Phil.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/phil1.png",
     teamColorHover: "hover:bg-cyan-500",
     teamColor: "bg-cyan-500",
     borderColor: "border-cyan-500",
@@ -14966,7 +14966,7 @@ export const cadets2021 = [
   {
     name: "Div",
     originalSubmission:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/Div.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/div1.png",
     teamColorHover: "hover:bg-cyan-500",
     teamColor: "bg-cyan-500",
     borderColor: "border-cyan-500",
@@ -15277,7 +15277,7 @@ export const cadets2021 = [
   {
     name: "Leopoldina",
     originalSubmission:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/leopoldina.jpg",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/leopoldina1.jpg",
     teamColorHover: "hover:bg-cyan-500",
     teamColor: "bg-cyan-500",
     borderColor: "border-cyan-500",
@@ -15318,7 +15318,7 @@ export const cadets2021 = [
   {
     name: "Vorueg",
     originalSubmission:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/vorueg.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Original-Submissions/2021/vorueg1.png",
     teamColorHover: "hover:bg-cyan-500",
     teamColor: "bg-cyan-500",
     borderColor: "border-cyan-500",
