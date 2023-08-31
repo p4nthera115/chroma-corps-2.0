@@ -62,6 +62,8 @@ function Carousel() {
           className="rounded-full bg-black z-50 h-8 w-8 md:h-14 md:w-14 opacity-50 hover:opacity-100 transition flex justify-center items-center"
           onMouseDown={() => setLeft(true)}
           onMouseUp={() => setLeft(false)}
+          onTouchStart={() => setLeft(true)}
+          onTouchEnd={() => setLeft(false)}
         >
           <BsFillCaretLeftFill color="#ffe600" />
         </button>
@@ -69,6 +71,8 @@ function Carousel() {
           className="rounded-full bg-black z-50 h-8 w-8 md:h-14 md:w-14 opacity-50 hover:opacity-100 transition flex justify-center items-center"
           onMouseDown={() => setRight(true)}
           onMouseUp={() => setRight(false)}
+          onTouchStart={() => setRight(true)}
+          onTouchEnd={() => setRight(false)}
         >
           <BsFillCaretRightFill color="#ffe600" />
         </button>

@@ -47,7 +47,7 @@ const CadetsClient = () => {
             absolute
             inset-0
             z-10
-            bg-neutral-700
+            bg-black
           "
         >
           <h1
@@ -58,8 +58,8 @@ const CadetsClient = () => {
               absolute 
               inset-0
               flex
-              text-[20rem]
-              opacity-30
+              md:text-[20rem]
+              text-6xl
               font-extrabold
             "
           >

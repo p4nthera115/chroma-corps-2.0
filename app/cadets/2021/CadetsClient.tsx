@@ -63,8 +63,8 @@ const CadetsClient = () => {
               absolute 
               inset-0
               flex
-              text-[20rem]
-              opacity-100
+              md:text-[20rem]
+              text-6xl
               font-extrabold
             "
           >
