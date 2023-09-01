@@ -16,9 +16,7 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
 
   return (
     <div className="relative w-full h-[66.666666vh] bg-neutral-900 ">
-      <div
-        className={`absolute z-10 h-full w-full ${elimType[0]?.cadet.gradient} flex justify-center`}
-      >
+      <div className={`absolute z-10 h-full w-full flex justify-center`}>
         <div className="absolute w-full h-full bg-red-600/30 z-30"></div>
         {elimType.length > 1 ? (
           <div className="relative w-full h-full border-red-600/50 border border-dashed overflow-hidden">
@@ -28,6 +26,7 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
               ></div>
             ) : null}
             {/* <div className="flex flex-row relative w-full h-full gap-4 justify-between">
+
               {elimType.map((cadet: CadetAssignment, i: number) => (
                 <img
                   key={i}
@@ -73,7 +72,7 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
             <img
               src={elimType[0]?.cadet.bannerImg[0]}
               alt={elimType[0]?.cadet?.name}
-              className={`${elimType[0]?.cadet?.bannerPos} flex z-20`}
+              className={`${elimType[0]?.cadet?.bannerPos} flex z-20 sepia`}
             />
             <h2
               className={`absolute z-[1000] font-cyber p-4 right-0 bottom-0 text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full border border-black/60 m-5 bg-gradient-to-t from-black/70 to-transparent pointer-events-none ${

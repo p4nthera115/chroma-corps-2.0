@@ -15,7 +15,7 @@ const HomeClient = () => {
     <div className="m-0 p-0 max-h-full max-w-full h-screen w-screen bg-[#ffe600] diagonal-lines-black">
       <Border />
 
-      <div className="block absolute top-1/2 md:-translate-y-1/2 left-1/2 -translate-x-1/2 translate-y-[-70%] border bg-[#ffe600] border-black h-[60%] w-[75%] md:h-[78%] md:w-[30%]"></div>
+      <div className="block absolute top-1/2 md:-translate-y-1/2 left-1/2 -translate-x-1/2 translate-y-[-62%] border bg-[#ffe600] border-black h-[60%] w-[75%] md:h-[78%] md:w-[30%]"></div>
 
       <div className="absolute z-[1001]">
         <Menu iconPosition={{ margin: "m-2 md:m-6" }} />
@@ -30,7 +30,7 @@ const HomeClient = () => {
         </h1>
       </header>
 
-      <Canvas className="z-30 cursor-grab active:cursor-grabbing md:h-full h-full md:block md:top-0 absolute -top-[3.75rem]">
+      <Canvas className="z-30 md:cursor-grab md:active:cursor-grabbing md:h-full h-full md:block md:top-0 absolute -top-[5rem]">
         <Background />
       </Canvas>
 

@@ -2,7 +2,7 @@
 
 import { Assignment, Cadet, CadetAssignment } from "@/app/types";
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Image from "next/image";
 import { CadetPageCard } from "./CadetPageCard";
 import { usePathname } from "next/navigation";
@@ -20,6 +20,15 @@ const AssignmentCard: React.FC<AssignmentCardProps> = ({
   cadetAssignment,
 }) => {
   const [active, setActive] = useState(false);
+
+  const videoRef = useRef<HTMLVideoElement | null>(null);
+
+  const handleMouseEnter = () => {
+    if (videoRef.current) videoRef.current.play();
+  };
+  const handleMouseLeave = () => {
+    if (videoRef.current) videoRef.current.pause();
+  };
 
   const pathname = usePathname();
   console.log();
@@ -101,7 +110,30 @@ const AssignmentCard: React.FC<AssignmentCardProps> = ({
             {!active && !cadetAssignment && assignment.day}
             {!active && cadetAssignment && cadet.name}
           </h2>
-          {!active && (
+          {!active && assignment.img.includes(".mp4") ? (
+            <video
+              ref={videoRef}
+              height={126.4}
+              width={224}
+              className="relative
+              object-cover 
+              md:sepia
+              opacity-50
+              hover:sepia-0 
+              hover:opacity-100
+              hover:scale-110
+              transition
+              scale-150
+              md:scale-100"
+              autoPlay={false}
+              controls={false}
+              loop
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <source src={assignment.img} type="video/mp4" />
+            </video>
+          ) : (
             <Image
               src={assignment.img}
               alt="cadet"
