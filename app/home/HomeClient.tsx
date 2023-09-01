@@ -15,7 +15,7 @@ const HomeClient = () => {
     <div className="m-0 p-0 max-h-full max-w-full h-screen w-screen bg-[#ffe600] diagonal-lines-black">
       <Border />
 
-      <div className="block absolute top-1/2 md:-translate-y-1/2 left-1/2 -translate-x-1/2 translate-y-[-65%] border bg-[#ffe600] border-black h-[65%] w-[75%] md:h-[78%] md:w-[30%]"></div>
+      <div className="block absolute top-1/2 md:-translate-y-1/2 left-1/2 -translate-x-1/2 translate-y-[-62%] border bg-[#ffe600] border-black h-[60%] w-[75%] md:h-[78%] md:w-[30%]"></div>
 
       <div className="absolute z-[1001]">
         <Menu iconPosition={{ margin: "m-2 md:m-6" }} />
