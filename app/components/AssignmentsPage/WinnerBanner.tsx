@@ -173,7 +173,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
             ) : null}
             <div className="flex md:flex-row relative w-full h-full gap-4 justify-between ">
               {winner.map((cadet: CadetAssignment, i: number) => (
-                <div className="flex flex-col relative h-full mx-auto ">
+                <div key={i} className="flex flex-col relative h-full mx-auto ">
                   <img
                     key={i}
                     src={cadet?.cadet.bannerImg[0]}
