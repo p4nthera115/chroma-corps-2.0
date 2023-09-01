@@ -5812,13 +5812,13 @@ export const cadets2023 = [
     borderColor: "border-green-800",
     textColor: "text-white",
     cardImg:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/teted/teted.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/teted/teted1.png",
     cardPos: "h-[102%] md:top-[0%] min-w-max md:-left-8 top-[-50%] left-[-20%]",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-green-800/20",
     teamColorHoverOpacity: "hover:bg-green-800/20",
     bannerImg: [
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/teted/teted.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/teted/teted1.png",
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/teted/teted2.png",
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/teted/teted3.png",
     ],
