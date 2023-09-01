@@ -76,7 +76,7 @@ const CadetsClient = () => {
           <section className="flex h-full w-full">
             <Select2023 cadets={cadets2023} />
           </section>
-          <section className="flex relative h-full flex-col md:top-full top-[130%] w-full">
+          <section className="flex relative h-full flex-col md:top-full top-[120%] w-full">
             {width && width > 768 ? (
               <div className="w-full relative h-full top-[15%] ">
                 <WinnerBanner winner={winner} />
