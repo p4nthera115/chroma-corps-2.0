@@ -38,7 +38,7 @@ const StrikeBanner: React.FC<StrikeBannerProps> = ({ strike }) => {
           )}
           <div className="absolute h-full w-full z-20 bg-black/50"></div>
           <h2 className="absolute z-30 flex font-cyber p-4 left-0 top-0 opacity-75 text-5xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-[6rem] max-h-full max-w-full md:pl-4 ">
-            Strike:
+            Strike
           </h2>
           <h2
             className={`absolute font-cyber p-4 right-0 bottom-0 text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full z-30`}
