@@ -81,7 +81,7 @@ export const CadetPageCard: React.FC<CadetPageCardProps> = ({
                 Assignment {assignment.day}
               </h2>
               <div className="relative w-full h-[20rem] ">
-                <h3 className="text-lg leading-7 max-h-full p-2 overflow-scroll overflow-x-hidden">
+                <h3 className="text-lg leading-7 max-h-full p-2 overflow-auto overflow-x-hidden">
                   Prompt: <br /> {assignment?.prompt}
                 </h3>
               </div>

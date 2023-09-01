@@ -58,7 +58,7 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
             <img
               src={elimType[0]?.cadet.bannerImg[0]}
               alt={elimType[0]?.cadet?.name}
-              className={`${elimType[0]?.cadet?.bannerPos} flex z-20`}
+              className={`${elimType[0]?.cadet?.bannerPos} flex z-20 sepia`}
             />
             <h2
               className={`absolute z-[1000] font-cyber p-4 right-0 bottom-0 text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full ${
