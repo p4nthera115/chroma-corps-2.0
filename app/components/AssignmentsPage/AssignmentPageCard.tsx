@@ -70,6 +70,16 @@ export const AssignmentPageCard: React.FC<AssignmentPageCardProps> = ({
             Prompt:
             <p className="md:text-lg lg:text-xl">{assignment?.prompt}</p>
           </h1>
+          {assignment?.img ===
+            "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-29/naka.png" && (
+            <a
+              className="md:text-xl lg:text-2xl underline md:p-2 lg:p-4 "
+              href="https://www.webtoons.com/en/canvas/chroma23/project-overgrowth/viewer?title_no=894013&episode_no=2"
+              target="_blank"
+            >
+              See full comic
+            </a>
+          )}
         </div>
         <button
           className="absolute bottom-0 right-0 font-cyber p-2 text-sm cursor-pointer"
@@ -96,6 +106,16 @@ export const AssignmentPageCard: React.FC<AssignmentPageCardProps> = ({
                 Prompt: {assignment?.prompt}
               </h1>
             </div>
+            {assignment?.img ===
+              "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-29/naka.png" && (
+              <a
+                className="md:text-xl lg:text-2xl underline md:p-2 lg:p-4 mt-8"
+                href="https://www.webtoons.com/en/canvas/chroma23/project-overgrowth/viewer?title_no=894013&episode_no=2"
+                target="_blank"
+              >
+                See full comic
+              </a>
+            )}
             <a
               className="absolute bottom-0 right-0 font-cyber p-1  cursor-pointer"
               onClick={() => router.push(`/cadets/${year}/${cadet.name}`)}

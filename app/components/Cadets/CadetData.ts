@@ -798,7 +798,7 @@ export const cadets2023 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        winner: true,
+        winner: false,
       },
       {
         prompt: "You Can't Hold Back the Tide of Nature",
@@ -1915,7 +1915,7 @@ export const cadets2023 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        winner: true,
+        winner: false,
       },
       {
         prompt: "You Can't Hold Back the Tide of Nature",
@@ -2207,7 +2207,7 @@ export const cadets2023 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        winner: true,
+        winner: false,
       },
       {
         prompt: "You Can't Hold Back the Tide of Nature",
@@ -3645,7 +3645,7 @@ export const cadets2023 = [
       {
         prompt: "You Can't Hold Back the Tide of Nature",
         day: 29,
-        img: "https://www.webtoons.com/en/canvas/chroma23/project-overgrowth/viewer?title_no=894013&episode_no=2",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-29/naka.png",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -3926,7 +3926,7 @@ export const cadets2023 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        winner: true,
+        winner: false,
       },
       {
         prompt: "You Can't Hold Back the Tide of Nature",
@@ -4702,7 +4702,7 @@ export const cadets2023 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        winner: true,
+        winner: false,
       },
       {
         prompt: "You Can't Hold Back the Tide of Nature",
@@ -6051,7 +6051,7 @@ export const cadets2023 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        winner: true,
+        winner: false,
       },
       {
         prompt: "You Can't Hold Back the Tide of Nature",

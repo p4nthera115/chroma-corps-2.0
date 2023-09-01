@@ -64,13 +64,24 @@ export const CadetPageCard: React.FC<CadetPageCardProps> = ({
           >
             <div className="mt-20 font-cyber flex flex-col gap-4">
               <h1 className="md:text-2xl lg:text-4xl md:p-2 lg:p-4">
-                Assignment: {assignment.day}
+                Assignment {assignment.day}
               </h1>
               <h1 className="md:text-2xl lg:text-3xl md:p-2 lg:p-4">
                 Prompt:{" "}
                 <p className="md:text-xl lg:text-2xl">{assignment?.prompt}</p>
               </h1>
+              {assignment.img ===
+                "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-29/naka.png" && (
+                <a
+                  className="md:text-xl lg:text-2xl underline md:p-2 lg:p-4"
+                  href="https://www.webtoons.com/en/canvas/chroma23/project-overgrowth/viewer?title_no=894013&episode_no=2"
+                  target="_blank"
+                >
+                  See full comic
+                </a>
+              )}
             </div>
+
             <a
               className="absolute bottom-0 right-0 font-cyber p-2 cursor-pointer"
               onClick={() =>
@@ -82,25 +93,37 @@ export const CadetPageCard: React.FC<CadetPageCardProps> = ({
           </section>
         </>
       )}
+
       <button
         className="absolute z-50 bottom-0 right-0 p-2 bg-black/50 md:hidden"
         onClick={() => setShowMobileInfoModal(!showMobileInfoModal)}
       >
         <RiInformationLine color="white" size={20} />
       </button>
+
       {showMobileInfoModal && assignment && (
         <div className="absolute flex h-full w-full justify-center items-center">
           <div
             className={`absolute font-cyber flex flex-col z-50 p-4 h-1/2 w-[90%] bg-black/80 border ${cadet.borderColor}`}
           >
             <div className="flex flex-col gap-4 text-2xl font-mono">
-              <h2>Assignment: {assignment.day}</h2>
+              <h2>Assignment {assignment.day}</h2>
               <h2>
                 Prompt: <p className="text-xl font-mono">{assignment.prompt}</p>
               </h2>
             </div>
+            {assignment.img ===
+              "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-29/naka.png" && (
+              <a
+                className="md:text-xl lg:text-2xl underline md:p-2 lg:p-4 mt-8"
+                href="https://www.webtoons.com/en/canvas/chroma23/project-overgrowth/viewer?title_no=894013&episode_no=2"
+                target="_blank"
+              >
+                See full comic
+              </a>
+            )}
             <a
-              className="absolute bottom-0 right-0 font-cyber p-1  cursor-pointer"
+              className="absolute bottom-0 right-0 font-cyber p-1 cursor-pointer"
               onClick={() =>
                 router.push(`/cadets/${year}/assignments/${assignment.day}`)
               }
