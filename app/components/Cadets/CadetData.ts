@@ -8104,7 +8104,7 @@ export const cadets2022 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        winner: false,
+        winner: true,
       },
       {
         prompt: "Portrait of any Cadet or Cadet Submission",
@@ -8113,7 +8113,7 @@ export const cadets2022 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        winner: false,
+        winner: true,
       },
       {
         prompt: "2021 Angel Mech Soap Box Derby Car",
@@ -8408,7 +8408,7 @@ export const cadets2022 = [
         strike: false,
         strikes: 1,
         eliminated: false,
-        winner: false,
+        winner: true,
       },
       {
         prompt: "Bake-off, Dessert Style Snack that Represents your Cadet",
@@ -8445,7 +8445,7 @@ export const cadets2022 = [
         strike: false,
         strikes: 1,
         eliminated: false,
-        winner: false,
+        winner: true,
       },
       {
         prompt: "To the Victor Goes the Spoils",
@@ -8750,7 +8750,7 @@ export const cadets2022 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        winner: false,
+        winner: true,
       },
       {
         prompt:
