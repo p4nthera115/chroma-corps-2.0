@@ -41,7 +41,11 @@ export const CadetPageCard: React.FC<CadetPageCardProps> = ({
             </button>
             <div className="relative flex w-full h-full object-contain justify-center">
               {assignment.img.includes(".mp4") ? (
-                <video className="relative block z-30 object-contain" loop>
+                <video
+                  className="relative block z-30 object-contain"
+                  autoPlay
+                  loop
+                >
                   <source src={assignment.img} type="video/mp4" />
                 </video>
               ) : (
