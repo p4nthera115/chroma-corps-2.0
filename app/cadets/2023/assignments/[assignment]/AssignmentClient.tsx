@@ -79,7 +79,7 @@ const AssignmentClient = () => {
 
   return (
     <div>
-      {+assignmentDay > 31 || +assignmentDay < 1 ? (
+      {+assignmentDay > 30 || +assignmentDay < 1 ? (
         <NotFound />
       ) : (
         <div className="bg-black relative w-full h-full">
@@ -136,7 +136,7 @@ const AssignmentClient = () => {
             {+assignmentDay > 1 && (
               <PrevAssButton year={year} day={+assignmentDay} />
             )}
-            {+assignmentDay < 31 && (
+            {+assignmentDay < 30 && (
               <NextAssButton year={year} day={+assignmentDay} />
             )}
           </div>
