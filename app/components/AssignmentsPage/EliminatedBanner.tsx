@@ -41,7 +41,7 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
               {elimType.map((cadet: CadetAssignment, i: number) => (
                 <h2
                   key={i}
-                  className={`flex z-[1000] bottom-0 right-0 text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full z-40
+                  className={`flex z-[1000] bottom-0 right-0 text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full
                     ${
                       elimType[0]?.cadet.name.length > 6 &&
                       elimType[0]?.cadet.name.length < 14
