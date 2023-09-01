@@ -30,7 +30,7 @@ const HomeClient = () => {
         </h1>
       </header>
 
-      <Canvas className="z-30 cursor-grab active:cursor-grabbing md:h-full h-full md:block md:top-0 absolute -top-[3.75rem]">
+      <Canvas className="z-30 cursor-grab active:cursor-grabbing md:h-full h-full md:block md:top-0 absolute -top-[4rem]">
         <Background />
       </Canvas>
 
