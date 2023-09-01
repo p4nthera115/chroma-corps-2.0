@@ -20,8 +20,7 @@ export const cadets2023 = [
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "/images/CadetPalettes/2023/dehaf-palette.png",
     socials: {
       instagram: "https://www.instagram.com/iam_dehaf/",
     },
@@ -269,8 +268,7 @@ export const cadets2023 = [
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/storse/storse-palette.png",
+    palette: "/images/CadetPalettes/2023/storse-palette.png",
     socials: {
       instagram: "https://www.instagram.com/storsearts/",
     },
@@ -437,8 +435,7 @@ export const cadets2023 = [
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/slimeslugger/slimeslugger-palette.png",
+    palette: "/images/CadetPalettes/2023/slimeslugger-palette.png",
     socials: {
       instagram: "https://www.instagram.com/slime.slugger/",
       twitter: "https://twitter.com/Slimiest_Slug",
@@ -1209,8 +1206,7 @@ export const cadets2023 = [
       "bg-gradient-to-t from-transparent via-green-800 to-transparent",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/double/double-palette.png",
+    palette: "/images/CadetPalettes/2023/double-palette.png",
     socials: {
       instagram: "https://www.instagram.com/d0uble_art/",
       twitter: "https://twitter.com/D0UBLE_ART",
@@ -1673,14 +1669,12 @@ export const cadets2023 = [
     teamColorHoverOpacity: "hover:bg-green-800/20",
     bannerImg: [
       "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/hjoy/hjoy.png",
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/hjoy/hjoy-2.png",
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/hjoy/hjoy-palette.png",
+    palette: "/images/CadetPalettes/2023/hjoy-palette.png",
     socials: {
       instagram: "https://www.instagram.com/hjori_arts/",
     },
@@ -1982,8 +1976,7 @@ export const cadets2023 = [
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/trout/trout-palette.png",
+    palette: "/images/CadetPalettes/2023/trout-palette.png",
     socials: {
       instagram: "https://www.instagram.com/whatatrout_art/",
     },
@@ -2276,8 +2269,7 @@ export const cadets2023 = [
     cameraPos: "scale-[260%] -left-[20rem] top-[-30%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/ofeliaou8/ofeliaou8-palette.png",
+    palette: "/images/CadetPalettes/2023/ofeliaou8-palette.png",
     socials: {
       instagram: "https://www.instagram.com/ofelia0u8/",
     },
@@ -2925,8 +2917,7 @@ export const cadets2023 = [
     cameraPos: "scale-[260%] -left-[20rem] top-[30%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/messalhi9/messalhi9-palette.png",
+    palette: "/images/CadetPalettes/2023/messalhi-palette.png",
     socials: {
       instagram: "https://www.instagram.com/m3ssali_/",
     },
@@ -3260,8 +3251,7 @@ export const cadets2023 = [
     cameraPos: "scale-[150%] -left-[20rem] top-[-40%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/drawki/drawki-palette.png",
+    palette: "/images/CadetPalettes/2023/drawki-palette.png",
     socials: {
       instagram: "https://www.instagram.com/draw_ki_/",
     },
@@ -3391,8 +3381,7 @@ export const cadets2023 = [
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/naka/naka-palette.png",
+    palette: "/images/CadetPalettes/2023/naka-palette.png",
     socials: {
       instagram: "https://www.instagram.com/callmenaka/",
     },
@@ -3696,8 +3685,7 @@ export const cadets2023 = [
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/edouardtredan/edouardtredan-palette.png",
+    palette: "/images/CadetPalettes/2023/edouardtredan-palette.png",
     socials: {
       instagram: "https://www.instagram.com/garbagepalette/",
     },
@@ -4000,8 +3988,7 @@ export const cadets2023 = [
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/girpel42/girpel42-palette.png",
+    palette: "/images/CadetPalettes/2023/girpel-palette.png",
     socials: {
       twitter: "https://twitter.com/graftiple",
     },
@@ -4474,8 +4461,7 @@ export const cadets2023 = [
     cameraPos: "scale-[220%] -left-[20rem] top-[60%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/kuzillon/kuzillon-palette.png",
+    palette: "/images/CadetPalettes/2023/kuzillon-palette.png",
     socials: {
       instagram: "https://www.instagram.com/kuzillon/",
     },
@@ -4777,8 +4763,7 @@ export const cadets2023 = [
     cameraPos: "scale-[220%] -left-[20rem] top-[-20%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/nijamin/nijamin-palette.png",
+    palette: "/images/CadetPalettes/2023/nijamin-palette.png",
     socials: {
       instagram:
         "https://www.instagram.com/nijaminsketches/?igshid=OGQ5ZDc2ODk2ZA%3D%3D",
@@ -5638,8 +5623,7 @@ export const cadets2023 = [
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/tavvoc/tavvoc-palette.png",
+    palette: "/images/CadetPalettes/2023/tavvoc-palette.png",
     socials: {
       instagram: "https://www.instagram.com/tavvoc/",
     },
@@ -5826,8 +5810,7 @@ export const cadets2023 = [
     cameraPos: "scale-[220%] -left-[15rem] top-[20%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/teted/teted-palette.png",
+    palette: "/images/CadetPalettes/2023/teted-palette.png",
     socials: {
       instagram: "https://www.instagram.com/teted_draws/",
     },
@@ -6791,8 +6774,7 @@ export const cadets2023 = [
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/hieumay/hieumay-palette.png",
+    palette: "/images/CadetPalettes/2023/hieumay-palette.png",
     socials: {
       instagram: "https://www.instagram.com/hieumayart",
     },
@@ -6885,8 +6867,7 @@ export const cadets2023 = [
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/irisroussel/irisroussel-palette.png",
+    palette: "/images/CadetPalettes/2023/irisroussel-palette.png",
     socials: {
       instagram: "https://www.instagram.com/artiris6/",
     },
@@ -6979,8 +6960,7 @@ export const cadets2023 = [
     cameraPos: "scale-[220%] -left-[15rem] top-[30%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/kambing/kambing-palette.png",
+    palette: "/images/CadetPalettes/2023/kambing-palette.png",
     socials: {
       instagram: "https://www.instagram.com/kambingoats/",
       twitter: "https://twitter.com/kambingoats",
@@ -7101,8 +7081,7 @@ export const cadets2023 = [
     cameraPos: "scale-[220%] -left-[10rem] top-[30%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/peekay/peekay-palette.png",
+    palette: "/images/CadetPalettes/2023/peekay-palette.png",
     socials: {
       instagram: "https://www.instagram.com/peekaywalsh/",
     },
@@ -7339,8 +7318,7 @@ export const cadets2023 = [
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/sunny/sunny-palette.png",
+    palette: "/images/CadetPalettes/2023/sunny-palette.png",
     socials: {
       instagram: "https://www.instagram.com/sunny_seaway/",
     },
@@ -7407,8 +7385,7 @@ export const cadets2023 = [
     cameraPos: "scale-[220%] -left-[20rem] top-[0%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/whoben/whoben-palette.png",
+    palette: "/images/CadetPalettes/2023/whoben-palette.png",
     socials: {
       instagram: "https://www.instagram.com/_whoben_/",
     },
@@ -7502,8 +7479,7 @@ export const cadets2023 = [
     cameraPos: "scale-[220%] -left-[20rem] top-[30%]",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/jorts/jorts-palette.png",
+    palette: "/images/CadetPalettes/2023/jorts-palette.png",
     socials: {
       instagram: "https://www.instagram.com/extrapizzacrust/",
     },
