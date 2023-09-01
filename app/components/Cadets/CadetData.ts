@@ -7879,7 +7879,7 @@ export const cadets2022 = [
       {
         prompt: "Highly Unsettling yet Strangely Unintimidating Doppelganger",
         day: 3,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-03/fatcat.png",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-03/fatcat3.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -7889,8 +7889,7 @@ export const cadets2022 = [
         prompt: "Teamwork",
         note: "Team Strike",
         day: 4,
-        img: "",
-        vid: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/fatcat.mp4",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/fatcat.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -7899,7 +7898,7 @@ export const cadets2022 = [
       {
         prompt: "Liminal Ego Refraction",
         day: 5,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-05/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-05/fatcat5.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -7909,7 +7908,7 @@ export const cadets2022 = [
         prompt: "Sinix's Super Special Secret Stew",
         note: "Winner & loser get striked",
         day: 6,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-06/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-06/fatcat6.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -7918,7 +7917,7 @@ export const cadets2022 = [
       {
         prompt: "Vampire that lives at the bottom of the Ocean",
         day: 7,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-07/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-07/fatcat7.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -7927,7 +7926,7 @@ export const cadets2022 = [
       {
         prompt: "Ethereal Subway Station",
         day: 8,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-08/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-08/fatcat8.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -7936,7 +7935,7 @@ export const cadets2022 = [
       {
         prompt: "Main Weapon of a Musical Time-Traveling Demon Hunter",
         day: 9,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-09/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-09/fatcat9.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -7945,7 +7944,7 @@ export const cadets2022 = [
       {
         prompt: "Zero Gravity Tea Party",
         day: 10,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-10/fatcat.png",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-10/fatcat10.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -7954,7 +7953,7 @@ export const cadets2022 = [
       {
         prompt: "Glasswing Butterfly Sorceress",
         day: 11,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-11/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-11/fatcat11.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -7963,8 +7962,7 @@ export const cadets2022 = [
       {
         prompt: "Biker Gang of Seals",
         day: 12,
-        img: "",
-        vid: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-12/fatcat.mp4",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-12/fatcat.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -7973,7 +7971,7 @@ export const cadets2022 = [
       {
         prompt: "Egg, the ultimate egg",
         day: 13,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-13/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-13/fatcat13.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -7982,7 +7980,7 @@ export const cadets2022 = [
       {
         prompt: "Vibrant Future Convenient Store Interior",
         day: 14,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-14/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-14/fatcat14.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -7991,7 +7989,7 @@ export const cadets2022 = [
       {
         prompt: "Black Widow Knight",
         day: 15,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-15/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-15/fatcat15.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -8009,7 +8007,7 @@ export const cadets2022 = [
       {
         prompt: "Dream Peddler",
         day: 17,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-17/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-17/fatcat17.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -8018,7 +8016,7 @@ export const cadets2022 = [
       {
         prompt: "Steampunk Straddle-Bus",
         day: 18,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-18/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-18/fatcat18.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -8027,16 +8025,17 @@ export const cadets2022 = [
       {
         prompt: "Mushroom World",
         day: 19,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-19/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-19/fatcat19.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
         winner: false,
       },
       {
-        prompt: "Fireproof/waterproof full-body VR suit for your cadet to wear",
+        prompt:
+          "Fireproof/ waterproof full-body VR suit for your cadet to wear",
         day: 20,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-20/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-20/fatcat20.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -8045,7 +8044,7 @@ export const cadets2022 = [
       {
         prompt: "Sea Creatures taking a smoke break at work",
         day: 21,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-21/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-21/fatcat21.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -8055,7 +8054,7 @@ export const cadets2022 = [
         prompt:
           "The wondrous, the fantastical - knows no bounds. There are few who take on this daring and extreme venture; to climb the clouds. Ice picks? Nay - CLOUD PICKS. Illustrate a scene with majestic clouds, with fantastical climbers embarking upward. Perhaps they are elves, finding their way into higher realms. Maybe they're influencers sponsored by RedBull, who knows! I'd personally direct this to be like an MTG illustration. What attire shall they dawn? How many are climbing? Is there conflict? What time of day? Night? I want the feel of adventure with this one.",
         day: 22,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-22/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-22/fatcat22.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -8064,7 +8063,7 @@ export const cadets2022 = [
       {
         prompt: "Overwhelming Plant-filled Academy",
         day: 23,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-23/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-23/fatcat23.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -8073,7 +8072,7 @@ export const cadets2022 = [
       {
         prompt: "Gardening Drone",
         day: 24,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-24/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-24/fatcat24.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -8091,7 +8090,7 @@ export const cadets2022 = [
       {
         prompt: "Team Mascot",
         day: 26,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-26/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-26/fatcat26.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -8100,7 +8099,7 @@ export const cadets2022 = [
       {
         prompt: "Bake-off, Dessert Style Snack that Represents your Cadet",
         day: 27,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-27/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-27/fatcat27.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -8109,7 +8108,7 @@ export const cadets2022 = [
       {
         prompt: "Portrait of any Cadet or Cadet Submission",
         day: 28,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-28/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-28/fatcat28.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -8118,7 +8117,7 @@ export const cadets2022 = [
       {
         prompt: "2021 Angel Mech Soap Box Derby Car",
         day: 29,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-29/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-29/fatcat29.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -8128,7 +8127,7 @@ export const cadets2022 = [
         prompt:
           "Grab your skateboards, rollar skates, BMX or Scooters. Draw your Cadet doing a Cool Trick",
         day: 30,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-30/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-30/fatcat30.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -8137,8 +8136,7 @@ export const cadets2022 = [
       {
         prompt: "To the Victor Goes the Spoils",
         day: 31,
-        img: "",
-        vid: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-31/fatcat.mp4",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-31/fatcat.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
@@ -8347,7 +8345,8 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "Fireproof/waterproof full-body VR suit for your cadet to wear",
+        prompt:
+          "Fireproof/ waterproof full-body VR suit for your cadet to wear",
         day: 20,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-20/dako.png",
         strike: false,
@@ -8662,7 +8661,8 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "Fireproof/waterproof full-body VR suit for your cadet to wear",
+        prompt:
+          "Fireproof/ waterproof full-body VR suit for your cadet to wear",
         day: 20,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-20/baeloma.jpg",
         strike: false,
@@ -9237,7 +9237,8 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "Fireproof/waterproof full-body VR suit for your cadet to wear",
+        prompt:
+          "Fireproof/ waterproof full-body VR suit for your cadet to wear",
         day: 20,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-20/greeblebot.jpg",
         strike: false,
@@ -9538,7 +9539,8 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "Fireproof/waterproof full-body VR suit for your cadet to wear",
+        prompt:
+          "Fireproof/ waterproof full-body VR suit for your cadet to wear",
         day: 20,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-20/yugichu.jpg",
         strike: false,
@@ -10100,7 +10102,8 @@ export const cadets2022 = [
         winner: true,
       },
       {
-        prompt: "Fireproof/waterproof full-body VR suit for your cadet to wear",
+        prompt:
+          "Fireproof/ waterproof full-body VR suit for your cadet to wear",
         day: 20,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-20/sheng.jpg",
         strike: true,
@@ -10111,7 +10114,7 @@ export const cadets2022 = [
       {
         prompt: "Sea Creatures taking a smoke break at work",
         day: 21,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-21/sheng.jpg",
+        img: "/dropout",
         strike: false,
         strikes: 2,
         eliminated: false,
@@ -10533,7 +10536,8 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "Fireproof/waterproof full-body VR suit for your cadet to wear",
+        prompt:
+          "Fireproof/ waterproof full-body VR suit for your cadet to wear",
         day: 20,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-20/kusu.jpg",
         strike: false,

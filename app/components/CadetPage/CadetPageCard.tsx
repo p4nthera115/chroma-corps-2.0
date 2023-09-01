@@ -77,13 +77,14 @@ export const CadetPageCard: React.FC<CadetPageCardProps> = ({
             className={`hidden md:flex h-full md:w-1/4 ${cadet.bgLines}`}
           >
             <div className="mt-20 font-cyber flex flex-col gap-4">
-              <h1 className="md:text-2xl lg:text-4xl md:p-2 lg:p-4">
+              <h2 className="md:text-2xl lg:text-4xl md:p-2 lg:p-4">
                 Assignment {assignment.day}
-              </h1>
-              <h1 className="md:text-2xl lg:text-3xl md:p-2 lg:p-4">
-                Prompt:{" "}
-                <p className="md:text-xl lg:text-2xl">{assignment?.prompt}</p>
-              </h1>
+              </h2>
+              <div className="relative w-full h-[20rem] ">
+                <h3 className="text-lg leading-7 max-h-full p-2 overflow-scroll overflow-x-hidden">
+                  Prompt: <br /> {assignment?.prompt}
+                </h3>
+              </div>
               {assignment.img ===
                 "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-29/naka.png" && (
                 <a
@@ -122,9 +123,11 @@ export const CadetPageCard: React.FC<CadetPageCardProps> = ({
           >
             <div className="flex flex-col gap-4 text-2xl font-mono">
               <h2>Assignment {assignment.day}</h2>
-              <h2>
-                Prompt: <p className="text-xl font-mono">{assignment.prompt}</p>
-              </h2>
+              <div className="relative w-full h-36">
+                <h3 className="text-lg leading-6 max-h-full p-2 overflow-scroll">
+                  Prompt: <br /> {assignment?.prompt}
+                </h3>
+              </div>
             </div>
             {assignment.img ===
               "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-29/naka.png" && (

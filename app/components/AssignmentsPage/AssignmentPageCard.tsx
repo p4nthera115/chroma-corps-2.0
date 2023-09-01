@@ -77,14 +77,32 @@ export const AssignmentPageCard: React.FC<AssignmentPageCardProps> = ({
       <section
         className={`hidden md:flex md:flex-col h-full md:w-1/4 ${cadet.bgLines}`}
       >
-        <div className="mt-20 font-cyber flex flex-col gap-4">
-          <h1 className="md:text-lg lg:text-xl md:p-2 lg:p-2 font-cyber">
+        <div className="relative h-full w-full mt-20 font-cyber flex flex-col gap-4">
+          <h2
+            className={`${
+              cadet.name.length >= 6 &&
+              cadet.name.length < 12 &&
+              cadet?.name !== "Edouardtredan" &&
+              cadet?.name !== "Slimeslugger"
+                ? "text-2xl lg:text-2xl xl:text-[2.75rem] max-h-full max-w-full md:pl-4"
+                : cadet.name.length >= 12 && cadet.name.length < 14
+                ? "text-lg lg:text-xl xl:text-3xl max-h-full max-w-full md:p-4"
+                : cadet.name.length >= 14
+                ? "text-sm lg:text-xl xl:text-lg max-h-full max-w-full md:p-4"
+                : cadet?.name === "Edouardtredan"
+                ? "text-xl md:text-2xl lg:text-4xl xl:text-2xl max-h-full max-w-full md:p-4"
+                : cadet?.name === "Slimeslugger"
+                ? "text-xl md:text-2xl lg:text-4xl xl:text-2xl max-h-full max-w-full md:p-4"
+                : "text-7xl max-h-full max-w-full"
+            } md:pl-4 font-cyber`}
+          >
             {cadet.name}
-          </h1>
-          <h1 className="md:text-lg lg:text-2xl md:p-2 lg:p-2">
-            Prompt:
-            <p className="md:text-lg lg:text-xl">{assignment?.prompt}</p>
-          </h1>
+          </h2>
+          <div className="relative w-full h-[23rem] ">
+            <h3 className="text-lg leading-7 max-h-full p-4 overflow-auto overflow-x-hidden">
+              Prompt: <br /> {assignment?.prompt}
+            </h3>
+          </div>
           {assignment?.img ===
             "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-29/naka.png" && (
             <a
@@ -115,11 +133,11 @@ export const AssignmentPageCard: React.FC<AssignmentPageCardProps> = ({
           <div
             className={`relative font-mono flex flex-col z-50 p-4 h-1/2 w-[90%] bg-black/80 border ${cadet.borderColor}`}
           >
-            <h1 className="text-6xl p-2 font-cyber">{cadet.name}</h1>
-            <div className="relative w-full h-36 border">
-              <h1 className="text-lg leading-6 max-h-full p-2 overflow-scroll">
-                Prompt: {assignment?.prompt}
-              </h1>
+            <h2 className="text-xl p-2 font-cyber">{cadet.name}</h2>
+            <div className="relative w-full h-36 ">
+              <h3 className="text-lg leading-6 max-h-full p-2 overflow-scroll">
+                Prompt: <br /> {assignment?.prompt}
+              </h3>
             </div>
             {assignment?.img ===
               "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-29/naka.png" && (
