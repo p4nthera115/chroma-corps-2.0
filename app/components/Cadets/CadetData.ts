@@ -7861,7 +7861,7 @@ export const cadets2022 = [
       {
         prompt: "Craterous Excavation Site",
         day: 1,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-01/fatcat.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-01/fatcat.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,

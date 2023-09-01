@@ -40,24 +40,34 @@ export const CadetPageCard: React.FC<CadetPageCardProps> = ({
               X
             </button>
             <div className="relative flex w-full h-full object-contain justify-center">
+              {assignment.img.includes(".mp4") ? (
+                <video className="relative block z-30 object-contain" loop>
+                  <source src={assignment.img} type="video/mp4" />
+                </video>
+              ) : (
+                <Image
+                  src={assignment.img}
+                  alt={assignment.prompt}
+                  height={1080}
+                  width={1920}
+                  priority={false}
+                  className="relative block z-30 object-contain"
+                />
+              )}
+            </div>
+            <div className="absolute h-full w-full backdrop-blur-md z-20"></div>
+            {assignment.img.includes(".mp4") ? (
+              <div className="bg-neutral-700"></div>
+            ) : (
               <Image
                 src={assignment.img}
                 alt={assignment.prompt}
-                height={1080}
-                width={1920}
-                priority={false}
-                className="relative block z-30 object-contain"
+                fill
+                quality={1}
+                priority={true}
+                className="absolute opacity-80 z-10 object-cover "
               />
-            </div>
-            <div className="absolute h-full w-full backdrop-blur-md z-20"></div>
-            <Image
-              src={assignment.img}
-              alt={assignment.prompt}
-              fill
-              quality={1}
-              priority={true}
-              className="absolute opacity-80 z-10 object-cover "
-            />
+            )}
           </section>
           <section
             className={`hidden md:flex h-full md:w-1/4 ${cadet.bgLines}`}
