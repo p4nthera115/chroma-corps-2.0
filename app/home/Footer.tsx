@@ -1,8 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 const Footer = () => {
+  const router = useRouter();
+
   const variants = {
     initial: {
       opacity: 0,
@@ -35,11 +38,16 @@ const Footer = () => {
         initial="initial"
         whileInView="animate"
         viewport={{ once: true }}
-        className="relative flex justify-center"
+        className="relative flex flex-row gap-4 justify-center"
       >
         <a href="https://discord.com/invite/ejaQBdWyyN">
-          <button className="bg-black text-[#ffe600] text-sm md:text-base py-4 px-4 md:px-16 rounded shadow-inner hover:scale-110 transition font-mono">
+          <button className="bg-black text-[#ffe600] text-sm md:text-base py-4 px-4 md:px-16 rounded shadow-inner hover:scale-[105%] transition font-mono">
             <h2>Join the Discord server</h2>
+          </button>
+        </a>
+        <a onClick={() => router.push("/faqs")}>
+          <button className="bg-black text-[#ffe600] text-sm md:text-base py-4 px-4 md:px-16 rounded shadow-inner hover:scale-[105%] transition font-mono">
+            <h2>FAQs</h2>
           </button>
         </a>
       </motion.div>
