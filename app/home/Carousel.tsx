@@ -79,54 +79,64 @@ function Carousel() {
       </div>
 
       <motion.div className="scroller flex" style={{ x: baseX }}>
-        <section className="relative h-full w-full flex flex-row gap-8 translate-x-[-50rem]">
+        <section className="relative h-full w-full flex flex-row gap-8 translate-x-[-70rem]">
           {images.map((image: string) => (
-            <img
+            <Image
+              quality={100}
               key={image}
               src={image}
               alt={image}
               width={100}
               height={100}
+              loading="eager"
               className="object-fit h-full min-w-max scale-[120%]"
             />
           ))}
           {images.map((image: string) => (
-            <img
+            <Image
+              quality={100}
               key={image}
               src={image}
               alt={image}
               width={100}
               height={100}
+              loading="eager"
               className="object-fit h-full min-w-max scale-[120%]"
             />
           ))}
           {images.map((image: string) => (
-            <img
+            <Image
+              quality={100}
               key={image}
               src={image}
               alt={image}
               width={100}
               height={100}
+              loading="eager"
               className="object-fit h-full min-w-max scale-[120%]"
             />
           ))}
           {images.map((image: string) => (
-            <img
+            <Image
+              quality={100}
               key={image}
               src={image}
               alt={image}
               width={100}
               height={100}
+              loading="lazy"
               className="object-fit h-full min-w-max scale-[120%]"
             />
           ))}
           {images.map((image: string) => (
-            <img
+            <Image
+              quality={100}
               key={image}
               src={image}
               alt={image}
               width={100}
               height={100}
+              loading="lazy"
               className="object-fit h-full min-w-max scale-[120%]"
             />
           ))}
