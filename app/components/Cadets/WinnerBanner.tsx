@@ -3,6 +3,7 @@
 import { CadetAssignment } from "@/app/types";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import { useRouter, usePathname } from "next/navigation";
 
 interface WinnerBannerProps {
   winner: CadetAssignment[];
@@ -10,6 +11,10 @@ interface WinnerBannerProps {
 
 const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
   console.log(winner);
+
+  const router = useRouter();
+  const pathname = usePathname();
+  const year = pathname.slice(8, 12);
 
   useEffect(() => {
     {
@@ -69,7 +74,12 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
               winner[0].cadet.gradient
             }`}
           >
-            <div className="flex flex-col font-cyber text-center mx-auto">
+            <div
+              className="hover:cursor-pointer flex flex-col font-cyber text-center mx-auto"
+              onClick={() =>
+                router.push(`/cadets/${year}/${winner[0]?.cadet.name}`)
+              }
+            >
               <h2
                 className={`z-30 pointer-events-none  flex mx-auto ${
                   winner[0]?.cadet.name.length > 6 &&
@@ -96,7 +106,12 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
                 }`}
               />
             </div>
-            <div className="flex flex-col font-cyber text-center mx-auto">
+            <div
+              className="hover:cursor-pointer flex flex-col font-cyber text-center mx-auto"
+              onClick={() =>
+                router.push(`/cadets/${year}/${winner[1]?.cadet.name}`)
+              }
+            >
               <h2
                 className={`z-30 pointer-events-none flex mx-auto ${
                   winner[1]?.cadet.name.length > 6 &&
@@ -136,7 +151,12 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
               winner[0].cadet.centreGradient
             }`}
           >
-            <div className="flex flex-col font-cyber text-center mx-auto max-w-full">
+            <div
+              className="hover:cursor-pointer flex flex-col font-cyber text-center mx-auto max-w-full"
+              onClick={() =>
+                router.push(`/cadets/${year}/${winner[0]?.cadet.name}`)
+              }
+            >
               <h2
                 className={`z-30 pointer-events-none  flex mx-auto ${
                   winner[0]?.cadet.name.length > 6 &&
@@ -163,7 +183,12 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
                 }`}
               />
             </div>
-            <div className="flex flex-col font-cyber text-center mx-auto">
+            <div
+              className="hover:cursor-pointer flex flex-col font-cyber text-center mx-auto"
+              onClick={() =>
+                router.push(`/cadets/${year}/${winner[1]?.cadet.name}`)
+              }
+            >
               <h2
                 className={`z-30 pointer-events-none flex mx-auto ${
                   winner[1]?.cadet.name.length > 6 &&
@@ -190,7 +215,12 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
                 }`}
               />
             </div>
-            <div className="flex flex-col font-cyber text-center mx-auto">
+            <div
+              className="hover:cursor-pointer flex flex-col font-cyber text-center mx-auto"
+              onClick={() =>
+                router.push(`/cadets/${year}/${winner[2]?.cadet.name}`)
+              }
+            >
               <h2
                 className={`z-30 pointer-events-none  flex mx-auto ${
                   winner[2]?.cadet.name.length > 6 &&
@@ -223,7 +253,12 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
          * IF ONE WINNER
          */}
         {winner.length === 1 && (
-          <div>
+          <div
+            className="hover:cursor-pointer"
+            onClick={() =>
+              router.push(`/cadets/${year}/${winner[0]?.cadet.name}`)
+            }
+          >
             <img
               src={winner[0]?.cadet.bannerImg[0]}
               alt={winner[0]?.cadet?.name}

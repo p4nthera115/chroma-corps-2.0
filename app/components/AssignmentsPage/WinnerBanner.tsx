@@ -153,12 +153,17 @@
 "use client";
 
 import { CadetAssignment } from "@/app/types";
+import { usePathname, useRouter } from "next/navigation";
 
 interface WinnerBannerProps {
   winner: CadetAssignment[];
 }
 
 const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
+  const router = useRouter();
+  const pathname = usePathname();
+  const year = pathname.slice(8, 12);
+
   return (
     <div className="relative w-full h-[66.666666vh] bg-black font-cyber text-white">
       <div
@@ -173,7 +178,13 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
             ) : null}
             <div className="flex md:flex-row relative w-full h-full gap-4 justify-between ">
               {winner.map((cadet: CadetAssignment, i: number) => (
-                <div key={i} className="flex flex-col relative h-full mx-auto ">
+                <div
+                  key={i}
+                  className="hover:cursor-pointer flex flex-col relative h-full mx-auto "
+                  onClick={() =>
+                    router.push(`/cadets/${year}/${winner[i]?.cadet.name}`)
+                  }
+                >
                   <img
                     key={i}
                     src={cadet?.cadet.bannerImg[0]}
@@ -203,7 +214,12 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
             </div>
           </div>
         ) : (
-          <div className="relative w-full h-full justify-center flex">
+          <div
+            className="hover:cursor-pointer relative w-full h-full justify-center flex"
+            onClick={() =>
+              router.push(`/cadets/${year}/${winner[0]?.cadet.name}`)
+            }
+          >
             <img
               src={winner[0]?.cadet.bannerImg[0]}
               alt={winner[0]?.cadet?.name}

@@ -1,6 +1,7 @@
 "use client";
 
 import { CadetAssignment } from "@/app/types";
+import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 
 interface EliminatedBannerProps {
@@ -13,6 +14,10 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
   dropout,
 }) => {
   const elimType: any = eliminated.length > 0 ? eliminated : dropout;
+
+  const router = useRouter();
+  const pathname = usePathname();
+  const year = pathname.slice(8, 12);
 
   return (
     <div className="relative w-full h-[66.666666vh] bg-neutral-900 ">
@@ -38,7 +43,13 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
             </div> */}
             <div className="flex md:flex-row relative w-full h-full gap-4 justify-between">
               {elimType.map((cadet: CadetAssignment, i: number) => (
-                <div key={i} className="flex flex-col relative h-full mx-auto ">
+                <div
+                  key={i}
+                  className="hover:cursor-pointer flex flex-col relative h-full mx-auto "
+                  onClick={() =>
+                    router.push(`/cadets/${year}/${elimType[i]?.cadet.name}`)
+                  }
+                >
                   <img
                     key={i}
                     src={cadet?.cadet.bannerImg[0]}
@@ -68,7 +79,12 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
             </div>
           </div>
         ) : (
-          <div className="relative w-full h-full border-red-600 border justify-center flex">
+          <div
+            className="hover:cursor-pointer relative w-full h-full border-red-600 border justify-center flex"
+            onClick={() =>
+              router.push(`/cadets/${year}/${elimType[0]?.cadet.name}`)
+            }
+          >
             <img
               src={elimType[0]?.cadet.bannerImg[0]}
               alt={elimType[0]?.cadet?.name}

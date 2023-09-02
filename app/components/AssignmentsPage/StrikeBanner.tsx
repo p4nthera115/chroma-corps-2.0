@@ -1,14 +1,22 @@
 "use client";
 
 import { CadetAssignment } from "@/app/types";
+import { usePathname, useRouter } from "next/navigation";
 
 interface StrikeBannerProps {
   strike: CadetAssignment;
 }
 
 const StrikeBanner: React.FC<StrikeBannerProps> = ({ strike }) => {
+  const router = useRouter();
+  const pathname = usePathname();
+  const year = pathname.slice(8, 12);
+
   return (
-    <div className="relative w-full h-[33.333333vh] bg-black font-cyber text-white">
+    <div
+      className="hover:cursor-pointer relative w-full h-[33.333333vh] bg-black font-cyber text-white"
+      onClick={() => router.push(`/cadets/${year}/${strike?.cadet.name}`)}
+    >
       <div className="absolute h-full w-full flex justify-between">
         <div
           className={`absolute z-10 h-full w-full ${strike?.cadet.gradient} z-20 border border-neutral-500/50 flex justify-center items-center sepia overflow-hidden`}

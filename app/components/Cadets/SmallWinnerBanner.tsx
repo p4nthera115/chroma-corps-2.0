@@ -1,15 +1,21 @@
 "use client";
 
 import { Cadet } from "@/app/types";
+import { usePathname, useRouter } from "next/navigation";
 
 interface SmallWinnerBannerProps {
   winner: Cadet;
 }
 
 const SmallWinnerBanner: React.FC<SmallWinnerBannerProps> = ({ winner }) => {
+  const router = useRouter();
+  const pathname = usePathname();
+  const year = pathname.slice(8, 12);
+
   return (
     <div
-      className={`relative h-[33.333333333vh] z-10 border-[0.5px] border-white/20 w-full ${winner.gradient} z-20  flex justify-center items-center   overflow-hidden`}
+      className={`hover:cursor-pointer relative h-[33.333333333vh] z-10 border-[0.5px] border-white/20 w-full ${winner.gradient} z-20  flex justify-center items-center   overflow-hidden`}
+      onClick={() => router.push(`/cadets/${year}/${winner.name}`)}
     >
       <div className="w-full h-full absolute top-[9rem] flex flex-row gap-24 justify-center items-start">
         <img
