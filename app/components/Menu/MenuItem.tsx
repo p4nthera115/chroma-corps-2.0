@@ -26,7 +26,7 @@ const itemVariants = {
 
 const MenuItem: React.FC<MenuItemProps> = ({ onClick, label }) => {
   return (
-    <div>
+    <button>
       <motion.div
         variants={itemVariants}
         className="px-4 py-0 transition font-semibold text-neutral-900 text-center text-4xl xl:text-6xl"
@@ -39,12 +39,12 @@ const MenuItem: React.FC<MenuItemProps> = ({ onClick, label }) => {
           before:absolute before:inset-0 before:-translate-x-full
           hover:before:animate-[shimmer_1.5s_infinite]
           before:bg-gradient-to-r
-          before:from-transparent before:via-yellow-300/50 before:to-transparent"
+          before:from-transparent before:via-yellow-100/80 before:to-transparent"
         >
           {label}
         </motion.div>
       </motion.div>
-    </div>
+    </button>
   );
 };
 

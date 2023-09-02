@@ -29,7 +29,7 @@ const CreditsClient = () => {
     {
       name: "Javan Napoli",
       description:
-        "for creating the beautiful Chroma Corps logo on the home page",
+        "for creating the awesome Chroma Corps logo on the home page",
       instagram: "https://www.instagram.com/_jnart_/",
     },
   ];

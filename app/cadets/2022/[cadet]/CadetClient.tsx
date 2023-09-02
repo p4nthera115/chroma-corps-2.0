@@ -35,7 +35,7 @@ const CadetClient = () => {
         <section
           className={`flex ${
             initialZ ? "z-20" : "z-0"
-          } top-0 max-w-full bg-black`}
+          } top-0 max-w-full h-full bg-black`}
         >
           <Banner cadet={cadet} year={"2 0 2 2"} />
         </section>

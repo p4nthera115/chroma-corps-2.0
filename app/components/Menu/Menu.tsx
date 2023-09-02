@@ -115,7 +115,11 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                   if (item === "Cadets +") {
                     return (
                       <>
-                        <MenuItem onClick={toggleSubOpen} label={item} />
+                        <MenuItem
+                          onClick={toggleSubOpen}
+                          label={item}
+                          key={item}
+                        />
                         {subOpen && (
                           <div className="text-2xl flex flex-col md:flex-row gap-4 md:gap-16 align-middle items-center justify-center text-black py-4 font-semibold">
                             <p
