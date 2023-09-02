@@ -9630,7 +9630,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "",
+        prompt: "Teamwork",
         day: 4,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/rosav.png",
         strike: true,
