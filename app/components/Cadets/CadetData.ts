@@ -7889,7 +7889,7 @@ export const cadets2022 = [
         prompt: "Teamwork",
         note: "Team Strike",
         day: 4,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/fatcat.mp4",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/fatcat4.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
