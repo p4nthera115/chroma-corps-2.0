@@ -88,15 +88,15 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
                 <Socials cadet={cadet} />
               </div>
 
-              <Image
+              <img
                 src={`${cadetImg}`}
                 alt={cadet?.name}
-                width={100}
-                height={100}
-                quality={100}
-                loading="eager"
-                priority
-                unoptimized={true}
+                // width={100}
+                // height={100}
+                // quality={100}
+                // loading="eager"
+                // priority
+                // unoptimized={true}
                 className={`
                   md:hidden
                   absolute
@@ -164,15 +164,15 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
                 alt="color palette"
                 className="absolute left-0 bottom-0 h-[9rem] m-4 border-[0.5px]"
               />
-              <Image
+              <img
                 src={`${cadetImg}`}
                 alt={cadet?.name}
-                width={100}
-                height={100}
-                quality={100}
-                loading="eager"
-                priority
-                unoptimized={true}
+                // width={100}
+                // height={100}
+                // quality={100}
+                // loading="eager"
+                // priority
+                // unoptimized={true}
                 className={`${cadet?.bannerPos} z-[49] object-contain`}
               />
             </button>
