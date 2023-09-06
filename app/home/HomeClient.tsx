@@ -9,14 +9,12 @@ import { Canvas } from "@react-three/fiber";
 import Bio from "./Bio";
 import Sinix from "./Sinix";
 import Footer from "./Footer";
-import { Suspense, useEffect, useState, useRef } from "react";
+import { Suspense, useEffect } from "react";
 interface homeProps {
   isLoading: boolean;
 }
 
 const HomeClient: React.FC<homeProps> = ({ isLoading }) => {
-  const ref = useRef();
-  console.log(Canvas);
   useEffect(() => {
     (function () {
       if (window.localStorage) {
