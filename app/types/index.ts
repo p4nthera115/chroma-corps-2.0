@@ -21,6 +21,7 @@ export type Cadet = {
     instagram?: string;
     twitter?: string;
     artstation?: string;
+    website?: string;
   };
   assignments?: Assignment[];
 };

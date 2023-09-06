@@ -8487,6 +8487,7 @@ export const cadets2022 = [
     palette: "/images/CadetPalettes/2022/baeloma-palette.png",
     socials: {
       instagram: "https://www.instagram.com/baeloma__/",
+      website: "https://benjaminlofting.myportfolio.com/",
     },
     assignments: [
       {
@@ -15784,6 +15785,7 @@ export const cadets2020 = [
     socials: {
       instagram: "https://www.instagram.com/nikittysan/",
       twitter: "https://twitter.com/nikittysan",
+      website: "https://nikittysan.com/"
     },
     assignments: [
       {
