@@ -10,7 +10,6 @@ import Bio from "./Bio";
 import Sinix from "./Sinix";
 import Footer from "./Footer";
 import { Suspense, useEffect, useState, useRef } from "react";
-import * as THREE from "three";
 interface homeProps {
   isLoading: boolean;
 }
@@ -18,11 +17,16 @@ interface homeProps {
 const HomeClient: React.FC<homeProps> = ({ isLoading }) => {
   const ref = useRef();
   console.log(Canvas);
-  useEffect(() => {}, []);
-  // ! POTENTIAL SOLUTION
-  // TODO: CHECK RENDER.SCOPES
-  // * scopes.length === 4 when model renders, scopes.length === 3 when no model
-  // * if (scopes.length !== 4) router.reload()
+  useEffect(() => {
+    (function () {
+      if (window.localStorage) {
+        if (!localStorage.getItem("firstLoad")) {
+          localStorage["firstLoad"] = true;
+          window.location.reload();
+        } else localStorage.removeItem("firstLoad");
+      }
+    })();
+  }, []);
 
   return (
     <div className="m-0 p-0 max-h-full max-w-full h-screen w-screen bg-[#ffe600] diagonal-lines-black">
