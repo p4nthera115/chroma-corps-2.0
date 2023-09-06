@@ -10,6 +10,7 @@ import {
 import { motion } from "framer-motion";
 import Camera from "./Camera";
 import Socials from "./Socials";
+import Image from "next/image";
 
 interface BannerProps {
   cadet: Cadet | undefined;
@@ -87,17 +88,23 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
                 <Socials cadet={cadet} />
               </div>
 
-              <img
-                src={cadetImg}
+              <Image
+                src={`${cadetImg}`}
                 alt={cadet?.name}
+                width={100}
+                height={100}
+                quality={100}
+                loading="eager"
+                priority
+                unoptimized={true}
                 className={`
                   md:hidden
                   absolute
                   h-full
                   scale-[150%]
                   min-w-max
-                  top-14
-                  max-w-full
+                  top-20
+                  object-contain
                 `}
               />
 
@@ -157,10 +164,16 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
                 alt="color palette"
                 className="absolute left-0 bottom-0 h-[9rem] m-4 border-[0.5px]"
               />
-              <img
-                src={cadetImg}
+              <Image
+                src={`${cadetImg}`}
                 alt={cadet?.name}
-                className={`${cadet?.bannerPos} z-[49] `}
+                width={100}
+                height={100}
+                quality={100}
+                loading="eager"
+                priority
+                unoptimized={true}
+                className={`${cadet?.bannerPos} z-[49] object-contain`}
               />
             </button>
           </section>

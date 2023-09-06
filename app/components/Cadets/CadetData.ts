@@ -15785,7 +15785,7 @@ export const cadets2020 = [
     socials: {
       instagram: "https://www.instagram.com/nikittysan/",
       twitter: "https://twitter.com/nikittysan",
-      website: "https://nikittysan.com/"
+      website: "https://nikittysan.com/",
     },
     assignments: [
       {
