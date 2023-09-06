@@ -3461,7 +3461,7 @@ export const cadets2023 = [
       {
         prompt: "Philbert - the fluffiest dinosaur",
         day: 4,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-04/coli.png",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-04/coli.gif",
         strike: false,
         strikes: 0,
         eliminated: false,
