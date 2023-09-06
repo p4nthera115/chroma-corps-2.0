@@ -6,6 +6,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const menuVariants = {
   closed: {
@@ -122,30 +123,34 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                         />
                         {subOpen && (
                           <div className="text-2xl flex flex-col md:flex-row gap-4 md:gap-16 align-middle items-center justify-center text-black py-4 font-semibold">
-                            <p
+                            <Link
+                              href={"/cadets/2023"}
                               className="hover:opacity-70 flex"
-                              onClick={() => router.push("/cadets/2023")}
+                              prefetch
                             >
                               2023
-                            </p>
-                            <p
+                            </Link>
+                            <Link
+                              href={"/cadets/2022"}
                               className="hover:opacity-70 flex"
-                              onClick={() => router.push("/cadets/2022")}
+                              prefetch
                             >
                               2022
-                            </p>
-                            <p
+                            </Link>
+                            <Link
+                              href={"/cadets/2021"}
                               className="hover:opacity-70 flex"
-                              onClick={() => router.push("/cadets/2021")}
+                              prefetch
                             >
                               2021
-                            </p>
-                            <p
+                            </Link>
+                            <Link
+                              href={"/cadets/2020"}
                               className="hover:opacity-70 flex"
-                              onClick={() => router.push("/cadets/2020")}
+                              prefetch
                             >
                               2020
-                            </p>
+                            </Link>
                           </div>
                         )}
                       </>

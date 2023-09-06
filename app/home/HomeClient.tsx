@@ -9,8 +9,21 @@ import { Canvas } from "@react-three/fiber";
 import Bio from "./Bio";
 import Sinix from "./Sinix";
 import Footer from "./Footer";
+import { Suspense, useEffect, useState, useRef } from "react";
+import * as THREE from "three";
+interface homeProps {
+  isLoading: boolean;
+}
 
-const HomeClient = () => {
+const HomeClient: React.FC<homeProps> = ({ isLoading }) => {
+  const ref = useRef();
+  console.log(Canvas);
+  useEffect(() => {}, []);
+  // ! POTENTIAL SOLUTION
+  // TODO: CHECK RENDER.SCOPES
+  // * scopes.length === 4 when model renders, scopes.length === 3 when no model
+  // * if (scopes.length !== 4) router.reload()
+
   return (
     <div className="m-0 p-0 max-h-full max-w-full h-screen w-screen bg-[#ffe600] diagonal-lines-black">
       <Border />
@@ -31,7 +44,9 @@ const HomeClient = () => {
       </header>
 
       <Canvas className="z-30 md:cursor-grab md:active:cursor-grabbing md:h-full h-full md:block md:top-0 absolute -top-[5rem]">
-        <Background />
+        <Suspense>
+          <Background />
+        </Suspense>
       </Canvas>
 
       <header className="hidden md:block absolute pointer-events-none md:pointer-events-auto top-0 z-[1000] h-full w-full md:w-1/4 cursor-default select-none scale-75 md:scale-100 ">
