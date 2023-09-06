@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import CadetsLoading from "./CadetsLoading";
-import CadetSelect from "../../components/Cadets/CadetSelect";
 import { cadets2023 } from "@/app/components/Cadets/CadetData";
 import WinnerBanner from "@/app/components/Cadets/WinnerBanner";
 import AssignmentDays from "@/app/components/Cadets/AssignmentDays";
@@ -32,8 +31,12 @@ const CadetsClient = () => {
 
     const win = winners.map((winner) => ({ ...winner, cadet: winner }));
 
+    console.log(win);
+
     setWinner(win);
   }, []);
+
+  console.log(winner);
 
   return (
     <div className="bg-black text-white">

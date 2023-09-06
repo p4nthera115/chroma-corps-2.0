@@ -10,8 +10,6 @@ interface WinnerBannerProps {
 }
 
 const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
-  console.log(winner);
-
   const router = useRouter();
   const pathname = usePathname();
   const year = pathname.slice(8, 12);

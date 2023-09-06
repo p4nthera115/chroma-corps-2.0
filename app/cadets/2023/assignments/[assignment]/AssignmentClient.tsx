@@ -77,6 +77,8 @@ const AssignmentClient = () => {
     noTeam,
   };
 
+  console.log(promptArr[0]?.assignment?.prompt);
+
   return (
     <div>
       {+assignmentDay > 30 || +assignmentDay < 1 ? (
