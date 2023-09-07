@@ -22,8 +22,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} ${orbitron.variable} `}>
         {children}
-        <Analytics />
       </body>
+      {/* <Analytics /> */}
     </html>
   );
 }
