@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Inter, Orbitron } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 const orbitron = Orbitron({
@@ -21,6 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} ${orbitron.variable} `}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
