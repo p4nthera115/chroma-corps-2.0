@@ -4,7 +4,6 @@ import { usePathname } from "next/navigation";
 import { cadets2023 } from "@/app/components/Cadets/CadetData";
 import Banner from "@/app/components/CadetPage/Banner";
 import Menu from "@/app/components/Menu/Menu";
-import CadetSelect from "@/app/components/Cadets/CadetSelect";
 import Assignments from "@/app/components/CadetPage/Assignments";
 import { useEffect, useState } from "react";
 import OriginalSubmission from "@/app/components/CadetPage/OriginalSubmission";

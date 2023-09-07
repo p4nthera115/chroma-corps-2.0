@@ -31,8 +31,6 @@ const CadetsClient = () => {
 
     const win = winners.map((winner) => ({ ...winner, cadet: winner }));
 
-    console.log(win);
-
     setWinner(win);
   }, []);
 
