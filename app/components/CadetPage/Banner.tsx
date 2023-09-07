@@ -64,18 +64,13 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
     let typedText = "";
 
     const checkForEasterEgg = (event: KeyboardEvent) => {
-      // Ignore non-alphabetical key presses
       if (event.key.match(/^[A-Za-z]$/)) {
         typedText += event.key.toLowerCase();
-        // Check if the typed text contains the word "wide"
         if (typedText.includes("wide")) {
-          // Trigger your easter egg function here
           handleEasterEgg();
-          // Clear the typed text after triggering the easter egg
           typedText = "";
         }
       } else {
-        // Clear the typed text if a non-alphabetical key is pressed
         typedText = "";
       }
     };
@@ -87,12 +82,9 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
     window.addEventListener("keydown", checkForEasterEgg);
 
     return () => {
-      // Remove the event listener when the component unmounts
       window.removeEventListener("keydown", checkForEasterEgg);
     };
   }, []);
-
-  console.log(wide);
 
   const variants = {
     initial: { width: "100%" },
