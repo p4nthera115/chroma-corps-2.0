@@ -1,7 +1,7 @@
 "use client";
 
 import { Cadet } from "@/app/types";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   AiOutlineInstagram,
   AiOutlineLink,
@@ -22,7 +22,7 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
   const [cadetImg, setCadetImg] = useState(cadet?.bannerImg[0]);
   const [index, setIndex] = useState(1);
   const [index2, setIndex2] = useState(1);
-  const [open, setOpen] = useState(false);
+  const [wide, setWide] = useState(false);
 
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -59,6 +59,53 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
     setCadetImg(imgArr[index]);
     setIndex2(index + 1);
   }
+
+  useEffect(() => {
+    let typedText = "";
+
+    const checkForEasterEgg = (event: KeyboardEvent) => {
+      // Ignore non-alphabetical key presses
+      if (event.key.match(/^[A-Za-z]$/)) {
+        typedText += event.key.toLowerCase();
+        // Check if the typed text contains the word "wide"
+        if (typedText.includes("wide")) {
+          // Trigger your easter egg function here
+          handleEasterEgg();
+          // Clear the typed text after triggering the easter egg
+          typedText = "";
+        }
+      } else {
+        // Clear the typed text if a non-alphabetical key is pressed
+        typedText = "";
+      }
+    };
+
+    const handleEasterEgg = () => {
+      setWide(true);
+    };
+
+    window.addEventListener("keydown", checkForEasterEgg);
+
+    return () => {
+      // Remove the event listener when the component unmounts
+      window.removeEventListener("keydown", checkForEasterEgg);
+    };
+  }, []);
+
+  console.log(wide);
+
+  const variants = {
+    initial: { width: "100%" },
+    animate: {
+      width: wide ? "400%" : "",
+      display: "absolute",
+    },
+    transition: {
+      type: "tween",
+      duration: 6,
+      ease: "easeInOut",
+    },
+  };
 
   return (
     <div
@@ -173,7 +220,9 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
                 // loading="eager"
                 // priority
                 // unoptimized={true}
-                className={`${cadet?.bannerPos} z-[49] object-contain`}
+                className={`${cadet?.bannerPos} z-[49] ${
+                  wide ? "scale-x-[800%]" : ""
+                } transition duration-[30000ms]`}
               />
             </button>
           </section>
