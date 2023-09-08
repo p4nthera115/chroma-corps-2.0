@@ -49,7 +49,7 @@ const OriginalSubmission: React.FC<OriginalSubmissionProps> = ({ cadet }) => {
   };
 
   return (
-    <div className="flex flex-col mb-[10%]">
+    <div className="flex flex-col pb-[10%] bg-black">
       <motion.div className="flex w-full justify-center overflow-hidden">
         <h1
           className={`relative font-cyber m-3 w-3/4 text-xl md:text-4xl lg:text-5xl xl:text-6xl p-6 md:p-8 text-center rounded-lg border-2 overflow-hidden cursor-default ${cadet?.borderColor} ${cadet?.teamColorOpacity}`}

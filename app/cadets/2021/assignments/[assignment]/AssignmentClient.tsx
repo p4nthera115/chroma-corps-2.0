@@ -15,6 +15,7 @@ import { Assignment, Cadet, CadetAssignment } from "@/app/types";
 import SmallWinnerBanner from "@/app/components/AssignmentsPage/SmallWinnerBanner";
 import NotFound from "@/app/not-found";
 import SmallElimBanner from "@/app/components/AssignmentsPage/SmallElimBanner";
+import ReturnButton from "@/app/components/AssignmentsPage/ReturnButton";
 
 const AssignmentClient = () => {
   const pathname = usePathname();
@@ -100,6 +101,7 @@ const AssignmentClient = () => {
               prompt={promptArr[0]?.assignment?.prompt}
               assignmentNo={promptArr[0]?.assignment?.day}
             />
+            <ReturnButton year={year} />
           </div>
           <div className="mb-12">
             <Assignments cadetAssignments={cadetAssignments} teams={teams} />

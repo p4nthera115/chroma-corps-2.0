@@ -67,18 +67,18 @@ const AssignmentDays: React.FC<AssDayProps> = ({ winner, year }) => {
           See your art and don&rsquo;t want it displayed? <br /> Let us know{" "}
           <a
             href="https://twitter.com/p4nthera_"
-            className="hover:text-green-200"
+            className="hover:text-[#ffe600]"
             target="_blank"
           >
             @p4nthera_
           </a>{" "}
           or{" "}
           <a
-            href="https://twitter.com/lifguson1"
-            className="hover:text-green-200"
+            href="https://twitter.com/leondvlpr"
+            className="hover:text-[#ffe600]"
             target="_blank"
           >
-            @lifguson1
+            @leondvlpr
           </a>
         </p>
       </div>

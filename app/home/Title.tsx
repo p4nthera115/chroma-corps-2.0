@@ -70,7 +70,7 @@ const TitleRight = () => {
 
   return (
     <div className="relative h-full w-full items-center flex">
-      <section className="absolute right-0 h-[80%] border-black md:mr-[12rem]">
+      <section className="relative right-0 h-[60%] border-black md:mr-[12rem]">
         <div className=" border-black w-20 m-0 flex flex-col gap-6 justify-center">
           {jap.map((letter) => (
             <h1
