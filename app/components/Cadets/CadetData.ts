@@ -849,7 +849,7 @@ export const cadets2023 = [
     borderColor: "border-green-800",
     textColor: "text-white",
     cardImg:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/teted/teted1.png",
+      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2023/teted/tetedCard.png",
     cardPos: "h-[102%] md:top-[0%] min-w-max md:-left-8 top-[-50%] left-[-20%]",
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-green-800/20",
@@ -7729,7 +7729,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "",
+        prompt: "Teamwork",
         day: 4,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/applechancery.jpg",
         strike: false,
@@ -8219,7 +8219,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "",
+        prompt: "Teamwork",
         day: 4,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/dako.png",
         strike: false,
@@ -8536,7 +8536,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "",
+        prompt: "Teamwork",
         day: 4,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/baeloma.jpg",
         strike: false,
@@ -8838,7 +8838,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "",
+        prompt: "Teamwork",
         day: 4,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/vevolf.jpg",
         strike: false,
@@ -8982,7 +8982,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "",
+        prompt: "Teamwork",
         day: 4,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/gulapa.png",
         strike: false,
@@ -9112,7 +9112,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "",
+        prompt: "Teamwork",
         day: 4,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/greeblebot.jpg",
         strike: true,
@@ -9414,7 +9414,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "",
+        prompt: "Teamwork",
         day: 4,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/yugichu.jpg",
         strike: true,
@@ -9849,7 +9849,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "",
+        prompt: "Teamwork",
         day: 4,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/daniella.png",
         strike: false,
@@ -9977,7 +9977,7 @@ export const cadets2022 = [
         winner: true,
       },
       {
-        prompt: "",
+        prompt: "Teamwork",
         day: 4,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/sheng.jpg",
         strike: false,
@@ -10221,7 +10221,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "",
+        prompt: "Teamwork",
         day: 4,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/overgangdood.jpg",
         strike: false,
@@ -10411,7 +10411,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "",
+        prompt: "Teamwork",
         day: 4,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/kusu.jpg",
         strike: false,
@@ -10656,7 +10656,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "",
+        prompt: "Teamwork",
         day: 4,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/wonkypen.jpg",
         strike: false,
@@ -10783,7 +10783,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "",
+        prompt: "Teamwork",
         day: 4,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/puropena.jpg",
         strike: true,
@@ -10982,7 +10982,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "",
+        prompt: "Teamwork",
         day: 4,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/algot.png",
         strike: true,
@@ -11100,7 +11100,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "Craterous Excavation Site",
+        prompt: "Bipedal Bulldozer",
         day: 2,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-02/megarat.jpg",
         strike: false,
@@ -11110,7 +11110,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "Craterous Excavation Site",
+        prompt: "Highly Unsettling yet Strangely Unintimidating Doppelganger",
         day: 3,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-03/megarat.png",
         strike: false,
@@ -11120,7 +11120,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "Craterous Excavation Site",
+        prompt: "Teamwork",
         day: 4,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-04/megarat.jpg",
         strike: false,
@@ -11130,7 +11130,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "Craterous Excavation Site",
+        prompt: "Liminal Ego Refraction",
         day: 5,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-05/megarat.png",
         strike: false,
@@ -11140,7 +11140,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "Craterous Excavation Site",
+        prompt: "Sinix's Super Special Secret Stew",
         day: 6,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-06/megarat.png",
         strike: false,
@@ -11150,7 +11150,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "Craterous Excavation Site",
+        prompt: "Vampire that lives at the bottom of the Ocean",
         day: 7,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-07/megarat.jpg",
         strike: false,
@@ -11160,7 +11160,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "Craterous Excavation Site",
+        prompt: "Ethereal Subway Station",
         day: 8,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-08/megarat.png",
         strike: false,
@@ -11170,7 +11170,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "Craterous Excavation Site",
+        prompt: "Main Weapon of a Musical Time-Traveling Demon Hunter",
         day: 9,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-09/megarat.png",
         strike: false,
@@ -11180,7 +11180,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "Craterous Excavation Site",
+        prompt: "Zero Gravity Tea Party",
         day: 10,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-10/megarat.png",
         strike: false,
@@ -11190,7 +11190,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "Craterous Excavation Site",
+        prompt: "Glasswing Butterfly Sorceress",
         day: 11,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-11/megarat.jpg",
         strike: false,
@@ -11200,7 +11200,7 @@ export const cadets2022 = [
         winner: false,
       },
       {
-        prompt: "Craterous Excavation Site",
+        prompt: "Biker Gang of Seals",
         day: 12,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-12/megarat.jpg",
         strike: false,
