@@ -4,8 +4,8 @@ import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 const orbitron = Orbitron({
-  weight: "400",
   subsets: ["latin"],
+  weight: "400",
   variable: "--orbitron",
 });
 

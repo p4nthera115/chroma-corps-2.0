@@ -792,7 +792,7 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "Purely Functional Mech Design",
         day: 26,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-26/alto.png",
         strike: false,
@@ -801,7 +801,7 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "A Smiling Portrait of your Cadet",
         day: 27,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-27/alto.png",
         strike: false,
@@ -810,7 +810,7 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "Show your Cadets Fighting Against the Zombie Pruned Saplings",
         day: 28,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-28/alto.png",
         strike: false,
@@ -819,7 +819,8 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt:
+          "Make An Illustration of your Cadet and Lab Partner Synthesizing the Special Formula",
         day: 29,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-29/alto.png",
         strike: false,
@@ -828,7 +829,8 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt:
+          "In a Deep Overgrown Forest Comes an Explosion of Prismatic Pastels and Sparkling Particles",
         day: 30,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-30/alto.png",
         strike: false,
@@ -1098,7 +1100,7 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "Purely Functional Mech Design",
         day: 26,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-26/teted.jpg",
         strike: false,
@@ -1107,7 +1109,7 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "A Smiling Portrait of your Cadet",
         day: 27,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-27/teted.jpg",
         strike: false,
@@ -1116,7 +1118,7 @@ export const cadets2023 = [
         winner: true,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "Show your Cadets Fighting Against the Zombie Pruned Saplings",
         day: 28,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-28/teted.jpg",
         strike: false,
@@ -1125,7 +1127,8 @@ export const cadets2023 = [
         winner: true,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt:
+          "Make An Illustration of your Cadet and Lab Partner Synthesizing the Special Formula",
         day: 29,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-29/teted.jpg",
         strike: false,
@@ -1134,7 +1137,8 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt:
+          "In a Deep Overgrown Forest Comes an Explosion of Prismatic Pastels and Sparkling Particles",
         day: 30,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-30/teted.jpg",
         strike: false,
@@ -1738,7 +1742,7 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "Purely Functional Mech Design",
         day: 26,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-26/double.png",
         strike: false,
@@ -1747,7 +1751,7 @@ export const cadets2023 = [
         winner: true,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "A Smiling Portrait of your Cadet",
         day: 27,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-27/double.png",
         strike: false,
@@ -1756,7 +1760,7 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "Show your Cadets Fighting Against the Zombie Pruned Saplings",
         day: 28,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-28/double.png",
         strike: false,
@@ -1765,7 +1769,8 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt:
+          "Make An Illustration of your Cadet and Lab Partner Synthesizing the Special Formula",
         day: 29,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-29/double.png",
         strike: false,
@@ -1774,7 +1779,8 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt:
+          "In a Deep Overgrown Forest Comes an Explosion of Prismatic Pastels and Sparkling Particles",
         day: 30,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-30/double.png",
         strike: false,
@@ -2215,7 +2221,7 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "Purely Functional Mech Design",
         day: 26,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-26/hjoy.png",
         strike: false,
@@ -2224,7 +2230,7 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "A Smiling Portrait of your Cadet",
         day: 27,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-27/hjoy.png",
         strike: false,
@@ -2233,7 +2239,7 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "Show your Cadets Fighting Against the Zombie Pruned Saplings",
         day: 28,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-28/hjoy.png",
         strike: false,
@@ -2242,7 +2248,8 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt:
+          "Make An Illustration of your Cadet and Lab Partner Synthesizing the Special Formula",
         day: 29,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-29/hjoy.png",
         strike: false,
@@ -2251,7 +2258,8 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt:
+          "In a Deep Overgrown Forest Comes an Explosion of Prismatic Pastels and Sparkling Particles",
         day: 30,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-30/hjoy.png",
         strike: false,
@@ -2507,7 +2515,7 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "Purely Functional Mech Design",
         day: 26,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-26/trout.jpg",
         strike: false,
@@ -2516,7 +2524,7 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "A Smiling Portrait of your Cadet",
         day: 27,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-27/trout.jpg",
         strike: false,
@@ -2525,7 +2533,7 @@ export const cadets2023 = [
         winner: true,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "Show your Cadets Fighting Against the Zombie Pruned Saplings",
         day: 28,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-28/trout.jpg",
         strike: false,
@@ -2534,7 +2542,8 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt:
+          "Make An Illustration of your Cadet and Lab Partner Synthesizing the Special Formula",
         day: 29,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-29/trout.jpg",
         strike: false,
@@ -2543,7 +2552,8 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt:
+          "In a Deep Overgrown Forest Comes an Explosion of Prismatic Pastels and Sparkling Particles",
         day: 30,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-30/trout.jpg",
         strike: false,
@@ -3922,7 +3932,7 @@ export const cadets2023 = [
         winner: true,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "Purely Functional Mech Design",
         day: 26,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-26/naka.jpg",
         strike: false,
@@ -3931,7 +3941,7 @@ export const cadets2023 = [
         winner: true,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "A Smiling Portrait of your Cadet",
         day: 27,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-27/naka.jpg",
         strike: false,
@@ -3940,7 +3950,7 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "Show your Cadets Fighting Against the Zombie Pruned Saplings",
         day: 28,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-28/naka.jpg",
         strike: false,
@@ -3949,7 +3959,8 @@ export const cadets2023 = [
         winner: true,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt:
+          "Make An Illustration of your Cadet and Lab Partner Synthesizing the Special Formula",
         day: 29,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-29/naka.png",
         strike: false,
@@ -3958,7 +3969,8 @@ export const cadets2023 = [
         winner: true,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt:
+          "In a Deep Overgrown Forest Comes an Explosion of Prismatic Pastels and Sparkling Particles",
         day: 30,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-30/naka.jpg",
         strike: false,
@@ -4226,7 +4238,7 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "Purely Functional Mech Design",
         day: 26,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-26/edouardtredan.jpg",
         strike: false,
@@ -4235,7 +4247,7 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "A Smiling Portrait of your Cadet",
         day: 27,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-27/edouardtredan.jpg",
         strike: false,
@@ -4244,7 +4256,7 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "Show your Cadets Fighting Against the Zombie Pruned Saplings",
         day: 28,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-28/edouardtredan.jpg",
         strike: false,
@@ -4253,7 +4265,8 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt:
+          "Make An Illustration of your Cadet and Lab Partner Synthesizing the Special Formula",
         day: 29,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-29/edouardtredan.gif",
         strike: false,
@@ -4262,7 +4275,8 @@ export const cadets2023 = [
         winner: true,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt:
+          "In a Deep Overgrown Forest Comes an Explosion of Prismatic Pastels and Sparkling Particles",
         day: 30,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-30/edouardtredan.gif",
         strike: false,
@@ -5002,7 +5016,7 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "Purely Functional Mech Design",
         day: 26,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-26/kuzillon.png",
         strike: false,
@@ -5011,7 +5025,7 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "A Smiling Portrait of your Cadet",
         day: 27,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-27/kuzillon.png",
         strike: false,
@@ -5020,7 +5034,7 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt: "Show your Cadets Fighting Against the Zombie Pruned Saplings",
         day: 28,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-28/kuzillon.png",
         strike: false,
@@ -5029,7 +5043,8 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt:
+          "Make An Illustration of your Cadet and Lab Partner Synthesizing the Special Formula",
         day: 29,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-29/kuzillon.png",
         strike: false,
@@ -5038,7 +5053,8 @@ export const cadets2023 = [
         winner: false,
       },
       {
-        prompt: "You Can't Hold Back the Tide of Nature",
+        prompt:
+          "In a Deep Overgrown Forest Comes an Explosion of Prismatic Pastels and Sparkling Particles",
         day: 30,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-30/kuzillon.png",
         strike: false,
