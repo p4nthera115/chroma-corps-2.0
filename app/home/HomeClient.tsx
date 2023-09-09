@@ -51,10 +51,10 @@ const HomeClient: React.FC<homeProps> = ({ isLoading }) => {
         </Suspense>
       </Canvas>
 
-      <header className="hidden md:block absolute pointer-events-none md:pointer-events-auto top-0 z-[1000] h-full w-full md:w-1/4 cursor-default select-none scale-75 md:scale-100 ">
+      <header className="block md:absolute md:flex flex-row justify-between pointer-events-none md:pointer-events-none top-0 gap-[55%] z-[1000] h-full w-full cursor-default select-none scale-75 md:scale-100 overflow-hidden">
         <TitleLeft />
-      </header>
-      <header className="hidden md:block absolute right-0 top-0 z-[1000] h-full w-1/4 select-none cursor-default">
+        {/* </header>
+      <header className="hidden md:block absolute right-0 top-0 z-[1000] h-full w-1/4 select-none cursor-default"> */}
         <TitleRight />
       </header>
 
