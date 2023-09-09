@@ -214,7 +214,7 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
                 // unoptimized={true}
                 className={`${cadet?.bannerPos} z-[49] ${
                   wide ? "scale-x-[800%]" : ""
-                } transition duration-[30000ms]`}
+                } transition duration-[30000ms] object-contain`}
               />
             </button>
           </section>
