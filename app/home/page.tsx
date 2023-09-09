@@ -11,7 +11,7 @@ const HomePage = () => {
 
   return (
     <div className="bg-black text-white">
-      {isLoading && <LoadingScreen />}
+      {/* {isLoading && <LoadingScreen />} */}
       <HomeClient isLoading={isLoading} />
     </div>
   );
