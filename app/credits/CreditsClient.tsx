@@ -3,8 +3,10 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
 import {
+  AiOutlineGlobal,
   AiOutlineInstagram,
   AiOutlineLink,
+  AiOutlineLinkedin,
   AiOutlineTwitter,
   AiOutlineYoutube,
 } from "react-icons/ai";
@@ -61,25 +63,21 @@ const CreditsClient = () => {
         text-neutral-100
        "
       >
-        <h1 className="font-cyber font-extrabold text-center text-[#ffe600] lg:text-5xl md:text-4xl text-4xl m-8 pointer-events-none">
+        {/* <h1 className="font-cyber font-extrabold text-center text-[#ffe600] lg:text-5xl md:text-4xl text-4xl m-4 pointer-events-none">
           CREDITS
-        </h1>
-        <h2 className="text-center font-cyber mb-8 md:text-xl sm:text-lg text-lg">
+        </h1> */}
+        <h2 className="text-center font-cyber md:text-xl sm:text-lg text-lg pt-2">
           Website designed and developed by
         </h2>
-        <div id="website-credits" className="flex flex-row mb-12">
+        <div
+          id="website-credits"
+          className="flex flex-row justify-center pb-32 pt-16 gap-8"
+        >
           <div
             id="left-side"
-            className="flex flex-col w-[50%] text-center border-r-[1px] border-neutral-600 pb-24"
+            className="flex flex-col w-[30%] text-center pb-4"
           >
-            <a
-              className=" font-cyber lg:text-4xl md:text-3xl text-2xl mb-4 mx-auto text-[#FFE600]"
-              href="https://twitter.com/p4nthera_"
-              target="_blank"
-            >
-              @p4n
-            </a>
-            <div className="mx-auto w-[75%]">
+            <div className="mx-auto w-[90%]">
               <Link href="https://twitter.com/p4nthera_" target="_blank">
                 <div
                   onMouseEnter={() => setHover(true)}
@@ -88,26 +86,26 @@ const CreditsClient = () => {
             overflow-hidden 
             border 
             border-white 
-            hover:cursor-pointer
+            hover:cursor-pointer rounded-lg
           "
                 >
-                  <h1
-                    className="
-                justify-center
-                flex
+                  <div className="flex w-full border-b p-2 justify-center">
+                    <h1
+                      className="text-2xl
                 font-cyber
                 font-bold
-                border
                 "
-                  >
-                    p4n
-                  </h1>
-                  <img
-                    src="/images/ChromaCorpsLogoWhite.png"
-                    height={200}
-                    width={400}
-                    alt="cadet"
-                    className="
+                    >
+                      p4n
+                    </h1>
+                  </div>
+                  <div className="max-w-[75%] flex justify-center mx-auto py-4">
+                    <img
+                      src="/images/ChromaCorpsLogoWhite.png"
+                      height={200}
+                      width={400}
+                      alt="cadet"
+                      className="
               object-cover 
               object-center 
               scale-100 sepia opacity-50
@@ -117,23 +115,25 @@ const CreditsClient = () => {
               transition
               w-full
               "
-                  />
+                    />
+                  </div>
+                  <div>
+                    <div id="socials">
+                      <div className="flex flex-row border-t p-2 justify-center gap-2">
+                        <AiOutlineTwitter size={40} />
+                        <AiOutlineInstagram size={40} />
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </Link>
             </div>
           </div>
           <div
             id="right-side"
-            className="flex flex-col w-[50%] text-center border-l-[1px] border-neutral-600 pb-24"
+            className="flex flex-col w-[30%] text-center pb-4"
           >
-            <a
-              className="font-cyber lg:text-4xl md:text-3xl text-2xl mb-4 mx-auto text-[#ffe600] hover:scale-[110%] transition"
-              href="https://twitter.com/leondvlpr"
-              target="_blank"
-            >
-              @Leon
-            </a>
-            <div className="mx-auto w-[75%]">
+            <div className="mx-auto w-[90%]">
               <Link href="https://twitter.com/leondvlpr" target="_blank">
                 <div
                   onMouseEnter={() => setHover(true)}
@@ -143,25 +143,26 @@ const CreditsClient = () => {
             border 
             border-white 
             hover:cursor-pointer
+            rounded-lg
           "
                 >
-                  <h1
-                    className="
-                justify-center
-                flex
+                  <div className="flex w-full border-b p-2 justify-center">
+                    <h1
+                      className="text-2xl
                 font-cyber
                 font-bold
-                border
                 "
-                  >
-                    Leon
-                  </h1>
-                  <img
-                    src="/images/ChromaCorpsLogoWhite.png"
-                    height={200}
-                    width={400}
-                    alt="cadet"
-                    className="
+                    >
+                      Leon
+                    </h1>
+                  </div>
+                  <div className="max-w-[75%] flex justify-center mx-auto py-4">
+                    <img
+                      src="/images/ChromaCorpsLogoWhite.png"
+                      height={200}
+                      width={400}
+                      alt="cadet"
+                      className="
               object-cover 
               object-center 
               scale-100 sepia opacity-50
@@ -171,7 +172,17 @@ const CreditsClient = () => {
               transition
               w-full
               "
-                  />
+                    />
+                  </div>
+                  <div>
+                    <div id="socials">
+                      <div className="flex flex-row border-t p-2 justify-center gap-2">
+                        <AiOutlineTwitter size={40} />
+                        <AiOutlineLinkedin size={40} />
+                        <AiOutlineGlobal size={40} />
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </Link>
             </div>
