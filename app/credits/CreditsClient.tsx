@@ -178,7 +178,7 @@ const CreditsClient = () => {
           </div>
         </div>
         <div className="flex flex-col mb-12">
-          <h2 className="font-cyber text-5xl text-center text-[#ffe600] m-4 ">
+          <h2 className="font-cyber text-5xl text-center text-[#ffe600] m-6 leading-[3.5rem]">
             Shoutout to these people for their contributions
           </h2>
           <div className="flex flex-col text-center py-8">
@@ -196,15 +196,37 @@ const CreditsClient = () => {
                       {contributor.name}
                     </motion.h3>
                   </div>
-                  <motion.p
-                    variants={variants}
-                    initial="initial"
-                    whileInView="animate"
-                    viewport={{ once: true }}
-                    className=" italic md:text-lg"
-                  >
-                    {contributor.description}
-                  </motion.p>
+                  {contributor.name === "Sabi" ? (
+                    <motion.p
+                      variants={variants}
+                      initial="initial"
+                      whileInView="animate"
+                      viewport={{ once: true }}
+                      className=" italic md:text-lg"
+                    >
+                      for creating a{" "}
+                      <a
+                        href="https://docs.google.com/spreadsheets/d/1QvC4Lgf1trMt8ASqIdF42dbcYIH4L-V4I6B5R4YaCvg/edit#gid=369953751"
+                        target="_blank"
+                        className="text-[#ffe600] animate-pulse"
+                      >
+                        spreadsheet
+                      </a>{" "}
+                      to keep track of the contest history, making it easier for
+                      us to collate data
+                    </motion.p>
+                  ) : (
+                    <motion.p
+                      variants={variants}
+                      initial="initial"
+                      whileInView="animate"
+                      viewport={{ once: true }}
+                      className=" italic md:text-lg"
+                    >
+                      {contributor.description}
+                    </motion.p>
+                  )}
+
                   <motion.div
                     variants={variants}
                     initial="initial"

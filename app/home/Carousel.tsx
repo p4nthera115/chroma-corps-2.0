@@ -79,7 +79,7 @@ function Carousel() {
       </div>
 
       <motion.div className="scroller flex" style={{ x: baseX }}>
-        <section className="relative h-full w-full flex flex-row gap-8 translate-x-[-70rem]">
+        <section className="relative h-full w-full flex flex-row gap-4 translate-x-[-70rem]">
           {images.map((image: string) => (
             <Image
               quality={100}
@@ -89,7 +89,7 @@ function Carousel() {
               width={100}
               height={100}
               loading="eager"
-              className="object-fit h-full min-w-max scale-[120%]"
+              className="object-contain h-full min-w-max scale-[120%]"
             />
           ))}
           {images.map((image: string) => (
@@ -101,7 +101,7 @@ function Carousel() {
               width={100}
               height={100}
               loading="eager"
-              className="object-fit h-full min-w-max scale-[120%]"
+              className="object-contain h-full min-w-max scale-[120%]"
             />
           ))}
           {images.map((image: string) => (
@@ -113,7 +113,7 @@ function Carousel() {
               width={100}
               height={100}
               loading="eager"
-              className="object-fit h-full min-w-max scale-[120%]"
+              className="object-contain h-full min-w-max scale-[120%]"
             />
           ))}
           {images.map((image: string) => (
@@ -125,7 +125,7 @@ function Carousel() {
               width={100}
               height={100}
               loading="lazy"
-              className="object-fit h-full min-w-max scale-[120%]"
+              className="object-contain h-full min-w-max scale-[120%]"
             />
           ))}
           {images.map((image: string) => (
@@ -137,7 +137,7 @@ function Carousel() {
               width={100}
               height={100}
               loading="lazy"
-              className="object-fit h-full min-w-max scale-[120%]"
+              className="object-contain h-full min-w-max scale-[120%]"
             />
           ))}
         </section>
