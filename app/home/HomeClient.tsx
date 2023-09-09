@@ -1,14 +1,14 @@
 "use client";
 
 import Menu from "../components/Menu/Menu";
-import Border from "./Border";
-import { TitleLeft, TitleRight } from "./Title";
-import Carousel from "./Carousel";
-import Background from "./Background";
+import Border from "../components/Home/Border";
+import { TitleLeft, TitleRight } from "../components/Home/Title";
+import Carousel from "../components/Home/Carousel";
+import Background from "../components/Home/Background";
 import { Canvas } from "@react-three/fiber";
-import Bio from "./Bio";
-import Sinix from "./Sinix";
-import Footer from "./Footer";
+import Bio from "../components/Home/Bio";
+import Sinix from "../components/Home/Sinix";
+import Footer from "../components/Home/Footer";
 import { Suspense, useEffect } from "react";
 interface homeProps {
   isLoading: boolean;
@@ -53,8 +53,6 @@ const HomeClient: React.FC<homeProps> = ({ isLoading }) => {
 
       <header className="block md:absolute md:flex flex-row justify-between pointer-events-none md:pointer-events-none top-0 gap-[55%] z-[1000] h-full w-full cursor-default select-none scale-75 md:scale-100 overflow-hidden">
         <TitleLeft />
-        {/* </header>
-      <header className="hidden md:block absolute right-0 top-0 z-[1000] h-full w-1/4 select-none cursor-default"> */}
         <TitleRight />
       </header>
 
