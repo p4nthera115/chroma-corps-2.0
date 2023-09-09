@@ -2,12 +2,6 @@
 
 import { Cadet } from "@/app/types";
 import { useEffect, useState } from "react";
-import {
-  AiOutlineInstagram,
-  AiOutlineLink,
-  AiOutlineTwitter,
-} from "react-icons/ai";
-import { motion } from "framer-motion";
 import Camera from "./Camera";
 import Socials from "./Socials";
 import Image from "next/image";
@@ -110,9 +104,9 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
                 </p>
               </button>
 
-              <div className="block md:hidden absolute left-11 top-16 m-4">
+              {/* <div className="block md:hidden absolute left-11 top-16 m-4">
                 <Socials cadet={cadet} />
-              </div>
+              </div> */}
 
               <img
                 src={`${cadetImg}`}
@@ -131,7 +125,7 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
               <Camera cadet={cadet} cadetImg={cadetImg} />
             </div>
             <header
-              className={`relative flex w-full h-1/4 border rounded-lg  items-center p-3 cursor-default justify-center md:justify-normal bg-neutral-900/50 md:bg-neutral-900 `}
+              className={`relative flex w-full h-1/4 border rounded-lg flex-col md:flex-row items-center p-3 cursor-default justify-center md:justify-normal bg-neutral-900/50 md:bg-neutral-900 `}
             >
               <h1
                 onMouseOver={hoverAnimation}
@@ -154,7 +148,7 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
               >
                 {name}
               </h1>
-              <div className="hidden md:block">
+              <div className="flex h-1/4 md:h-full w-full md:justify-end">
                 <Socials cadet={cadet} />
               </div>
             </header>

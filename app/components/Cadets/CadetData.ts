@@ -8504,7 +8504,6 @@ export const cadets2022 = [
     bgLines: "diagonal-lines-yellow",
     palette: "/images/CadetPalettes/2022/baeloma-palette.png",
     socials: {
-      instagram: "https://www.instagram.com/baeloma__/",
       website: "https://benjaminlofting.myportfolio.com/",
     },
     assignments: [
