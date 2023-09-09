@@ -25,7 +25,7 @@ const Sinix = () => {
     },
   };
   return (
-    <div className="relative h-full w-full flex flex-col justify-center text-center gap-2 md:gap-12 bg-black text-white">
+    <div className="relative h-full w-full flex flex-col justify-center text-center gap-2 md:gap-24 bg-black text-white">
       <motion.h2
         className="text-3xl md:text-5xl font-cyber text-[#ffe600]"
         variants={variants}
@@ -57,7 +57,7 @@ const Sinix = () => {
         initial="initial"
         whileInView="animate"
         viewport={{ once: true }}
-        className="flex flex-row space-x-2 self-center"
+        className="flex flex-row gap-4 self-center"
       >
         <a
           href="https://www.youtube.com/@sinixdesign"
@@ -65,7 +65,7 @@ const Sinix = () => {
           target="_blank"
         >
           <AiOutlineYoutube
-            size={50}
+            size={65}
             className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-100"
           />
         </a>
@@ -75,13 +75,13 @@ const Sinix = () => {
           target="_blank"
         >
           <AiOutlineInstagram
-            size={50}
+            size={65}
             className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-100"
           />
         </a>
         <a href="https://twitter.com/sinix777" rel="noreferrer" target="_blank">
           <AiOutlineTwitter
-            size={50}
+            size={65}
             className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-100"
           />
         </a>
