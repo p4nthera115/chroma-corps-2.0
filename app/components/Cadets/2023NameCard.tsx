@@ -25,8 +25,10 @@ const NameCard: React.FC<CadetCardProps> = ({ cadet, key: i, style }) => {
     >
       <h1
         className={`flex relative w-full h-full ${
-          hover ? "scale-110 opacity-100" : "opacity-75 scale-100"
-        } transition justify-center items-center max-h-8`}
+          hover
+            ? "scale-110 opacity-100 pt-0 max-h-[2.7rem]"
+            : "opacity-75 scale-100 py-auto"
+        } transition justify-center items-center `}
       >
         {cadet.name}
       </h1>
