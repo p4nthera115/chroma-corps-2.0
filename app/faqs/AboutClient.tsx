@@ -46,7 +46,7 @@ const AboutClient = () => {
         " You are more than welcome to submit entries for fun. Just be sure to mention along with your submission that you do not wish to be selected for the Boot Camp.",
     },
     {
-      title: "I hear the Cadets will be on teams, who picks the teams?",
+      title: "I hear the Cadets may be on teams, who picks the teams?",
       content:
         "The teams are chosen by team captains. Teams exist mainly for the sake of organization, so it shouldn't affect your overall chances of winning.",
     },
