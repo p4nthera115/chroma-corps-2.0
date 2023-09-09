@@ -23,7 +23,7 @@ export default function RootLayout({
       <body className={`${inter.className} ${orbitron.variable} `}>
         {children}
       </body>
-      {/* <Analytics /> */}
+      <Analytics />
     </html>
   );
 }

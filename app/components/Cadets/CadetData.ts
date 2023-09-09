@@ -859,6 +859,8 @@ export const cadets2023 = [
     ],
     bannerPos: "absolute h-full scale-[122%] min-w-max",
     cameraPos: "scale-[220%] -left-[15rem] top-[20%]",
+    centreGradient:
+      "bg-gradient-to-t from-transparent via-green-800 to-transparent",
     gradient: "bg-gradient-to-t from-green-800 to-black",
     bgLines: "diagonal-lines-green",
     palette: "/images/CadetPalettes/2023/teted-palette.png",
