@@ -63,11 +63,11 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
   useEffect(() => {
     let typedText = "";
 
-    const checkForEasterEgg = (event: KeyboardEvent) => {
+    const checkWide = (event: KeyboardEvent) => {
       if (event.key.match(/^[A-Za-z]$/)) {
         typedText += event.key.toLowerCase();
         if (typedText.includes("wide")) {
-          handleEasterEgg();
+          handleWide();
           typedText = "";
         }
       } else {
@@ -75,29 +75,16 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
       }
     };
 
-    const handleEasterEgg = () => {
+    const handleWide = () => {
       setWide(true);
     };
 
-    window.addEventListener("keydown", checkForEasterEgg);
+    window.addEventListener("keydown", checkWide);
 
     return () => {
-      window.removeEventListener("keydown", checkForEasterEgg);
+      window.removeEventListener("keydown", checkWide);
     };
   }, []);
-
-  const variants = {
-    initial: { width: "100%" },
-    animate: {
-      width: wide ? "400%" : "",
-      display: "absolute",
-    },
-    transition: {
-      type: "tween",
-      duration: 6,
-      ease: "easeInOut",
-    },
-  };
 
   return (
     <div
@@ -130,12 +117,6 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
               <img
                 src={`${cadetImg}`}
                 alt={cadet?.name}
-                // width={100}
-                // height={100}
-                // quality={100}
-                // loading="eager"
-                // priority
-                // unoptimized={true}
                 className={`
                   md:hidden
                   absolute
@@ -198,23 +179,19 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
               <p className="absolute font-cyber right-0 pr-2 text-xs lg:text-base cursor-default">
                 {year} <span className="animate-pulse">_</span>
               </p>
-              <img
-                src={cadet?.palette}
-                alt="color palette"
-                className="absolute left-0 bottom-0 h-[9rem] m-4 border-[0.5px]"
-              />
+              {cadet?.palette && (
+                <img
+                  src={cadet?.palette}
+                  alt="color palette"
+                  className="absolute left-0 bottom-0 h-[9rem] m-4 border-[0.5px]"
+                />
+              )}
               <img
                 src={`${cadetImg}`}
                 alt={cadet?.name}
-                // width={100}
-                // height={100}
-                // quality={100}
-                // loading="eager"
-                // priority
-                // unoptimized={true}
                 className={`${cadet?.bannerPos} z-[49] ${
                   wide ? "scale-x-[800%]" : ""
-                } transition duration-[30000ms] object-contain`}
+                } transition duration-[30000ms] object-contain pointer-events-none`}
               />
             </button>
           </section>

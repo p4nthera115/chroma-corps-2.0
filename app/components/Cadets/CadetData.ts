@@ -11083,8 +11083,7 @@ export const cadets2022 = [
     cameraPos: "scale-[100%]",
     gradient: "bg-gradient-to-t from-pink-500",
     bgLines: "diagonal-lines-pink",
-    palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+    palette: "",
     socials: {
       instagram: "",
       twitter: "",
@@ -11097,7 +11096,7 @@ export const cadets2022 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        dropout: true,
+        dropout: false,
         winner: false,
       },
       {
@@ -11107,7 +11106,7 @@ export const cadets2022 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        dropout: true,
+        dropout: false,
         winner: false,
       },
       {
@@ -11117,7 +11116,7 @@ export const cadets2022 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        dropout: true,
+        dropout: false,
         winner: false,
       },
       {
@@ -11127,7 +11126,7 @@ export const cadets2022 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        dropout: true,
+        dropout: false,
         winner: false,
       },
       {
@@ -11137,7 +11136,7 @@ export const cadets2022 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        dropout: true,
+        dropout: false,
         winner: false,
       },
       {
@@ -11147,7 +11146,7 @@ export const cadets2022 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        dropout: true,
+        dropout: false,
         winner: false,
       },
       {
@@ -11157,7 +11156,7 @@ export const cadets2022 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        dropout: true,
+        dropout: false,
         winner: false,
       },
       {
@@ -11167,7 +11166,7 @@ export const cadets2022 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        dropout: true,
+        dropout: false,
         winner: false,
       },
       {
@@ -11177,7 +11176,7 @@ export const cadets2022 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        dropout: true,
+        dropout: false,
         winner: false,
       },
       {
@@ -11187,7 +11186,7 @@ export const cadets2022 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        dropout: true,
+        dropout: false,
         winner: false,
       },
       {
@@ -11197,13 +11196,23 @@ export const cadets2022 = [
         strike: false,
         strikes: 0,
         eliminated: false,
-        dropout: true,
+        dropout: false,
         winner: false,
       },
       {
         prompt: "Craterous Excavation Site",
         day: 12,
         img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-12/megarat.jpg",
+        strike: false,
+        strikes: 0,
+        eliminated: false,
+        dropout: false,
+        winner: false,
+      },
+      {
+        prompt: "Egg, the ultimate egg",
+        day: 13,
+        img: "/dropout",
         strike: false,
         strikes: 0,
         eliminated: false,
