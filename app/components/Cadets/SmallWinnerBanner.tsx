@@ -21,7 +21,7 @@ const SmallWinnerBanner: React.FC<SmallWinnerBannerProps> = ({ winner }) => {
         <img
           src={winner.bannerImg[0]}
           alt={winner.name}
-          className={`scale-[300%] h-[20rem] z-10 flex`}
+          className={`scale-[300%] h-[20rem] z-10 flex ${winner.strikeBannerPos}`}
         />
       </div>
 
