@@ -2,7 +2,7 @@
 
 import { Cadet } from "@/app/types";
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import Image from "next/image";
 
 interface OriginalSubmissionProps {
@@ -46,6 +46,15 @@ const OriginalSubmission: React.FC<OriginalSubmissionProps> = ({ cadet }) => {
 
       iterations += 3;
     }, 80);
+  };
+
+  const videoRef = useRef<HTMLVideoElement | null>(null);
+
+  const handleMouseEnter = () => {
+    if (videoRef.current) videoRef.current.play();
+  };
+  const handleMouseLeave = () => {
+    if (videoRef.current) videoRef.current.pause();
   };
 
   return (
@@ -100,7 +109,7 @@ const OriginalSubmission: React.FC<OriginalSubmissionProps> = ({ cadet }) => {
                           priority={false}
                           className="relative block z-30 object-contain"
                         />
-                      )}{" "}
+                      )}
                     </div>
                     <div className="absolute h-full w-full backdrop-blur-md z-20"></div>
                     {cadet.originalSubmission.includes(".mp4") ? (
@@ -115,7 +124,7 @@ const OriginalSubmission: React.FC<OriginalSubmissionProps> = ({ cadet }) => {
                         loading="eager"
                         className="absolute opacity-80 z-10 object-cover"
                       />
-                    )}{" "}
+                    )}
                   </section>
                 </div>
               </div>
@@ -146,14 +155,12 @@ const OriginalSubmission: React.FC<OriginalSubmissionProps> = ({ cadet }) => {
             overflow-hidden
           `}
           >
-            {cadet && cadet.originalSubmission.includes(".gif") ? (
-              <Image
-                src={cadet.originalSubmission}
-                alt="cadet"
-                height={126.4}
-                width={224}
-                className={`
-                  relative
+            {cadet && cadet.originalSubmission.includes(".mp4") ? (
+              <video
+                ref={videoRef}
+                height={758.4}
+                width={1344}
+                className="relative
                   object-cover 
                   md:sepia
                   opacity-50
@@ -162,10 +169,15 @@ const OriginalSubmission: React.FC<OriginalSubmissionProps> = ({ cadet }) => {
                   hover:scale-110
                   transition
                   scale-150
-                  md:scale-100
-                `}
-                loading="lazy"
-              />
+                  md:scale-100"
+                autoPlay={false}
+                controls={false}
+                loop
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                <source src={cadet.originalSubmission} type="video/mp4" />
+              </video>
             ) : (
               cadet && (
                 <Image
@@ -187,11 +199,6 @@ const OriginalSubmission: React.FC<OriginalSubmissionProps> = ({ cadet }) => {
                   `}
                 />
               )
-            )}
-            {cadet && cadet.originalSubmission.includes(".mp4") && (
-              <video width={224} height={126.4}>
-                <source src={cadet.originalSubmission}></source>
-              </video>
             )}
           </button>
         </motion.div>
