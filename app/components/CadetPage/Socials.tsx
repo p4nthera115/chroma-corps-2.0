@@ -6,6 +6,7 @@ import {
   AiOutlineGlobal,
 } from "react-icons/ai";
 import { FaArtstation } from "react-icons/fa";
+// import { FaXTwitter } from "react-icons/fa";
 import { Cadet } from "@/app/types";
 
 interface SocialsProps {
