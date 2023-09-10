@@ -9914,7 +9914,7 @@ export const cadets2022 = [
       {
         prompt: "Glasswing Butterfly Sorceress",
         day: 11,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2022-Cadet-Assignments/ass-11/daniella.png",
+        img: "/dropout",
         strike: false,
         strikes: 1,
         eliminated: false,

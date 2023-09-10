@@ -22,7 +22,7 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
   return (
     <div className="relative w-full h-[66.666666vh] bg-neutral-900 ">
       <div className={`absolute z-10 h-full w-full flex justify-center`}>
-        <div className="absolute w-full h-full bg-red-600/30 z-30"></div>
+        <div className="pointer-events-none absolute w-full h-full bg-red-600/30 z-30"></div>
         {elimType.length > 1 ? (
           <div className="relative w-full h-full border-red-600/50 border border-dashed overflow-hidden">
             {elimType[1]?.cadet.gradient !== elimType[0]?.cadet.gradient ? (
