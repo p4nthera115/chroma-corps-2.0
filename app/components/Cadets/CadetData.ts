@@ -1356,7 +1356,7 @@ export const cadets2023 = [
       {
         prompt: "Graffiti",
         day: 5,
-        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-05/elodin.gif",
+        img: "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Assignments/2023-Cadet-Assignments/ass-05/elodin.mp4",
         strike: false,
         strikes: 0,
         eliminated: false,
