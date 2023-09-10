@@ -80,21 +80,42 @@ const OriginalSubmission: React.FC<OriginalSubmissionProps> = ({ cadet }) => {
                       X
                     </button>
                     <div className="relative flex w-full h-full object-contain justify-center">
-                      <Image
-                        src={cadet.originalSubmission}
-                        alt=""
-                        height={1080}
-                        width={1920}
-                        className="relative block z-30 object-contain"
-                      />
+                      {cadet.originalSubmission.includes(".mp4") ? (
+                        <video
+                          className="relative block z-30 object-contain"
+                          autoPlay
+                          loop
+                        >
+                          <source
+                            src={cadet.originalSubmission}
+                            type="video/mp4"
+                          />
+                        </video>
+                      ) : (
+                        <Image
+                          src={cadet.originalSubmission}
+                          alt={cadet.name}
+                          height={1080}
+                          width={1920}
+                          priority={false}
+                          className="relative block z-30 object-contain"
+                        />
+                      )}{" "}
                     </div>
                     <div className="absolute h-full w-full backdrop-blur-md z-20"></div>
-                    <Image
-                      src={cadet.originalSubmission}
-                      alt=""
-                      fill
-                      className="opacity-4 z-10"
-                    />
+                    {cadet.originalSubmission.includes(".mp4") ? (
+                      <div className="bg-neutral-700"></div>
+                    ) : (
+                      <Image
+                        src={cadet.originalSubmission}
+                        alt={cadet.name}
+                        fill
+                        quality={1}
+                        priority={true}
+                        loading="eager"
+                        className="absolute opacity-80 z-10 object-cover"
+                      />
+                    )}{" "}
                   </section>
                 </div>
               </div>

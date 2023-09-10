@@ -69,7 +69,8 @@ export const AssignmentPageCard: React.FC<AssignmentPageCardProps> = ({
               fill
               quality={1}
               priority={true}
-              className="absolute opacity-80 z-10 object-cover "
+              loading="eager"
+              className="absolute opacity-80 z-10 object-cover"
             />
           )}
         </section>
