@@ -15,7 +15,7 @@ interface SocialsProps {
 
 const Socials: React.FC<SocialsProps> = ({ cadet }) => {
   return (
-    <div className="flex items-start md:items-end h-full w-full max-h-10 md:max-h-full justify-center flex-row md:flex-col z-50">
+    <div className="flex items-start md:items-end h-full w-full max-h-10 md:max-h-full justify-center md:justify-start flex-row md:flex-col z-50">
       <div className="flex flex-row md:flex-col gap-2 scale-[60%] md:scale-100 items-end">
         {cadet?.socials.instagram && (
           <a href={cadet?.socials.instagram} target="_blank">
