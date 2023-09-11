@@ -15,8 +15,14 @@ const MobileCards = () => {
       className="w-full h-full flex justify-center font-cyber"
     >
       <div className="flex flex-col justify-center mt-8 mb-8 gap-8 w-[90%]">
-        <div id="top-card" className="flex flex-col w-full">
-          <div id="name-section" className="flex justify-center">
+        <div
+          id="top-card"
+          className="flex flex-col w-full border-2 border-white"
+        >
+          <div
+            id="name-section"
+            className="flex justify-center border-b-2 border-white"
+          >
             <h1 className="p-2 text-xl">p4n</h1>
           </div>
           <div id="main-section" className="flex flex-row">
@@ -41,7 +47,7 @@ const MobileCards = () => {
             </div>
             <div
               id="socials"
-              className="w-[15%] flex flex-col justify-center items-center gap-2"
+              className="w-[15%] flex flex-col justify-center items-center gap-2 border-l-2 border-white"
             >
               <a
                 href="https://twitter.com/p4nthera_"
@@ -76,8 +82,14 @@ const MobileCards = () => {
             </div>
           </div>
         </div>
-        <div id="top-card" className="flex flex-col w-full">
-          <div id="name-section" className="flex justify-center">
+        <div
+          id="top-card"
+          className="flex flex-col w-full border-2 border-white"
+        >
+          <div
+            id="name-section"
+            className="flex justify-center border-b-2 border-white"
+          >
             <h1 className="p-2 text-xl">Leon</h1>
           </div>
           <div id="main-section" className="flex flex-row">
@@ -102,7 +114,7 @@ const MobileCards = () => {
             </div>
             <div
               id="socials"
-              className="w-[15%] flex flex-col justify-center items-center gap-2"
+              className="w-[15%] flex flex-col justify-center items-center gap-2 border-l-2 border-white"
             >
               <a
                 href="https://twitter.com/leondvlpr"
