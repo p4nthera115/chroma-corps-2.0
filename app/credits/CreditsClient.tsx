@@ -9,6 +9,7 @@ import {
   AiOutlineLinkedin,
   AiOutlineTwitter,
   AiOutlineYoutube,
+  AiOutlineGithub,
 } from "react-icons/ai";
 
 const CreditsClient = () => {
@@ -83,18 +84,19 @@ const CreditsClient = () => {
                   onMouseEnter={() => setHover(true)}
                   onMouseLeave={() => setHover(false)}
                   className="
-            overflow-hidden 
-            border 
-            border-white 
-            hover:cursor-pointer rounded-lg
-          "
+                    overflow-hidden 
+                    border 
+                    border-white 
+                    hover:cursor-pointer rounded-lg
+                  "
                 >
                   <div className="flex w-full border-b p-2 justify-center">
                     <h1
-                      className="text-2xl
-                font-cyber
-                font-bold
-                "
+                      className="
+                        text-2xl
+                        font-cyber
+                        font-bold
+                      "
                     >
                       p4n
                     </h1>
@@ -106,15 +108,15 @@ const CreditsClient = () => {
                       width={400}
                       alt="cadet"
                       className="
-              object-cover 
-              object-center 
-              scale-100 sepia opacity-50
-              hover:sepia-0 
-              hover:opacity-100
-              hover:scale-110
-              transition
-              w-full
-              "
+                        object-cover 
+                        object-center 
+                        scale-100 sepia opacity-50
+                        hover:sepia-0 
+                        hover:opacity-100
+                        hover:scale-110
+                        transition
+                        w-full
+                      "
                     />
                   </div>
                   <div>
@@ -122,6 +124,7 @@ const CreditsClient = () => {
                       <div className="flex flex-row border-t p-2 justify-center gap-2">
                         <AiOutlineTwitter size={40} />
                         <AiOutlineInstagram size={40} />
+                        <AiOutlineGithub size={40} />
                       </div>
                     </div>
                   </div>
@@ -139,19 +142,19 @@ const CreditsClient = () => {
                   onMouseEnter={() => setHover(true)}
                   onMouseLeave={() => setHover(false)}
                   className="
-            overflow-hidden 
-            border 
-            border-white 
-            hover:cursor-pointer
-            rounded-lg
-          "
+                    overflow-hidden 
+                    border 
+                    border-white 
+                    hover:cursor-pointer
+                    rounded-lg
+                  "
                 >
                   <div className="flex w-full border-b p-2 justify-center">
                     <h1
                       className="text-2xl
-                font-cyber
-                font-bold
-                "
+                        font-cyber
+                        font-bold
+                      "
                     >
                       Leon
                     </h1>
@@ -163,15 +166,15 @@ const CreditsClient = () => {
                       width={400}
                       alt="cadet"
                       className="
-              object-cover 
-              object-center 
-              scale-100 sepia opacity-50
-              hover:sepia-0 
-              hover:opacity-100
-              hover:scale-110
-              transition
-              w-full
-              "
+                        object-cover 
+                        object-center 
+                        scale-100 sepia opacity-50
+                        hover:sepia-0 
+                        hover:opacity-100
+                        hover:scale-110
+                        transition
+                        w-full
+                      "
                     />
                   </div>
                   <div>
