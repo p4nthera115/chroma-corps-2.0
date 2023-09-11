@@ -82,7 +82,7 @@ const CreditsClient = () => {
         {/* <h1 className="font-cyber font-extrabold text-center text-[#ffe600] lg:text-5xl md:text-4xl text-4xl m-4 pointer-events-none">
           CREDITS
         </h1> */}
-        <h2 className="text-center font-cyber md:text-xl sm:text-lg text-lg pt-2">
+        <h2 className="text-center font-cyber md:text-xl sm:text-lg text-lg pt-2 text-[#ffe600]">
           Website designed and developed by
         </h2>
         <section id="credits">
