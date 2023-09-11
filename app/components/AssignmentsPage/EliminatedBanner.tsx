@@ -20,7 +20,7 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
   const year = pathname.slice(8, 12);
 
   return (
-    <div className="relative w-full h-[66.666666vh] bg-neutral-900 ">
+    <div className="relative w-full h-[66.666666vh] overflow-hidden bg-neutral-900 ">
       <div className={`absolute z-10 h-full w-full flex justify-center`}>
         <div className="pointer-events-none absolute w-full h-full bg-red-600/30 z-30"></div>
         {elimType.length > 1 ? (
@@ -54,7 +54,7 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
                     key={i}
                     src={cadet?.cadet.bannerImg[0]}
                     alt={cadet?.cadet?.name}
-                    className={`h-full scale-[120%] min-w-max z-20 justify-between`}
+                    className={`h-full scale-[120%] min-w-max z-20 justify-between object-contain`}
                   />
                   <h2
                     key={i}
@@ -80,7 +80,7 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
           </div>
         ) : (
           <div
-            className="hover:cursor-pointer relative w-full h-full border-red-600 border justify-center flex"
+            className="hover:cursor-pointer overflow-hidden relative w-full h-full border-red-600 border justify-center flex"
             onClick={() =>
               router.push(`/cadets/${year}/${elimType[0]?.cadet.name}`)
             }
@@ -88,7 +88,7 @@ const EliminatedBanner: React.FC<EliminatedBannerProps> = ({
             <img
               src={elimType[0]?.cadet.bannerImg[0]}
               alt={elimType[0]?.cadet?.name}
-              className={`${elimType[0]?.cadet?.bannerPos} flex z-20 sepia`}
+              className={`${elimType[0]?.cadet?.bannerPos} flex z-20 sepia object-contain`}
             />
             <h2
               className={`absolute z-[1000] font-cyber p-4 right-0 bottom-0 text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full border border-black/60 m-5 bg-gradient-to-t from-black/70 to-transparent pointer-events-none ${

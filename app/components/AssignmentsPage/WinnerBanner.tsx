@@ -189,7 +189,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
                     key={i}
                     src={cadet?.cadet.bannerImg[0]}
                     alt={cadet?.cadet?.name}
-                    className={`h-full scale-[120%] min-w-max z-20 justify-between`}
+                    className={`h-full scale-[120%] min-w-max z-20 object-contain justify-between`}
                   />
                   <h2
                     key={i}
@@ -223,7 +223,7 @@ const WinnerBanner: React.FC<WinnerBannerProps> = ({ winner }) => {
             <img
               src={winner[0]?.cadet.bannerImg[0]}
               alt={winner[0]?.cadet?.name}
-              className={`${winner[0]?.cadet?.bannerPos} flex z-20`}
+              className={`${winner[0]?.cadet?.bannerPos} object-contain flex z-20`}
             />
             <h2
               className={`absolute z-[1000] font-cyber p-4 right-0 bottom-0 text-3xl sm:text-3xl md:text-3xl lg:text-6xl xl:text-7xl max-h-full max-w-full border border-black/60 m-5 bg-gradient-to-t from-black/70 to-transparent pointer-events-none
