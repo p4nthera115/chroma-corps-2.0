@@ -79,35 +79,34 @@ const CreditsClient = () => {
             className="flex flex-col w-[30%] text-center pb-4"
           >
             <div className="mx-auto w-[90%]">
-              <Link href="https://twitter.com/p4nthera_" target="_blank">
-                <div
-                  onMouseEnter={() => setHover(true)}
-                  onMouseLeave={() => setHover(false)}
-                  className="
+              <div
+                onMouseEnter={() => setHover(true)}
+                onMouseLeave={() => setHover(false)}
+                className="
                     overflow-hidden 
                     border 
                     border-white 
-                    hover:cursor-pointer rounded-lg
+                     rounded-lg
                   "
-                >
-                  <div className="flex w-full border-b p-2 justify-center">
-                    <h1
-                      className="
+              >
+                <div className="flex w-full border-b p-2 justify-center">
+                  <h1
+                    className="
                         text-2xl
                         font-cyber
                         font-bold
                       "
-                    >
-                      p4n
-                    </h1>
-                  </div>
-                  <div className="max-w-[75%] flex justify-center mx-auto py-4">
-                    <img
-                      src="/images/ChromaCorpsLogoWhite.png"
-                      height={200}
-                      width={400}
-                      alt="cadet"
-                      className="
+                  >
+                    p4n
+                  </h1>
+                </div>
+                <div className="max-w-[75%] flex justify-center mx-auto py-4">
+                  <img
+                    src="/images/ChromaCorpsLogoWhite.png"
+                    height={200}
+                    width={400}
+                    alt="cadet"
+                    className="
                         object-cover 
                         object-center 
                         scale-100 sepia opacity-50
@@ -117,19 +116,45 @@ const CreditsClient = () => {
                         transition
                         w-full
                       "
-                    />
-                  </div>
-                  <div>
-                    <div id="socials">
-                      <div className="flex flex-row border-t p-2 justify-center gap-2">
-                        <AiOutlineTwitter size={40} />
-                        <AiOutlineInstagram size={40} />
-                        <AiOutlineGithub size={40} />
-                      </div>
+                  />
+                </div>
+                <div>
+                  <div id="socials">
+                    <div className="flex flex-row border-t p-2 justify-center gap-2">
+                      <a
+                        href="https://twitter.com/p4nthera_"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        <AiOutlineTwitter
+                          size={40}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-100"
+                        />
+                      </a>
+                      <a
+                        href="https://www.instagram.com/_p4nthera/"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        <AiOutlineInstagram
+                          size={40}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-100"
+                        />
+                      </a>
+                      <a
+                        href="https://github.com/p4nthera115"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        <AiOutlineGithub
+                          size={40}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-100"
+                        />
+                      </a>
                     </div>
                   </div>
                 </div>
-              </Link>
+              </div>
             </div>
           </div>
           <div
@@ -137,35 +162,34 @@ const CreditsClient = () => {
             className="flex flex-col w-[30%] text-center pb-4"
           >
             <div className="mx-auto w-[90%]">
-              <Link href="https://twitter.com/leondvlpr" target="_blank">
-                <div
-                  onMouseEnter={() => setHover(true)}
-                  onMouseLeave={() => setHover(false)}
-                  className="
+              <div
+                onMouseEnter={() => setHover(true)}
+                onMouseLeave={() => setHover(false)}
+                className="
                     overflow-hidden 
                     border 
                     border-white 
-                    hover:cursor-pointer
+                    
                     rounded-lg
                   "
-                >
-                  <div className="flex w-full border-b p-2 justify-center">
-                    <h1
-                      className="text-2xl
+              >
+                <div className="flex w-full border-b p-2 justify-center">
+                  <h1
+                    className="text-2xl
                         font-cyber
                         font-bold
                       "
-                    >
-                      Leon
-                    </h1>
-                  </div>
-                  <div className="max-w-[75%] flex justify-center mx-auto py-4">
-                    <img
-                      src="/images/ChromaCorpsLogoWhite.png"
-                      height={200}
-                      width={400}
-                      alt="cadet"
-                      className="
+                  >
+                    Leon
+                  </h1>
+                </div>
+                <div className="max-w-[75%] flex justify-center mx-auto py-4">
+                  <img
+                    src="/images/ChromaCorpsLogoWhite.png"
+                    height={200}
+                    width={400}
+                    alt="cadet"
+                    className="
                         object-cover 
                         object-center 
                         scale-100 sepia opacity-50
@@ -175,19 +199,55 @@ const CreditsClient = () => {
                         transition
                         w-full
                       "
-                    />
-                  </div>
-                  <div>
-                    <div id="socials">
-                      <div className="flex flex-row border-t p-2 justify-center gap-2">
-                        <AiOutlineTwitter size={40} />
-                        <AiOutlineLinkedin size={40} />
-                        <AiOutlineGlobal size={40} />
-                      </div>
+                  />
+                </div>
+                <div>
+                  <div id="socials">
+                    <div className="flex flex-row border-t p-2 justify-center gap-2">
+                      <a
+                        href="https://twitter.com/leondvlpr"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        <AiOutlineTwitter
+                          size={40}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-100"
+                        />
+                      </a>
+                      <a
+                        href="https://www.linkedin.com/in/leonwellstead/"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        <AiOutlineLinkedin
+                          size={40}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-100"
+                        />
+                      </a>
+                      <a
+                        href="https://github.com/Lifguson"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        <AiOutlineGithub
+                          size={40}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-100"
+                        />
+                      </a>
+                      <a
+                        href="https://leonwellstead.vercel.app/"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        <AiOutlineGlobal
+                          size={40}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-100"
+                        />
+                      </a>
                     </div>
                   </div>
                 </div>
-              </Link>
+              </div>
             </div>
           </div>
         </div>
