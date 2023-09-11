@@ -8948,7 +8948,7 @@ export const cadets2022 = [
     gradient: "bg-gradient-to-t from-[#ffe600]",
     bgLines: "diagonal-lines-yellow",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/gulapa2000/",
     },
@@ -9616,7 +9616,7 @@ export const cadets2022 = [
     gradient: "bg-gradient-to-t from-pink-500",
     bgLines: "diagonal-lines-pink",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/kauris_art/",
     },
@@ -9815,7 +9815,7 @@ export const cadets2022 = [
     gradient: "bg-gradient-to-t from-blue-500",
     bgLines: "diagonal-lines-blue",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/coltmanarts/?hl=en",
     },
@@ -9942,7 +9942,7 @@ export const cadets2022 = [
     gradient: "bg-gradient-to-t from-blue-500",
     bgLines: "diagonal-lines-blue",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "",
       twitter: "",
@@ -10161,7 +10161,7 @@ export const cadets2022 = [
     gradient: "bg-gradient-to-t from-blue-500",
     bgLines: "diagonal-lines-blue",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "",
       twitter: "",
@@ -10187,7 +10187,7 @@ export const cadets2022 = [
     gradient: "bg-gradient-to-t from-[#ffe600]",
     bgLines: "diagonal-lines-yellow",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/overgangdood/",
     },
@@ -10377,7 +10377,7 @@ export const cadets2022 = [
     gradient: "bg-gradient-to-t from-[#ffe600]",
     bgLines: "diagonal-lines-yellow",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/kookykusu/",
     },
@@ -10622,7 +10622,7 @@ export const cadets2022 = [
     gradient: "bg-gradient-to-t from-[#ffe600]",
     bgLines: "diagonal-lines-yellow",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/wonkypen/",
     },
@@ -10749,7 +10749,7 @@ export const cadets2022 = [
     gradient: "bg-gradient-to-t from-pink-500",
     bgLines: "diagonal-lines-pink",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/puro.pena14/",
     },
@@ -10947,7 +10947,7 @@ export const cadets2022 = [
     gradient: "bg-gradient-to-t from-pink-500",
     bgLines: "diagonal-lines-pink",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/polyowls/",
       artstation: "https://www.artstation.com/aoubg",
@@ -13044,7 +13044,7 @@ export const cadets2021 = [
     gradient: "bg-gradient-to-t from-red-500",
     bgLines: "diagonal-lines-red",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/yau.oiyi",
       twitter: "https://twitter.com/yauoiyi",
@@ -13373,7 +13373,7 @@ export const cadets2021 = [
     gradient: "bg-gradient-to-t from-red-500",
     bgLines: "diagonal-lines-red",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/gwawi_art/",
       twitter: "https://twitter.com/P33lingBananaZ",
@@ -14521,7 +14521,7 @@ export const cadets2021 = [
     gradient: "bg-gradient-to-t from-cyan-500",
     bgLines: "diagonal-lines-cyan",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/svantessonphilip/",
     },
@@ -14890,7 +14890,7 @@ export const cadets2021 = [
     gradient: "bg-gradient-to-t from-cyan-500",
     bgLines: "diagonal-lines-cyan",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/devoidd",
       twitter: "https://twitter.com/Devoidd_of_what",
@@ -15197,7 +15197,7 @@ export const cadets2021 = [
     gradient: "bg-gradient-to-t from-cyan-500",
     bgLines: "diagonal-lines-cyan",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://instagram.com/liionor?utm_medium=copy_link",
       twitter: "https://mobile.twitter.com/liiionor?lang=en",
@@ -15234,7 +15234,7 @@ export const cadets2021 = [
     gradient: "bg-gradient-to-t from-cyan-500",
     bgLines: "diagonal-lines-cyan",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/vorueg/",
     },
@@ -17241,7 +17241,7 @@ export const cadets2020 = [
     gradient: "bg-gradient-to-t from-amber-300",
     bgLines: "diagonal-lines-amber",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/franco_galz/?hl=en",
     },
@@ -17533,7 +17533,7 @@ export const cadets2020 = [
     gradient: "bg-gradient-to-t from-amber-300",
     bgLines: "diagonal-lines-amber",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/samuelamarart/",
     },
@@ -17756,7 +17756,7 @@ export const cadets2020 = [
     gradient: "bg-gradient-to-t from-amber-300",
     bgLines: "diagonal-lines-amber",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/felipe.debarros/",
     },
@@ -18041,7 +18041,7 @@ export const cadets2020 = [
     gradient: "bg-gradient-to-t from-amber-300",
     bgLines: "diagonal-lines-amber",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/overgang_d/",
       twitter: "https://twitter.com/OvergangDood",
@@ -18351,7 +18351,7 @@ export const cadets2020 = [
     gradient: "bg-gradient-to-t from-amber-300",
     bgLines: "diagonal-lines-amber",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/swolfchan/",
     },
@@ -18457,7 +18457,7 @@ export const cadets2020 = [
     gradient: "bg-gradient-to-t from-amber-300",
     bgLines: "diagonal-lines-amber",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/true0men/",
     },
@@ -18611,7 +18611,7 @@ export const cadets2020 = [
     gradient: "bg-gradient-to-t from-amber-300",
     bgLines: "diagonal-lines-amber",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/anna.doodles/?hl=en",
     },
@@ -18791,7 +18791,7 @@ export const cadets2020 = [
     gradient: "bg-gradient-to-t from-amber-300",
     bgLines: "diagonal-lines-amber",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/seanwallaceart/",
     },
@@ -18874,7 +18874,7 @@ export const cadets2020 = [
     gradient: "bg-gradient-to-t from-amber-300",
     bgLines: "diagonal-lines-amber",
     palette:
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-palette.png",
+      "",
     socials: {
       instagram: "https://www.instagram.com/hesitantfox/",
     },
