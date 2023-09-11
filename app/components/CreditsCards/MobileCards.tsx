@@ -14,19 +14,13 @@ const MobileCards = () => {
       id="mobile-credits"
       className="w-full h-full flex justify-center font-cyber"
     >
-      <div className="flex flex-col justify-center border-4 border-yellow-400 mt-8 mb-8 gap-8 w-[90%]">
-        <div
-          id="top-card"
-          className="border-2 border-white flex flex-col w-full"
-        >
+      <div className="flex flex-col justify-center mt-8 mb-8 gap-8 w-[90%]">
+        <div id="top-card" className="flex flex-col w-full">
           <div id="name-section" className="flex justify-center">
             <h1 className="p-2 text-xl">p4n</h1>
           </div>
           <div id="main-section" className="flex flex-row">
-            <div
-              id="img"
-              className="w-[85%] border-red-400 border-2 p-4 flex justify-center"
-            >
+            <div id="img" className="w-[85%] p-4 flex justify-center">
               <img
                 src="/images/ChromaCorpsLogoWhite.png"
                 height={200}
@@ -47,7 +41,7 @@ const MobileCards = () => {
             </div>
             <div
               id="socials"
-              className="w-[15%] border-red-400 border-2 flex flex-col justify-center items-center gap-2"
+              className="w-[15%] flex flex-col justify-center items-center gap-2"
             >
               <a
                 href="https://twitter.com/p4nthera_"
@@ -82,18 +76,12 @@ const MobileCards = () => {
             </div>
           </div>
         </div>
-        <div
-          id="top-card"
-          className="border-2 border-white flex flex-col w-full"
-        >
+        <div id="top-card" className="flex flex-col w-full">
           <div id="name-section" className="flex justify-center">
             <h1 className="p-2 text-xl">Leon</h1>
           </div>
           <div id="main-section" className="flex flex-row">
-            <div
-              id="img"
-              className="w-[85%] border-red-400 border-2 p-4 flex justify-center"
-            >
+            <div id="img" className="w-[85%] p-4 flex justify-center">
               <img
                 src="/images/ChromaCorpsLogoWhite.png"
                 height={200}
@@ -114,7 +102,7 @@ const MobileCards = () => {
             </div>
             <div
               id="socials"
-              className="w-[15%] border-red-400 border-2 flex flex-col justify-center items-center gap-2"
+              className="w-[15%] flex flex-col justify-center items-center gap-2"
             >
               <a
                 href="https://twitter.com/leondvlpr"
