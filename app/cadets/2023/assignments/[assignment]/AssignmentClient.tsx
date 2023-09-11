@@ -82,7 +82,7 @@ const AssignmentClient = () => {
 
   return (
     <div>
-      {+assignmentDay > 30 || +assignmentDay < 1 ? (
+      {+assignmentDay > 31 || +assignmentDay < 1 ? (
         <NotFound />
       ) : (
         <div className="bg-black relative w-full h-full">
