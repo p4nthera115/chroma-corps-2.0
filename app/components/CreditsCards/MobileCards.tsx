@@ -17,7 +17,7 @@ const MobileCards = () => {
       <div className="flex flex-col justify-center mt-8 mb-8 gap-8 w-[90%]">
         <div
           id="top-card"
-          className="flex flex-col w-full border-2 border-white"
+          className="flex flex-col w-full border-2 border-white rounded-lg"
         >
           <div
             id="name-section"
@@ -84,7 +84,7 @@ const MobileCards = () => {
         </div>
         <div
           id="top-card"
-          className="flex flex-col w-full border-2 border-white"
+          className="flex flex-col w-full border-2 border-white rounded-lg"
         >
           <div
             id="name-section"
