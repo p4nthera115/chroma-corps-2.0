@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import KofiWidget from "../CreditsPage/KofiWidget";
 
 const menuVariants = {
   closed: {
@@ -108,6 +109,8 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
               exit="closed"
               variants={menuVariants}
             >
+              <KofiWidget bgColor="#000" textColor="#fff" menuOpen={isOpen} />
+
               <motion.div
                 variants={itemVariants}
                 className="flex z-3 flex-col cursor-pointer font-cyber"

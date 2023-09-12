@@ -1,6 +1,7 @@
 "use client";
 
 import Accordion from "../components/Accordion/Accordion";
+import KofiWidget from "../components/CreditsPage/KofiWidget";
 
 const AboutClient = () => {
   const accordionData = [
@@ -60,6 +61,7 @@ const AboutClient = () => {
     flex-col
   "
     >
+      <KofiWidget bgColor="#ffe600" textColor="#000" />
       <h1 className="font-cyber font-extrabold text-center text-[#ffe600] lg:text-6xl md:text-5xl text-4xl mb-4 p-10">
         FAQs
       </h1>

@@ -17,45 +17,44 @@ const DesktopCards = () => {
       id="desktop-credits"
       className="flex flex-row justify-center pb-32 pt-16 gap-8"
     >
-      <div id="left-side" className="flex flex-col w-[30%] text-center pb-4">
+      <div id="left-side" className="flex flex-col w-[30%] text-center pb-4 ">
         <div className="mx-auto w-[90%]">
           <div
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}
             className="
-                    overflow-hidden 
-                    border 
-                    border-white 
-                     rounded-lg
-                  "
+              overflow-hidden 
+              border 
+              border-white 
+              rounded-lg
+            "
           >
             <div className="flex w-full border-b p-2 justify-center">
               <h1
                 className="
-                        text-2xl
-                        font-cyber
-                        font-bold
-                      "
+                  text-2xl
+                  font-cyber
+                  font-bold
+                "
               >
                 p4n
               </h1>
             </div>
-            <div className="max-w-[75%] flex justify-center mx-auto py-4">
+            <div className="max-w-full max-h-[32rem] flex justify-center mx-auto py-4 overflow-hidden bg-neutral-900">
               <img
-                src="/images/ChromaCorpsLogoWhite.png"
+                src="/images/silhouette.png"
                 height={200}
                 width={400}
                 alt="cadet"
                 className="
-                        object-cover 
-                        object-center 
-                        scale-100 sepia opacity-50
-                        hover:sepia-0 
-                        hover:opacity-100
-                        hover:scale-110
-                        transition
-                        w-full
-                      "
+                  object-contain 
+                  object-center 
+                  scale-[400%]
+                  opacity-100
+                  transition
+                  translate-y-[35rem]
+                  z-50
+                "
               />
             </div>
             <div>
@@ -120,22 +119,21 @@ const DesktopCards = () => {
                 Leon
               </h1>
             </div>
-            <div className="max-w-[75%] flex justify-center mx-auto py-4">
+            <div className="max-w-full max-h-[32rem] flex justify-center mx-auto py-4 overflow-hidden bg-neutral-900">
               <img
-                src="/images/ChromaCorpsLogoWhite.png"
+                src="/images/silhouette.png"
                 height={200}
                 width={400}
                 alt="cadet"
                 className="
-                        object-cover 
-                        object-center 
-                        scale-100 sepia opacity-50
-                        hover:sepia-0 
-                        hover:opacity-100
-                        hover:scale-110
-                        transition
-                        w-full
-                      "
+                  object-contain 
+                  object-center 
+                  scale-[400%]
+                  opacity-100
+                  transition
+                  translate-y-[35rem]
+                  z-50
+                "
               />
             </div>
             <div>
