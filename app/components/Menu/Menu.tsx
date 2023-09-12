@@ -5,9 +5,7 @@ import MenuItem from "./MenuItem";
 import { AiOutlineMenu } from "react-icons/ai";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
-import KofiWidget from "../CreditsPage/KofiWidget";
 
 const menuVariants = {
   closed: {
@@ -43,15 +41,14 @@ interface MenuProps {
 const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
   const [width, setWidth] = useState<number>(0);
 
+  const router = useRouter();
+  const [isOpen, setIsOpen] = useState(false);
+  const [subOpen, setSubOpen] = useState(false);
   useEffect(() => {
     if (typeof window !== "undefined") {
       setWidth(window.innerWidth);
     }
   }, []);
-
-  const router = useRouter();
-  const [isOpen, setIsOpen] = useState(false);
-  const [subOpen, setSubOpen] = useState(false);
 
   const toggleSubOpen = useCallback(() => {
     setSubOpen((value) => !value);
@@ -65,6 +62,8 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
   }, []);
 
   const menuItems = ["Home", "Cadets +", "FAQs", "Credits", "Merch"];
+
+  console.log(isOpen);
 
   return (
     <div className="flex max-h-full max-w-full z-[100] overflow-hidden absolute">
