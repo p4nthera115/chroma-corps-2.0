@@ -109,7 +109,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
               exit="closed"
               variants={menuVariants}
             >
-              <KofiWidget bgColor="#000" textColor="#fff" menuOpen={isOpen} />
+              {/* <KofiWidget bgColor="#000" textColor="#fff" menuOpen={isOpen} /> */}
 
               <motion.div
                 variants={itemVariants}

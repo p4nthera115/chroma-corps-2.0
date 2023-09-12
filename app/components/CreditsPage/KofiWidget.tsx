@@ -34,11 +34,12 @@ const KofiWidget: React.FC<kofiProps> = ({ bgColor, textColor, menuOpen }) => {
       });
     };
 
+    console.log(menuOpen);
     // Clean up the script when the component unmounts
     return () => {
-      if (!menuOpen) document.body.removeChild(script);
+      document.body.removeChild(script);
     };
-  }, [menuOpen]);
+  }, []);
 
   return <></>; // This component doesn't render any visible content
 };
