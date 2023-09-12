@@ -13,10 +13,9 @@ declare global {
 interface kofiProps {
   bgColor: string;
   textColor: string;
-  menuOpen?: boolean;
 }
 
-const KofiWidget: React.FC<kofiProps> = ({ bgColor, textColor, menuOpen }) => {
+const KofiWidget: React.FC<kofiProps> = ({ bgColor, textColor }) => {
   useEffect(() => {
     // Ko-fi widget code
     const script = document.createElement("script");
@@ -36,9 +35,9 @@ const KofiWidget: React.FC<kofiProps> = ({ bgColor, textColor, menuOpen }) => {
 
     // Clean up the script when the component unmounts
     return () => {
-      if (!menuOpen) document.body.removeChild(script);
+      document.body.removeChild(script);
     };
-  }, [menuOpen]);
+  }, []);
 
   return <></>; // This component doesn't render any visible content
 };
