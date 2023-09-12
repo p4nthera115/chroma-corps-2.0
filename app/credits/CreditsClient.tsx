@@ -89,8 +89,7 @@ const CreditsClient = () => {
         </h2>
         <section id="credits">
           <div className="flex flex-col justify-center text-center mx-auto h-full w-full">
-            {width > 768 && <DesktopCards />}
-            {width < 768 && <MobileCards />}
+            {width > 768 ? <DesktopCards /> : <MobileCards />}
           </div>
         </section>
         <div className="flex flex-col mb-12">
