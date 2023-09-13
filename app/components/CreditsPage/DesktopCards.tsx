@@ -169,7 +169,7 @@ const DesktopCards = () => {
                       className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-100"
                     />
                   </a>
-                  <a
+                  {/* <a
                     href="https://leonwellstead.vercel.app/"
                     rel="noreferrer"
                     target="_blank"
@@ -178,7 +178,7 @@ const DesktopCards = () => {
                       size={40}
                       className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-100"
                     />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
