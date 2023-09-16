@@ -17,14 +17,12 @@ interface kofiProps {
 
 const KofiWidget: React.FC<kofiProps> = ({ bgColor, textColor }) => {
   useEffect(() => {
-    // Ko-fi widget code
     const script = document.createElement("script");
     script.src = "https://storage.ko-fi.com/cdn/scripts/overlay-widget.js";
     script.async = true;
     document.body.appendChild(script);
 
     script.onload = () => {
-      // Initialize Ko-fi widget
       window.kofiWidgetOverlay.draw("anzuwebdevs", {
         type: "floating-chat",
         "floating-chat.donateButton.text": "Support us",
@@ -33,13 +31,12 @@ const KofiWidget: React.FC<kofiProps> = ({ bgColor, textColor }) => {
       });
     };
 
-    // Clean up the script when the component unmounts
     return () => {
       document.body.removeChild(script);
     };
   }, []);
 
-  return <></>; // This component doesn't render any visible content
+  return <></>;
 };
 
 export default KofiWidget;
