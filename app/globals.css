@@ -177,7 +177,7 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #ffe600;
+  background: #ffe600b8;
   border-radius: 5px;
 }
 
