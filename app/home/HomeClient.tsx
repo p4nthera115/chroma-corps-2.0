@@ -51,7 +51,7 @@ const HomeClient: React.FC<homeProps> = ({ isLoading }) => {
         </Suspense>
       </Canvas>
 
-      <header className="hidden md:absolute md:flex flex-row justify-between pointer-events-none md:pointer-events-none top-0 gap-[55%] z-[1000] h-full w-full cursor-default select-none scale-75 md:scale-100 overflow-hidden">
+      <header className="hidden md:absolute md:flex flex-row justify-between pointer-events-none md:pointer-events-none top-0 xl:gap-[55%] lg:gap-[45%] md:gap-[30%] z-[1000] h-full w-full cursor-default select-none scale-75 md:scale-100 overflow-hidden">
         <TitleLeft />
         <TitleRight />
       </header>
