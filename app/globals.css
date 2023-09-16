@@ -168,6 +168,7 @@ body {
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
+  padding: 5px;
 }
 
 /* Track */
@@ -177,7 +178,7 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #ffe600b8;
+  background: #ffe600;
   border-radius: 5px;
 }
 
