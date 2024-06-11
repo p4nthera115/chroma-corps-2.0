@@ -163,7 +163,7 @@ const CreditsClient = () => {
                     )}
                     {contributor.instagram && (
                       <a
-                        href="https://www.instagram.com/sinixdesign/"
+                        href={contributor.instagram}
                         rel="noreferrer"
                         target="_blank"
                       >
@@ -175,7 +175,7 @@ const CreditsClient = () => {
                     )}
                     {contributor.twitter && (
                       <a
-                        href="https://twitter.com/sinix777"
+                        href={contributor.twitter}
                         rel="noreferrer"
                         target="_blank"
                       >
