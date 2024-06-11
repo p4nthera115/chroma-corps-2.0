@@ -40,6 +40,11 @@ const Footer = () => {
         viewport={{ once: true }}
         className="relative flex flex-row gap-4 justify-center"
       >
+        <a target="_blank" href="https://ko-fi.com/anzuwebdevs">
+          <button className="bg-black text-[#ffe600] text-sm md:text-base py-4 px-4 md:px-16 rounded shadow-inner hover:scale-[105%] transition font-mono">
+            <h2>Donate</h2>
+          </button>
+        </a>
         <a href="https://discord.com/invite/ejaQBdWyyN">
           <button className="bg-black text-[#ffe600] text-sm md:text-base py-4 px-4 md:px-16 rounded shadow-inner hover:scale-[105%] transition font-mono">
             <h2>Join the Discord server</h2>
