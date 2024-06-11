@@ -13,7 +13,6 @@ import {
 } from "react-icons/ai";
 import DesktopCards from "../components/CreditsPage/DesktopCards";
 import MobileCards from "../components/CreditsPage/MobileCards";
-import KofiWidget from "../components/CreditsPage/KofiWidget";
 
 interface Contributor {
   name: string;
@@ -80,7 +79,6 @@ const CreditsClient = () => {
         text-neutral-100
        "
       >
-        {/* <KofiWidget bgColor="#ffe600" textColor="#000" /> */}
         {/* <h1 className="font-cyber font-extrabold text-center text-[#ffe600] lg:text-5xl md:text-4xl text-4xl m-4 pointer-events-none">
           CREDITS
         </h1> */}

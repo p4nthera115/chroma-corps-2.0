@@ -61,7 +61,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
     }
   }, []);
 
-  const menuItems = ["Home", "Cadets +", "FAQs", "Credits", "Merch"];
+  const menuItems = ["Home", "Cadets +", "FAQs", "Merch", "Credits"];
 
   console.log(isOpen);
 
@@ -108,8 +108,6 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
               exit="closed"
               variants={menuVariants}
             >
-              {/* <KofiWidget bgColor="#000" textColor="#fff" menuOpen={isOpen} /> */}
-
               <motion.div
                 variants={itemVariants}
                 className="flex z-3 flex-col cursor-pointer font-cyber"
