@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
+import GreyDonateButton from "@/app/components/Kofi/GreyDonateButton";
 
 const menuVariants = {
   closed: {
@@ -188,21 +189,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                   }
                 })}
               </motion.div>
-              <div className="fixed bottom-6 left-6 p-4">
-                <a
-                  className="text-5xl"
-                  id="donation-button"
-                  href="https://ko-fi.com/anzuwebdevs"
-                  target="_blank"
-                >
-                  <Image
-                    src="/images/kofi_bg_tag_dark.png"
-                    alt=""
-                    height={150}
-                    width={150}
-                  />
-                </a>
-              </div>
+              <GreyDonateButton />
             </motion.div>
           </>
         )}
