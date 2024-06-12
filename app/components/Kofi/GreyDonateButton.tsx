@@ -10,7 +10,7 @@ const GreyDonateButton = () => {
         target="_blank"
       >
         <Image
-          src="/images/kofi_bg_tag_dark.png"
+          src="https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/kofi_bg_tag_dark.png"
           alt=""
           height={150}
           width={150}
