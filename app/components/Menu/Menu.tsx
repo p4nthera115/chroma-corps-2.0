@@ -20,7 +20,7 @@ const menuVariants = {
     x: 0,
     transition: {
       ease: "circIn",
-      duration: 0.4,
+      duration: 0.2,
     },
   },
 };
@@ -87,6 +87,13 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
         />
       </div>
 
+      {isOpen && (
+        <div
+          onClick={() => setIsOpen(false)}
+          className="fixed h-full w-full z-40 bg-black/20 backdrop-blur-md"
+        ></div>
+      )}
+
       <AnimatePresence initial={false} mode="wait" onExitComplete={() => null}>
         {isOpen && (
           <>
@@ -100,7 +107,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                 right-0
                 fixed
                 shadow-md
-                bg-black/80
+                bg-black
                 backdrop-blur-lg
                 overflow-hidden
                 text-7xl
@@ -108,6 +115,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                 md:text-8xl
                 lg:text-8xl
                 p-8
+                z-50
               "
               initial="closed"
               animate="open"
