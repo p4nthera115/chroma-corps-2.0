@@ -11,15 +11,16 @@ import GreyDonateButton from "@/app/components/Kofi/GreyDonateButton";
 
 const menuVariants = {
   closed: {
-    scale: 0,
+    x: 700,
     transition: {
       delay: 0.15,
     },
   },
   open: {
-    scale: 1,
+    x: 0,
     transition: {
-      duration: 0.2,
+      ease: "circIn",
+      duration: 0.4,
     },
   },
 };
@@ -63,7 +64,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
     }
   }, []);
 
-  const menuItems = ["Home", "Cadets +", "FAQs", "Merch", "Credits"];
+  const menuItems = ["Home", "Cadets", "FAQs", "Merch", "Credits"];
 
   console.log(isOpen);
 
@@ -95,15 +96,18 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                 flex-col
                 justify-center
                 min-h-full
-                min-w-full
+                w-1/3
+                right-0
                 fixed
                 shadow-md
-                bg-[#ffe600]
+                bg-black/80
+                backdrop-blur-lg
                 overflow-hidden
                 text-7xl
                 sm:text-8xl
                 md:text-8xl
                 lg:text-8xl
+                p-8
               "
               initial="closed"
               animate="open"
@@ -115,7 +119,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                 className="flex z-3 flex-col cursor-pointer font-cyber"
               >
                 {menuItems.map((item) => {
-                  if (item === "Cadets +") {
+                  if (item === "Cadets") {
                     return (
                       <>
                         <MenuItem
@@ -124,7 +128,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                           key={item}
                         />
                         {subOpen && (
-                          <div className="text-2xl flex flex-col md:flex-row gap-4 md:gap-16 align-middle items-center justify-center text-black py-4 font-semibold">
+                          <div className="text-2xl flex flex-col md:flex-row gap-4 md:gap-16 align-middle items-center justify-center text-[#ffe600] py-4 font-semibold">
                             <Link
                               href={"/cadets/2023"}
                               className="hover:opacity-70 flex"
