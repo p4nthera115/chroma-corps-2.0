@@ -73,17 +73,22 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
       <div
         className={`
           fixed
-          z-20
+          z-[60]
           right-0
           ${iconPosition?.right ? iconPosition.right : "right-0"}    
           ${iconPosition?.margin ? iconPosition.margin : "m-6"}    
           cursor-pointer 
+          ${
+            iconPosition?.right || iconPosition?.margin
+              ? ""
+              : "bg-black/80 backdrop-blur-lg p-4 rounded-l-md"
+          }
         `}
       >
         <AiOutlineMenu
           size={width < 768 ? 30 : 40}
           onClick={toggleOpen}
-          color={!isOpen ? "white" : "black"}
+          color={!isOpen ? "white" : "white"}
         />
       </div>
 
