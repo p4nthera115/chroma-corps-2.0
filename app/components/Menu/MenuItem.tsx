@@ -29,7 +29,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ onClick, label }) => {
     <button>
       <motion.div
         variants={itemVariants}
-        className="px-4 py-0 transition font-semibold text-neutral-900 text-center text-4xl xl:text-6xl"
+        className="px-10 py-0 transition font-semibold text-[#ffe600] text-right text-4xl xl:text-6xl"
         onClick={onClick}
       >
         <motion.div
