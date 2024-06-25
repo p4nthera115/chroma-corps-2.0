@@ -93,10 +93,12 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
       </div>
 
       {isOpen && (
-        <div
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={isOpen ? { opacity: 1 } : { opacity: 0 }}
           onClick={() => setIsOpen(false)}
           className="fixed h-full w-full z-40 bg-black/20 backdrop-blur-md"
-        ></div>
+        ></motion.div>
       )}
 
       <AnimatePresence initial={false} mode="wait" onExitComplete={() => null}>
