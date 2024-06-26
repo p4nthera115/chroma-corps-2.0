@@ -70,7 +70,7 @@ const AboutClient = () => {
         on the{" "}
         <a
           href="https://discord.gg/m6Q9sBdxu6"
-          className=" text-[#ffe600] font-semibold animate-pulse"
+          className=" text-[#ffe600] font-semibold"
         >
           Discord channel
         </a>
