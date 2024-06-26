@@ -2,7 +2,11 @@
 
 import { useCallback, useEffect, useState } from "react";
 import MenuItem from "./MenuItem";
-import { AiOutlineMenu } from "react-icons/ai";
+import {
+  AiOutlineClose,
+  AiOutlineMenu,
+  AiOutlineMenuFold,
+} from "react-icons/ai";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
@@ -11,17 +15,25 @@ import GreyDonateButton from "@/app/components/Kofi/GreyDonateButton";
 
 const menuVariants = {
   closed: {
-    x: 700,
+    width: "40px",
+    height: "40px",
+    top: "-25px",
+    right: "-50px",
+
     transition: {
-      delay: 0.15,
+      duration: 0.3,
+      delay: 0.2,
+      type: "ease",
+      // ease: [0.76, 0, 0.24, 1],
     },
   },
   open: {
-    x: 0,
-    transition: {
-      ease: "circIn",
-      duration: 0.2,
-    },
+    width: "480px",
+    height: "650px",
+    top: "-25px",
+    right: "-25px",
+
+    transition: { duration: 0.75, type: "ease", ease: [0.76, 0, 0.24, 1] },
   },
 };
 
@@ -69,7 +81,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
   console.log(isOpen);
 
   return (
-    <div className="flex max-h-full max-w-full z-[100] overflow-hidden absolute">
+    <div className="flex max-h-full max-w-full overflow-hidden">
       <div
         className={`
           fixed
@@ -81,7 +93,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
           ${
             iconPosition?.right || iconPosition?.margin
               ? ""
-              : "bg-black/80 backdrop-blur-lg p-4 rounded-l-md"
+              : "bg-black backdrop-blur-lg p-4 rounded-l-md"
           }
         `}
       >
@@ -95,7 +107,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
       {isOpen && (
         <div
           onClick={() => setIsOpen(false)}
-          className="fixed h-full w-full z-40 bg-black/20 backdrop-blur-md"
+          className="fixed h-full w-full z-40 bg-black/20 backdrop-blur-sm backdrop-contrast-50 transition"
         ></div>
       )}
 
@@ -108,18 +120,19 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                 flex-col
                 justify-center
                 min-h-full
+                h-full
+                m-6
                 w-1/3
                 right-0
                 fixed
                 shadow-md
-                bg-black
+                bg-neutral-900
                 backdrop-blur-lg
                 overflow-hidden
                 text-7xl
                 sm:text-8xl
                 md:text-8xl
                 lg:text-8xl
-                p-8
                 z-50
               "
               initial="closed"
@@ -141,7 +154,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                           key={item}
                         />
                         {subOpen && (
-                          <div className="text-2xl flex flex-col md:flex-row gap-4 md:gap-16 align-middle items-center justify-center text-[#ffe600] py-4 font-semibold">
+                          <div className="mx-auto max-w-fit text-2xl flex flex-col md:flex-row gap-4 md:gap-8 align-middle items-center justify-center text-[#ffe600] py-4 font-semibold">
                             <Link
                               href={"/cadets/2023"}
                               className="hover:opacity-70 flex"
@@ -206,12 +219,120 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                   }
                 })}
               </motion.div>
-              <GreyDonateButton />
+              {/* <GreyDonateButton /> */}
             </motion.div>
           </>
         )}
       </AnimatePresence>
     </div>
+
+    // <div className="fixed right-0 m-6">
+    //   <motion.div
+    //     className=" bg-gray-700 rounded-lg relative"
+    //     variants={menuVariants}
+    //     animate={isOpen ? "open" : "closed"}
+    //     initial="closed"
+    //     exit="closed"
+    //   >
+    //     <motion.div
+    //       variants={itemVariants}
+    //       initial="closed"
+    //       exit="closed"
+    //       animate={isOpen ? "open" : "closed"}
+    //       className="flex flex-col justify-between cursor-pointer font-cyber"
+    //     >
+    //       {menuItems.map((item) => {
+    //         if (item === "Cadets") {
+    //           return (
+    //             <>
+    //               <MenuItem onClick={toggleSubOpen} label={item} key={item} />
+    //               {subOpen && (
+    //                 <div className="text-2xl flex flex-col md:flex-row gap-4 md:gap-16 align-middle items-center justify-center text-[#ffe600] py-4 font-semibold">
+    //                   <Link
+    //                     href={"/cadets/2023"}
+    //                     className="hover:opacity-70 flex"
+    //                     prefetch
+    //                   >
+    //                     2023
+    //                   </Link>
+    //                   <Link
+    //                     href={"/cadets/2022"}
+    //                     className="hover:opacity-70 flex"
+    //                     prefetch
+    //                   >
+    //                     2022
+    //                   </Link>
+    //                   <Link
+    //                     href={"/cadets/2021"}
+    //                     className="hover:opacity-70 flex"
+    //                     prefetch
+    //                   >
+    //                     2021
+    //                   </Link>
+    //                   <Link
+    //                     href={"/cadets/2020"}
+    //                     className="hover:opacity-70 flex"
+    //                     prefetch
+    //                   >
+    //                     2020
+    //                   </Link>
+    //                 </div>
+    //               )}
+    //             </>
+    //           );
+    //         } else if (item === "Merch") {
+    //           return (
+    //             <MenuItem
+    //               onClick={() =>
+    //                 window.open(
+    //                   "https://my-store-b86026.creator-spring.com/",
+    //                   "_blank"
+    //                 )
+    //               }
+    //               label={item}
+    //               key={item}
+    //             />
+    //           );
+    //         } else if (item === "Home") {
+    //           return (
+    //             <MenuItem
+    //               onClick={() => router.push("/")}
+    //               label={item}
+    //               key={item}
+    //             />
+    //           );
+    //         } else {
+    //           return (
+    //             <MenuItem
+    //               onClick={() => router.push(`/${item.toLowerCase()}`)}
+    //               label={item}
+    //               key={item}
+    //             />
+    //           );
+    //         }
+    //       })}
+    //     </motion.div>
+    //   </motion.div>
+    //   <div
+    //     id="menu-button"
+    //     className="hover:cursor-pointer overflow-hidden absolute top-0 right-0"
+    //   >
+    //     {!isOpen && (
+    //       <AiOutlineMenu
+    //         size={width < 768 ? 30 : 40}
+    //         onClick={toggleOpen}
+    //         className="hover:bg-gray-700 bg-black hover:text-black transition rounded-lg"
+    //       />
+    //     )}
+    //     {isOpen && (
+    //       <AiOutlineClose
+    //         size={width < 768 ? 30 : 40}
+    //         onClick={toggleOpen}
+    //         color="black"
+    //       />
+    //     )}
+    //   </div>
+    // </div>
   );
 };
 
