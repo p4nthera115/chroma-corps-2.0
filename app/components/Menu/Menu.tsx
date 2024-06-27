@@ -11,7 +11,7 @@ import GreyDonateButton from "@/app/components/Kofi/GreyDonateButton";
 
 const menuVariants = {
   closed: {
-    x: 700,
+    x: 1000,
     transition: {
       delay: 0.15,
     },
@@ -43,6 +43,7 @@ interface MenuProps {
 
 const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
   const [width, setWidth] = useState<number>(0);
+  const [donateHover, setDonateHover] = useState(false);
 
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
@@ -64,7 +65,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
     }
   }, []);
 
-  const menuItems = ["Home", "Cadets", "FAQs", "Merch", "Credits"];
+  const menuItems = ["Cadets", "Story", "FAQs", "Merch", "Credits"];
 
   console.log(isOpen);
 
@@ -73,7 +74,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
       <div
         className={`
           fixed
-          z-[60]
+          z-[2001]
           right-0
           ${iconPosition?.right ? iconPosition.right : "right-0"}    
           ${iconPosition?.margin ? iconPosition.margin : "m-6"}    
@@ -109,8 +110,9 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                 flex
                 flex-col
                 justify-center
+                items-center
                 min-h-full
-                w-1/3
+                w-1/2
                 right-0
                 fixed
                 shadow-md
@@ -122,13 +124,15 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                 md:text-8xl
                 lg:text-8xl
                 p-8
-                z-50
+                z-[2000]
               "
               initial="closed"
               animate="open"
               exit="closed"
               variants={menuVariants}
             >
+              <hr className="w-full absolute right-0 z-[2000] top-36 opacity-40" />
+
               <motion.div
                 variants={itemVariants}
                 className="flex z-3 flex-col cursor-pointer font-cyber"
@@ -145,32 +149,39 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                         {subOpen && (
                           <div className="text-2xl flex flex-col md:flex-row gap-4 md:gap-16 align-middle items-center justify-center text-[#ffe600] py-4 font-semibold">
                             <Link
+                              href={"/cadets/2024"}
+                              className="hover:opacity-70 flex"
+                              prefetch
+                            >
+                              2X24
+                            </Link>
+                            <Link
                               href={"/cadets/2023"}
                               className="hover:opacity-70 flex"
                               prefetch
                             >
-                              2023
+                              2X23
                             </Link>
                             <Link
                               href={"/cadets/2022"}
                               className="hover:opacity-70 flex"
                               prefetch
                             >
-                              2022
+                              2X22
                             </Link>
                             <Link
                               href={"/cadets/2021"}
                               className="hover:opacity-70 flex"
                               prefetch
                             >
-                              2021
+                              2X21
                             </Link>
                             <Link
                               href={"/cadets/2020"}
                               className="hover:opacity-70 flex"
                               prefetch
                             >
-                              2020
+                              2X20
                             </Link>
                           </div>
                         )}
@@ -208,6 +219,25 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                   }
                 })}
               </motion.div>
+
+              <div className="w-full h-36 border-t-[1px] border-white/40 absolute right-0 z-[2000] bottom-0 bg-black flex flex-row overflow-hidden">
+                <button
+                  onMouseEnter={() => setDonateHover(true)}
+                  onMouseLeave={() => setDonateHover(false)}
+                  className="w-1/3 z-50 h-full border-r-[1px] border-white/40 p-10 text-4xl tracking-wide justify-center items-center"
+                >
+                  Donate
+                </button>
+                <motion.div
+                  initial={{ width: 0 }}
+                  animate={donateHover ? { width: "33.333333%" } : { width: 0 }}
+                  transition={{
+                    duration: 0.2,
+                  }}
+                  className="h-full bg-white/10 absolute left-0"
+                ></motion.div>
+              </div>
+
               <GreyDonateButton />
             </motion.div>
           </>

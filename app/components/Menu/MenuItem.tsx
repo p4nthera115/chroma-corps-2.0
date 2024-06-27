@@ -29,10 +29,10 @@ const MenuItem: React.FC<MenuItemProps> = ({ onClick, label }) => {
     <button>
       <motion.div
         variants={itemVariants}
-        className="px-10 py-0 transition font-semibold text-[#ffe600] text-right text-4xl xl:text-6xl"
+        className="px-10 py-5 transition font-semibold text-white text-center text-4xl xl:text-6xl"
         onClick={onClick}
       >
-        <motion.div
+        {/* <motion.div
           whileHover={{ scale: 1.01 }}
           whileTap={{ scale: 0.98 }}
           className="py-8 bg-clip-text relative
@@ -40,9 +40,9 @@ const MenuItem: React.FC<MenuItemProps> = ({ onClick, label }) => {
           hover:before:animate-[shimmer_1.5s_infinite]
           before:bg-gradient-to-r
           before:from-transparent before:via-yellow-100/80 before:to-transparent"
-        >
-          {label}
-        </motion.div>
+        > */}
+        {label}
+        {/* </motion.div> */}
       </motion.div>
     </button>
   );
