@@ -5,7 +5,8 @@ import { usePathname } from "next/navigation";
 
 export const HeaderTabs = () => {
   const pathname = usePathname();
-  // const activePage = pathname.replace("/", "") === year.toLowerCase();
+
+  //TODO: abstract some of the code below into a separate "Tab" component and automate the active tab, instead of hard-coding it into each Link element
 
   return (
     <div id="Menu-list" className="flex flex-row w-full justify-center mx-auto">
