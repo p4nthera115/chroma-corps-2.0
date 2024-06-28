@@ -8,6 +8,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import GreyDonateButton from "@/app/components/Kofi/GreyDonateButton";
+import HomeButton from "./HomeButton";
 
 const menuVariants = {
   closed: {
@@ -74,7 +75,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
       <div
         className={`
           fixed
-          z-[2001]
+          z-[1000]
           right-0
           ${iconPosition?.right ? iconPosition.right : "right-0"}    
           ${iconPosition?.margin ? iconPosition.margin : "m-6"}    
@@ -131,11 +132,22 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
               exit="closed"
               variants={menuVariants}
             >
-              <hr className="w-full absolute right-0 z-[2000] top-36 opacity-40" />
+              <section className="w-full h-36 border-b-[1px] border-white/40 absolute z-[2000] top-0 bg-black flex flex-row overflow-hidden justify-between items-center">
+                <HomeButton />
+                <button
+                  onClick={() => {
+                    setIsOpen(false);
+                    setSubOpen(false);
+                  }}
+                  className="flex m-6 h-24 w-24 ml-auto"
+                >
+                  <Image src={"/x.svg"} alt="x" height={100} width={100} />
+                </button>
+              </section>
 
               <motion.div
                 variants={itemVariants}
-                className="flex z-3 flex-col cursor-pointer font-cyber"
+                className="flex z-3 flex-col cursor-pointer font-cyber w-full absolute"
               >
                 {menuItems.map((item) => {
                   if (item === "Cadets") {
@@ -147,7 +159,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                           key={item}
                         />
                         {subOpen && (
-                          <div className="text-2xl flex flex-col md:flex-row gap-4 md:gap-16 align-middle items-center justify-center text-[#ffe600] py-4 font-semibold">
+                          <div className="text-2xl bg-neutral-900 w-full flex flex-col md:flex-row gap-4 md:gap-10 align-middle items-center justify-evenly text-white/90 py-4 font-semibold">
                             <Link
                               href={"/cadets/2024"}
                               className="hover:opacity-70 flex"
@@ -220,7 +232,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                 })}
               </motion.div>
 
-              <div className="w-full h-36 border-t-[1px] border-white/40 absolute right-0 z-[2000] bottom-0 bg-black flex flex-row overflow-hidden">
+              <section className="w-full h-36 border-t-[1px] border-white/40 absolute right-0 z-[2000] bottom-0 bg-black flex flex-row overflow-hidden">
                 <button
                   onMouseEnter={() => setDonateHover(true)}
                   onMouseLeave={() => setDonateHover(false)}
@@ -236,7 +248,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                   }}
                   className="h-full bg-white/10 absolute left-0"
                 ></motion.div>
-              </div>
+              </section>
 
               <GreyDonateButton />
             </motion.div>
