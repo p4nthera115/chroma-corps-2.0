@@ -234,6 +234,12 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
 
               <section className="w-full h-36 border-t-[1px] border-white/40 absolute right-0 z-[2000] bottom-0 bg-black flex flex-row overflow-hidden">
                 <button
+                  onClick={() =>
+                    window.open(
+                      "https://ko-fi.com/anzuwebdevs/goal?g=0",
+                      "_blank"
+                    )
+                  }
                   onMouseEnter={() => setDonateHover(true)}
                   onMouseLeave={() => setDonateHover(false)}
                   className="w-1/3 z-50 h-full border-r-[1px] border-white/40 p-10 text-4xl tracking-wide justify-center items-center"
