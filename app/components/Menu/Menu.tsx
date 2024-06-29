@@ -113,7 +113,8 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                 justify-center
                 items-center
                 min-h-full
-                w-1/2
+                w-full
+                md:w-1/2
                 right-0
                 fixed
                 shadow-md
@@ -159,7 +160,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                           key={item}
                         />
                         {subOpen && (
-                          <div className="text-2xl bg-neutral-900 w-full flex flex-col md:flex-row gap-4 md:gap-10 align-middle items-center justify-evenly text-white/90 py-4 font-semibold">
+                          <div className="text-2xl bg-neutral-900 w-full flex flex-row md:flex-row gap-4 md:gap-10 align-middle items-center justify-evenly text-white/90 py-4 font-semibold">
                             <Link
                               href={"/cadets/2024"}
                               className="hover:opacity-70 flex"
@@ -242,21 +243,20 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                   }
                   onMouseEnter={() => setDonateHover(true)}
                   onMouseLeave={() => setDonateHover(false)}
-                  className="w-1/3 z-50 h-full border-r-[1px] border-white/40 p-10 text-4xl tracking-wide justify-center items-center"
+                  className="w-2/3 md:w-1/3 z-50 h-full border-r-[1px] border-white/40 p-10 text-4xl tracking-wide justify-center items-center"
                 >
                   Donate
                 </button>
                 <motion.div
                   initial={{ width: 0 }}
-                  animate={donateHover ? { width: "33.333333%" } : { width: 0 }}
+                  animate={donateHover ? { width: "100%" } : { width: 0 }}
                   transition={{
                     duration: 0.2,
                   }}
                   className="h-full bg-white/10 absolute left-0"
                 ></motion.div>
+                <div className="w-1/3 md:w-2/3 h-full flex bg-black absolute z-[51] right-0"></div>
               </section>
-
-              <GreyDonateButton />
             </motion.div>
           </>
         )}
