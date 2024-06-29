@@ -77,17 +77,12 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
           ${iconPosition?.right ? iconPosition.right : "right-0"}    
           ${iconPosition?.margin ? iconPosition.margin : "m-6"}    
           cursor-pointer 
-          ${
-            iconPosition?.right || iconPosition?.margin
-              ? ""
-              : "bg-black/80 backdrop-blur-lg p-4 rounded-l-md"
-          }
         `}
       >
         <AiOutlineMenu
           size={width < 768 ? 30 : 40}
           onClick={toggleOpen}
-          color={!isOpen ? "white" : "white"}
+          color={"white"}
         />
       </div>
 
@@ -130,14 +125,14 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
               exit="closed"
               variants={menuVariants}
             >
-              <section className="w-full h-36 border-b-[1px] border-white/40 absolute z-[2000] top-0 bg-black flex flex-row overflow-hidden justify-between items-center">
+              <section className="w-full h-20 md:h-36 border-b-[1px] border-white/40 absolute z-[2000] top-0 bg-black flex flex-row overflow-hidden justify-between items-center">
                 <HomeButton />
                 <button
                   onClick={() => {
                     setIsOpen(false);
                     setSubOpen(false);
                   }}
-                  className="flex h-24 w-24 ml-auto m-6"
+                  className="flex h-12 w-12 md:h-24 md:w-24 ml-auto m-3 md:m-6"
                 >
                   <Image src={"/x.svg"} alt="x" height={100} width={100} />
                 </button>
@@ -157,38 +152,38 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                           key={item}
                         />
                         {subOpen && (
-                          <div className="text-2xl bg-neutral-900 w-full flex flex-row md:flex-row gap-4 md:gap-10 align-middle items-center justify-evenly text-white/90 py-4 font-semibold">
+                          <div className="text-base md:text-2xl bg-neutral-900 w-full flex flex-row align-middle items-center justify-evenly text-white/90 font-semibold">
                             <Link
                               href={"/cadets/2024"}
-                              className="hover:opacity-70 flex"
+                              className="hover:opacity-70 flex h-full w-full justify-center items-center py-2 md:py-4 bg-[#0a0a0a]"
                               prefetch
                             >
                               2X24
                             </Link>
                             <Link
                               href={"/cadets/2023"}
-                              className="hover:opacity-70 flex"
+                              className="hover:opacity-70 flex h-full w-full justify-center items-center py-2 md:py-4 bg-[#121212]"
                               prefetch
                             >
                               2X23
                             </Link>
                             <Link
                               href={"/cadets/2022"}
-                              className="hover:opacity-70 flex"
+                              className="hover:opacity-70 flex h-full w-full justify-center items-center py-2 md:py-4 bg-[#0a0a0a]"
                               prefetch
                             >
                               2X22
                             </Link>
                             <Link
                               href={"/cadets/2021"}
-                              className="hover:opacity-70 flex"
+                              className="hover:opacity-70 flex h-full w-full justify-center items-center py-2 md:py-4 bg-[#121212]"
                               prefetch
                             >
                               2X21
                             </Link>
                             <Link
                               href={"/cadets/2020"}
-                              className="hover:opacity-70 flex"
+                              className="hover:opacity-70 flex h-full w-full justify-center items-center py-2 md:py-4 bg-[#0a0a0a]"
                               prefetch
                             >
                               2X20
@@ -230,7 +225,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                 })}
               </motion.div>
 
-              <section className="w-full h-36 border-t-[1px] border-white/40 absolute right-0 z-[2000] bottom-0 bg-black flex flex-row overflow-hidden">
+              <section className="w-full h-20 md:h-36 border-t-[1px] border-white/40 absolute right-0 z-[2000] bottom-0 bg-black flex flex-row overflow-hidden">
                 <button
                   onClick={() =>
                     window.open(
@@ -240,7 +235,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                   }
                   onMouseEnter={() => setDonateHover(true)}
                   onMouseLeave={() => setDonateHover(false)}
-                  className="w-2/3 md:w-1/3 z-50 h-full border-r-[1px] border-white/40 p-10 text-4xl justify-center items-center"
+                  className="w-2/3 md:w-1/3 z-50 h-full border-r-[1px] border-white/40 text-lg md:text-4xl justify-center items-center font-cyber"
                 >
                   Donate
                 </button>
