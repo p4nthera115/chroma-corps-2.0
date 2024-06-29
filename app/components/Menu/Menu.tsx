@@ -139,7 +139,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                     setIsOpen(false);
                     setSubOpen(false);
                   }}
-                  className="flex m-6 h-24 w-24 ml-auto"
+                  className="flex h-24 w-24 ml-auto m-6"
                 >
                   <Image src={"/x.svg"} alt="x" height={100} width={100} />
                 </button>
