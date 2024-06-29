@@ -20,8 +20,7 @@ const menuVariants = {
   open: {
     x: 0,
     transition: {
-      ease: "circIn",
-      duration: 0.2,
+      duration: 0.3,
     },
   },
 };
