@@ -68,8 +68,6 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
 
   const menuItems = ["Cadets", "Story", "FAQs", "Merch", "Credits"];
 
-  console.log(isOpen);
-
   return (
     <div className="flex max-h-full max-w-full z-[100] overflow-hidden absolute">
       <div
