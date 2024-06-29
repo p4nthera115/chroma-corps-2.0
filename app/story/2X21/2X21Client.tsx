@@ -4,9 +4,9 @@ import { story2X21 } from "@/app/components/StoryPage/StoryData";
 
 const StoryClient = () => {
   return (
-    <div className="flex flex-col justify-center mx-auto">
-      <h2 className="text-3xl font-cyber">{story2X21.title}</h2>
-      <div className="flex flex-col gap-4 text-lg">
+    <div className="flex flex-col justify-center mx-auto text-center w-1/2 gap-8 h-full">
+      <h2 className="text-4xl font-cyber">{story2X21.title}</h2>
+      <div className="flex flex-col gap-8 text-lg font-extralight leading-loose">
         <p>{story2X21.body.para1}</p>
         <p>{story2X21.body.para2}</p>
       </div>
