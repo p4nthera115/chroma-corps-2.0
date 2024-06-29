@@ -243,7 +243,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                   }
                   onMouseEnter={() => setDonateHover(true)}
                   onMouseLeave={() => setDonateHover(false)}
-                  className="w-2/3 md:w-1/3 z-50 h-full border-r-[1px] border-white/40 p-10 text-4xl tracking-wide justify-center items-center"
+                  className="w-2/3 md:w-1/3 z-50 h-full border-r-[1px] border-white/40 p-10 text-4xl justify-center items-center"
                 >
                   Donate
                 </button>

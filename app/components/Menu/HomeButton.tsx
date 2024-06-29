@@ -60,7 +60,7 @@ export default function HomeButton() {
         onHoverStart={() => setHover(true)}
         onHoverEnd={() => setHover(false)}
         onClick={() => router.push("/")}
-        className="z-40 absolute w-[250px] ml-6 flex justify-center items-center text-4xl tracking-wide"
+        className="z-40 absolute w-[250px] ml-6 flex justify-center items-center text-4xl"
       >
         Home
       </motion.button>
