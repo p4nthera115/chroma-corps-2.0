@@ -14,8 +14,8 @@ const StoryClient = () => {
       </div>
       <div className="flex w-full h-full mx-auto py-8">
         <img
-          src="/images/2020CadetClass.png"
-          alt="2020 Cadet Class"
+          src="/images/2023CadetClass.png"
+          alt="2023 Cadet Class"
           className="max-h-screen max-w-screen mx-auto border-4 border-white"
         />
       </div>
