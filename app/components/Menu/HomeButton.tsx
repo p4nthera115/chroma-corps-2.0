@@ -17,6 +17,11 @@ export default function HomeButton() {
         animate={{
           rotate: hover ? -90 : 0,
         }}
+        transition={{
+          type: "tween",
+          duration: 0.1,
+          delay: hover ? 0 : 0.15,
+        }}
         className="flex flex-col gap-[0.1rem] md:gap-[0.17rem] px-4 md:px-10 justify-between z-50"
       >
         <motion.div className="flex w-10 md:w-16">
@@ -34,7 +39,7 @@ export default function HomeButton() {
           transition={{
             delay: hover ? 0.2 : 0,
             type: "tween",
-            duration: 0.1,
+            duration: hover ? 0.2 : 0.1,
           }}
           className="flex w-[2.7rem] md:w-[4.3rem]"
         >
@@ -52,7 +57,7 @@ export default function HomeButton() {
         transition={{
           delay: hover ? 0.2 : 0,
           type: "tween",
-          duration: 0.1,
+          duration: hover ? 0.2 : 0.1,
         }}
         className="z-[45] bg-black absolute w-[220px] ml-16 h-full md:block hidden"
       ></motion.div>
