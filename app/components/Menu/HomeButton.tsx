@@ -22,7 +22,7 @@ export default function HomeButton() {
           duration: 0.1,
           delay: hover ? 0 : 0.15,
         }}
-        className="flex flex-col gap-[0.1rem] md:gap-[0.17rem] px-4 md:px-10 justify-between z-50"
+        className="hidden md:flex flex-col gap-[0.1rem] md:gap-[0.17rem] px-4 md:px-10 justify-between z-50"
       >
         <motion.div className="flex w-10 md:w-16">
           <Image
@@ -69,6 +69,28 @@ export default function HomeButton() {
       >
         Home
       </motion.button>
+      <button
+        onClick={() => router.push("/")}
+        className="flex md:hidden flex-col gap-[0.1rem] md:gap-[0.17rem] px-4 md:px-10 justify-between z-50"
+      >
+        <div className="flex w-10 md:w-16">
+          <Image
+            src={"/images/LogoTop.svg"}
+            alt="logo-top"
+            height={100}
+            width={100}
+          />
+        </div>
+        <div className="flex w-[2.7rem] md:w-[4.3rem]">
+          <Image
+            src={"/images/LogoBottom.svg"}
+            alt="logo-bottom"
+            height={100}
+            width={100}
+            className="mt-auto"
+          />
+        </div>
+      </button>
     </>
   );
 }
