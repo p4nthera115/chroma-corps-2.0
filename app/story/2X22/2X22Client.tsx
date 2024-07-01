@@ -9,7 +9,22 @@ const StoryClient = () => {
         <h2 className="text-4xl font-cyber mx-auto">{story2X22.title}</h2>
         <div className="flex flex-col gap-8 text-lg font-mono leading-loose">
           <p>{story2X22.body.para1}</p>
-          <p>{story2X22.body.para2}</p>
+          <p>
+            Good news! While the cadets are dancing and having fun, I've
+            developed a chloro-construct capable of using plant-based biomass to
+            finish the remaining construction. Things will be back to normal,
+            albeit a bit greener, just in time for graduation. Finally a
+            successful year with cadets{" "}
+            <a href="/cadets/2022/Dako" className="text-[#ffe600]">
+              Dako
+            </a>{" "}
+            and{" "}
+            <a href="/cadets/2022/FatCat" className="text-[#ffe600]">
+              Fat Cat
+            </a>{" "}
+            managing to beat out the other cadets and graduate together. Quite a
+            wholesome end.
+          </p>
         </div>
       </div>
       <div className="flex w-full h-full mx-auto py-8">

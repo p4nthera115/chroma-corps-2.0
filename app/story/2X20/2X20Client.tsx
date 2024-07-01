@@ -10,7 +10,25 @@ const StoryClient = () => {
         <h2 className="text-4xl font-cyber mx-auto">{story2X20.title}</h2>
         <div className="flex flex-col gap-8 text-lg font-mono leading-loose">
           <p>{story2X20.body.para1}</p>
-          <p>{story2X20.body.para2}</p>
+          <p>
+            After a semester filled with trips to scenic locales such as candy
+            island and the cinnabun plateaus, things seemed to be going off
+            without a hitch, but little did we know what evil was lurking behind
+            the scenes. A rival organization named Monochroma had been plotting
+            to sabotage the academy and plunder the vast resources of Chroma
+            Corps. Luckily, two resourceful cadets managed to discover these
+            villainous plans and put an end to them before any damage could be
+            done. These cadets' names were{" "}
+            <a href="/cadets/2020/Nikittysan" className="text-[#ffe600]">
+              Nikittysan
+            </a>{" "}
+            and{" "}
+            <a href="/cadets/2020/Weiao" className="text-[#ffe600]">
+              Weiao
+            </a>
+            , and they would soon be announced as full-fledged Chroma Corps
+            graduates.
+          </p>
         </div>
       </div>
       <div className="flex w-full h-full mx-auto py-8">
