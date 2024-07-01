@@ -20,9 +20,8 @@ const StoryClient = () => {
           at Chroma Corps.
         </p>
         <p>
-          Come back each year to hear about how the latest batch of academy
-          cadets fared and what series of (un)fortunate events happened to
-          unfold!
+          Come back each year to hear how the latest batch of academy cadets
+          fared and what series of (un)fortunate events happened to unfold!
         </p>
       </div>
     </div>
