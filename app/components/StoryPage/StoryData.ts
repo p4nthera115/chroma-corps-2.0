@@ -1,5 +1,5 @@
 export const story2X20 = {
-  title: "Matriculation and A Villainous Rival Organization.",
+  title: "Matriculation and A Villainous Rival Organization",
   body: {
     para1:
       "It's the year 2X20.  Hopeful candidates of all sorts are busy getting their applications together to attend one of the most prestigious polymecha academies in existence, Chroma Corps.  Located in a nexus-class pocket universe, Chroma Corps offers the most comprehensive curriculums available, covering everything from interdimensional weaving, to advanced pilot interfacing, to home economics.  Each year, only two percent of applicants from across the known realms are selected to become academy cadets.  Less than one in ten of these cadets will graduate.  Such is life.",
