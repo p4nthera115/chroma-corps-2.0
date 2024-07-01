@@ -3,7 +3,7 @@ const Border = () => {
     <div className="hidden md:block">
       <div className="fixed top-0 right-0 z-[300] bg-black rounded-lg h-[5.3rem] w-[5.3rem]"></div>
 
-      <div className="fixed top-0 left-0 h-3 w-full z-[10000] pointer-events-none bg-black">
+      <div className="fixed top-0 left-0 h-3 w-full z-[1000] pointer-events-none bg-black">
         <div
           className="absolute"
           style={{
@@ -45,7 +45,7 @@ const Border = () => {
           </svg>
         </div>
       </div>
-      <div className="fixed bottom-0 left-0 h-3 w-full z-[10000] pointer-events-none bg-black">
+      <div className="fixed bottom-0 left-0 h-3 w-full z-[1000] pointer-events-none bg-black">
         <div
           className="absolute"
           style={{
@@ -87,8 +87,8 @@ const Border = () => {
           </svg>
         </div>
       </div>
-      <div className="fixed top-0 left-0 w-3 h-full z-[10000] pointer-events-none bg-black"></div>
-      <div className="fixed top-0 right-0 w-3 h-full z-[10000] pointer-events-none bg-black"></div>
+      <div className="fixed top-0 left-0 w-3 h-full z-[1000] pointer-events-none bg-black"></div>
+      <div className="fixed top-0 right-0 w-3 h-full z-[1000] pointer-events-none bg-black"></div>
     </div>
   );
 };

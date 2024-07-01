@@ -1,4 +1,4 @@
-import { LoadingScreen } from "./components/CadetPage/Loading/LoadingScreen";
+import { LoadingScreen } from "./components/Loading/LoadingScreen";
 
 const loading = () => {
   return (
