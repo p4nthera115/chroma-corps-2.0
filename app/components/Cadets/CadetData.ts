@@ -13051,11 +13051,7 @@ export const cadets2021 = [
     strikeBannerPos: "scale-[300%] top-[9rem] h-[20rem]",
     teamColorOpacity: "bg-red-500/20",
     teamColorHoverOpacity: "hover:bg-red-500/20",
-    bannerImg: [
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-full.png",
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-full 2.png",
-      "https://pub-61ec03a9970d48d19f2731dc689f697b.r2.dev/Cadets/2021/dehaf/dehaf-full 3.png",
-    ],
+    bannerImg: ["/images/silhouette.png"],
     bannerPos: "absolute h-full scale-[150%] min-w-max",
     cameraPos: "scale-[100%]",
     gradient: "bg-gradient-to-t from-red-500",
@@ -13967,7 +13963,7 @@ export const cadets2021 = [
     cameraPos: "scale-[300%]",
     gradient: "bg-gradient-to-t from-cyan-500",
     bgLines: "diagonal-lines-cyan",
-    palette: "/images/CadetPalettes/2021/Dehaf-palette.png",
+    palette: "/images/CadetPalettes/2021/dehaf-palette.png",
     socials: {
       instagram: "https://www.instagram.com/iam_dehaf",
     },
