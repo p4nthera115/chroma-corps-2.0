@@ -1,6 +1,7 @@
 "use client";
 
 import { story2X23 } from "@/app/components/StoryPage/StoryData";
+import Image from "next/image";
 
 const StoryClient = () => {
   return (
@@ -13,7 +14,7 @@ const StoryClient = () => {
             The term is almost over and I thought things had stabilized, but the
             flora keep evolving. The plants have learned to assimilate the
             bodies of fallen cadets. The campus is overrun with plant zombies...
-            only a handful of surviving cadets remain. I've tasked them with
+            only a handful of surviving cadets remain. I&#39;ve tasked them with
             synthesizing a chemical that can put an end to this ceaseless
             growth. With the help of cadet{" "}
             <a href="/cadets/2023/Trout" className="text-[#ffe600]">
@@ -37,7 +38,7 @@ const StoryClient = () => {
         </div>
       </div>
       <div className="flex w-full h-full mx-auto py-8">
-        <img
+        <Image
           src="/images/2023CadetClass.png"
           alt="2023 Cadet Class"
           className="max-h-screen max-w-screen mx-auto border-4 border-white"

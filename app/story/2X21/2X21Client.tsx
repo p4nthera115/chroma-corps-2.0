@@ -1,6 +1,7 @@
 "use client";
 
 import { story2X21 } from "@/app/components/StoryPage/StoryData";
+import Image from "next/image";
 
 const StoryClient = () => {
   return (
@@ -32,13 +33,13 @@ const StoryClient = () => {
               Ozan
             </a>
             . I think they were from this dimension? Wait, am I from this
-            dimension? Oh, who really cares, let's just graduate them and move
-            on.
+            dimension? Oh, who really cares, let&#39;s just graduate them and
+            move on.
           </p>
         </div>
       </div>
       <div className="flex w-full h-full mx-auto py-8">
-        <img
+        <Image
           src="/images/2021CadetClass.png"
           alt="2021 Cadet Class"
           className="max-h-screen max-w-screen mx-auto border-4 border-white"

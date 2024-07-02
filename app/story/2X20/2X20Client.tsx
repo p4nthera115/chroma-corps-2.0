@@ -18,7 +18,7 @@ const StoryClient = () => {
             to sabotage the academy and plunder the vast resources of Chroma
             Corps. Luckily, two resourceful cadets managed to discover these
             villainous plans and put an end to them before any damage could be
-            done. These cadets' names were{" "}
+            done. These cadets&#39; names were{" "}
             <a href="/cadets/2020/Nikittysan" className="text-[#ffe600]">
               Nikittysan
             </a>{" "}
@@ -32,7 +32,7 @@ const StoryClient = () => {
         </div>
       </div>
       <div className="flex w-full h-full mx-auto py-8">
-        <img
+        <Image
           src="/images/2020CadetClass.png"
           alt="2020 Cadet Class"
           className="max-h-screen max-w-screen mx-auto border-4 border-white"

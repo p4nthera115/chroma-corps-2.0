@@ -1,6 +1,7 @@
 "use client";
 
 import { story2X22 } from "@/app/components/StoryPage/StoryData";
+import Image from "next/image";
 
 const StoryClient = () => {
   return (
@@ -10,7 +11,7 @@ const StoryClient = () => {
         <div className="flex flex-col gap-8 text-lg font-mono leading-loose">
           <p>{story2X22.body.para1}</p>
           <p>
-            Good news! While the cadets are dancing and having fun, I've
+            Good news! While the cadets are dancing and having fun, I&#39;ve
             developed a chloro-construct capable of using plant-based biomass to
             finish the remaining construction. Things will be back to normal,
             albeit a bit greener, just in time for graduation. Finally a
@@ -28,7 +29,7 @@ const StoryClient = () => {
         </div>
       </div>
       <div className="flex w-full h-full mx-auto py-8">
-        <img
+        <Image
           src="/images/2022CadetClass.png"
           alt="2022 Cadet Class"
           className="max-h-screen max-w-screen mx-auto border-4 border-white"
