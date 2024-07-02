@@ -7,7 +7,7 @@ const StoryClient = () => {
         <h2 className="text-5xl font-cyber mx-auto py-8">
           The Stories of Chroma Corps
         </h2>
-        <p className="text-3xl font-mono">
+        <p className="text-2xl font-mono">
           Uncover the eventful past of the prestigious polymecha academy, Chroma
           Corps.
         </p>
