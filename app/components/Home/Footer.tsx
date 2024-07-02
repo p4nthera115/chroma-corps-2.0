@@ -38,23 +38,32 @@ const Footer = () => {
         initial="initial"
         whileInView="animate"
         viewport={{ once: true }}
-        className="relative flex flex-row gap-4 justify-center"
+        className="flex gap-4 justify-center text-center flex-col"
       >
-        <a target="_blank" href="https://ko-fi.com/anzuwebdevs">
-          <button className="bg-black text-[#ffe600] text-sm md:text-base py-4 px-4 md:px-16 rounded shadow-inner hover:scale-[105%] transition font-mono">
-            <h2>Donate</h2>
-          </button>
-        </a>
-        <a href="https://discord.com/invite/ejaQBdWyyN">
+        <a
+          href="https://discord.com/invite/ejaQBdWyyN"
+          className="max-w-fit mx-auto"
+        >
           <button className="bg-black text-[#ffe600] text-sm md:text-base py-4 px-4 md:px-16 rounded shadow-inner hover:scale-[105%] transition font-mono">
             <h2>Join the Discord server</h2>
           </button>
         </a>
-        <a onClick={() => router.push("/faqs")}>
-          <button className="bg-black text-[#ffe600] text-sm md:text-base py-4 px-4 md:px-16 rounded shadow-inner hover:scale-[105%] transition font-mono">
-            <h2>FAQs</h2>
-          </button>
-        </a>
+        <div className="flex flex-row gap-4 justify-center">
+          <a
+            target="_blank"
+            href="https://ko-fi.com/anzuwebdevs"
+            className="max-w-fit"
+          >
+            <button className="bg-black text-[#ffe600] text-sm md:text-base py-4 px-4 md:px-16 rounded shadow-inner hover:scale-[105%] transition font-mono">
+              <h2>Donate</h2>
+            </button>
+          </a>
+          <a onClick={() => router.push("/faqs")} className="max-w-fit">
+            <button className="bg-black text-[#ffe600] text-sm md:text-base py-4 px-4 md:px-16 rounded shadow-inner hover:scale-[105%] transition font-mono">
+              <h2>FAQs</h2>
+            </button>
+          </a>
+        </div>
       </motion.div>
     </div>
   );
