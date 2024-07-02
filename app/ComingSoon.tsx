@@ -41,7 +41,7 @@ export const ComingSoon = () => {
       "
     >
       <img src="/images/cc.jpg" alt="" className="opacity-[0.15]" />
-      {/*<div
+      <div
         className="
           flex 
           fixed
@@ -60,7 +60,7 @@ export const ComingSoon = () => {
         >
           Coming soon...
         </h1>
-      </div> */}
+      </div>
     </div>
   );
 };
