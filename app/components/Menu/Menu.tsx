@@ -6,9 +6,8 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import Image from "next/image";
-import GreyDonateButton from "@/app/components/Kofi/GreyDonateButton";
 import HomeButton from "./HomeButton";
+import { TfiClose } from "react-icons/tfi";
 
 const menuVariants = {
   closed: {
@@ -134,7 +133,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                   }}
                   className="flex h-12 w-12 md:h-24 md:w-24 ml-auto m-3 md:m-6"
                 >
-                  <Image src={"/x.svg"} alt="x" height={100} width={100} />
+                  <TfiClose />
                 </button>
               </section>
 
