@@ -131,7 +131,7 @@ const Menu: React.FC<MenuProps> = ({ iconPosition }) => {
                     setIsOpen(false);
                     setSubOpen(false);
                   }}
-                  className="flex h-12 w-12 md:h-24 md:w-24 ml-auto m-3 md:m-6"
+                  className="flex h-12 w-12 md:h-24 md:w-24 ml-auto m-3 md:m-6 items-center justify-center"
                 >
                   <TfiClose />
                 </button>
