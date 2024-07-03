@@ -6,6 +6,7 @@ import { TitleLeft, TitleRight } from "../components/Home/Title";
 import Carousel from "../components/Home/Carousel";
 import Background from "../components/Home/Background";
 import { Canvas } from "@react-three/fiber";
+import Announcement from "../components/Home/Announcement";
 import Bio from "../components/Home/Bio";
 import Sinix from "../components/Home/Sinix";
 import Footer from "../components/Home/Footer";
@@ -55,6 +56,10 @@ const HomeClient: React.FC<homeProps> = ({ isLoading }) => {
         <TitleLeft />
         <TitleRight />
       </header>
+
+      {/* <section className="relative w-full">
+        <Announcement />
+      </section> */}
 
       <section className="relative h-full w-full">
         <Bio />
