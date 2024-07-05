@@ -57,9 +57,9 @@ const HomeClient: React.FC<homeProps> = ({ isLoading }) => {
         <TitleRight />
       </header>
 
-      {/* <section className="relative w-full">
+      <section className="relative w-full">
         <Announcement />
-      </section> */}
+      </section>
 
       <section className="relative h-full w-full">
         <Bio />
