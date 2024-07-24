@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { cadets2020 } from "@/app/components/Cadets/CadetData";
+import { cadets2020 } from "@/app/data/CadetData";
 import Banner from "@/app/components/CadetPage/Banner";
 import Menu from "@/app/components/Menu/Menu";
 import CadetSelect from "@/app/components/Cadets/CadetSelect";

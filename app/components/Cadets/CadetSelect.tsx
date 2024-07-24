@@ -26,9 +26,12 @@ const CadetSelect: React.FC<CadetSelectProps> = (cadets) => {
   } else if (cadets.cadets.length >= 18 && cadets.cadets.length < 20) {
     top = cadets.cadets.slice(0, 9);
     bottom = cadets.cadets.slice(9, 18);
-  } else if (cadets.cadets.length >= 20) {
+  } else if (cadets.cadets.length > 20) {
     top = cadets.cadets.slice(0, 23);
     bottom = cadets.cadets.slice(23, 46);
+  } else if (cadets.cadets.length === 20) {
+    top = cadets.cadets.slice(0, 10);
+    bottom = cadets.cadets.slice(10, 20);
   }
 
   return (
@@ -68,6 +71,15 @@ const CadetSelect: React.FC<CadetSelectProps> = (cadets) => {
                 </div>
               </div>
             )}
+            {top && top.length === 10 && (
+              <div className="flex relative h-full w-full flex-row">
+                <div className="flex relative h-full w-1/2 flex-col">
+                  {top?.map((cadet: Cadet, i: number) => (
+                    <CadetCard key={i} cadetObj={cadet} />
+                  ))}
+                </div>
+              </div>
+            )}
           </>
         )}
       </div>
@@ -102,6 +114,15 @@ const CadetSelect: React.FC<CadetSelectProps> = (cadets) => {
                 </div>
                 <div className="flex relative h-full w-1/2 flex-col">
                   {bottom?.slice(4, 9).map((cadet: Cadet, i: number) => (
+                    <CadetCard key={i} cadetObj={cadet} />
+                  ))}
+                </div>
+              </div>
+            )}
+            {bottom && bottom.length === 10 && (
+              <div className="flex relative h-full w-full flex-row">
+                <div className="flex relative h-full w-1/2 flex-col">
+                  {bottom?.map((cadet: Cadet, i: number) => (
                     <CadetCard key={i} cadetObj={cadet} />
                   ))}
                 </div>

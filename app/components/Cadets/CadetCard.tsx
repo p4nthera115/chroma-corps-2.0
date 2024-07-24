@@ -39,6 +39,7 @@ const CadetCard: React.FC<CadetCardProps> = (cadetObj) => {
             border 
             rounded
             border-neutral-950 
+            ${cadet.bgLines}
             ${isActive ? cadet.teamColor : "bg-neutral-800"}
             ${cadet.teamColorHover} 
             hover:cursor-pointer

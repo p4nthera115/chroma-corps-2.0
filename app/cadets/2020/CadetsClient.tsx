@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import CadetsLoading from "./CadetsLoading";
 import CadetSelect from "../../components/Cadets/CadetSelect";
-import { cadets2020 } from "@/app/components/Cadets/CadetData";
+import { cadets2020 } from "@/app/data/CadetData";
 import WinnerBanner from "@/app/components/Cadets/WinnerBanner";
 import AssignmentDays from "@/app/components/Cadets/AssignmentDays";
 import Judges from "@/app/components/Cadets/Judges";

@@ -173,11 +173,26 @@ const Banner: React.FC<BannerProps> = ({ cadet, year }) => {
               <p className="absolute font-cyber right-0 pr-2 text-xs lg:text-base cursor-default">
                 {year} <span className="animate-pulse">_</span>
               </p>
-              {cadet?.palette && (
+              {cadet?.palette && year !== "2 X 2 4" && (
                 <img
                   src={cadet?.palette}
                   alt="color palette"
                   className="absolute left-0 bottom-0 h-[9rem] m-4 border-[0.5px]"
+                />
+              )}
+              {year === "2 X 2 4" && (
+                <img
+                  src={
+                    cadet?.teamColor === "bg-red-600"
+                      ? "/images/grim-nine.png"
+                      : "/images/LSC.png"
+                  }
+                  alt="color palette"
+                  className={
+                    cadet?.teamColor === "bg-red-600"
+                      ? "absolute left-0 bottom-0 h-[9rem] m-6"
+                      : "absolute left-0 bottom-0 h-[9rem] m-4"
+                  }
                 />
               )}
               <img

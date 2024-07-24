@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { cadets2021 } from "@/app/components/Cadets/CadetData";
+import { cadets2021 } from "@/app/data/CadetData";
 import { useState, useEffect, useMemo } from "react";
 import Assignments from "@/app/components/CadetPage/Assignments";
 import WinnerBanner from "@/app/components/AssignmentsPage/WinnerBanner";
