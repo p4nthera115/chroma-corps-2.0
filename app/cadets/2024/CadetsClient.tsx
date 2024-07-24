@@ -91,11 +91,11 @@ const CadetsClient = () => {
               </>
             )}
           </section> */}
-          <section className="flex relative top-[105%] md:top-[150%]">
+          {/* <section className="flex relative top-[105%] md:top-[150%]">
             <div className="relative ">
               <AssignmentDays winner={winner} year={2022} />
             </div>
-          </section>
+          </section> */}
         </div>
       )}
     </div>
