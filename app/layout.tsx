@@ -20,6 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+      <script defer src="https://cloud.umami.is/script.js" data-website-id="1e936ea3-2df2-4324-aead-b00d0c5bc705"></script>
+      </head>
       <body className={`${inter.className} ${orbitron.variable} `}>
         {children}
       </body>
